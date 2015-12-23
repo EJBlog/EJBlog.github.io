@@ -8,3 +8,6 @@ gems:
 - jekyll-sitemap
 
 - jekyll-feed
+safe: true
+lsi: false
+source: EJBlog.github.io
