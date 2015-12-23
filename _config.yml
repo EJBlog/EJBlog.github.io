@@ -1,3 +1,10 @@
 name: Evan and Jake, Personal Blog
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+gems:
+- jekyll-mentions
+- jemoji
+- jekyll-redirect-from
+- jekyll-sitemap
+
+- jekyll-feed
