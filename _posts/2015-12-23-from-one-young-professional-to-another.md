@@ -2,8 +2,6 @@
 layout: post
 title: "From One Young Professional to Another"
 date: 2015-12-23
-author: Evan Neises
-category: Miscellaneous
 
 ---
 
