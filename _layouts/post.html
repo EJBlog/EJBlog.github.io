@@ -54,9 +54,9 @@ layout: default
             <div class="row">
                 <div class="col-xs-12 single-content">
                     <p class="meta">
-                        <a class="" href="category.html">Evan Neises</a> in <a class="" href="category.html">Storytime</a> <i class="link-spacer"></i> <i class="fa fa-bookmark"></i> 23 minute read
-                    </p>
+                        <a class="" href="category.html">{{ page.author }}</a> in <a class="" href="category.html">{{ page.category }}</a> <i class="link-spacer"></i> <i class="fa fa-bookmark"></i>
 <!--Jake: This needs to be changes bc it is hardcoding a blog post-->
+<!-->Evan: It is being changed. Should all be pulled from each post markdown information-->
                     <h1>{{ page.title }}</h1>
 
                     <p>{{ content }}</p>
@@ -75,7 +75,7 @@ layout: default
                     <div class="col-xs-12 col-sm-6">
                         <div class="category-list">
                             <p>Published <span>23rd December 2015</span></p>
-                            <p><a href="author.html">Evan Neises</a> in <a href="category.html">{{ page.category }}</a></p>
+                            <p><a href="author.html">{{ page.author }}</a> in <a href="category.html">{{ page.category }}</a></p>
 
                             <div class="other-catergories">
                                 <h3>Also found in</h3>
