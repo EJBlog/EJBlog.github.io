@@ -93,16 +93,16 @@
                             <div class="post-preview col-xs-10  no-gutter">
                                 <h2><a href="post.html">{{ page.title }}</a></h2>
 				<p>				
-								<ul class="posts">
-									{% for post in site.posts %}
-									<li><span>{{ post.date | date_to_string }}</span> <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-									{% endfor %}
-									
-								</ul>
+					<ul class="posts">
+
+	  				{% for post in site.posts %}
+	    				<li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+					 {% endfor %}
+					</ul>
                                 </p>
 
                                 <p class="meta">
-                                    <a href="author.html">James Reddy</a> in <a href="category.html">Storytime</a> <i class="link-spacer"></i> <i class="fa fa-bookmark"></i> 23 minute read
+                                    <a href="author.html">Evan Neises</a> in <a href="category.html">Storytime</a> <i class="link-spacer"></i> <i class="fa fa-bookmark"></i> 23 minute read
                                 </p>
                             </div>
 
