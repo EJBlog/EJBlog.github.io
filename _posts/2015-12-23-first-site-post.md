@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "First test post of the site is created with Jekyll"
 date: 2015-12-23
 ---
