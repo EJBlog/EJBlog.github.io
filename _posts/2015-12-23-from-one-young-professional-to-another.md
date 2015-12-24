@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "From One Young Professional to Another"
-category: Miscellaneous
 date: 2015-12-23
 ---
 
