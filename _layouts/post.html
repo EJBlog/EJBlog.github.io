@@ -11,9 +11,9 @@ layout: default
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="{{ site.baseurl }}/bootstrap.min.css">
+        <link rel="stylesheet" href="{{ site.baseurl }}/font-awesome.min.css">
+        <link rel="stylesheet" href="{{ site.baseurl }}/main.css">
 
         <!--[if lt IE 9]>
             <script src="/js/vendor/html5shiv.min.js"></script>
@@ -74,13 +74,11 @@ layout: default
                         <a class="" href="category.html">James Reddy</a> in <a class="" href="category.html">Storytime</a> <i class="link-spacer"></i> <i class="fa fa-bookmark"></i> 23 minute read
                     </p>
 <!--Jake: This needs to be changes bc it is hardcoding a blog post-->
-                    <h1>A Great Story Never Told - This is hardcoded</h1>
+                    <h1>{{ page.title }}</h1>
 
                     <p class="subtitle">Like I said, never told...</p>
 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec viverra ligula eget feugiat sollicitudin. Praesent accumsan, ante ut porttitor aliquet, odio felis mollis ante, et pretium arcu ipsum eget turpis. Quisque congue odio tristique, tincidunt arcu a, dignissim neque. Cras ligula erat, porta sed tristique at, sollicitudin sit amet ligula. Quisque eleifend elementum mauris, eu condimentum tortor ultrices a. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer hendrerit, arcu a aliquam malesuada, sapien quam tempor neque, nec aliquam odio mi vel diam. Pellentesque egestas pharetra justo, id malesuada erat tincidunt ac. Ut mauris mauris, ultricies ut pharetra sit amet, suscipit sed nibh. Suspendisse vestibulum sem sed rhoncus pharetra. Nunc commodo, neque eget gravida mattis, augue est sollicitudin nunc, elementum aliquet tortor mi ac velit. Ut nec pharetra est. Vestibulum at mauris sapien. Duis sed turpis at lectus egestas rhoncus.</p>
-
-                    <p class="pullquote">Ut ullamcorper turpis nec felis vestibulum, vitae pretium mi sodales.</p>
+                    <p>{{ Content }}</p>
 
 
                     <p>Suspendisse laoreet consequat pellentesque. Aliquam erat volutpat. Nulla est elit, bibendum sit amet mauris eu, varius sollicitudin nibh. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus veniam laborum sapiente, doloribus placeat culpa aliquam asperiores laudantium nobis ipsum ut, suscipit delectus! Aut delectus, voluptate, sunt fugiat ea harum!</p>
