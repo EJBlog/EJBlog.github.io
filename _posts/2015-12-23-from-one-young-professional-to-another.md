@@ -14,14 +14,14 @@ Step 1: Social Media Management
 <br>
 Step 2: Building a Personal Brand
 	<p style="text-indent: 5em;">Although it may not be true in all career fields, I believe personal websites are becoming the new and advanced resumes. They offer more information than a typical resume, while allowing the individual to display some of their personality through design and creativity. This is why I decided to build one myself. As I am writing this first blog post, my site is still a work in progress but it is coming along. It is not only an enjoyable and beneficial side project, it helps to hone and improve my web development skills.</p>
-	<p style="text-indent: 4em;">Obviously, a personal website is not the only way to build your personal brand. You need to create a good, strong reputation for yourself. You need to <b>sell yourself</b>. Make employers want to reach out to you or at the very least, keep you in the back of their mind for possible future opportunities. The only way to do this is by being <b>authentic</b>. Portray yourself as the professional you really are, not the professional you want people to think you are. There are many ways to achieve this.
+	<p style="text-indent: 4em;">Obviously, a personal website is not the only way to build your personal brand. You need to create a good, strong reputation for yourself. You need to <b>sell yourself</b>. Make employers want to reach out to you or at the very least, keep you in the back of their mind for possible future opportunities. The only way to do this is by being <b>authentic</b>. Portray yourself as the professional you really are, not the professional you want people to think you are. There are many ways to achieve this.</p>
 <ul>
 	<li>Work harder than everyone else</li>
 	<li>Dress like a professional</li>
 	<li>Never stop learning about your particular career field</li>
 	<li>Define your goals and make them known</li>
 	<li><b>NETWORK</b></li>
-</ul></p>
+</ul>
 <br>
 Step 3: Network Expansion
 	<p style="text-indent: 4em;">If you ask me, this has to be the most obvious step. Any person you ask for advice on moving forward in your career is going to tell you that the key is networking. As much as possible. All the time. The more connections you make while networking, the better off you will be. Although it is an ongoing debate, I believe there is a lot of truth to the phrase “it’s not what you know, it’s who you know.”</p>
