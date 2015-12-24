@@ -1,6 +1,5 @@
 name: Evan and Jake, Personal Blog
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
 gems:
 - jekyll-mentions
 - jemoji
@@ -8,6 +7,4 @@ gems:
 - jekyll-sitemap
 
 - jekyll-feed
-safe: true
-lsi: false
-source: EJBlog.github.io
+
