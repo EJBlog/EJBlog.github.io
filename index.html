@@ -124,15 +124,15 @@ layout: default
                             </div>
                         </article>
                         
-<!--
+
                         <article class="post">
                             <div class="post-preview col-xs-10 no-gutter">
-                                <h2><a href="post.html">Builing, Hacking, Creating</a></h2>
+                                <h2><a href="post.html">{{ page.title }}</a></h2>
                                 <p>Is it better to start from scratch or build on someone elses work. My thoughts.</p>
 
-                                <p class="meta">
-                                    <a href="author.html">Mad Hacker</a> in <a href="category.html">Easy Living</a> <i class="link-spacer"></i> <i class="fa fa-bookmark"></i> 9 minute read
-                                </p>
+                                {% for post in site.posts %}
+	    			<li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	  			{% endfor %}
                             </div>
 
                             <div class=" col-xs-2 no-gutter">
@@ -140,7 +140,7 @@ layout: default
                             </div>
                         </article>
 
-  -->
+  
   
   </div>
                     
