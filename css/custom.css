@@ -2,3 +2,11 @@
 	font-weight:200;
 	
 }
+
+.post {
+	padding: 10px;
+}
+
+div .post {
+	margin-bottom: 10px;
+}
