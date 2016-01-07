@@ -93,51 +93,26 @@
                     </div>
 
                     <div class="home-page-posts animated fadeIn ">
-
-                        <!-- <article class="post">
-                            <div class="post-preview col-xs-10  no-gutter">
-                                <h2><a href="2015/12/23/from-one-young-professional-to-another.html">From One Young Professional To Another</a></h2>
-				<p>From One Young Professional To Another</p>	 
-
-				<p ul class="posts">
-                                    <a href="author.html"></a> in <a href="category.html">Easy Living</a> <i class="link-spacer"></i> <i class="fa fa-bookmark"></i> 9 minute read
-                                </p>
-
-	  			<p>
-	    				
-                                </p>
-
-                                <p class="meta">
-                                    <a href="author.html">Evan Neises</a> in <a href="category.html">Storytime</a> <i class="link-spacer"></i> <i class="fa fa-bookmark"></i> 23 minute read
-                                </p>
-                            </div>
-
-                            <div class=" col-xs-2  no-gutter">
-                             <!-- This is the image associated with your post-->  <!-- <img src="img/profile-1.jpg" class="user-icon" alt="user-image">
-                            </div>
-                        </article> -->
             
 
                         <article class="post">
                             <div class="posts">
-  				{% for post in site.posts %}
-    				<article class="post">
+  								{% for post in site.posts %}
+    				
 
-				 <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+				 	   <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
       					<div class="entry">
         				{{ post.excerpt }}
       					</div>
 
-      				<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    				</article>
+      						<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+							</div>
+    					</article>
   				{% endfor %}
 			</div>
 
-                            <!-- <div class=" col-xs-2 no-gutter">
-                                <img src="img/profile-2.jpg" class="user-icon"  alt="user-image">
-                            </div> 
-                        </article> -->
+
 
   
   
