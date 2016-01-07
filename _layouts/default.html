@@ -93,13 +93,11 @@
                     </div>
 
                     <div class="home-page-posts animated fadeIn ">
-            
+            			{% for post in site.posts %}
 
                         <article class="post">
                             <div class="posts">
-  								{% for post in site.posts %}
-    				
-
+  								
 				 	   <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
       					<div class="entry">
@@ -111,8 +109,8 @@
 							
 							</div>
     					</article>
+						{% endfor %}
 					</div>
-  				{% endfor %}
 			</div>
 
 
