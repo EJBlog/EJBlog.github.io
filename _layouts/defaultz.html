@@ -33,10 +33,6 @@
                     </ul>
                     <hr>
                     <ul>
-                        <!-- <li><i class="fa fa-file"></i><a href="post.html">Post Page</a></li> -->
-                        <!--  <li><i class="fa fa-file"></i><a href="post-sidebar.html">Post with Sidebar</a></li> -->
-                        <!--  <li><i class="fa fa-home"></i><a href="alt-home.html">Alternate Home</a></li> -->
-                        <!--  <li><i class="fa fa-image"></i><a href="category.html">Category Page</a></li> -->
                     </ul>
                 </div>
 
@@ -58,9 +54,6 @@
                                 <li><i class="fa fa-anchor"></i><a href="about.html">About</a></li>
                                 <li><i class="fa fa-star"></i><a href="favorites.html">Favorites</a></li>
                                 <li><i class="fa fa-paper-plane"></i><a href="contact.html">Contact</a></li>
-                                <!-- <li><i class="fa fa-file"></i><a href="post.html">Post Page</a></li>-->
-                                <!-- <li><i class="fa fa-file"></i><a href="post-sidebar.html">Post with Sidebar</a></li> -->
-                                <!-- <li><i class="fa fa-home"></i><a href="alt-home.html">Alternate Home</a></li> -->
                                 <li><i class="fa fa-image"></i><a href="category.html">Category Page</a></li>
                             </ul>
                         </div>
@@ -98,28 +91,20 @@
                     
             			{% for post in posts %}
                             
-  							
-				 	   <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+			 	   <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
       					<div class="entry">
         				{{ post.excerpt }}
       					</div>
 						
-						<div>
+					<div>
       					<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-						</div>
-	
-						{% endfor %}
 					</div>
-					
-					
-			</div>
-
-
-
-  
-  
-  </div>
+	
+		    {% endfor %}
+		    </div>
+	
+	</div>
                     
                     <!-- Home page posts -->
 
