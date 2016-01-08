@@ -8,3 +8,4 @@ gems:
 
 url: 
 baseurl: ""
+excerpt_separator: <!--endpreview-->
