@@ -62,7 +62,7 @@
                         <div class="primary-info">
                         <h1>Jake Ellis</h1>
                             
-                            <p>I love my work and I love being outside... but I love one more than the other</p>
+                            <p>I love my work and I love being outside... but I love one, more than the other</p>
                         </div>
                         <div class="secondary-info">
 
@@ -91,7 +91,7 @@
                     <div class="posts-block animated fadeIn ">
                         
                         <div class="posts">
-                          {% for post in site.posts | where:"post_author", "Jake Ellis" %}
+                          {% for post in site.posts  %}
                             <article class="post">
                         
                               <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
