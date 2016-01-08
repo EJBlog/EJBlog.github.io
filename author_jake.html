@@ -89,6 +89,21 @@
                     <h2 class="favorites">Most recommended posts</h2>
 
                     <div class="posts-block animated fadeIn ">
+                        
+                        <div class="posts">
+                          {% for post in site.posts | where:"page.post_author", "Jake Ellis" %}
+                            <article class="post">
+                        
+                              <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+                        
+                              <div class="entry">
+                                {{ post.excerpt }}
+                              </div>
+                        
+                              <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+                            </article>
+                          {% endfor %}
+                        </div>
 
 <!--
                         <article class="post author-page">
