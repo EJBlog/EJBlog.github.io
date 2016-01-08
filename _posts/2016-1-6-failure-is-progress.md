@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Failure Is Progress"
-date: 2016-1-6
+post_date: "Jan. 6th, 2016"
 post_author: "Jake Ellis"
 post_category: "Miscellaneous"
 ---

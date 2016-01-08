@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "From One Young Professional to Another"
-date: 2015-12-23
+post_date: "Dec. 23rd, 2015"
 post_author: "Evan Neises"
 post_category: "Miscellaneous"
 ---
