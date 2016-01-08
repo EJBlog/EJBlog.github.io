@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% assign posts = site.posts | where:"post_author","jake" %}
+{% assign posts = site.posts | where:"author","jake" %}
 
 <div class="posts">
   {% for post in posts %}
