@@ -1,9 +1,10 @@
 ---
 layout: default
 ---
+{% assign posts = site.posts | where: "author", "Evan Neises" %}
 
 <div class="posts">
-  {% for post in site.posts | where:"author", "jake" %}
+  {% for post in posts %}
     <article class="post">
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
