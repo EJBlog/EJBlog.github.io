@@ -91,7 +91,7 @@
                     <div class="posts-block animated fadeIn ">
                         
                         <div class="posts">
-                          {% for post in site.posts | where:"page.post_author", "Jake Ellis" %}
+                          {% for post in site.posts | where:"post_author", "Jake Ellis" %}
                             <article class="post">
                         
                               <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
