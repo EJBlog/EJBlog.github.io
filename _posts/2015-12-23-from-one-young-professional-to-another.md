@@ -6,7 +6,7 @@ post_author: "Evan Neises"
 post_category: "Miscellaneous"
 ---
 
-Networking this, personal branding that. As a recently graduated young professional, that’s all I hear about these days. The list of items required for successful, continuous career development is never-ending. Don’t get me wrong, the future of my career is very important to me, but it can be a little overwhelming. So I decided to take it one step at a time.
+<p>Networking this, personal branding that. As a recently graduated young professional, that’s all I hear about these days. The list of items required for successful, continuous career development is never-ending. Don’t get me wrong, the future of my career is very important to me, but it can be a little overwhelming. So I decided to take it one step at a time.</p>
 <br><br>
 <b>Step 1: Social Media Management</b>
 	<b>Online presence</b> for a recent college graduate looking to advance their career is everything. It’s becoming common knowledge that employers are going to look up potential job candidates online before even awarding them an interview. Now I could go on to list pages of examples of what an employer might find online that would prevent them from considering someone for an interview, but that’s not the point of this post and there are plenty of articles online explaining how to best manage and clean up your presence online. The point is, it’s important to clean up and/or monitor any publicly accessible information online. Majority of the time, this information is being obtained from social media accounts.<br><br>
