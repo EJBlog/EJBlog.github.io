@@ -93,23 +93,14 @@
                     </div>
 
                     <div class="home-page-posts animated fadeIn ">
-            			{% for post in site.posts %}
-
-                        <article class="post">
-                            <div class="posts">
-  								
-				 	   <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      					<div class="entry">
-        				{{ post.excerpt }}
-      					</div>
-							<div>
-      						<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-							</div>
-							
-							</div>
-    					</article>
-						{% endfor %}
+						<ul>
+						  {% for post in site.posts %}
+						    <li>
+						      <a href="{{ post.url }}">{{ post.title }}</a>
+						      {{ post.excerpt }}
+						    </li>
+						  {% endfor %}
+						</ul>
 					</div>
 			</div>
 
