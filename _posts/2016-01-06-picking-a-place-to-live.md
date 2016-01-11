@@ -6,10 +6,8 @@ post_author: "Evan Neises"
 post_category: "Travel"
 ---
 
-<b>Picking A Place To Live</b>
-<br><br>
 How do you know where to settle down and spend the rest of your life?
-<br><br>
+<br><br><!--endpreview-->
 	I have to believe I’m not the only one who thinks about this fairly often. Unless you’ve visited <b>every</b> country, <b>every</b> state, <b>every</b> city or small town, how can you really know where you would most enjoy living out the rest of your life? You can’t. 
 <br><br>
 	For those of you who are one hundred percent sure where you want to live, work, raise a family, etc. feel free to stop reading the rest of this post. I am writing this for those people who, like me, aren’t sure where the best place to establish a permanent residence is. There are so many things to consider when picking a place to live: <br>
