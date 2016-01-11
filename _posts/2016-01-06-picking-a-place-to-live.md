@@ -27,5 +27,5 @@ Those are all important factors and still, they don’t take into consideration 
 <li> Put them in priority from the most desire to visit to the least.</li>
 <li> Sit down with a friend or significant other and start planning trips. Think about weekend trips for the destinations that are in driving distance and maybe use some vacation days for the destinations that aren’t.</li>
 <li> Start traveling.</li>
-</ol><br><br>
+</ol><br>
 Making and prioritizing a list of trips is much easier to do than actually following through with them. Over time, the goal is to knock as many locations off your list as possible. Down the road, whether you’ve finished your whole list or only made it on one trip, you will still have a better idea of where you might want to establish a life based off of your experiences on those trips. Don’t take it from me, find out for yourself. <b>Happy traveling!</b> 
