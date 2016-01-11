@@ -75,7 +75,37 @@
                 <div class="col-md-7 col-sm-12 col-md-offset-5 main-content">
 
                     <h3>Contact Us</h3>
+                    
+                    <form method="post" action="#" id="form" name="form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" placeholder="John Smith" class="form-control" name="name" value="">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="text" placeholder="youremail@email.com" class="form-control" name="email" value="">
+                        </div>
+                        <div class="form-group">
+                            <label for="company">Company</label>
+                            <input type="text" placeholder="My Company Inc." class="form-control" name="company" value="">
+                        </div>
 
+                        <div class="form-group">
+                            <label for="number">Phone Number</label>
+                            <input type="tel" placeholder="+1234567890" class="form-control" name="number" value="">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" name="message" placeholder="I love your blog posts, stay awesome." value=""></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <input class="btn btn-default"  type="submit" value="Send" id="send" name="submit">
+                        </div>
+                    </form> 
+                    <h3><?php include "email_code.php"?</h3>
+                <!--
                     <form method="post" action="mailto:ejpersonalblog@gmail.com">
                         <div class="form-group">
                             <label for="name">Name</label>
@@ -103,7 +133,8 @@
                         <div class="form-group">
                             <input class="btn btn-default"  type="submit" value="Send">
                         </div>
-                    </form>
+                    </form> 
+                -->
 
                     <footer class="split-footer">
                         <a href="about.html">About</a>
