@@ -20,7 +20,7 @@ $headers .= 'Cc:'. $email2 . "\r\n"; // Carbon copy to Sender
 // Message lines should not exceed 70 characters (PHP rule), so wrap it
 $message = wordwrap($message, 70);
 // Send Mail By PHP Mail Function
-mail("ejpersonalblog@gmail.com", $subject, $message, $headers);
+mail("ejpersonalblog@gmail.com", $message, $headers);
 echo "Your mail has been sent successfuly ! Thank you for your feedback";
 }
 }
