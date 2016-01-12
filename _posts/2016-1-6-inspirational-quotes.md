@@ -30,7 +30,8 @@ Here are a few of my favorite quotes and what they mean to me. Maybe they will m
   <br>
   <li>"It will not always be summer" - Hesoid </li>
       <ul>
-        <li>Last but not least, to me, this means you must make the most of the good times because the not-so-good times are inevitably coming.</li>
+        <li>Lastly, to me, this means you must make the most of the good times because the not-so-good times are inevitably coming.</li>
       </ul>
 </ol>
 
+Since we are on this topic, take a look at this <a hfef="https://www.youtube.com/watch?v=p4myaDVk-Po">motivational video<a/> from one of my idols, Jimmy Chin, working with <a hfef="https://www.thenorthface.com">The North Face Inc</a>.
