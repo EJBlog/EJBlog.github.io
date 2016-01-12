@@ -58,7 +58,11 @@
             <div class="row">
                 <div class="col-xs-12 single-content blog-post">
                     <p class="meta">
-                        <a class="" href="{{ site.url }}/author.html">{{ page.post_author }}</a> in <a class="" href="{{ site.url }}/category.html">{{ page.post_category }}</a> <i class="link-spacer"></i> <i class="fa fa-bookmark"></i>
+                    	{% if page.post_author == "Evan Neises" %}
+                            <a class="" href="{{ site.url }}/author_evan.html">{{ page.post_author }}</a> in <a class="" href="{{ site.url }}/category.html">{{ page.post_category }}</a> <i class="link-spacer"></i> <i class="fa fa-bookmark"></i>
+			    {% else %}
+			    <a class="" href="{{ site.url }}/author_jake.html">{{ page.post_author }}</a> in <a class="" href="{{ site.url }}/category.html">{{ page.post_category }}</a> <i class="link-spacer"></i> <i class="fa fa-bookmark"></i>
+			    {% endif %}
                     <h1>{{ page.title }}</h1>
 
                     <p>{{ content }}</p>
