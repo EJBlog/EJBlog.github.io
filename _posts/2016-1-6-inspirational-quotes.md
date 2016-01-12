@@ -34,4 +34,4 @@ Here are a few of my favorite quotes and what they mean to me. Maybe they will m
       </ul>
 </ol>
 
-Since we are on this topic, take a look at this <a hfef="https://www.youtube.com/watch?v=p4myaDVk-Po">motivational video<a/> from one of my idols, Jimmy Chin, working with <a hfef="https://www.thenorthface.com">The North Face Inc</a>.
+Since we are on this topic, take a look at this <a href="https://www.youtube.com/watch?v=p4myaDVk-Po">motivational video<a/> from one of my idols, Jimmy Chin, working with <a href="https://www.thenorthface.com">The North Face Inc</a>.
