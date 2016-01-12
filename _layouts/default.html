@@ -93,7 +93,12 @@
 	      			<div class="entry">
 				{{ post.excerpt }}
 				<br><br>
-				By <a href="{{ site.url }}/author.html">{{ post.post_author }}</a> in <a href="{{ site.url }}/category.html">{{ post.post_category }}</a>
+				{% if page.post_author == "Evan Neises" %}
+                            		By <a href="{{ site.url }}/author_evan.html">{{ post.post_author }}</a> in <a href="{{ site.url }}/category.html">{{ post.post_category }}</a>
+			    	{% else %}
+			    		By <a href="{{ site.url }}/author_jake.html">{{ post.post_author }}</a> in <a href="{{ site.url }}/category.html">{{ post.post_category }}</a>
+			    	{% endif %}
+				
 	      			<br>
 	      			<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
 	      			</div>
