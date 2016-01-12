@@ -95,8 +95,10 @@
 				<br><br>
 				{% if post.post_author == "Evan Neises" %}
                             		By <a href="{{ site.url }}/author_evan.html">{{ post.post_author }}</a> in <a href="{{ site.url }}/category.html">{{ post.post_category }}</a>
-			    	{% else %}
+			    	{% elsif post.post_author == "Jake Ellis" %}
 			    		By <a href="{{ site.url }}/author_jake.html">{{ post.post_author }}</a> in <a href="{{ site.url }}/category.html">{{ post.post_category }}</a>
+			    	{% else %}
+			    		By <a href="{{ site.url }}/guest_authors.html">Guest Author</a> in <a href="{{ site.url }}/category.html">{{ post.post_category }}</a>
 			    	{% endif %}
 				
 	      			<br>
