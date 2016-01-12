@@ -968,7 +968,7 @@ ol li {
   .sidebar .site-info {
     padding: 0 20px;
     position: absolute;
-    bottom: 40px;
+    
   }
 }
 @media (min-width: 1200px) {
