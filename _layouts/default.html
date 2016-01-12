@@ -92,7 +92,7 @@
 	      			<div class="entry">
 				{{ post.excerpt }}
 				<br><br>
-				By {{ post.post_author }} in <a href="{{ site.url }}/category.html">{{ post.post_category }}</a>
+				By {{ post.post_author }} in {{ post.post_category }}
 				<!-- {% if site.posts.post_author = "Evan Neises" %}
 				By <a href="{{ site.url }}/author_evan.html">{{ post.post_author }}</a> in <a href="{{ site.url }}/category.html">{{ post.post_category }}</a>
 	      			{% elsif site.posts.post_author = "Jake Ellis" %}
