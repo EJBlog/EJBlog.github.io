@@ -16,6 +16,9 @@
 }*/
 
 .sidebar {
-	font-weight: bold;
+	text-align: right;
+}
+
+.sidebar .site-info {
 	text-align: right;
 }
