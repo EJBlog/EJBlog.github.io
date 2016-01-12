@@ -17,6 +17,7 @@
 
 .sidebar {
 	text-align: right;
+	bottom: 40px;
 }
 
 .sidebar .site-info {
