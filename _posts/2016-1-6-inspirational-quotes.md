@@ -14,11 +14,15 @@ But why must I read each one?! The reason is simple. I could always use a little
 Here are a few of my favorite quotes and what they mean to me. Maybe they will motivate you as well!
 <ul>
   <li>"Life is not tried, it is merely survived, if you're standing outside the fire" - Garth Brooks</li>
+    To me, this is a just a good old country song demonstrating that life isn't truly experienced unless you get out of your comfort zone and do something crazy every now and then.
   <br>
-  <li>"Life begins at the end of your comfort zone" - </li>
+  <li>"Life begins at the end of your comfort zone" - Neale Donald Walsch</li>
+  This is similar to Garth's quote althoug a little more straight forward. Sometimes you just gotta go for it.
   <br>
   <li>"I've failed over and over again, and that is why I succeed" - Michael Jordan </li>
+  If this doesn't motivate you to push yourself than I dont know what will. Arguably the greatest basketball player of all time demonstrates that you must be persistant and have a short memory in order to progress in life.
   <br>
   <li>"It will not always be summer" - Hesoid </li>
+  Last but not least, to me, this means must make the most of the good times, but also understand that the not-so-good times are inevitably coming.
 </ul>
 
