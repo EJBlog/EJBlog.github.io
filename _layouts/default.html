@@ -11,10 +11,11 @@
         <link rel="stylesheet" href="{{ site.url }}/css/bootstrap.min.css">
         <link rel="stylesheet" href="{{ site.url }}/css/font-awesome.min.css">
         <link rel="stylesheet" href="{{ site.url }}/css/main.css">
-		
-
+	
         
-        <script src="{{ site.url }}/js/vendor/html5shiv.min.js"></script>
+        <!--[if lt IE 9]>
+ -            <script src="/js/vendor/html5shiv.min.js"></script>
+ -        <![endif]-->
         
 
         <script src="{{ site.url }}/js/vendor/modernizr.custom.32229-2.8-respondjs-1-4-2.js"></script>
@@ -92,7 +93,7 @@
 	      			<div class="entry">
 				{{ post.excerpt }}
 				<br><br>
-				By {{ post.post_author }} in {{ post.post_category }}
+				By {{ post.post_author }} in <a href="{{ site.url }}/category.html">{{ post.post_category }}</a>
 				<!-- {% if site.posts.post_author = "Evan Neises" %}
 				By <a href="{{ site.url }}/author_evan.html">{{ post.post_author }}</a> in <a href="{{ site.url }}/category.html">{{ post.post_category }}</a>
 	      			{% elsif site.posts.post_author = "Jake Ellis" %}
