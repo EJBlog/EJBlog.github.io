@@ -143,9 +143,12 @@
                     </div>
                     <div class="col-xs-12 col-sm-6">
                         <div class="category-list">
-                            <p>Published <span>14th May 2015</span></p>
-                            <p><a href="#">James Reddy</a> in <a href="#">Storytime</a></p>
-
+                            <p>Published <span>{{ page.post_date }}</span></p>
+                            {% if page.post_author == "Evan Neises" %}
+                            	<p><a href="{{ site.url }}/author_evan.html">{{ page.post_author }}</a> in <a href="{{ site.url }}/category.html">{{ page.post_category }}</a></p>
+			    {% else %}
+			    	<p><a href="{{ site.url }}/author_jake.html">{{ page.post_author }}</a> in <a href="{{ site.url }}/category.html">{{ page.post_category }}</a></p>
+			    {% endif %}
                             <div class="other-catergories">
                                 <h3>Also found in</h3>
 
