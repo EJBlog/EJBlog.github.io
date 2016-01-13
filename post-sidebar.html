@@ -2,22 +2,16 @@
 layout: post-sidebar
 ---
 
-<div class="posts">
-  {% for post in site.posts limit:5 %}
-    <article class="post">
+<div class="col-xs-12 col-md-8 single-content-sidebar">
+			<p class="meta">
+                    	{% if page.post_author == "Evan Neises" %}
+                            <a class="" href="{{ site.url }}/author_evan.html">{{ page.post_author }}</a> in <a class="" href="{{ site.url }}/category.html">{{ page.post_category }}</a> <i class="link-spacer"></i> <i class="fa fa-bookmark"></i>
+			    {% else %}
+			    <a class="" href="{{ site.url }}/author_jake.html">{{ page.post_author }}</a> in <a class="" href="{{ site.url }}/category.html">{{ page.post_category }}</a> <i class="link-spacer"></i> <i class="fa fa-bookmark"></i>
+			    {% endif %}
+			</p>
+                    <h1>{{ page.title }}</h1>
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+                    <p>{{ content }}</p>
 
-      <div class="entry">
-	{{ post.excerpt }}
-	<br><br>
-	By <a href="{{ site.url }}/author.html">{{ post.post_author }} in <a href="{{ site.url }}/category.html">{{ post.post_category }}</a>
-	<br>
-	<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-      </div>
-	  
-		
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+                </div><!-- main-content/col -->
