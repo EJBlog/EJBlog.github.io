@@ -70,24 +70,6 @@
                     <p>{{ content }}</p>
 
                 </div><!-- main-content/col -->
-                <div class="col-xs-12 col-md-3 col-md-offset-1 single-content-sidebar-area">
-
-                    <img src="img/profile-1.jpg" class="user-icon " alt="user-image">
-                    <div class="meta">
-
-                        <div class="sidebar-info">
-                            {% if page.post_author == "Evan Neises" %}
-                            	<p><a href="{{ site.url }}/author_evan.html">{{ page.post_author }}</a> in <a href="{{ site.url }}/category.html">{{ page.post_category }}</a></p>
-			    {% else %}
-			    	<p><a href="{{ site.url }}/author_jake.html">{{ page.post_author }}</a> in <a href="{{ site.url }}/category.html">{{ page.post_category }}</a></p>
-			    {% endif %}
-                        </div>
-
-                        <!--<div class="sidebar-readtime">-->
-                        <!--    <i class="fa fa-bookmark"></i> 23 minute read-->
-                        <!--</div>-->
-
-                    </div>
 
                     <h2 class="favorites">Similar Categories</h2>
 
