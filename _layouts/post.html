@@ -76,7 +76,12 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-sm-2">
+                    	{% if page.post_author == "Evan Neises"%}
                         <img src="{{ site.url }}/img/profile-1.jpg" class="user-icon " alt="user-image">
+                        {%endif%}
+                        {% if page.post_author == "Jake Ellis"%}
+                        <img src="{{ site.url }}/img/jake_grandcanyon.jpg" class="user-icon " alt="user-image">
+                        {%endif%}
                     </div>
                     <div class="col-xs-12 col-sm-6">
                         <div class="category-list">
@@ -122,7 +127,7 @@
                 </div></a>
                 <a href="post.html"><div class="col-sm-6 col-md-2 no-gutter read-another-container">
                     <div class="overlay"></div>
-                    <img src="{{ site.url }}/img/.jpg">
+                    <img src="{{ site.url }}/img/halfdome_view4.jpg">
                     <h3 class="read-another">Travel</h3>
                 </div></a>
                 <a href="post.html"><div class="col-sm-6 col-md-2 no-gutter read-another-container">
@@ -137,7 +142,7 @@
                 </div></a>
                 <a href="post.html"><div class="col-sm-6 col-md-2 no-gutter read-another-container">
                     <div class="overlay"></div>
-                    <img src="{{ site.url }}/img/.jpg">
+                    <img src="{{ site.url }}/img/jake_climbing.jpg">
                     <h3 class="read-another">Climbing</h3>
                 </div></a>
                 <a href="post.html"><div class="col-sm-6 col-md-2 no-gutter read-another-container">
