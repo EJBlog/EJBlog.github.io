@@ -4,9 +4,14 @@ title: "From One Young Professional to Another"
 post_date: "Dec. 23rd, 2015"
 post_author: "Evan Neises"
 post_category: "Miscellaneous"
-related: [
+related_post: [
 	"Picking A Place To Live",
 	"Insert Inspirational Quote Here"
+]
+related_category: [
+	"Travel",
+	"Climbing",
+	"Fitness"
 ]
 ---
 
