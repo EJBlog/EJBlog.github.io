@@ -72,33 +72,36 @@
                 </div><!-- main-content/col -->
 		<div class="col-xs-12 col-md-3 col-md-offset-1 single-content-sidebar-area">
                     <h2 class="favorites">Similar Categories</h2>
-
+		    
+		    {% for post in site.posts %}
+		    {% if page.related_category contains post.post_category %}
                     <a href="category.html" >
                         <div class="similar-cat">
                             <img src="{{ site.url }}/img/similar-cat-1.jpg">
-                            <h3>Storytime</h3>
+                            <h3>{{ post.post_category }}</h3>
                         </div>
                     </a>
+                    {% endif %}
+		    {% endfor %}
+                    <!--<a href="category.html" >-->
+                    <!--    <div class="similar-cat">-->
+                    <!--        <img src="{{ site.url }}/img/similar-cat-2.jpg">-->
+                    <!--        <h3>Nature</h3>-->
+                    <!--    </div>-->
+                    <!--</a>-->
 
-                    <a href="category.html" >
-                        <div class="similar-cat">
-                            <img src="{{ site.url }}/img/similar-cat-2.jpg">
-                            <h3>Nature</h3>
-                        </div>
-                    </a>
-
-                    <a href="category.html" >
-                        <div class="similar-cat">
-                            <img src="{{ site.url }}/img/similar-cat-3.jpg">
-                            <h3>Travel</h3>
-                        </div>
-                    </a>
+                    <!--<a href="category.html" >-->
+                    <!--    <div class="similar-cat">-->
+                    <!--        <img src="{{ site.url }}/img/similar-cat-3.jpg">-->
+                    <!--        <h3>Travel</h3>-->
+                    <!--    </div>-->
+                    <!--</a>-->
 
                     <h2 class="favorites">Similar Posts</h2>
 		
 			{% for post in site.posts %}
 			<div class="similar-post">
-        			{% if page.related contains post.title %}
+        			{% if page.related_post contains post.title %}
             			<h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
         			{% endif %}
 			</div>
