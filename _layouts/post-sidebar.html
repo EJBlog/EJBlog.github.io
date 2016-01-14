@@ -74,14 +74,14 @@
                     <h2 class="favorites">Similar Categories</h2>
 		    
 		    {% for post in site.posts %}
-		    {% if page.related_category contains post.post_category %}
-                    <a href="category.html" >
+                    <a href="{{ site.url }}/category.html" >
                         <div class="similar-cat">
+                            {% if page.related_category contains post.post_category %}
                             <img src="{{ site.url }}/img/similar-cat-1.jpg">
                             <h3>{{ post.post_category }}</h3>
+                            {% endif %}
                         </div>
                     </a>
-                    {% endif %}
 		    {% endfor %}
                     <!--<a href="category.html" >-->
                     <!--    <div class="similar-cat">-->
