@@ -75,12 +75,12 @@
 		    
 		    {% for post in site.posts %}
                     <a href="{{ site.url }}/category.html" >
+                    	{% if page.related_category contains post.post_category %}
                         <div class="similar-cat">
-                            {% if page.related_category contains post.post_category %}
                             <img src="{{ site.url }}/img/similar-cat-1.jpg">
                             <h3>{{ post.post_category }}</h3>
-                            {% endif %}
                         </div>
+                        {% endif %}
                     </a>
 		    {% endfor %}
                     <!--<a href="category.html" >-->
