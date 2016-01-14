@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-sidebar
 title: "From One Young Professional to Another"
 post_date: "Dec. 23rd, 2015"
 post_author: "Evan Neises"
