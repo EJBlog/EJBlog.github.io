@@ -1,0 +1,21 @@
+---
+layout: guest_authors
+---
+
+{% for author in site.guest_authors %}
+                    
+				    <h1>{{ author.author_name }}</h1>
+	
+	      			<div class="entry">
+				        {{ content }}
+				
+				<p class="meta">
+					{% if page.post_author == "Evan Neises"%}
+                        		<img src="{{ site.url }}/img/profile-1.jpg" class="user-icon " alt="user-image">
+                        		{%endif%}
+                        		{% if page.post_author == "Jake Ellis"%}
+                			<img src="{{ site.url }}/img/jake_grandcanyon.jpg" class="user-icon " alt="user-image">
+                        		{%endif%}
+				</p>
+				</div>
+			{% endfor %}
