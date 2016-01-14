@@ -84,8 +84,9 @@
                         <a class="active">Authors</a>
                         <!-- <a href="#" class="select-categories">Categories</a> -->
                     </div>
+                    
+                    {% for author in site.data.guest_authors %}
                     <div class="home-page-posts animated fadeIn ">
-    			{% for author in site.data.guest_authors %}
                     
 				    <h2>{{ author.name }}</h2>
 	
@@ -103,10 +104,8 @@
 				</div>
 				
                                 <img src="{{ site.url }}/img/profile-1.jpg" class="user-icon col-xs-2 pull-right" alt="user-image">
-                            	
-			{% endfor %}
 		    </div>
-                    
+                    {% endfor %}
                     <!-- Home page posts -->
 
 <!-- Start Categories Tab info -->
