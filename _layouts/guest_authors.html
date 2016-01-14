@@ -85,27 +85,22 @@
                         <!-- <a href="#" class="select-categories">Categories</a> -->
                     </div>
                     
-                    {% for author in site.data.guest_authors %}
-                    <div class="home-page-posts animated fadeIn ">
-                    
-				    <h2>{{ author.name }}</h2>
-	
-	      			<div class="meta">
-				        {{ author.bio }}
-				
-				<!--<p class="meta">-->
-				<!--	{% if page.post_author == "Evan Neises"%}-->
-    <!--                    		<img src="{{ site.url }}/img/profile-1.jpg" class="user-icon " alt="user-image">-->
-    <!--                    		{%endif%}-->
-    <!--                    		{% if page.post_author == "Jake Ellis"%}-->
-    <!--            			<img src="{{ site.url }}/img/jake_grandcanyon.jpg" class="user-icon " alt="user-image">-->
-    <!--                    		{%endif%}-->
-				<!--</p>-->
-				</div>
-				
-                                <img src="{{ site.url }}/img/profile-1.jpg" class="user-icon col-xs-2 pull-right" alt="user-image">
+                    <div class="posts">
+			 {% for author in site.data.guest_authors %}
+    			 <article class="post">
+			   <div class="col-xs-10 no-gutter">
+      				<h2>{{ author.name }}</h2>
+
+      				<div class="entry">
+				{{ author.bio }}
+      				</div>
+	  		   </div>
+	  		   <div class="col-xs-2 no-gutter">
+	  		   	<img src="{{ site.url }}/img/profile-1.jpg" class="user-icon" alt="user-image">
+	  		   </div>
+    			</article>
+  			{% endfor %}
 		    </div>
-                    {% endfor %}
                     <!-- Home page posts -->
 
 <!-- Start Categories Tab info -->
