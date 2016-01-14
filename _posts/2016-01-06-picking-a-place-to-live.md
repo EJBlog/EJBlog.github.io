@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-sidebar
 title: "Picking A Place To Live"
 post_date: "Jan. 6th, 2015"
 post_author: "Evan Neises"
