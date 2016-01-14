@@ -9,8 +9,8 @@ related_post: [
 	"Insert Inspirational Quote Here"
 ]
 related_category: [
-	"Travel",
 	"Climbing",
+	"Travel",
 	"Fitness"
 ]
 ---
