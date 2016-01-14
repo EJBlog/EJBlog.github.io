@@ -64,7 +64,6 @@
 
                     <div class="site-info">
                         <div class="primary-info">
-                        	<!--Changed welcome message on left image sidebar -Evan -->
                             <h1>Guest Authors</h1>
                             <p>We have the privilege of displaying posts written by a diverse group of individuals such as these.</p> 
 
@@ -87,21 +86,21 @@
                     </div>
 
                     <div class="home-page-posts animated fadeIn ">
-    			{% for author in site.guest_authors %}
+    			{% for author in site.data.guest_authors %}
                     
-				    <h1>{{ author.author_name }}</h1>
+				    <h1>{{ author.name }}</h1>
 	
 	      			<div class="entry">
-				        {{ content }}
+				        {{ author.bio }}
 				
-				<p class="meta">
-					{% if page.post_author == "Evan Neises"%}
-                        		<img src="{{ site.url }}/img/profile-1.jpg" class="user-icon " alt="user-image">
-                        		{%endif%}
-                        		{% if page.post_author == "Jake Ellis"%}
-                			<img src="{{ site.url }}/img/jake_grandcanyon.jpg" class="user-icon " alt="user-image">
-                        		{%endif%}
-				</p>
+				<!--<p class="meta">-->
+				<!--	{% if page.post_author == "Evan Neises"%}-->
+    <!--                    		<img src="{{ site.url }}/img/profile-1.jpg" class="user-icon " alt="user-image">-->
+    <!--                    		{%endif%}-->
+    <!--                    		{% if page.post_author == "Jake Ellis"%}-->
+    <!--            			<img src="{{ site.url }}/img/jake_grandcanyon.jpg" class="user-icon " alt="user-image">-->
+    <!--                    		{%endif%}-->
+				<!--</p>-->
 				</div>
 			{% endfor %}
 		    </div>
