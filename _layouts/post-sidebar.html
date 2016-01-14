@@ -95,22 +95,30 @@
                     </a>
 
                     <h2 class="favorites">Similar Posts</h2>
+		
+			{% for post in site.posts %}
+			<div class="similar-post">
+        			{% if page.related contains post.title %}
+            			<h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+        			{% endif %}
+			</div>
+			{% endfor %}
+			
+                    <!--<div class="similar-post">-->
+                    <!--    <a href="post.html"><h3>Why everyone named Jake is an idiot</h3></a>-->
+                    <!--</div>-->
 
-                    <div class="similar-post">
-                        <a href="post.html"><h3>Why everyone named Jake is an idiot</h3></a>
-                    </div>
+                    <!--<div class="similar-post">-->
+                    <!--    <a href="post.html"><h3>Falling off rocks 101. By Jake Ellis</h3></a>-->
+                    <!--</div>-->
 
-                    <div class="similar-post">
-                        <a href="post.html"><h3>Falling off rocks 101. By Jake Ellis</h3></a>
-                    </div>
+                    <!--<div class="similar-post">-->
+                    <!--    <a href="post.html"><h3>The Art of Bitching. Also by Jake</h3></a>-->
+                    <!--</div>-->
 
-                    <div class="similar-post">
-                        <a href="post.html"><h3>The Art of Bitching. Also by Jake</h3></a>
-                    </div>
-
-                    <div class="similar-post">
-                        <a href="post.html"><h3>AHHHHHHHHHHHHHHHHHH</h3></a>
-                    </div>
+                    <!--<div class="similar-post">-->
+                    <!--    <a href="post.html"><h3>AHHHHHHHHHHHHHHHHHH</h3></a>-->
+                    <!--</div>-->
 
                 </div>
             </div> <!--/row -->
