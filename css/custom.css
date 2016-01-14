@@ -24,3 +24,30 @@
 	text-align: right;
 }
 */
+
+.hero-image-about {
+  height: 150px;
+  width: 100%;
+  background-image: url(../img/waterfall.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (min-width: 768px) {
+  /* line 1, ../sass/partials/_single.sass */
+  .hero-image-about {
+    height: 300px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 1, ../sass/partials/_single.sass */
+  .hero-image-about {
+    height: 390px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 1, ../sass/partials/_single.sass */
+  .hero-image-about {
+    height: 460px;
+  }
+}
