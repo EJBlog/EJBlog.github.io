@@ -15,7 +15,7 @@ layout: travel_category
 		<p  class="meta">
 		{% if post.post_author == "Evan Neises"%}
 			By <a href="{{ site.url }}/author_evan.html" class="meta">{{ post.post_author }} in <a href="{{ site.url }}/category.html" class="meta">{{ post.post_category }}</a>
-		{% elseif post.post_author == "Jake Ellis"%}
+		{% elsif post.post_author == "Jake Ellis"%}
 			By <a href="{{ site.url }}/author_jake.html" class="meta">{{ post.post_author }} in <a href="{{ site.url }}/category.html" class="meta">{{ post.post_category }}</a>
 		{% else %}
 			By <a href="{{ site.url }}/author_guest.html" class="meta">{{ post.post_author }} in <a href="{{ site.url }}/category.html" class="meta">{{ post.post_category }}</a>
@@ -23,3 +23,4 @@ layout: travel_category
 		</p>
 	  {% endfor %}
 	</div>
+	
