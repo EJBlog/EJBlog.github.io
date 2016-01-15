@@ -26,18 +26,12 @@
             <div id="menu-target">
                 <ul>
                     <li><i class="fa fa-home"></i><a href="index.html">Home</a></li>
-                    <li><i class="fa fa-user"></i><a href="author.html">John Smith</a></li>
-                    <li><i class="fa fa-anchor"></i><a href="page.html">About</a></li>
-                    <li><i class="fa fa-star"></i><a href="favorites.html">Favorites</a></li>
+                    <li><i class="fa fa-user"></i><a href="author_evan.html">Evan Neises</a></li>
+                    <li><i class="fa fa-user"></i><a href="author_jake.html">Jake Ellis</a></li>
+                    <li><i class="fa fa-anchor"></i><a href="about.html">About</a></li>
                     <li><i class="fa fa-paper-plane"></i><a href="contact.html">Contact</a></li>
                 </ul>
                 <hr>
-                <ul>
-                    <li><i class="fa fa-file"></i><a href="post.html">Post Page</a></li>
-                    <li><i class="fa fa-file"></i><a href="post-sidebar.html">Post with Sidebar</a></li>
-                    <li><i class="fa fa-home"></i><a href="alt-home.html">Alternate Home</a></li>
-                    <li><i class="fa fa-image"></i><a href="category.html">Category Page</a></li>
-                </ul>
             </div>
 
             <section class="sidebar category-sidebar col-md-5 col-sm-12" style="background-image: url(img/default-category-sidebar.jpg);">
@@ -53,14 +47,10 @@
                     <div class="no-js-menu">
                         <ul>
                             <li><i class="fa fa-home"></i><a href="index.html">Home</a></li>
-                            <li><i class="fa fa-user"></i><a href="author.html">John Smith</a></li>
-                            <li><i class="fa fa-anchor"></i><a href="page.html">About</a></li>
-                            <li><i class="fa fa-star"></i><a href="favorites.html">Favorites</a></li>
+                            <li><i class="fa fa-user"></i><a href="author_evan.html">Evan Neises</a></li>
+                            <li><i class="fa fa-user"></i><a href="author_jake.html">Jake Ellis</a></li>
+                            <li><i class="fa fa-anchor"></i><a href="about.html">About</a></li>
                             <li><i class="fa fa-paper-plane"></i><a href="contact.html">Contact</a></li>
-                            <li><i class="fa fa-file"></i><a href="post.html">Post Page</a></li>
-                            <li><i class="fa fa-file"></i><a href="post-sidebar.html">Post with Sidebar</a></li>
-                            <li><i class="fa fa-home"></i><a href="alt-home.html">Alternate Home</a></li>
-                            <li><i class="fa fa-image"></i><a href="category.html">Category Page</a></li>
                         </ul>
                     </div>
                 </noscript>
@@ -81,7 +71,7 @@
                     <a href="#" class="select-posts active">Posts</a>
                 </div>
 
-                <div class="home-page-posts animated fadeIn ">
+                <div class="category-page-posts animated fadeIn ">
 
 			  {% assign posts = site.posts | where: "post_category","Travel" %}
 			  {% for post in posts %}
@@ -93,11 +83,11 @@
 			      </div>
 			<p  class="meta">
 				{% if post.post_author == "Evan Neises"%}
-					By <a href="{{ site.url }}/author_evan.html" class="meta">{{ post.post_author }} in <a href="{{ site.url }}/category.html" class="meta">{{ post.post_category }}</a>
+					By <a href="{{ site.url }}/author_evan.html">{{ post.post_author }} in <a href="{{ site.url }}/category.html">{{ post.post_category }}</a>
 				{% elsif post.post_author == "Jake Ellis"%}
-					By <a href="{{ site.url }}/author_jake.html" class="meta">{{ post.post_author }} in <a href="{{ site.url }}/category.html" class="meta">{{ post.post_category }}</a>
+					By <a href="{{ site.url }}/author_jake.html">{{ post.post_author }} in <a href="{{ site.url }}/category.html">{{ post.post_category }}</a>
 				{% else %}
-					By <a href="{{ site.url }}/author_guest.html" class="meta">{{ post.post_author }} in <a href="{{ site.url }}/category.html" class="meta">{{ post.post_category }}</a>
+					By <a href="{{ site.url }}/author_guest.html">{{ post.post_author }} in <a href="{{ site.url }}/category.html">{{ post.post_category }}</a>
 				{% endif %}
 			</p>
 			  {% endfor %}
