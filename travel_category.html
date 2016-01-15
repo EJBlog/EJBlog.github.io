@@ -6,18 +6,17 @@ layout: travel_category
     {% assign posts = site.posts | where: "post_category","Travel" %}
   {% for post in posts %}
     <article class="post">
-
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
       <div class="entry">
 	{{ post.excerpt }}
+     </div>
 	<br><br>
 	<p  class="meta">
 	By <a href="{{ site.url }}/author.html">{{ post.post_author }} in <a href="{{ site.url }}/category.html">{{ post.post_category }}</a>
 	</p>
 	<br>
 	<a href="{{ site.baseurl }}{{ post.url }}" class="read-more meta">Read More</a>
-      </div>
     </article>
   {% endfor %}
 </div>
