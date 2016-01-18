@@ -89,7 +89,7 @@
                     
 				<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 	
-	      			<div class="entry">
+	      			<div class="entry col-xs-10">
 				{{ post.excerpt }}
 				
 				<p class="meta">
@@ -98,9 +98,17 @@
 				    	{% elsif post.post_author == "Jake Ellis" %}
 				    		By <a href="{{ site.url }}/author_jake.html">{{ post.post_author }}</a> in <a href="{{ site.url }}/{{ post.post_category_link }}.html">{{ post.post_category }}</a>
 				    	{% else %}
-				    		By <a href="{{ site.url }}/guest_authors.html">Guest Author</a> in <a href="{{ site.url }}/{{ post.post_category_link }}.html">{{ post.post_category }}</a>
+				    		By <a href="{{ site.url }}/guest_authors.html">Guest Author</a> in <a href="{{ site.url }}/{{ post.post_category_link }}e.html">{{ post.post_category }}</a>
 				    	{% endif %}
-		      			</div>
+		      		</div>
+					<div class="col-xs-2 no-gutter">
+						{% if post.post_author == "Evan Neises"}
+						<img src="{{ site.url }}/img/surfing.jpg" class="user-icon" alt="user-image">
+						{% elsif post.post_author == "Jake Ellis" %}
+						<img src="{{ site.url }}/img/jake_rach_yosemite.jpg" class="user-icon" alt="user-image">
+						{% endif %}
+					</div>
+						
 				</p>
 
 			{% endfor %}
