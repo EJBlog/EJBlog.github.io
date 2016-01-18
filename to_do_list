@@ -1,0 +1,72 @@
+•	Coding/changes for Site (Prioritized highest to lowest):
+
+1.	Change all content (categories, text, images) (In Progress)
+a.	Categories functionality (In Progress)
+i.	Creating pages for categories
+a.	Using categories layout
+2.	Fitness - Jake
+3.	Snow sports - Jake
+4.	IT - Jake
+5.	Climbing - Jake
+6.	Music - Jake
+7.	Graphic Design -Jake
+8.	Photography - Jake
+9.	Miscellaneous  - Jake
+10.	Travel – Jake
+ii.	Code to display posts in THIS category in the correct Category page
+b.	Personal Author pages (In Progress)
+i.	Evan update author page – (In progress - Evan)
+1.	Social media links, bio, etc…
+ii.	Update “view all posts by Author” link in authors pages
+1.	New page to display all author posts
+a.	Jake’s posts – (Jake)
+b.	Evan’s posts – (Evan)
+c.	Contact Us page/functionality (In Progress -Jake and Evan)
+i.	Being able to submit using PHP page
+ii.	Maybe use something similar to Pokstad.com (DISQUS)
+d.	Update all Images (In progress - Jake and Evan)
+i.	Don’t forget header and footers 
+ii.	Change photos for Category squares
+iii.	About page header
+e.	Add writers image with post preview on home page
+f.	About Us page (In Progress – Jake)
+i.	Update content/ summary of site
+ii.	Header image
+2.	Update posts to use Post-Sidebar (In Progress)
+a.	Style format sidebar and footer for author
+b.	Update similar categories links
+c.	Update similar posts
+i.	Maybe need to make it less hardcoded in the future but we will see
+d.	Update “Share this article on social media” feature
+e.	Find a comment section for posts
+3.	Add “Read More” link on the home page to display 5 more posts under the previously shown posts  - (Evan)
+4.	Add pages to display posts written by guests
+a.	Each guest author gets their own? Need to do the same as Evan and Jake posts (possibly a “see more” link – Task above)
+5.	Favorites page?
+a.	How would this page be used? Favorite/like button?
+6.	Remove unnecessary files from Repo
+7.	Update author and category redundant pages
+8.	Change the “W” on the tabs for the site
+
+
+
+Done List:
+-	Purchase bootstrap template (Done)
+-	Create new GitHub account and commit website files (Done)
+-	Set up Jekyll (Done)
+o	Allows blog posts to be statically generated into HTML pages
+o	Stores posts as files on GitHub 
+-	Remove unnecessary links (favorites, alternate/example html pages) (Done)
+-	Check functionality on mobile devices (already responsive with bootstrap)
+-	Fix sizing of by “author” in “Categories” link in preview – (Done)
+-	- Change post page to dynamically display author's image at bottom of post based on who wrote it (similar to IF statements, but with .jpg files) – (Done)
+o	Posts functionality markdown files (Done)
+o	Posts being displayed on home page by date (Done)
+-	Figure out how to display different header image on each post
+o	Might not use header images on each post
+-	Guest Author bio page (done)
+•	Create a page for friend’s posts to be stored
+-	Jake author bio page –done
+•	Social media links, bio, etc…
+
+
