@@ -88,7 +88,7 @@
     			{% for post in site.posts limit:5 %}
                     
 				<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-					<div class="col-sm-2 no-gutter pull-right">
+					<div class="col-xs-1 no-gutter pull-right">
 						{% if post.post_author == "Evan Neises" %}
 						<img src="{{ site.url }}/img/surfing.jpg" class="user-icon" alt="user-image">
 						{% elsif post.post_author == "Jake Ellis" %}
