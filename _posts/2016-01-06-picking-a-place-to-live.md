@@ -4,6 +4,7 @@ title: "Picking A Place To Live"
 post_date: "Jan. 6th, 2015"
 post_author: "Evan Neises"
 post_category: "Travel"
+post_category_link: "travel_category"
 ---
 
 How do you know where to settle down and spend the rest of your life?
