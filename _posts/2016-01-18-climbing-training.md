@@ -5,6 +5,14 @@ post_date: "Jan. 18th, 2016"
 post_author: "Jake Ellis"
 post_category: "Climbing"
 post_category_link: "climbing_category"
+related_post: [
+	"Insert Inspirational Quote Here"
+]
+related_category: [
+	"Climbing",
+	"Fitness",
+	"Miscellaneous"
+]
 ---
 
 Winter in Kentucky means climbing the local gyms. This is what I do for training in the off season. <!--endpreview--> 
