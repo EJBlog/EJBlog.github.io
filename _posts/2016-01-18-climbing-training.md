@@ -18,7 +18,7 @@ Even though climbing in a gym can be a little mundane and repetitive, it is stil
   <li>Olmpic Rings - Muscle Ups are always a great way to engage the core, back, arms, and shoulders.</li>
   <li>Weighted Pull ups or Pull downs - If you dont have machines to do pull downs, weighted pull ups (pull ups with weights attached to a belt to add resistance) are a great way to gain strength in your arms and back.</li>
   <li>Squats - Legs are a very important aspect of climbing that often gets overlooked. Squats are one of the best workouts for your legs and core muscles. Start with low weight until you can ensure you have proper form to reduce risk of injury. Do three sets of 10 and increase weights once that becomes easier.</li>
-
+</ol>
 <br><br>
 
 <strong>Endurance</strong>
@@ -31,5 +31,5 @@ Even though climbing in a gym can be a little mundane and repetitive, it is stil
 
 <br><br>
 
-Here are the climbing gyms in the Louisville area where I do my training <ahref="http://www.climbrocksport.com/">Rocksport</a> and <a href="http://climbnulu.com/">Climb Nulu</a>
+Here are the climbing gyms in the Louisville area where I do my training <a href="http://www.climbrocksport.com/">Rocksport</a> and <a href="http://climbnulu.com/">Climb Nulu</a>
 
