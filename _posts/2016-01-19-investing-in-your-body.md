@@ -14,7 +14,7 @@ related_category: [
 ---
 
 I imagine a lot of people read the title of this post and think, “This is going to be like every other article telling me why I shouldn’t be eating bad food and how I need to spend every day exercising or working out.” Nope, not this one.
-<!--endpreview-->
+<!--endpreview--><br><br>
 To start off, I’m not going to tell you that it’s easy to eat whatever you want all the time without exercising and also be a healthy individual at the same time. Some people choose to monitor what they eat and keep the unhealthy food to a minimum. 
 Others choose to eat whatever they want, but exercise or workout a lot. Some even do both and are probably living a very healthy life. I’m also not going to tell you which one is best, I’m just going to <b>advise</b> you to pick one. Be aware. 
 Do something that works best for you and is going to benefit the overall well-being of your body. 
