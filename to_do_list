@@ -37,7 +37,7 @@
   b.	Update similar categories links
   c.	Update similar posts
       i.	Maybe need to make it less hardcoded in the future but we will see
-  d.	Update “Share this article on social media” feature
+  d.	Update “Share this article on social media” feature (DONE) --This was frustrating me bc I couldn't figure it out. Works now. -Evan
   e.	Find a comment section for posts
 3.	Add “Read More” link on the home page to display 5 more posts under the previously shown posts  - (Evan)
 4.	Add pages to display posts written by guests
