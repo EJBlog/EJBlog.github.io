@@ -74,7 +74,7 @@
                     <h2 class="favorites">Similar Categories</h2>
 		    
 		    {% for post in site.posts %}
-                    <a href="{{ site.url }}/category.html" >
+                    <a href="{{ site.url }}/{{ page.post_category_link }}.html" >
                     	{% if page.related_category contains post.post_category %}
                         <div class="similar-cat">
                             <img src="{{ site.url }}/img/similar-cat-1.jpg">
@@ -142,9 +142,9 @@
                         <div class="category-list">
                             <p>Published <span>{{ page.post_date }}</span></p>
                             {% if page.post_author == "Evan Neises" %}
-                            	<p><a href="{{ site.url }}/author_evan.html">{{ page.post_author }}</a> in <a href="{{ site.url }}/category.html">{{ page.post_category }}</a></p>
+                            	<p><a href="{{ site.url }}/author_evan.html">{{ page.post_author }}</a> in <a href="{{ site.url }}/{{ page.post_category_link }}.html">{{ page.post_category }}</a></p>
 			    {% else %}
-			    	<p><a href="{{ site.url }}/author_jake.html">{{ page.post_author }}</a> in <a href="{{ site.url }}/category.html">{{ page.post_category }}</a></p>
+			    	<p><a href="{{ site.url }}/author_jake.html">{{ page.post_author }}</a> in <a href="{{ site.url }}/{{ page.post_category_link }}.html">{{ page.post_category }}</a></p>
 			    {% endif %}
 
                             <!--<div class="other-catergories">-->
@@ -163,6 +163,7 @@
                         <div class="social">
                             <p>Share this article</a>
                             <div class="social-links">
+                            <!-- Need to change the links below to our domain name when we buy it -->
                                 <a class="social-icon" href="#" data-platform="twitter" data-message="Check out this post!" data-url="http://ejblog.github.io{{ page.url }}"><i class="fa fa-twitter"></i></a>
 
                                 <a class="social-icon" href="#" data-platform="facebook" data-message="Check out this post!" data-url="http://ejblog.github.io{{ page.url }}"><i class="fa fa-facebook-official"></i></a>
