@@ -1,49 +1,49 @@
 •	Coding/changes for Site (Prioritized highest to lowest):
 
 1.	Change all content (categories, text, images) (In Progress)
-a.	Categories functionality (In Progress)
-i.	Creating pages for categories
-a.	Using categories layout
-2.	Fitness - Jake
-3.	Snow sports - Jake
-4.	IT - Jake
-5.	Climbing - Jake
-6.	Music - Jake
-7.	Graphic Design -Jake
-8.	Photography - Jake
-9.	Miscellaneous  - Jake
-10.	Travel – Jake
-ii.	Code to display posts in THIS category in the correct Category page
-b.	Personal Author pages (In Progress)
-i.	Evan update author page – (In progress - Evan)
-1.	Social media links, bio, etc…
-ii.	Update “view all posts by Author” link in authors pages
-1.	New page to display all author posts
-a.	Jake’s posts – (Jake)
-b.	Evan’s posts – (Evan)
-c.	Contact Us page/functionality (In Progress -Jake and Evan)
-i.	Being able to submit using PHP page
-ii.	Maybe use something similar to Pokstad.com (DISQUS)
-d.	Update all Images (In progress - Jake and Evan)
-i.	Don’t forget header and footers 
-ii.	Change photos for Category squares
-iii.	About page header
-e.	Add writers image with post preview on home page
-f.	About Us page (In Progress – Jake)
-i.	Update content/ summary of site
-ii.	Header image
+  a.	Categories functionality (In Progress)
+    i.	Creating pages for categories
+      a.	Using categories layout
+        2.	Fitness - Jake
+        3.	Snow sports - Jake
+        4.	IT - Jake
+        5.	Climbing - Jake
+        6.	Music - Jake (Removed all links by Jake)
+        7.	Graphic Design -Jake (Removed all links by Jake)
+        8.	Photography - Jake (Removed all links by Jake)
+        9.	Miscellaneous  - Jake
+        10.	Travel – Jake
+    ii.	Code to display posts in THIS category in the correct Category page (DONE)
+      b.	Personal Author pages (In Progress)
+        i.	Evan update author page – (In progress - Evan)
+        1.	Social media links, bio, etc…
+    ii.	Update “view all posts by Author” link in authors pages
+        1.	New page to display all author posts
+          a.	Jake’s posts – (Jake)
+          b.	Evan’s posts – (Evan)
+  c.	Contact Us page/functionality (In Progress -Jake and Evan)
+        i.	Being able to submit using PHP page
+        ii.	Maybe use something similar to Pokstad.com (DISQUS)
+  d.	Update all Images (In progress - Jake and Evan)
+      i.	Don’t forget header and footers 
+      ii.	Change photos for Category squares
+      iii.	About page header
+  e.	Add writers image with post preview on home page
+  f.	About Us page (DONE)
+      i.	Update content/ summary of site
+      ii.	Header image
 2.	Update posts to use Post-Sidebar (In Progress)
-a.	Style format sidebar and footer for author
-b.	Update similar categories links
-c.	Update similar posts
-i.	Maybe need to make it less hardcoded in the future but we will see
-d.	Update “Share this article on social media” feature
-e.	Find a comment section for posts
+  a.	Style format sidebar and footer for author
+  b.	Update similar categories links
+  c.	Update similar posts
+      i.	Maybe need to make it less hardcoded in the future but we will see
+  d.	Update “Share this article on social media” feature
+  e.	Find a comment section for posts
 3.	Add “Read More” link on the home page to display 5 more posts under the previously shown posts  - (Evan)
 4.	Add pages to display posts written by guests
-a.	Each guest author gets their own? Need to do the same as Evan and Jake posts (possibly a “see more” link – Task above)
+  a.	Each guest author gets their own? Need to do the same as Evan and Jake posts (possibly a “see more” link – Task above)
 5.	Favorites page?
-a.	How would this page be used? Favorite/like button?
+  a.	How would this page be used? Favorite/like button?
 6.	Remove unnecessary files from Repo
 7.	Update author and category redundant pages
 8.	Change the “W” on the tabs for the site
