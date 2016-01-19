@@ -2,19 +2,19 @@
 
 1.	Change all content (categories, text, images) (In Progress)
   a.	Categories functionality (In Progress)
-    i.	Creating pages for categories
+    i.	Creating pages for categories (Might need to update picture and quote on some category pages)
       a.	Using categories layout
-        2.	Fitness - Jake
-        3.	Snow sports - Jake
-        4.	IT - Jake
-        5.	Climbing - Jake
-        6.	Music - Jake (Removed all links by Jake)
-        7.	Graphic Design -Jake (Removed all links by Jake)
-        8.	Photography - Jake (Removed all links by Jake)
-        9.	Miscellaneous  - Jake
-        10.	Travel – Jake
+        2.	Fitness - DONE
+        3.	Snow sports - DONE
+        4.	IT - DONE
+        5.	Climbing - DONE
+        6.	Music - DONE (Removed all links to this page by Jake)
+        7.	Graphic Design -DONE (Removed all links by Jake)
+        8.	Photography - DONE (Removed all links by Jake)
+        9.	Miscellaneous  - DONE
+        10.	Travel – DONE
     ii.	Code to display posts in THIS category in the correct Category page (DONE)
-      b.	Personal Author pages (In Progress)
+  b.	Personal Author pages (In Progress)
         i.	Evan update author page – (In progress - Evan)
         1.	Social media links, bio, etc…
     ii.	Update “view all posts by Author” link in authors pages
