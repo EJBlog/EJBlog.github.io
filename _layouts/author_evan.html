@@ -97,24 +97,19 @@
 
                     <div class="home-page-posts animated fadeIn ">
                         
-                            <div class = "post">
+                            
                             {% assign posts = site.posts | where: "post_author","Evan Neises" %}
                           {% for post in posts  %}
                             <article class="post">
                         
                               <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-                        
                               <div class="entry">
                                 {{ post.excerpt }}
-                              </div>
-                              
-                              <p class="meta">
-                              <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-                              </p>
+			      </div>
                             </article>
                           {% endfor %}
-                        </div>
-                        
+                     </div>
+                </div>
 
 <!--
                         <article class="post author-page">
