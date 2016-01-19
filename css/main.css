@@ -1309,7 +1309,7 @@ blockquote {
 @media (min-width: 1200px) {
   /* line 65, ../sass/partials/_single.sass */
   .single-content-sidebar {
-    padding: 30px 0 170px;
+    padding: 30px 30px 170px; <!-- Jake Changed from 30px 0 170px -->
   }
 }
 
