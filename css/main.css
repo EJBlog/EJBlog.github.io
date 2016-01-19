@@ -784,7 +784,7 @@ ol li {
 
 /* line 1, ../sass/partials/_shared.sass */
 .meta {
-  color: #b6b6b6;
+  <!--color: #b6b6b6; -->
   font-size: 14px;
   font-size: 1.4rem;
 }
