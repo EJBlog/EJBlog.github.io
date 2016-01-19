@@ -1,5 +1,5 @@
 ---
-layout: post-sidebar
+layout: post
 title: "Insert Inspirational Quote Here"
 post_date: "Jan. 6th, 2016"
 post_author: "Jake Ellis"
