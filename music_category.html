@@ -13,13 +13,13 @@ layout: music_category
 		{{ post.excerpt }}
 	      </div>
 		<p  class="meta">
-		{% if post.post_author == "Evan Neises"%}
-			By <a href="{{ site.url }}/author_evan.html">{{ post.post_author }} in <a href="{{ site.url }}/category.html">{{ post.post_category }}</a>
-		{% elsif post.post_author == "Jake Ellis"%}
-			By <a href="{{ site.url }}/author_jake.html">{{ post.post_author }} in <a href="{{ site.url }}/category.html">{{ post.post_category }}</a>
-		{% else %}
-			By <a href="{{ site.url }}/author_guest.html">{{ post.post_author }} in <a href="{{ site.url }}/category.html">{{ post.post_category }}</a>
-		{% endif %}
+			{% if post.post_author == "Evan Neises"%}
+				By <a href="{{ site.url }}/author_evan.html">{{ post.post_author }}</a> in {{ post.post_category }}
+			{% elsif post.post_author == "Jake Ellis"%}
+				By <a href="{{ site.url }}/author_jake.html">{{ post.post_author }}</a> in {{ post.post_category }}
+			{% else %}
+				By <a href="{{ site.url }}/author_guest.html">{{ post.post_author }}</a> in {{ post.post_category }}
+			{% endif %}
 		</p>
 	  {% endfor %}
 	</div>
