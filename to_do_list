@@ -20,21 +20,21 @@
     ii.	Update “view all posts by Author” link in authors pages
         1.	New page to display all author posts
           a.	Jake’s posts – (Jake)
-          b.	Evan’s posts – (Evan)
+          b.	Evan’s posts – DONE, but could look better (Evan)
   c.	Contact Us page/functionality (In Progress -Jake and Evan)
         i.	Being able to submit using PHP page
         ii.	Maybe use something similar to Pokstad.com (DISQUS)
   d.	Update all Images (In progress - Jake and Evan)
       i.	Don’t forget header and footers 
       ii.	Change photos for Category squares
-      iii.	About page header
+      iii.	About page header (DONE - takes longer to load)
   e.	Add writers image with post preview on home page (DONE)
   f.	About Us page (DONE)
       i.	Update content/ summary of site
       ii.	Header image
 2.	Update posts to use Post-Sidebar (In Progress)
   a.	Style format sidebar and footer for author
-  b.	Update similar categories links
+  b.	Update similar categories links (REMOVED for now)
   c.	Update similar posts
       i.	Maybe need to make it less hardcoded in the future but we will see
   d.	Update “Share this article on social media” feature (DONE) --This was frustrating me bc I couldn't figure it out. Works now. -Evan
