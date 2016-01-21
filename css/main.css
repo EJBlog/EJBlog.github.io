@@ -1235,7 +1235,8 @@ ol li {
 /* line 32, ../sass/partials/_single.sass */
 hr {
   display: block;
-  width: 20%;
+  /*Changed width of hr line -Evan */
+  width: 80%;
   margin: 50px auto 40px auto;
   border: 1px solid #dededc;
 }
