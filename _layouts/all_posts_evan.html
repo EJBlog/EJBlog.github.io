@@ -57,6 +57,7 @@
 
         <main class="container">
             <div class="row">
+            	<h1>Evan Neises</h1><br>
                 <div class="home-page-posts animated fadeIn ">
                         
                         {% assign posts = site.posts | where: "post_author","Evan Neises" %}
@@ -85,15 +86,15 @@
 		    <!--{% endfor %}-->
 		    
 
-                    <h2 class="favorites">Similar Posts</h2>
+   <!--                 <h2 class="favorites">Similar Posts</h2>-->
 		
-			{% for post in site.posts %}
-			<div class="similar-post">
-        			{% if page.related_post contains post.title %}
-            			<h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-        			{% endif %}
-			</div>
-			{% endfor %}
+			<!--{% for post in site.posts %}-->
+			<!--<div class="similar-post">-->
+   <!--     			{% if page.related_post contains post.title %}-->
+   <!--         			<h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>-->
+   <!--     			{% endif %}-->
+			<!--</div>-->
+			<!--{% endfor %}-->
 			
                     <!--<div class="similar-post">-->
                     <!--    <a href="post.html"><h3>Why everyone named Jake is an idiot</h3></a>-->
@@ -120,25 +121,21 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-sm-2">
-                        {% if page.post_author == "Evan Neises"%}
                         <img src="{{ site.url }}/img/ENeises1.jpg" class="user-icon " alt="user-image">
-                        {% else %}
-                        <img src="{{ site.url }}/img/jake_grandcanyon.jpg" class="user-icon " alt="user-image">
-                        {% endif %}
                     </div>
-                    <div class="col-xs-12 col-sm-4">
-                        <div class="social">
-                            <p>Share this article</a>
-                            <div class="social-links">
+                    <!--<div class="col-xs-12 col-sm-4">-->
+                    <!--    <div class="social">-->
+                    <!--        <p>Share this article</a>-->
+                    <!--        <div class="social-links">-->
                             <!-- Need to change the links below to our domain name when we buy it -->
-                                <a class="social-icon" href="#" data-platform="twitter" data-message="Check out this post!" data-url="http://ejblog.github.io{{ page.url }}"><i class="fa fa-twitter"></i></a>
+                    <!--            <a class="social-icon" href="#" data-platform="twitter" data-message="Check out this post!" data-url="http://ejblog.github.io{{ page.url }}"><i class="fa fa-twitter"></i></a>-->
 
-                                <a class="social-icon" href="#" data-platform="facebook" data-message="Check out this post!" data-url="http://ejblog.github.io{{ page.url }}"><i class="fa fa-facebook-official"></i></a>
+                    <!--            <a class="social-icon" href="#" data-platform="facebook" data-message="Check out this post!" data-url="http://ejblog.github.io{{ page.url }}"><i class="fa fa-facebook-official"></i></a>-->
 
-                                <a class="social-icon" data-platform="mail"  href="mailto:ejpersonalblog@gmail.com"><i class="fa fa-envelope"></i></a>
-                            </div>
-                        </div>
-                    </div>
+                    <!--            <a class="social-icon" data-platform="mail"  href="mailto:ejpersonalblog@gmail.com"><i class="fa fa-envelope"></i></a>-->
+                    <!--        </div>-->
+                    <!--    </div>-->
+                    <!--</div>-->
                 </div><!-- end row -->
             </div>
 
