@@ -25,6 +25,7 @@
 }
 */
 
+/*Start about page header image */
 .hero-image-about {
   height: 150px;
   width: 100%;
@@ -51,8 +52,42 @@
     height: 460px;
   }
 }
+/*End about page header image */
 
+
+/*Start Evan all-posts page header image */
+.hero-image-evan-all-posts {
+  height: 150px;
+  width: 100%;
+  background-image: url(../img/default-single-hero-with-sidebar.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (min-width: 768px) {
+  /* line 1, ../sass/partials/_single.sass */
+  .hero-image-evan-all-posts {
+    height: 300px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 1, ../sass/partials/_single.sass */
+  .hero-image-evan-all-posts {
+    height: 390px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 1, ../sass/partials/_single.sass */
+  .hero-image-evan-all-posts {
+    height: 460px;
+  }
+}
+/*Start Evan all-posts page header image */
+
+
+/*Start css modifications for Evan's author page */
 .author-evan-header {
 	text-align: center;
 	font-size: 18px;
 }
+/*End css modifications for Evan's author page */
