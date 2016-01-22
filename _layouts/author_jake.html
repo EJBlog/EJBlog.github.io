@@ -144,7 +144,7 @@
 	                            {% for post in posts%}
 	                            
 	                            {% capture postCount2 %}{{ postCount2 | plus: '1' }}{% endcapture %}
-	                            <!--{% if postCount <= postCount2 %}-->
+	                            {% if postCount <= postCount2 %}
 		                            <article class="post">
 		                            	<h1>{{postindex}}</h1>
 		                            	<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
@@ -153,9 +153,9 @@
 		                              <div class="entry">
 		                                {{ post.excerpt }}
 		                              </div>
-		   <!--                     {% else %}-->
-		   <!--                     	<p>No more Posts</p>-->
-					<!--{% endif %}-->
+		                        {% else %}
+		                        	<p>No more Posts</p>
+					{% endif %}
 		                            </article>
 	                          {% endfor %}
 			        </p>
