@@ -106,10 +106,8 @@
                     
                             {% assign posts = site.posts | where: "post_author","Jake Ellis" %}
                             {% assign postCount = '0' %}
-                            {% for post in posts limit:1 %}
+                            {% for post in posts limit:2 %}
                             
-                            {% capture postCount %}{{ postCount | plus: '1' }}{% endcapture %}
-				
                             <article class="post">
                               <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
@@ -120,8 +118,13 @@
                             </article>
                            
                           {% endfor %}
+                               
+                               {% capture postCount %}{{ postCount | plus: '1' }}{% endcapture %}
+				
                         </div>
                         
+                      {% if postCount > 1 %}
+                      
 			<script type="text/javascript">
 			 function showhide(id) 
 			 {
@@ -129,7 +132,7 @@
 			    e.style.display = (e.style.display == 'block') ? 'none' : 'block';
 			 }
 			</script>
-				
+			
 			<body>
 			    <a href="javascript:showhide('moreposts')">
 			        See more posts by Jake.
@@ -151,7 +154,7 @@
 	                          {% endfor %}
 			        </p>
 			    </div>
-			
+			{% endif %}
 			</body>
                         
                         <div class="view-all-by-author">
