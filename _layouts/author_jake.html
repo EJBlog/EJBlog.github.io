@@ -140,9 +140,9 @@
 			        <p>
 				   <!--{% assign posts = site.posts | where: "post_author","Jake Ellis" %}-->
 				   {% assign posts = site.posts %}
+				   {% assign postCount2 = '0' %}
 	                            {% for post in posts%}
 	                            
-	                            {% assign postCount2 = '0' %}
 	                            {% capture postCount2 %}{{ postCount2 | plus: '1' }}{% endcapture %}
 	                            <!--{% if postCount <= postCount2 %}-->
 		                            <article class="post">
