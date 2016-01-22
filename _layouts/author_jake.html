@@ -140,6 +140,7 @@
 				   <!--{% assign posts = site.posts | where: "post_author","Jake Ellis" %}-->
 				   {% assign posts = site.posts %}
 	                            {% for post in posts%}
+	                            {% capture postCount %}{{ postCount | plus: '1' }}{% endcapture %}
 		                            <article class="post">
 		                            	<h1>{{postindex}}</h1>
 		                            	<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
