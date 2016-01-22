@@ -105,11 +105,15 @@
                          <div class = "post">
                     
                             {% assign posts = site.posts | where: "post_author","Jake Ellis" %}
-                            {% for post in posts limit:1 %}
+                            {% assign postCount = '0' %}
+                            <!-- {% for post in posts limit:1 %} -->
                             {% assign postindex = forloop.index %}
                             
+                            {% capture postCount %}{{ postCount | plus: '1' }}{% endcapture %}
+				
                             <article class="post">
-                              <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+                              <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                              {{ postCount }}** of **{{ site.posts | size }}</h1>
 
                               <div class="entry">
                                 {{ post.excerpt }}
@@ -135,7 +139,7 @@
 			    <div id="moreposts" style="display:none;">
 			        <p>
 				   {% assign posts = site.posts | where: "post_author","Jake Ellis" %}
-	                            {% for post in posts  %}
+	                            {% for post in posts%}
 	                            <article class="post">
 	                            	<h1>{{postindex}}</h1>
 	                            <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
