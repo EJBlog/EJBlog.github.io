@@ -117,13 +117,13 @@
 
                             </article>
                            
+                            {% capture postCount %}{{ postCount | plus: '1' }}{% endcapture %}
+				
                           {% endfor %}
                                
-                               {% capture postCount %}{{ postCount | plus: '1' }}{% endcapture %}
-				
                         </div>
                         
-                      {% if postCount > 1 %}
+                      <!--{% if postCount > 1 %}-->
                       
 			<script type="text/javascript">
 			 function showhide(id) 
@@ -154,7 +154,7 @@
 	                          {% endfor %}
 			        </p>
 			    </div>
-			{% endif %}
+			<!--{% endif %}-->
 			</body>
                         
                         <div class="view-all-by-author">
