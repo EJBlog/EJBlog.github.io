@@ -105,7 +105,8 @@
                          <div class = "post">
                     
                             {% assign posts = site.posts | where: "post_author","Jake Ellis" %}
-                            
+                            {% assign postCount = '0' %}
+			    {% capture postCount %}{{ postCount | plus: '1' }}{% endcapture %}
                             {% for post in posts limit:1 %}
                    
                             <article class="post">
