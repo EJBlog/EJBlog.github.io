@@ -104,11 +104,10 @@
                         
                          <div class = "post">
                     
-                            <!--{% assign posts = site.posts | where: "post_author","Jake Ellis" %}-->
-                            {% assign posts = site.posts %}
+                            {% assign posts = site.posts | where: "post_author","Jake Ellis" %}
                             {% assign postCount = '0' %}
 			    
-                            {% for post in posts limit:1 %}
+                            {% for post in posts limit:5 %}
                    	    {% capture postCount %}{{ postCount | plus: '1' }}{% endcapture %}
                             
                             <article class="post">
@@ -138,8 +137,8 @@
 			
 			    <div id="moreposts" style="display:none;">
 			        <p>
-				   <!--{% assign posts = site.posts | where: "post_author","Jake Ellis" %}-->
-				   {% assign posts = site.posts %}
+				   {% assign posts = site.posts | where: "post_author","Jake Ellis" %}
+				   
 				   {% assign postCount2 = '0' %}
 	                            {% for post in posts%}
 	                            
