@@ -91,3 +91,9 @@
 	font-size: 18px;
 }
 /*End css modifications for Evan's author page */
+
+/*Start sidebar info modification */
+.sidebar .site-info p {
+	margin-top: 18%;
+}
+/*End sidebar info modification */
