@@ -78,7 +78,7 @@
 
 <!-- Starting main page -->
                 <section class="col-md-7 col-sm-12 col-md-offset-5 main-content">
-		    <h1>Office To Adventure</h1>
+		    <h1>Office To Adventure</h1><br>
                     <div class="sub-nav">
                         <a href="#" class="select-posts active">Posts</a>
                         <a href="#" class="select-categories">Categories</a>
@@ -89,7 +89,7 @@
     			{% for post in site.posts limit:5 %}
     			{% capture postCount %}{{ postCount | plus: '1' }}{% endcapture %}
                     
-				<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+				<h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 					<div class="col-xs-1 no-gutter pull-right">
 						{% if post.post_author == "Evan Neises" %}
 						<img src="{{ site.url }}/img/ENeises1.jpg" class="user-icon" alt="user-image">
