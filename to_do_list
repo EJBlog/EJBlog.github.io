@@ -35,11 +35,11 @@
 2.	Update posts to use Post-Sidebar (In Progress)
   a.	Style format sidebar and footer for author
   b.	Update similar categories links (REMOVED for now)
-  c.	Update similar posts
+  c.	Update similar posts (DONE)
       i.	Maybe need to make it less hardcoded in the future but we will see
   d.	Update “Share this article on social media” feature (DONE) --This was frustrating me bc I couldn't figure it out. Works now. -Evan
   e.	Find a comment section for posts
-3.	Add “Read More” link on the home page to display 5 more posts under the previously shown posts  - (Evan)
+3.	Add “Read More” link on the home page to display 5 more posts under the previously shown posts  - (Jake)
 4.	Add pages to display posts written by guests
   a.	Each guest author gets their own? Need to do the same as Evan and Jake posts (possibly a “see more” link – Task above)
 5.	Favorites page?
@@ -47,6 +47,7 @@
 6.	Remove unnecessary files from Repo
 7.	Update author and category redundant pages
 8.	Change the “W” on the tabs for the site
+9.  Select and purchase domain (DONE)
 
 
 
