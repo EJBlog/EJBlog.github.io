@@ -132,7 +132,7 @@
 			        <p>
 				   
 				   {% assign postCount2 = '0' %}
-	                            {% for post in site.posts limit:5 %}
+	                            {% for post in site.posts limit:10 %}
 	                            
 	                            {% capture postCount2 %}{{ postCount2 | plus: '1' }}{% endcapture %}
 	                            {% if postCount < postCount2 %}
