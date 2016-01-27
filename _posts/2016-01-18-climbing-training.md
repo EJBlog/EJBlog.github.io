@@ -5,6 +5,7 @@ post_date: "Jan. 18th, 2016"
 post_author: "Jake Ellis"
 post_category: "Climbing"
 post_category_link: "climbing_category"
+comments: True
 related_post: [
 	"Insert Inspirational Quote Here"
 ]
