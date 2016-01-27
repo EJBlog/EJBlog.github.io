@@ -1,7 +1,7 @@
 •	Coding/changes for Site (Prioritized highest to lowest):
 
 1.	Change all content (categories, text, images) (In Progress)
-        Might still need to update categories images and quotes
+             Might still need to update category images and quotes
     ii.	Update “view all posts by Author” link in authors pages
         1.	New page to display all author posts
           a.	Jake’s posts – (Jake)
@@ -11,12 +11,14 @@
       ii.	Change photos for Category squares
       iii.	About page header (DONE - takes longer to load)
 4.	Add pages to display posts written by guests (In Progress)
-  a.	Each guest author gets their own? Need to do the same as Evan and Jake posts (possibly a “see more” link – Task above)
+  a.	Each guest author gets their own? Need to do the same as Evan and Jake posts (possibly a “see more” link)
 5.	Favorites page?
   a.	How would this page be used? Favorite/like button?
 6.	Remove unnecessary files from Repo
 7.	Find a way to update author and category redundant scripts
 8.	Change the “W” favicon on the tabs for the site - (In progress)
+9.      Create and add logos/images for the office to adventure name (In progress)
+
 
 
 
