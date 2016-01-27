@@ -5,6 +5,7 @@ post_date: "Jan. 19th, 2016"
 post_author: "Evan Neises"
 post_category: "Fitness"
 post_category_link: "fitness_category"
+comments: True
 related_post: [
 	"Insert Inspirational Quote Here"
 ]
