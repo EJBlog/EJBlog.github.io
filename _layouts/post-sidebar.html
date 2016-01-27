@@ -84,9 +84,11 @@
       <!--              </a>-->
 		    <!--{% endfor %}-->
 		    
+		    <h2 class="favorites">Comment On This Post</h2>
+   			{% include disqus.html %}
 
                     <h2 class="favorites">Similar Posts</h2>
-		
+	
 			{% for post in site.posts %}
 			<div class="similar-post">
         			{% if page.related_post contains post.title %}
@@ -99,14 +101,14 @@
                     <!--    <a href="post.html"><h3>Why everyone named Jake is an idiot</h3></a>-->
                     <!--</div>-->
 
-			<!--{% include disqus.html %}-->
+			
 
                 </div>
             </div> <!--/row -->
 
         </main> <!-- /container -->
 	
-	{% include disqus.html %}
+	<!--{% include disqus.html %}-->
 	
         <footer class="single without-readmore">
             <div class="container">
