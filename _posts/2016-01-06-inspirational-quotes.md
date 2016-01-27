@@ -5,6 +5,7 @@ post_date: "Jan. 6th, 2016"
 post_author: "Jake Ellis"
 post_category: "Miscellaneous"
 post_category_link: "misc_category"
+comments: True
 ---
 
 We all see these, so called, "inspirational quotes" all over our social media feed at any given time.. but why must I read them all?! <!--endpreview--> 
