@@ -1,53 +1,23 @@
 •	Coding/changes for Site (Prioritized highest to lowest):
 
 1.	Change all content (categories, text, images) (In Progress)
-  a.	Categories functionality (In Progress)
-    i.	Creating pages for categories (Might need to update picture and quote on some category pages)
-      a.	Using categories layout
-        2.	Fitness - DONE
-        3.	Snow sports - DONE
-        4.	IT - DONE
-        5.	Climbing - DONE
-        6.	Music - DONE (Removed all links to this page by Jake)
-        7.	Graphic Design -DONE (Removed all links by Jake)
-        8.	Photography - DONE (Removed all links by Jake)
-        9.	Miscellaneous  - DONE
-        10.	Travel – DONE
-    ii.	Code to display posts in THIS category in the correct Category page (DONE)
-  b.	Personal Author pages (DONE)
-        i.	Evan update author page – (DONE)
-        1.	Social media links, bio, etc…
+        Might still need to update categories images and quotes
     ii.	Update “view all posts by Author” link in authors pages
         1.	New page to display all author posts
           a.	Jake’s posts – (Jake)
           b.	Evan’s posts – DONE, but could look better (Evan)
-  c.	Contact Us page/functionality (In Progress -Jake and Evan)
-        i.	Being able to submit using PHP page
-        ii.	Maybe use something similar to Pokstad.com (DISQUS)
   d.	Update all Images (In progress - Jake and Evan)
       i.	Don’t forget header and footers 
       ii.	Change photos for Category squares
       iii.	About page header (DONE - takes longer to load)
-  e.	Add writers image with post preview on home page (DONE)
-  f.	About Us page (DONE)
-      i.	Update content/ summary of site
-      ii.	Header image
-2.	Update posts to use Post-Sidebar (In Progress)
-  a.	Style format sidebar and footer for author
-  b.	Update similar categories links (REMOVED for now)
-  c.	Update similar posts (DONE)
-      i.	Maybe need to make it less hardcoded in the future but we will see
-  d.	Update “Share this article on social media” feature (DONE) --This was frustrating me bc I couldn't figure it out. Works now. -Evan
-  e.	Find a comment section for posts
-3.	Add “Read More” link on the home page to display 5 more posts under the previously shown posts  - (Jake)
-4.	Add pages to display posts written by guests
+4.	Add pages to display posts written by guests (In Progress)
   a.	Each guest author gets their own? Need to do the same as Evan and Jake posts (possibly a “see more” link – Task above)
 5.	Favorites page?
   a.	How would this page be used? Favorite/like button?
 6.	Remove unnecessary files from Repo
-7.	Update author and category redundant pages
-8.	Change the “W” on the tabs for the site
-9.  Select and purchase domain (DONE)
+7.	Find a way to update author and category redundant scripts
+8.	Change the “W” favicon on the tabs for the site - (In progress)
+
 
 
 
@@ -69,5 +39,41 @@ o	Might not use header images on each post
 •	Create a page for friend’s posts to be stored
 -	Jake author bio page –done
 •	Social media links, bio, etc…
-
-
+a.	Categories functionality (In Progress)
+    i.	Creating pages for categories (Might need to update picture and quote on some category pages)
+      a.	Using categories layout
+        2.	Fitness - DONE
+        3.	Snow sports - DONE
+        4.	IT - DONE
+        5.	Climbing - DONE
+        6.	Music - DONE (Removed all links to this page by Jake)
+        7.	Graphic Design -DONE (Removed all links by Jake)
+        8.	Photography - DONE (Removed all links by Jake)
+        9.	Miscellaneous  - DONE
+        10.	Travel – DONE
+    ii.	Code to display posts in THIS category in the correct Category page (DONE)
+  b.	Personal Author pages (DONE)
+        i.	Evan update author page – (DONE)
+        1.	Social media links, bio, etc…
+  c.	Contact Us page/functionality (DONE-Jake and Evan)
+        i.	Being able to submit using PHP page - Dont not work on static pages
+        ii.	Implement formspree (DONE - Evan)
+  e.	Add writers image with post preview on home page (DONE)
+    f.	About Us page (DONE)
+      i.	Update content/ summary of site
+      ii.	Header image      
+  2.	Update posts to use Post-Sidebar (DONE)
+  a.	Style format sidebar and footer for author - (DONE)
+  b.	Update similar categories links (Done - REMOVED for now)
+  c.	Update similar posts (DONE - Removed for now)
+      i.	Maybe need to make it less hardcoded in the future but we will see
+  d.	Update “Share this article on social media” feature (DONE) --This was frustrating me bc I couldn't figure it out. Works now. -Evan
+  e.	Find a comment section for posts - Disqus implemented by Evan (DONE)      
+  
+3.	Add “Read More” link on the home page to display 5 more posts under the previously shown posts  - (Jake - DONE but will need to be updated)      
+  9.  Select and purchase domain (DONE)      
+        
+        
+        
+        
+        
