@@ -3,8 +3,19 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Blog Post</title>
-        <meta name="description" content="">
+        
+        <title>
+  	{% if page.title %}
+    		{{ page.title }}
+  	{% else %}
+    		Blog Post
+  	{% endif %}
+	</title>
+	
+        {% if page.description %}
+  	<meta name="description" content="{{ page.description }}" />
+	{% endif %}
+	
         <meta name="viewport" content="width=device-width">
 
         <link rel="stylesheet" href="{{ site.url }}/css/bootstrap.min.css">
@@ -35,7 +46,6 @@
                         <li><i class="fa fa-user"></i><a href="{{ site.url }}/author_evan.html">Evan Neises</a></li>
 			<li><i class="fa fa-user"></i><a href="{{ site.url }}/author_jake.html">Jake Ellis</a></li>
                         <li><i class="fa fa-anchor"></i><a href="{{ site.url }}/about.html">About</a></li>
-                        <li><i class="fa fa-star"></i><a href="{{ site.url }}/favorites.html">Favorites</a></li>
                         <li><i class="fa fa-paper-plane"></i><a href="{{ site.url }}/contact.html">Contact</a></li>
                     </ul>
                 </div>
@@ -48,7 +58,6 @@
                     <li><i class="fa fa-user"></i><a href="{{ site.url }}/author_evan.html">Evan Neises</a></li>
 		    <li><i class="fa fa-user"></i><a href="{{ site.url }}/author_jake.html">Jake Ellis</a></li>
                     <li><i class="fa fa-anchor"></i><a href="{{ site.url }}/about.html">About</a></li>
-                    <li><i class="fa fa-star"></i><a href="{{ site.url }}/favorites.html">Favorites</a></li>
                     <li><i class="fa fa-paper-plane"></i><a href="{{ site.url }}/contact.html">Contact</a></li>
                 </ul>
                 <hr>
@@ -73,7 +82,9 @@
             </div> <!--/row -->
 
         </main> <!-- /container -->
-
+	
+	{% include disqus.html %}
+	
         <footer class="single">
             <div class="container">
                 <div class="row">
