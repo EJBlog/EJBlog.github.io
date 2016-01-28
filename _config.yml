@@ -11,3 +11,5 @@ baseurl: ""
 excerpt_separator: <!--endpreview-->
 
 disqus: officetoadventure.disqus.com
+
+permalink: /blog/:year/:month/:day/:title/
