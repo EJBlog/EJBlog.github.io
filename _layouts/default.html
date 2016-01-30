@@ -87,7 +87,7 @@
 
                     <div class="home-page-posts animated fadeIn ">
     			{% assign postCount = '0' %}
-    			{% for post in site.posts limit:1 %}
+    			{% for post in site.posts limit:4 %}
     			{% capture postCount %}{{ postCount | plus: '1' }}{% endcapture %}
                     
 				<h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
@@ -112,7 +112,7 @@
 						
 		      		</div>
 				</p>
-				<hr>     <a name="jump"></a>
+				<hr>     
 			{% endfor %}
 		    
 		   
