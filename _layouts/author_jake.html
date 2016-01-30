@@ -128,13 +128,13 @@
 			</script>
 			
 			<body>
-			    <a href="javascript:showhide('moreposts')" class="meta">
+			    <a href="javascript:showhide('moreposts')#top" class="meta">
 			    	<a href="top">top</a>
 			        See more posts by Jake.
 			    </a>
 			
 			    <div id="moreposts" style="display:none;">
-			    	<a name=top>
+			    	<a name="top">
 			        <p>
 				   {% assign posts = site.posts | where: "post_author","Jake Ellis" %}
 				   
