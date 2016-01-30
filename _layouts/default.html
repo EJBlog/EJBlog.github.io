@@ -114,11 +114,7 @@
 				</p>
 				<hr>     
 			{% endfor %}
-		    </div>
 		    
-		    <a name="jump"></a>		
-		    
-		    <div class="home-page-posts animated fadeIn ">
 			<script type="text/javascript">
 			 function showhide(id) 
 			 {
@@ -134,7 +130,8 @@
 			
 			    <div id="moreposts" style="display:none;">
 			        <p>
-				   
+				  <a name="jump"></a>	
+				  
 				   {% assign postCount2 = '0' %}
 	                            {% for post in site.posts limit:10 %}
 	                            
