@@ -33,7 +33,11 @@ Lastly, all of these supplements began to get expensive.
 <p>
 While writing this I am thinking, "I sound like a hypocrite. I want the results but I don't want to use what everyone else has proven will work."
 With that being said, I decided I am going to go with a different route. I love to eat but with my high metabolism and love of sports (which means cardio) I need to eat over 4000 calories a day.
-Thats a lot of food. I mean, I love to eat but cmon... So I used <a href="www.bodybuilding.com">Body Building dot com</a> to help me find some meals to prepare each week in order to consume the calories I want.
+Thats a lot of food. I mean, I love to eat but cmon... So I used <a href="www.bodybuilding.com">Body Building dot com</a> to help me find some meals to prepare each week in order to consume the calories I want. 
+</p>
+
+<p>
+Since I have started this meal plan, I feel better and have gained weight each week.
 </p>
 
 <p>
