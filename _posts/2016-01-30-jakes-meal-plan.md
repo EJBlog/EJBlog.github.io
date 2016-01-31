@@ -57,6 +57,7 @@ Here is my daily meal plan:
   <li>Fruit of Choice</li>
   <li>1 serving of roasted almonds</li>
   <li>1 serving of peanuts</li>
+  <li>PB&J sandwhich on whole wheat</li>
   </ul>
   
   <li>Pre Workout:</li>
