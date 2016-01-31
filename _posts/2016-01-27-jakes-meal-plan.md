@@ -20,10 +20,10 @@ When I say "consistently", I mean going to the gym an average of no less than fo
 When I started going to the gym I weighed about 170lbs and was lifting a respectable amount but all of my major lifts were under my body weight. 
 Now, after three years, I weigh about 185lbs I am happy to say I can dead lift, squat, and bench press well past my body weight. 
 Some people may say "why did it take you so long?" or "three years is a long time" and I say that is fine. 
-I am not training to be a body builder or a model or anything other than a strong and healthier me. 
+I am not training to be a body builder or a model or anything other than a stronger and healthier me. 
 </p>
 <p>
-Throughout the last few years I have taken protein shakes, pre workout supplements, creatine powders, and BACCs and I didn't see the results I was hoping for. 
+Throughout the last few years I have taken protein shakes, pre workout supplements, creatine powders, and BACCs but I didn't see the results I was hoping for. 
 The pre workout drinks made me jittery and every week I felt like I needed to double the serving size. The protein shakes varied from high calorie to low calorie; 
 Chocolate, vanilla, and cookies and cream; Kroger brand and <a href="http://www.musclepharm.com/">Muscle Pharm</a>. No matter what type it was, the protein shakes always ended up getting old and began making me sick to my stomach.
 Creatine powders always seemed pointless to me as it always came with the "its just water weight" line. The BACCs tasted great, although I didn't want to be that guy carrying around a water bottle of a red drink while lifting.
