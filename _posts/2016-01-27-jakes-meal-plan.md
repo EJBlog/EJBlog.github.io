@@ -41,10 +41,47 @@ Here is my daily meal plan:
 
 <ol>
   <li>Breakfast:</li>
-  <li>Breakfast:</li>
-  <li>Breakfast:</li>
-  <li>Breakfast:</li>
-  <li>Breakfast:</li>
+  <ul>
+  <li>2 whole large eggs</li>
+  <li>6 servings of egg whites (Egg Beaters)</li>
+  <li>Mild salsa for vegis and topping for eggs</li>
+  <li>Chewy granola bar</li>
+  </ul>
+  
+  <li>Pre Lunch:</li>
+  <ul>
+  <li>Fruit of Choice</li>
+  <li>1 serving of roasted almonds</li>
+  <li>1 serving of peanuts</li>
+  </ul>
+  
+  <li>Pre Workout:</li>
+  <ul>
+  <li>8 ounce chicken breast with sauce of choice</li>
+  <li>Half of a sweet potatoe</li>
+  <li>Baby spinach salad with dressing</li>
+  </ul>
+  
+  <li>Post Workout:</li>
+  <ul>
+  <li>Deli style turkey sandwhich with 2 slices of cheese on whole wheat bread</li>
+  <li>Activia yogurt</li>
+  <li>fruit of choice</li>
+  <li>chewy granola bar</li>
+  </ul>
+  
+  <li>Dinner:</li>
+  <ul>
+  <li>2 cups of rice (cooked - 1/2 cup uncooked)</li>
+  <li>8 ounces of lean meat of choice (beef or venison)</li>
+  <li>Granola</li>
+  <li>.....Maybe a beer or some icecream</li>
+  </ul>
+  
+  <li>Before Bed:</li>
+    <ul>
+  <li>12 ounce cup of 2% or whole milk</li>
+  </ul>
 </ol>
 </p>
 
