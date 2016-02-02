@@ -17,16 +17,9 @@
 		<![endif]-->
 
         <script src="js/vendor/modernizr.custom.32229-2.8-respondjs-1-4-2.js"></script>
-        {% include google_analytics.html %}
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         
-        <script>
-	function validateForm() {
-    	var x = document.forms["contactform"]["name"].value;
-    	if (x == null || x == "") {
-        alert("Please enter your name.");
-        return false;
-	 }  }
-	</script>
+        {% include google_analytics.html %}
 	
     </head>
     <body >
