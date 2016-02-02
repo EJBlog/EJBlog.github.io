@@ -106,7 +106,8 @@
 /*Start Disqus comment section modification */
 
 /*Start error message validation modification */
-#form label.error {
+#contactform label.error {
 	color: red;
+	font-size: 16px;
 }
 /*End error message validation modification */
