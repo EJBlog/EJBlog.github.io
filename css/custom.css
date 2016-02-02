@@ -106,11 +106,6 @@
 /*Start Disqus comment section modification */
 
 /*Start error message validation modification */
-.error {
-	font-size: 16px;
-	color: red;
-}
-
 #form label.error {
 	color: red;
 }
