@@ -12,8 +12,10 @@ $(document).ready(function () {
               message: {
                   required: true
               }
+           },
+           submitHandler: function(form) {
+            form.submit();
            }
-         
        });
      
      
