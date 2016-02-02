@@ -110,4 +110,8 @@
 	font-size: 16px;
 	color: red;
 }
+
+#form label.error {
+	color: red;
+}
 /*End error message validation modification */
