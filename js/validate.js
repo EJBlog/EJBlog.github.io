@@ -1,6 +1,36 @@
 $(document).ready(function () {
-     validate();
-    $('#name, #email, #message').change(validate);
+     
+     
+//      validate();
+//    $('#name, #email, #message').change(validate);
+     
+     $('#contactform').validate({ // initialize the plugin
+ -          rules: {
+ -              name: {
+ -                  required: true,
+ -              },
+ -              email: {
+ -                  required: true,
+ -                  email: true
+ -              },
+ -              message: {
+ -                  required: true
+ -              }
+ -           },
+ -           messages: {
+ -              name: "Please enter your name.",
+ -              email: "Please enter a valid email address.",
+ -              message: "Please enter a message."
+ -               }
+ -            },
+ -           submitHandler: function(form) { 
+ -            $(".submit").attr("disabled", true);
+ -            form.submit();
+ -           }
+ -       });
+     
+     
+     
      
      // var name = false;
      // var email = false;
@@ -96,13 +126,13 @@ $(document).ready(function () {
  
   });
   
-  function validate(){
-    if ($('#name').val().length   >   0   &&
-        $('#email').val().length  >   0   &&
-        $('#message').val().length    >   0) {
-        $("input[type=submit]").prop("disabled", false);
-    }
-    else {
-        $("input[type=submit]").prop("disabled", true);
-    }
-}
+//   function validate(){
+//    if ($('#name').val().length   >   0   &&
+//         $('#email').val().length  >   0   &&
+//         $('#message').val().length    >   0) {
+//         $("input[type=submit]").prop("disabled", false);
+//    }
+//    else {
+//         $("input[type=submit]").prop("disabled", true);
+//    }
+// }
