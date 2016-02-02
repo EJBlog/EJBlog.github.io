@@ -104,3 +104,10 @@
 /*	padding-right: 7%;*/
 /*}*/
 /*Start Disqus comment section modification */
+
+/*Start error message validation modification */
+.error {
+	font-size: 16px;
+	color: red;
+}
+/*End error message validation modification */
