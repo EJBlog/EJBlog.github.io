@@ -4,7 +4,7 @@ $(document).ready(function () {
     var message = false;
 
 
-    $('#appName').trigger('blur');
+    // $('#appName').trigger('blur');
 
     var pattern = /^[a-z0-9 ]+$/i;
     var emailpattern = /^[a-z0-9@. ]+$/i;
@@ -22,12 +22,12 @@ $(document).ready(function () {
 
     function disabledNext() {
         if (name == true && email == true && message == true) {
-            $('#btnNext').removeAttr('disabled');
+            $('#send').removeAttr('disabled');
         } else {
-            $('#btnNext').attr('disabled', 'disabled');
+            $('#send').attr('disabled', 'disabled');
         }
     }
-    $('#btnNext').removeAttr('disabled');
+    $('#send').removeAttr('disabled');
 
     $('#name').load('input', function () {
         if (this.value.length != 0) {
