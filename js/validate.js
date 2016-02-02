@@ -13,7 +13,14 @@ $(document).ready(function () {
                   required: true
               }
            },
-           submitHandler: function(form) {
+           messages: {
+              name: "Please enter your name.",
+              email: "Please enter a valid email address.",
+              message: "Please enter a message."
+               }
+            },
+           submitHandler: function(form) { 
+            $(".submit").attr("disabled", true);
             form.submit();
            }
        });
