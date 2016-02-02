@@ -5,29 +5,29 @@ $(document).ready(function () {
 //    $('#name, #email, #message').change(validate);
      
      $('#contactform').validate({ // initialize the plugin
- -          rules: {
- -              name: {
- -                  required: true,
- -              },
- -              email: {
- -                  required: true,
- -                  email: true
- -              },
- -              message: {
- -                  required: true
- -              }
- -           },
- -           messages: {
- -              name: "Please enter your name.",
- -              email: "Please enter a valid email address.",
- -              message: "Please enter a message."
- -               }
- -            },
- -           submitHandler: function(form) { 
- -            $(".submit").attr("disabled", true);
- -            form.submit();
- -           }
- -       });
+          rules: {
+               name: {
+                   required: true,
+               },
+               email: {
+                   required: true,
+                   email: true
+               },
+               message: {
+                   required: true
+               }
+            },
+            messages: {
+               name: "Please enter your name.",
+               email: "Please enter a valid email address.",
+               message: "Please enter a message."
+                }
+             },
+            submitHandler: function(form) { 
+             $(".submit").attr("disabled", true);
+             form.submit();
+            }
+        });
      
      
      
