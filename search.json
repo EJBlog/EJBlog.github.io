@@ -1,3 +1,8 @@
+---
+---
+
+
+
 [
   {% for post in site.posts %}
     {
@@ -6,7 +11,7 @@
       "tags"     : "{{ post.tags | join: ', ' }}",
       "url"      : "{{ site.baseurl }}{{ post.url }}",
       "date"     : "{{ post.date }}"
-      "content"  : "{{ page.content | strip_html | strip_newlines | remove_chars | escape }}"
+      "content"  : "{{ page.content | jsonify }}"
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]
