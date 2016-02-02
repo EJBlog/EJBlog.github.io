@@ -4,7 +4,25 @@ $(document).ready(function () {
 //      validate();
 //    $('#name, #email, #message').change(validate);
      
-
+     jQuery(function($) {
+  var validator = $('#contactform').validate({
+    rules: {
+      name: {
+        required: true
+      },
+      email: {
+        required: true,
+        email: true
+      },
+      message: {
+        required: true    
+      }
+    },
+    messages: {},
+    errorElement : 'div',
+    errorLabelContainer: '.error'
+  });
+});
      
      
      
