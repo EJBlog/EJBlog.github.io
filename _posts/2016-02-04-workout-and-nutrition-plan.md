@@ -24,10 +24,10 @@ I am definitely eating more than I use to and I can see the progress, but it tak
 In the past six months or so, after starting my full-time, post-graduate job, I have invested more in supplements to help reach my workout goals. 
 In the past, I have taken whey protein, mass gainers and pre-workouts. I am currently taking Optimum Nutrition (ON) Pro Gainer, ON Gold Standard casein protein (before bed), Shatter pre-workout, and ON daily multi-vitamins. 
 I recently started buying more from Optimum Nutrition because they offer affordable, quality products online. <br>
-<img src=”img/IMG_0199.jpg”>
+<img src="{{ site.url }}/img/IMG_0199.jpg">
 I tend to switch up my purchases after finishing each product to find out what works best for me, but this combination is working great so far. 
 I would highly recommend shopping Optimum Nutrition if you’re looking for a good price and good product. 
-You can find their products <a href=”http://www.optimumnutrition.com/”> here</a> or  <a href=”http://www.bodybuilding.com/store/opt/opt.htm”> here</a>.
+You can find their products <a href="http://www.optimumnutrition.com/"> here </a>or<a href="http://www.bodybuilding.com/store/opt/opt.htm"> here</a>.
 <br>
 In regards to my meal plan, I enjoy meal prepping for the week on Sunday or Monday night. 
 I tend to stick with lots of chicken, vegetables, brown rice, and sometimes mashed potatoes. 
@@ -35,11 +35,11 @@ I usually prepare salads for the week also. Along with that, I really enjoy milk
 I only prepare the meals I will be eating during work hours and then dinner always varies. 
 The weekends usually consist of cooking whatever is left in the fridge or going out for dinner, but the week is a bit more organized. 
 As an example, this week I made chicken wraps on whole wheat tortillas, corn, green beans, and brown rice along with a salad. <br>
-<img src=”img/IMG_0194.jpg”> <img src=”img/IMG_5304.jpg”>
+<img src="{{ site.url }}/img/IMG_0194.jpg"> <img src="{{ site.url }}/img/IMG_5304.jpg">
 <br>
 On top of this, I typically drink 3-4 protein shakes day. 
 In the morning, I take half a serving of my ON mass gainer, sometimes another half serving in the afternoon, a full serving after working out, and a scoop of casein protein before going to bed. 
 Because of these workout and nutrition plans, I have made great progress in my overall fitness goals. <br><br>
 
-You can find my current workout plan (Jim Stoppani’s 12-Week Shortcut To Size) <a href=”http://www.bodybuilding.com/fun/shortcut-to-size.html”>here</a>.
+You can find my current workout plan (Jim Stoppani’s 12-Week Shortcut To Size) <a href="http://www.bodybuilding.com/fun/shortcut-to-size.html">here</a>.
 
