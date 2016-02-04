@@ -113,7 +113,7 @@
 /*End error message validation modification */
 
 /*Start post image modifications*/
-.post-image {
+.post-image img{
 	width: 50%;
 }
 /*End post image modifications*/
