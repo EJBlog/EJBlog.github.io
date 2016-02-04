@@ -1386,14 +1386,16 @@ blockquote {
 
 /* line 121, ../sass/partials/_single.sass */
 footer.single {
-  padding: 40px 0 0 0;
-  background-color: #F5F5F5;
-  border-top: solid 1px #E9E9E9;
+  /*Commenting out these lines. -Evan */
+  
+  /*padding: 40px 0 0 0;*/
+  /*background-color: #F5F5F5;*/
+  /*border-top: solid 1px #E9E9E9;*/
   text-align: center;
 }
 /* line 127, ../sass/partials/_single.sass */
 footer.single.without-readmore {
-  padding: 40px 0 40px 0;
+  /*padding: 40px 0 40px 0;*/
 }
 @media (min-width: 768px) {
   /* line 121, ../sass/partials/_single.sass */
