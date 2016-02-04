@@ -36,7 +36,7 @@ I usually prepare salads for the week also. Along with that, I really enjoy milk
 I only prepare the meals I will be eating during work hours and then dinner always varies. 
 The weekends usually consist of cooking whatever is left in the fridge or going out for dinner, but the week is a bit more organized. 
 As an example, this week I made chicken wraps on whole wheat tortillas, corn, green beans, and brown rice along with a salad. <br>
-<img src="{{ site.url }}/img/IMG_0194.jpg" style="width: 50%"> <img src="{{ site.url }}/img/IMG_5304.jpg" style="width: 50%">
+<img src="{{ site.url }}/img/IMG_0194.jpg" style="width: 50%"> <img src="{{ site.url }}/img/IMG_5304.jpg" style="width: 50%; float: right;">
 <br>
 On top of this, I typically drink 3-4 protein shakes day. 
 In the morning, I take half a serving of my ON mass gainer, sometimes another half serving in the afternoon, a full serving after working out, and a scoop of casein protein before going to bed. 
