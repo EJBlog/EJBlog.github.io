@@ -15,9 +15,9 @@ Phase 3, Week 9, Day 60 of Jim Stoppani’s “12-Week Shortcut To Size.” <!--
 That’s where I’m at currently in the world of fitness. To start, I wouldn’t say I’m using this workout plan as any type of “shortcut.” 
 It was just the next plan I researched and chose based on the mixture of high rep weeks to build leaner muscle and burn fat, follow by low rep, high weight weeks to help put on some mass (or at least attempt to). 
 <br><br>
-The reason I say “at least attempt to” is because I would consider myself a hardgainer. 
+The reason I say “at least attempt to” is because I would consider myself a <b><a href="https://en.wikipedia.org/wiki/Hardgainer">hardgainer</a></b>. 
 I know some people will say that those who think they are hardgainers just aren’t trying hard enough. 
-Well I’ve been steadily working out 4-5 times a week for over two years now, eating much more (and healthier), and SLOWLY putting on weight and mass. 
+Well I’ve been steadily working out 4-5 times a week for over two years now, eating much more (and healthier), and <b>SLOWLY</b> putting on weight and mass. 
 I guess I could always try those nutrition plans that tell you to eat like 27 meals a day (maybe a bit exaggerated), but I don’t think my body or bank account would agree with that. 
 I am definitely eating more than I use to and I can see the progress, but it takes time.
 <br><br>
