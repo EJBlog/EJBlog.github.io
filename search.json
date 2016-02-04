@@ -2,7 +2,7 @@
 ---
 
 [
-  {% if page.url == "/all_posts_jake.html" %}
+  {% if page.url == "/2016/01/31/preparing_for_utah_ski.html" %}
     {% assign posts = site.posts | where: "post_author","Jake Ellis" %}
   {% elsif page.url == "/all_posts_evan.html" %}
     {% assign posts = site.posts | where: "post_author","Evan Neises" %}
