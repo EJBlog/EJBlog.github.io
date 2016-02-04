@@ -2,7 +2,15 @@
 layout: null
 ---
 [
-  {% for post in site.posts %}
+  {% if page.url == "/all_posts_jake.html" %}
+    {% assign posts = site.posts | where: "post_author","Jake Ellis" %}
+  {% elsif page.url == "/all_posts_evan.html" %}
+    {% assign posts = site.posts | where: "post_author","Evan Neises" %}
+  {% else  %}
+    {% assign posts = site.posts %}
+  {% endif %}
+  
+  {% for post in posts %}
     {
       "title"    : "{{ post.title | escape }}",
       "category" : "{{ post.category }}",
