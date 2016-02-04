@@ -77,17 +77,6 @@
                     </div>
                 </section><!-- end sidebar -->
 
-<!-- Starting main page -->
-                <section class="col-md-7 col-sm-12 col-md-offset-5 main-content">
-		    <img src="img/ota_mtn_logo.jpg"><br><br>
-		   
-                    <div class="sub-nav">
-                        <a href="#" class="select-posts active">Posts</a>
-                        <a href="#" class="select-categories">Categories</a>
-                    </div>
-
-                    <div class="home-page-posts animated fadeIn ">
-                    	
 <!--Search-->
 		<h4>Search Posts</h4>
 	            <!-- Html Elements for Search -->
@@ -113,6 +102,16 @@
 			    </script>
 <!--End Search-->
 
+<!-- Starting main page -->
+                <section class="col-md-7 col-sm-12 col-md-offset-5 main-content">
+		    <img src="img/ota_mtn_logo.jpg"><br><br>
+		   
+                    <div class="sub-nav">
+                        <a href="#" class="select-posts active">Posts</a>
+                        <a href="#" class="select-categories">Categories</a>
+                    </div>
+
+                    <div class="home-page-posts animated fadeIn ">
                     	
     			{% assign postCount = '0' %}
     			{% for post in site.posts limit:5 %}
