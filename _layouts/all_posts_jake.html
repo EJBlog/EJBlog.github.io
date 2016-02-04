@@ -64,6 +64,7 @@
             <!-- Html Elements for Search -->
 		<div id="search-container">
 		<input type="text" id="search-input" placeholder="Search...">
+		<input type='hidden' id="search-input" value="Jake Ellis"
 		<ul id="results-container"></ul>
 		</div>
 
@@ -75,8 +76,7 @@
         searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('results-container'),
         json: '{{ site.url }}/search.json',
-        searchResultTemplate: '<li><a href="{url}"  target="_blank">{title}</a></li>',
-        // title="{desc}"
+        searchResultTemplate: '<li><a href="{url}" title="{desc}"  target="_blank">{title}</a></li>',
         noResultsText: 'No results found',
         limit: 10,
         fuzzy: false,
