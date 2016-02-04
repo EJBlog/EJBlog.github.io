@@ -24,9 +24,7 @@ I am definitely eating more than I use to and I can see the progress, but it tak
 In the past six months or so, after starting my full-time, post-graduate job, I have invested more in supplements to help reach my workout goals. 
 In the past, I have taken whey protein, mass gainers and pre-workouts. I am currently taking Optimum Nutrition (ON) Pro Gainer, ON Gold Standard casein protein (before bed), Shatter pre-workout, and ON daily multi-vitamins. 
 I recently started buying more from Optimum Nutrition because they offer affordable, quality products online. <br>
-<div class="post-image">
-<img src="{{ site.url }}/img/IMG_0199.jpg">
-</div>
+<img src="{{ site.url }}/img/IMG_0199.jpg" style="width: 50%">
 <br>
 I tend to switch up my purchases after finishing each product to find out what works best for me, but this combination is working great so far. 
 I would highly recommend shopping Optimum Nutrition if you’re looking for a good price and good product. 
@@ -38,9 +36,7 @@ I usually prepare salads for the week also. Along with that, I really enjoy milk
 I only prepare the meals I will be eating during work hours and then dinner always varies. 
 The weekends usually consist of cooking whatever is left in the fridge or going out for dinner, but the week is a bit more organized. 
 As an example, this week I made chicken wraps on whole wheat tortillas, corn, green beans, and brown rice along with a salad. <br>
-<div class="post-image">
-<img src="{{ site.url }}/img/IMG_0194.jpg"> <img src="{{ site.url }}/img/IMG_5304.jpg">
-</div>
+<img src="{{ site.url }}/img/IMG_0194.jpg" style="width: 50%"> <img src="{{ site.url }}/img/IMG_5304.jpg" style="width: 50%">
 <br>
 On top of this, I typically drink 3-4 protein shakes day. 
 In the morning, I take half a serving of my ON mass gainer, sometimes another half serving in the afternoon, a full serving after working out, and a scoop of casein protein before going to bed. 
