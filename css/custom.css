@@ -111,3 +111,9 @@
 	font-size: 16px;
 }
 /*End error message validation modification */
+
+/*Start post image modifications*/
+.post-image {
+	width: 50%;
+}
+/*End post image modifications*/
