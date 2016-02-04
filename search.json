@@ -2,21 +2,12 @@
 ---
 
 [
-  {% if page.url == "/2016/01/31/preparing_for_utah_ski.html" %}
-    {% assign posts = site.posts | where: "post_author","Jake Ellis" %}
-  {% elsif page.url == "/all_posts_evan.html" %}
-    {% assign posts = site.posts | where: "post_author","Evan Neises" %}
-  {% else  %}
-    {% assign posts = site.posts %}
-  {% endif %}
-  
-  {% for post in posts %}
+
     {
       "title"    : "{{ post.title | escape }}",
       "category" : "{{ post.post_category }}",
       "url"      : "{{ site.baseurl }}{{ post.url }}",
       "date"     : "{{ post.date }}",
       "author"   : "{{ post.post_author }}"
-    } {% unless forloop.last %},{% endunless %}
-  {% endfor %}
+    } 
 ]
