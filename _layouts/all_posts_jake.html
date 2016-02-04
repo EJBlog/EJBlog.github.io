@@ -59,6 +59,17 @@
         <main class="container">
             <div class="row">
             	<h1>Jake Ellis</h1><br>
+            	<h1>
+            		  {% if page.url == "/all_posts_jake.html" %}
+			    {{ Jake }}
+			  {% elsif page.url == "/all_posts_evan.html" %}
+			    {{ Evan }}
+			  {% else %}
+			    {{ Ghosts }}
+  			{% endif %}
+            		
+            		
+            	</h1>
 <!--Search-->
             <!-- Html Elements for Search -->
 		<div id="search-container">
