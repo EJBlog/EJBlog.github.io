@@ -13,10 +13,10 @@
   {% for post in posts %}
     {
       "title"    : "{{ post.title | escape }}",
-      "post_category" : "{{ post.category }}",
+      "category" : "{{ post.post_category }}",
       "url"      : "{{ site.baseurl }}{{ post.url }}",
       "date"     : "{{ post.date }}",
-      "post_author"   : "{{ post.author }}"
+      "author"   : "{{ post.post_author }}"
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]
