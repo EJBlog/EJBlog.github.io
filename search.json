@@ -5,7 +5,7 @@
     {
       "title"    : "{{ post.title | escape }}",
       "category" : "{{ post.post_category }}",
-      "url"      : "{{ page.url }}{{ page.url }}",
+      "url"      : "",
       "date"     : "{{ post.date }}",
       "author"   : "{{ post.post_author }}"
     } {% unless forloop.last %},{% endunless %}
