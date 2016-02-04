@@ -7,11 +7,11 @@
   {% else  %}
     {% assign posts = site.posts %}
   {% endif %}
-  {% for postz in site.posts %}
+  {% for post in site.posts %}
     {
       "title"    : "{{ post.title | escape }}",
       "category" : "{{ post.post_category }}",
-      "url"      : "{{ page.url }}{{ post.url }}",
+      "url"      : "{{ page.url }}{{ page.url }}",
       "date"     : "{{ post.date }}",
       "author"   : "{{ post.post_author }}"
     } {% unless forloop.last %},{% endunless %}
