@@ -1,5 +1,4 @@
 ---
-layout: null
 ---
 [
   {% if page.url == "/all_posts_jake.html" %}
