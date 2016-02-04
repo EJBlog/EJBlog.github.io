@@ -12,7 +12,7 @@
       "title"    : "{{ post.title | escape }}",
       "category" : "{{ post.post_category }}",
       "url"      : "{{post.url}}",
-      "page_url" : "{{page.url}}"
+      "page_url" : "{{page.url}}",
       "date"     : "{{ post.date }}",
       "author"   : "{{ post.post_author }}"
     } {% unless forloop.last %},{% endunless %}
