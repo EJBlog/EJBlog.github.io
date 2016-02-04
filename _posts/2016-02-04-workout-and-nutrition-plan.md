@@ -11,7 +11,7 @@ related_post: [
 	"Investing In Your Body"
 ]
 ---
-Phase 3, Week 9, Day 60 of Jim Stoppani’s “12-Week Shortcut To Size.” <!-- endpreview --> 
+Phase 3, Week 9, Day 60 of Jim Stoppani’s “12-Week Shortcut To Size.” <!--endpreview-->
 That’s where I’m at currently in the world of fitness. To start, I wouldn’t say I’m using this workout plan as any type of “shortcut.” 
 It was just the next plan I researched and chose based on the mixture of high rep weeks to build leaner muscle and burn fat, follow by low rep, high weight weeks to help put on some mass (or at least attempt to). 
 <br><br>
