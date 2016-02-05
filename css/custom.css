@@ -49,7 +49,7 @@
 @media (min-width: 1200px) {
   /* line 1, ../sass/partials/_single.sass */
   .hero-image-about {
-    height: 500px; /* used to be 320px; */
+    height: 400px; /* used to be 320px; */
   }
 }
 /*End about page header image */
