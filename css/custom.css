@@ -79,7 +79,7 @@
 @media (min-width: 1200px) {
   /* line 1, ../sass/partials/_single.sass */
   .hero-image-evan-all-posts {
-    height: 320px;
+    height: 500px; /* used to be 320px;*/
   }
 }
 /*Start Evan all-posts page header image */
