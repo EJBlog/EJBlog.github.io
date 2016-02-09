@@ -1203,6 +1203,8 @@ ol li {
   font-size: 12px;
   font-size: 1.2rem;
   margin-bottom: 0;
+  /* Added margin to put name down under menu bar on mobile. -Evan */
+  margin-top: 10%;
 }
 /* line 30, ../sass/_mixins.sass */
 .meta:before, .meta:after {
