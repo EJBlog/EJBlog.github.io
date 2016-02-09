@@ -12,6 +12,9 @@
       iii.	About page header (DONE - takes longer to load)
 4.	Add pages to display posts written by guests (In Progress)
   a.	Each guest author gets their own? Need to do the same as Evan and Jake posts (possibly a “see more” link)
+  b.  Add author_image_file variable to YAML file in _data repo so guest author page displays their image (blah.jpg)
+      - Have to manually upload their post and image, then add their author info to the YAML file in _data
+      - Should we choose similar posts ourselves or not include them on guest posts?
 5.	Favorites page?
   a.	How would this page be used? Favorite/like button?
 6.	Remove unnecessary files from Repo
@@ -49,6 +52,10 @@ o	Stores posts as files on GitHub
 o	Posts functionality markdown files (Done)
 o	Posts being displayed on home page by date (Done)
 -	Figure out how to display different header image on each post
+- Added/changed sidebar items
+- Changed sidebar font-awesome icons
+- Mobile testing with images, margins, padding, etc.
+- Multiple browser testing
 o	Might not use header images on each post
 -	Guest Author bio page (done)
 •	Create a page for friend’s posts to be stored
@@ -88,7 +95,7 @@ a.	Categories functionality (In Progress)
 3.	Add “Read More” link on the home page to display 5 more posts under the previously shown posts  - (Jake - DONE but will need to be updated)      
   9.  Select and purchase domain (DONE)      
 8.	Change the “W” favicon on the tabs for the site - (Done)
-        
+
         
         
         
