@@ -12,7 +12,7 @@ Living in Kentucky, we have a hard time finding good snow for a yearly ski trip.
 2015 was the first year I was able to get a group of friends to head to a larger mountain for a ski/snowboard trip. We drove 7 hours to Snowshoe, West Virginia for a 4 day trip. 
 </p>
 <p>
-<img src="{{ site.url }}/img/evan_jake_nick_showshoe.jpg" style="width: 50%">
+<img src="{{ site.url }}/img/evan_jake_nick_showshoe.JPG" style="width: 50%">
 <br>
 Check out our video here --> <a href="https://www.youtube.com/watch?v=4sdOwlxgx9M&feature=youtu.be">Snowshoe 2015</a>
 </p>
