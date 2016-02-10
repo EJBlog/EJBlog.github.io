@@ -4,11 +4,11 @@
              Might still need to update category images and quotes
     ii.	Update “view all posts by Author” link in authors pages
         1.	New page to display all author posts
-          a.	Jake’s posts – (Jake)
+          a.	Jake’s posts – DONE, Added a read more and a view all posts(Jake)
           b.	Evan’s posts – DONE, but could look better (Evan)
   d.	Update all Images (In progress - Jake and Evan)
-      i.	Don’t forget header and footers 
-      ii.	Change photos for Category squares
+      i.	Don’t forget header and footers - DONE
+      ii.	Change photos for Category squares - Still need to do the IT square
       iii.	About page header (DONE - takes longer to load)
 4.	Add pages to display posts written by guests (In Progress)
   a.	Each guest author gets their own? Need to do the same as Evan and Jake posts (possibly a “see more” link)
@@ -20,7 +20,7 @@
 6.	Remove unnecessary files from Repo
 7.	Find a way to update author and category redundant scripts
 9.  Create and add logos/images for the office to adventure site name
-    - Create favicon for new logo/title
+    - Create favicon for new logo/title - (in progress)
 10. Secure the site with something like cloudflare
 
 
