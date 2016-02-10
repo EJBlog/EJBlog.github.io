@@ -70,8 +70,8 @@ module.exports = {
   setOptions: setOptions
 }
 
-var FuzzySearchStrategy = require('./SearchStrategies/FuzzySearchStrategy')
-var LiteralSearchStrategy = require('./SearchStrategies/LiteralSearchStrategy')
+var FuzzySearchStrategy = require('./js/SearchStrategies/FuzzySearchStrategy')
+var LiteralSearchStrategy = require('./js/SearchStrategies/LiteralSearchStrategy')
 
 var data = []
 var opt = {}
@@ -165,7 +165,7 @@ function isExcluded(term, excludedTerms){
   return excluded
 }
 
-},{"./SearchStrategies/FuzzySearchStrategy":4,"./SearchStrategies/LiteralSearchStrategy":5}],4:[function(require,module,exports){
+},{"./js/SearchStrategies/FuzzySearchStrategy":4,"./js/SearchStrategies/LiteralSearchStrategy":5}],4:[function(require,module,exports){
 'use strict'
 module.exports = new FuzzySearchStrategy()
 
@@ -251,13 +251,13 @@ function compile(data){
 
   var requiredOptions = ['searchInput','resultsContainer','json']
 
-  var templater = require('./Templater')
-  var repository = require('./Repository')
-  var jsonLoader = require('./JSONLoader')
-  var optionsValidator = require('./OptionsValidator')({
+  var templater = require('./js/Templater')
+  var repository = require('./js/Repository')
+  var jsonLoader = require('./js/JSONLoader')
+  var optionsValidator = require('./js/OptionsValidator')({
     required: requiredOptions
   })
-  var utils = require('./utils')
+  var utils = require('./js/utils')
 
   /*
     Public API
@@ -344,7 +344,7 @@ function compile(data){
   function throwError(message){ throw new Error('SimpleJekyllSearch --- '+ message) }
 })(window, document);
 
-},{"./JSONLoader":1,"./OptionsValidator":2,"./Repository":3,"./Templater":6,"./utils":8}],8:[function(require,module,exports){
+},{"./js/JSONLoader":1,"./js/OptionsValidator":2,"./js/Repository":3,"./js/Templater":6,"./js/utils":8}],8:[function(require,module,exports){
 'use strict'
 module.exports = {
   merge: merge,
