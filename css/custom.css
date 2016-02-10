@@ -138,17 +138,28 @@
 
 .rachael-text
 {
-  height:100px;
+  height:50px;
   /*border:1px solid #000;*/
-  left:0px;
-  top:0px;
-  width:80%;
+  /*left:0px;*/
+  top:25px;
+  width:100%;
   position: absolute;
-  font-family:bookman old style;
+  font-family:lucida handwriting;
   text-align:center;
   /*z-index:1;	*/
 }
-
+.rachael-text-two
+{
+  height:50px;
+  /*border:1px solid #000;*/
+  /*left:0px; */
+  top:25px;
+  width:100%;
+  position: absolute;
+  font-family:lucida handwriting;
+  text-align:center;
+  /*z-index:1;	*/
+}
 
 
 
