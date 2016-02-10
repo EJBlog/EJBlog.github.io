@@ -120,7 +120,7 @@
 
 .search-container {
   width:400px;
-  border:1px solid #000;
+  /*border:1px solid #000;*/
   right:0px;
   position: absolute;
   z-index:1;
