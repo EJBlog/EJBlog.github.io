@@ -7,8 +7,8 @@ module.exports = {
   setOptions: setOptions
 }
 
-var FuzzySearchStrategy = require('./SearchStrategies/FuzzySearchStrategy')
-var LiteralSearchStrategy = require('./SearchStrategies/LiteralSearchStrategy')
+var FuzzySearchStrategy = require('./js/SearchStrategies/FuzzySearchStrategy')
+var LiteralSearchStrategy = require('./js/SearchStrategies/LiteralSearchStrategy')
 
 var data = []
 var opt = {}
