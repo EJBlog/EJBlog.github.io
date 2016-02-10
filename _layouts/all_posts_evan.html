@@ -91,7 +91,7 @@
                         
                         {% assign posts = site.posts | where: "post_author","Evan Neises" %}
                           {% for post in posts  %}
-                              <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+                              <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
                               <div class="entry">
                               {{ post.excerpt }}
                               </div>
