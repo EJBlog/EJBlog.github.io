@@ -121,6 +121,7 @@
 .search-container {
   width:400px;
   border:1px solid #000;
+  float:right;
   /*padding-left:70%; */
   position: absolute;
   padding-bottom:50px;
