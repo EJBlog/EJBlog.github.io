@@ -84,6 +84,14 @@
 }
 /*Start Evan all-posts page header image */
 
+/*Start Evan all-posts page layout */
+.all-posts-evan {
+	text-align: center;
+	margin-left: 8%;
+	margin-right: 8%;
+}
+
+/*Start Evan all-posts page layout */
 
 /*Start css modifications for Evan's author page */
 .author-evan-header {
