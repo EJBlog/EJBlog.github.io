@@ -119,7 +119,6 @@
 /*End post image modifications*/
 
 .search-container {
-  width:400px;
   /*border:1px solid #000;*/
   right:0px;
   width:30%;
@@ -129,7 +128,6 @@
 
 .rachael-img
 {
-  width:400px;
   /*border:1px solid #000;*/
   right:0px;
   top:0px;
@@ -140,12 +138,13 @@
 
 .rachael-text
 {
-  width:400px;
+  height:100%;
   /*border:1px solid #000;*/
   left:0px;
   top:0px;
   width:80%;
   position: absolute;
+  font-family:;
   /*z-index:1;	*/
 }
 
