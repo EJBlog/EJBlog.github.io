@@ -117,3 +117,10 @@
 	width: 50%;
 }
 /*End post image modifications*/
+
+.search-container {
+  width:400px;
+  border:1px solid #000;
+  /*padding-left:70%; */
+  position: absolute;
+}
