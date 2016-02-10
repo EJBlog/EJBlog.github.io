@@ -141,7 +141,7 @@
   height:50px;
   /*border:1px solid #000;*/
   /*left:0px;*/
-  top:25px;
+  top:0px;
   width:100%;
   position: absolute;
   font-family:lucida handwriting;
@@ -153,9 +153,8 @@
   height:50px;
   /*border:1px solid #000;*/
   /*left:0px; */
-  top:25px;
+  top:50px;
   width:100%;
-  position: absolute;
   font-family:lucida handwriting;
   text-align:center;
   /*z-index:1;	*/
