@@ -37,10 +37,27 @@
                     </ul>
                     <hr>
                 </div>
+				
+				<script>
+				$("#slideshow > div:gt(0)").hide();
 
-
-                <section class="sidebar col-md-5 col-sm-12" style="background-image: url(img/snowboard_spain.jpg)">
-
+				setInterval(function() { 
+				  $('#slideshow > div:first')
+				    .fadeOut(1000)
+				    .next()
+				    .fadeIn(1000)
+				    .end()
+				    .appendTo('#slideshow');
+				},  3000);
+				</script>
+				<!-- <section class="sidebar col-md-5 col-sm-12" style="background-image: url(img/snowboard_spain.jpg)"> -->
+                <section class="col-md-5 col-sm-12">
+					<div class="sidebar slideshow">
+					<div><img src="{{ site.url}}/img/snowboard_spain.jpg"></div>
+					<div><img src="{{ site.url}}/img/57.jpg"></div>
+					<div><img src="{{ site.url}}/img/60.jpg"></div>
+					
+					
                     <span class="menu-trigger animated fadeInDown">
                         <span class="bar"></span>
                         <span class="bar"></span>
@@ -55,7 +72,7 @@
 					<li><i class="fa fa-th"></i><a href="category.html">Categories</a></li>
 		                        <li><i class="fa fa-user"></i><a href="author_evan.html">Evan Neises</a></li>
 		                        <li><i class="fa fa-user"></i><a href="author_jake.html">Jake Ellis</a></li>
-					li><i class="fa fa-users"></i><a href="guest_authors.html">Guest Authors</a></li>
+					<li><i class="fa fa-users"></i><a href="guest_authors.html">Guest Authors</a></li>
 		                        <li><i class="fa fa-beer"></i><a href="about.html">About</a></li>
 		                        <li><i class="fa fa-paper-plane"></i><a href="contact.html">Contact</a></li>
                             </ul>
@@ -73,7 +90,7 @@
                             <p><a class="btn btn-default" href="contact.html"><i class="fa fa-paper-plane"></i>Contact Us</a>
                         </div>
                     </div>
-
+				</div>
                 </section>
 
                 <div class="col-md-7 col-sm-12 col-md-offset-5 main-content">
