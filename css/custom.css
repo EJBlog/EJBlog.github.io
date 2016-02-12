@@ -214,13 +214,13 @@
   20% {
     background-position: 0% bottom; }
   25% {
-    background-position: 33.33333% bottom; }
+    background-position: 50% bottom; }
   45% {
-    background-position: 33.33333% bottom; }
+    background-position: 50% bottom; }
   50% {
-    background-position: 66.66667% bottom; }
+    background-position: 50% bottom; }
   70% {
-    background-position: 66.66667% bottom; }
+    background-position: 100% bottom; }
   75% {
     background-position: 100% bottom; }
   95% {
