@@ -181,6 +181,7 @@
   background-size: cover;
   transition: all 450ms;
   
+  
   -webkit-animation: h_slide 24s ease-out infinite;
   -moz-animation: h_slide 24s ease-out infinite;
   animation: h_slide 24s ease-out infinite;
@@ -223,10 +224,8 @@
     background-position: 100% bottom; }
   75% {
     background-position: 100% bottom; }
-  95% {
-    background-position: 100% bottom; }
   100% {
-    background-position: 133.33% bottom; } 
+    background-position: 100% bottom; }
 }
 
 
