@@ -170,7 +170,7 @@
 
 
 
-.sidebar-evan {
+/*.sidebar-evan {
   padding: 15px;
   padding-bottom: 29.2%;
   width: 100%;
@@ -180,21 +180,19 @@
   background-repeat: no-repeat;
   background-size: cover;
   transition: all 450ms;
-  
-  
+
+
   -webkit-animation: h_slide 24s ease-out infinite;
   -moz-animation: h_slide 24s ease-out infinite;
   animation: h_slide 24s ease-out infinite;
 }
 
 @media (min-width: 768px) {
-  /* line 1, ../sass/partials/_sidebar.sass */
   .sidebar-evan {
     height: 450px;
   }
 }
 @media (min-width: 992px) {
-  /* line 1, ../sass/partials/_sidebar.sass */
   .sidebar-evan {
     width: 400px;
     height: 100%;
@@ -203,7 +201,6 @@
   }
 }
 @media (min-width: 1200px) {
-  /* line 1, ../sass/partials/_sidebar.sass */
   .sidebar-evan {
     width: 464px;
   }
@@ -226,6 +223,6 @@
     background-position: 100% bottom; }
   100% {
     background-position: 100% bottom; }
-}
+}*/
 
 
