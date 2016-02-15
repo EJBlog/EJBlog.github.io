@@ -23,6 +23,22 @@
     - Create favicon for new logo/title - (in progress)
 10. Secure the site with something like cloudflare
 
+Changes needed after testing:
+- Add similar posts to more existing posts (EVAN & JAKE)
+- Social media icons on bottom of author page (JAKE)
+- Spacing/margins between posts and on sidebar text (JAKE)
+- Add header/remove footer content (JAKE)
+- Add search bar to view all posts (EVAN)
+- Discuss categories page (EVAN & JAKE)
+- Change IT image for category thumbnail and page sidebar
+- Change Miscellaneous image for page sidebar
+- Change Guest Authors image for page sidebar
+- Change Contact image for page sidebar
+- Remove black bar at the top of page on About.html and Contact.html
+- Fix spacing at bottom of About.html page between text and footer links
+
+
+
 
 Potential items to add (now or in the future):
 - "See All Posts" page for home page
