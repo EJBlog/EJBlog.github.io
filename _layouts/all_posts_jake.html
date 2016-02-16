@@ -61,7 +61,8 @@
 
         <main class="container">
             <div class="row">
-            	<h1>Jake Ellis</h1><br>
+            	<a href="{{ site.url }}/author_jake.html"><h1>Jake Ellis</h1></a>
+            	<br>
 
 <!--Search-->
             <!-- Html Elements for Search -->
@@ -86,7 +87,7 @@
       })
     </script>
 <!--End Search-->
-                <div class="home-page-posts animated fadeIn ">
+                <div class="home-page-posts animated fadeIn" style="text-align:center">
                         
                         {% assign posts = site.posts | where: "post_author","Jake Ellis" %}
                           {% for post in posts  %}
