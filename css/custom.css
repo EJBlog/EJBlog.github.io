@@ -226,3 +226,31 @@
 }*/
 
 
+.hero-image-jake-all-posts {
+  height: 150px;
+  width: 100%;
+  background-image: url(../img/chicago_downtown.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (min-width: 768px) {
+  /* line 1, ../sass/partials/_single.sass */
+  .hero-image-jake-all-posts {
+    height: 180px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 1, ../sass/partials/_single.sass */
+  .hero-image-jake-all-posts {
+    height: 250px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 1, ../sass/partials/_single.sass */
+  .hero-image-jake-all-posts {
+    height: 320px;
+  }
+}
+
+
