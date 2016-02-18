@@ -303,78 +303,78 @@
     animation-iteration-count: infinite;
 }
 
-/*@-webkit-keyframes category3 {*/
-/*    0% {left:0px; top:0px;}*/
-/*    16.67% {left:0px; top:388px;}*/
-/*    33.34% {left:242.8px; top:388px;}*/
-/*    50% {left:0px; top:388px;}*/
-/*    66.67% {left:0px; top:0px;}*/
-/*    83.34% {left:242.8px; top:0px;}*/
-/*    100% {left:485px; top:0px;}*/
-/*}*/
+@-webkit-keyframes category3 {
+    0% {left:0px; top:0px;}
+    16.67% {left:0px; top:388px;}
+    33.34% {left:-33.33%; top:388px;}
+    50% {left:-66.66%; top:388px;}
+    66.67% {left:-66.66%; top:0px;}
+    83.34% {left:-33.33%; top:0px;}
+    100% {left:0px; top:0px;}
+}
 
-/*.category-preview-3 {*/
-/*    -webkit-animation-name: category3;*/
-/*    -webkit-animation-duration: 4s;*/
-/*    -webkit-animation-iteration-count: infinite;*/
-/*    animation-name: category3;*/
-/*    animation-duration: 4s;*/
-/*    animation-iteration-count: infinite;*/
-/*}*/
+.category-preview-3 {
+    -webkit-animation-name: category3;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: category3;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
 
-/*@-webkit-keyframes category4 {*/
-/*    0% {left:485px; top:388px;}*/
-/*    16.67% {left:242.8px; top:388px;}*/
-/*    33.34% {left:0px; top:388px;}*/
-/*    50% {left:0px; top:0px;}*/
-/*    66.67% {left:242.8px; top:0px;}*/
-/*    83.34% {left:485px; top:0px;}*/
-/*    100% {left:485px; top:388px;}*/
-/*}*/
+@-webkit-keyframes category4 {
+    0% {left:0px; bottom:0px;}
+    16.67% {left:-33.33%; bottom:0px;}
+    33.34% {left:-66.66%; bottom:0px;}
+    50% {left:-66.66%; bottom:388px;}
+    66.67% {left:-33.33%; bottom:388px;}
+    83.34% {left:0px; bottom:388px;}
+    100% {left:0px; bottom:0px;}
+}
 
-/*.category-preview-4 {*/
-/*    -webkit-animation-name: category4;*/
-/*    -webkit-animation-duration: 4s;*/
-/*    -webkit-animation-iteration-count: infinite;*/
-/*    animation-name: category4;*/
-/*    animation-duration: 4s;*/
-/*    animation-iteration-count: infinite;*/
-/*}*/
+.category-preview-4 {
+    -webkit-animation-name: category4;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: category4;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
 
-/*@-webkit-keyframes category5 {*/
-/*    0% {left:242.8px; top:388px;}*/
-/*    16.67% {left:0px; top:388px;}*/
-/*    33.34% {left:0px; top:0px;}*/
-/*    50% {left:242.8px; top:0px;}*/
-/*    66.67% {left:485px; top:0px;}*/
-/*    83.34% {left:485px; top:388px;}*/
-/*    100% {left:242.8px; top:388px;}*/
-/*}*/
+@-webkit-keyframes category5 {
+    0% {left:0px; bottom:0px;}
+    16.67% {left:-33.33%; bottom:0px;}
+    33.34% {left:-33.33%; bottom:388px;}
+    50% {left:0px; bottom:388px;}
+    66.67% {left:33.33%; bottom:388px;}
+    83.34% {left:33.33%; bottom:0px;}
+    100% {left:0px; bottom:0px;}
+}
 
-/*.category-preview-5 {*/
-/*    -webkit-animation-name: category5;*/
-/*    -webkit-animation-duration: 4s;*/
-/*    -webkit-animation-iteration-count: infinite;*/
-/*    animation-name: category5;*/
-/*    animation-duration: 4s;*/
-/*    animation-iteration-count: infinite;*/
-/*}*/
+.category-preview-5 {
+    -webkit-animation-name: category5;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: category5;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
 
-/*@-webkit-keyframes category6 {*/
-/*    0% {left:0px; top:388px;}*/
-/*    16.67% {left:0px; top:0px;}*/
-/*    33.34% {left:242.8px; top:0px;}*/
-/*    50% {left:485px; top:0px;}*/
-/*    66.67% {left:485px; top:388px;}*/
-/*    83.34% {left:242.8px; top:388px;}*/
-/*    100% {left:0px; top:388px;}*/
-/*}*/
+@-webkit-keyframes category6 {
+    0% {left:0px; bottom:0px;}
+    16.67% {left:0px; bottom:388px;}
+    33.34% {left:33.33%; bottom:388px;}
+    50% {left:66.66%; bottom:388px;}
+    66.67% {left:66.66%; bottom:0px;}
+    83.34% {left:33.33%; bottom:0px;}
+    100% {left:0px; bottom:0px;}
+}
 
-/*.category-preview-6 {*/
-/*    -webkit-animation-name: category6;*/
-/*    -webkit-animation-duration: 4s;*/
-/*    -webkit-animation-iteration-count: infinite;*/
-/*    animation-name: category6;*/
-/*    animation-duration: 4s;*/
-/*    animation-iteration-count: infinite;*/
-/*}*/
+.category-preview-6 {
+    -webkit-animation-name: category6;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: category6;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
