@@ -37,12 +37,15 @@ Changes needed after testing:
 - Remove black bar at the top of page on About.html and Contact.html
 - Fix spacing at bottom of About.html page between text and footer links
 
+- Remove/change "See More Posts" after clicking
+
 
 
 
 Potential items to add (now or in the future):
 - "See All Posts" page for home page
 - Search bar ^ - In progress (Jake)
+- CSS animations/fun stuff
 - RSS Twitter Feed - create OfficeToAdventure Twitter account
 - "Like Office To Adventure" button and Facebook snippet - create OfficeToAdventure Facebook account
 - Rotating sidebar image on homepage and other pages (every night, hour, etc.)
