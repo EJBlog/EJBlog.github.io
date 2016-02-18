@@ -259,9 +259,9 @@
     0% {left:0px; top:0px;}
     16.67% {left:33.33%; top:0px;}
     33.34% {left:66.66%; top:0px;}
-    50% {left:66.66%; top:388px;}
-    66.67% {left:33.33%; top:388px;}
-    83.34% {left:0px; top:388px;}
+    50% {left:66.66%; top:33%;}
+    66.67% {left:33.33%; top:33%;}
+    83.34% {left:0px; top:33%;}
     100% {left:0px; top:0px;}
 }
 
@@ -277,10 +277,10 @@
 
 .category-preview-1 {
     -webkit-animation-name: category1;
-    -webkit-animation-duration: 4s;
+    -webkit-animation-duration: 6s;
     -webkit-animation-iteration-count: infinite;
     animation-name: category1;
-    animation-duration: 4s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
 }
 
@@ -296,10 +296,10 @@
 
 .category-preview-2 {
     -webkit-animation-name: category2;
-    -webkit-animation-duration: 4s;
+    -webkit-animation-duration: 6s;
     -webkit-animation-iteration-count: infinite;
     animation-name: category2;
-    animation-duration: 4s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
 }
 
@@ -315,10 +315,10 @@
 
 .category-preview-3 {
     -webkit-animation-name: category3;
-    -webkit-animation-duration: 4s;
+    -webkit-animation-duration: 6s;
     -webkit-animation-iteration-count: infinite;
     animation-name: category3;
-    animation-duration: 4s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
 }
 
@@ -334,10 +334,10 @@
 
 .category-preview-4 {
     -webkit-animation-name: category4;
-    -webkit-animation-duration: 4s;
+    -webkit-animation-duration: 6s;
     -webkit-animation-iteration-count: infinite;
     animation-name: category4;
-    animation-duration: 4s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
 }
 
@@ -353,10 +353,10 @@
 
 .category-preview-5 {
     -webkit-animation-name: category5;
-    -webkit-animation-duration: 4s;
+    -webkit-animation-duration: 6s;
     -webkit-animation-iteration-count: infinite;
     animation-name: category5;
-    animation-duration: 4s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
 }
 
@@ -372,9 +372,9 @@
 
 .category-preview-6 {
     -webkit-animation-name: category6;
-    -webkit-animation-duration: 4s;
+    -webkit-animation-duration: 6s;
     -webkit-animation-iteration-count: infinite;
     animation-name: category6;
-    animation-duration: 4s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
 }
