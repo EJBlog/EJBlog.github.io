@@ -254,4 +254,13 @@
   }
 }
 
-
+/*More animation practice. -Evan */
+@keyframes categories {
+    0% {left:0px; top:0px;}
+    16.67% {left:200px; top:0px;}
+    33.34% {left:400px; top:0px;}
+    50% {left:400px; top:200px;}
+    66.67% {left:200px; top:200px;}
+    83.34% {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+}
