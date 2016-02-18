@@ -993,7 +993,9 @@ ol li {
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   letter-spacing: -2pt;
   margin-bottom: 0;
-  text-align: center;
+  text-align: center
+  /*Added outer glow. -Evan */
+  text-shadow: 1px 1px 10px black;
 }
 @media (min-width: 768px) {
   /* line 36, ../sass/partials/_sidebar.sass */
@@ -1012,6 +1014,9 @@ ol li {
   line-height: 2.4rem;
   font-size: 16px;
   font-size: 1.6rem;
+  /*Added a couple properties below. -Evan */
+  text-align: center;
+  text-shadow: 1px 1px 8px black;
 }
 /* line 51, ../sass/partials/_sidebar.sass */
 .sidebar .site-info i {
