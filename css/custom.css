@@ -269,9 +269,9 @@
     0% {left:0px; top:0px;}
     16.67% {left:33.33%; top:0px;}
     33.34% {left:66.66%; top:0px;}
-    50% {left:66.66%; top:33%;}
-    66.67% {left:33.33%; top:33%;}
-    83.34% {left:0px; top:33%;}
+    50% {left:66.66%; top:400px;}
+    66.67% {left:33.33%; top:400px;}
+    83.34% {left:0px; top:400px;}
     100% {left:0px; top:0px;}
 }
 
@@ -287,9 +287,9 @@
 @-webkit-keyframes category2 {
     0% {left:0px; top:0px;}
     16.67% {left:33.33%; top:0px;}
-    33.34% {left:33.33%; top:33%;}
-    50% {left:0px; top:33%;}
-    66.67% {left:-33.33%; top:33%;}
+    33.34% {left:33.33%; top:400px;}
+    50% {left:0px; top:400px;}
+    66.67% {left:-33.33%; top:400px;}
     83.34% {left:-33.33%; top:0px;}
     100% {left:0px; top:0px;}
 }
@@ -305,9 +305,9 @@
 
 @-webkit-keyframes category3 {
     0% {left:0px; top:0px;}
-    16.67% {left:0px; top:33%;}
-    33.34% {left:-33.33%; top:33%;}
-    50% {left:-66.66%; top:33%;}
+    16.67% {left:0px; top:400px;}
+    33.34% {left:-33.33%; top:400px;}
+    50% {left:-66.66%; top:400px}
     66.67% {left:-66.66%; top:0px;}
     83.34% {left:-33.33%; top:0px;}
     100% {left:0px; top:0px;}
@@ -324,9 +324,9 @@
 
 @-webkit-keyframes category4 {
     0% {left:0px; top:0px;}
-    16.67% {left:0px; top:-33%;}
-    33.34% {left:33.33%; top:-33%;}
-    50% {left:66.66%; top:-33%;}
+    16.67% {left:0px; top:-400px;}
+    33.34% {left:33.33%; top:-400px;}
+    50% {left:66.66%; top:-400px;}
     66.67% {left:66.66%; top:0px;}
     83.34% {left:33.33%; top:0px;}
     100% {left:0px; top:0px;}
@@ -344,8 +344,8 @@
 @-webkit-keyframes category5 {
     0% {left:0px; top:0px;}
     16.67% {left:-33.33%; top:0px;}
-    33.34% {left:-33.33%; top:-33%;}
-    50% {left:0px; top:-33%;}
+    33.34% {left:-33.33%; top:-400px;}
+    50% {left:0px; top:-400px;}
     66.67% {left:33.33%; top:-33%;}
     83.34% {left:33.33%; top:0px;}
     100% {left:0px; top:0px;}
@@ -364,9 +364,9 @@
     0% {left:0px; top:0px;}
     16.67% {left:-33.33%; top:0px;}
     33.34% {left:-66.66%; top:0px;}
-    50% {left:-66.66%; top:-33%;}
-    66.67% {left:-33.33%; top:-33%;}
-    83.34% {left:0px; top:-33%;}
+    50% {left:-66.66%; top:-400px;}
+    66.67% {left:-33.33%; top:-400px;}
+    83.34% {left:0px; top:-400px;}
     100% {left:0px; top:0px;}
 }
 
