@@ -274,3 +274,12 @@
     83.34% {left:0px; top:200px;}
     100% {left:0px; top:0px;}
 }
+
+.category-preview {
+    -webkit-animation-name: categories;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: categories;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
