@@ -323,13 +323,13 @@
 }
 
 @-webkit-keyframes category4 {
-    0% {left:0px; bottom:0px;}
-    16.67% {left:-33.33%; bottom:0px;}
-    33.34% {left:-66.66%; bottom:0px;}
-    50% {left:-66.66%; bottom:388px;}
-    66.67% {left:-33.33%; bottom:388px;}
-    83.34% {left:0px; bottom:388px;}
-    100% {left:0px; bottom:0px;}
+    0% {left:0px; top:0px;}
+    16.67% {left:-33.33%; top:0px;}
+    33.34% {left:-66.66%; top:0px;}
+    50% {left:-66.66%; top:-388px;}
+    66.67% {left:-33.33%; top:-388px;}
+    83.34% {left:0px; top:-388px;}
+    100% {left:0px; top:0px;}
 }
 
 .category-preview-4 {
@@ -342,13 +342,13 @@
 }
 
 @-webkit-keyframes category5 {
-    0% {left:0px; bottom:0px;}
-    16.67% {left:-33.33%; bottom:0px;}
-    33.34% {left:-33.33%; bottom:388px;}
-    50% {left:0px; bottom:388px;}
-    66.67% {left:33.33%; bottom:388px;}
-    83.34% {left:33.33%; bottom:0px;}
-    100% {left:0px; bottom:0px;}
+    0% {left:0px; top:0px;}
+    16.67% {left:-33.33%; top:0px;}
+    33.34% {left:-33.33%; top:-388px;}
+    50% {left:0px; top:-388px;}
+    66.67% {left:33.33%; top:-388px;}
+    83.34% {left:33.33%; top:0px;}
+    100% {left:0px; top:0px;}
 }
 
 .category-preview-5 {
@@ -361,13 +361,13 @@
 }
 
 @-webkit-keyframes category6 {
-    0% {left:0px; bottom:0px;}
-    16.67% {left:0px; bottom:388px;}
-    33.34% {left:33.33%; bottom:388px;}
-    50% {left:66.66%; bottom:388px;}
-    66.67% {left:66.66%; bottom:0px;}
-    83.34% {left:33.33%; bottom:0px;}
-    100% {left:0px; bottom:0px;}
+    0% {left:0px; top:0px;}
+    16.67% {left:0px; top:-388px;}
+    33.34% {left:33.33%; top:-388px;}
+    50% {left:66.66%; top:-388px;}
+    66.67% {left:66.66%; top:0px;}
+    83.34% {left:33.33%; top:0px;}
+    100% {left:0px; top:0px;}
 }
 
 .category-preview-6 {
