@@ -967,7 +967,8 @@ ol li {
 .sidebar .site-info {
   padding: 90px 15px 0 15px;
   color: #fafafa;
-  margin-top: 15%;
+  /*Adding margin. -Evan */
+  margin-top: 12%;
 }
 @media (min-width: 768px) {
   /* line 23, ../sass/partials/_sidebar.sass */
