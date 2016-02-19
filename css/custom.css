@@ -151,17 +151,17 @@
   z-index:1;
   background-color:white;
 }
-@media screen (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
   .rachael-wrap {
     width:100%;
   }
 }
-@media screen (min-width: 992px) and (max-width: 1200px) {
+@media screen and (min-width: 992px) and (max-width: 1200px) {
   .rachael-wrap {
     width:100%;
   }
 }
-@media screen (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .rachael-wrap {
     width:53%;
   }
@@ -179,18 +179,18 @@
   /*background-color:white;*/
   /*z-index:1;*/
 }
-@media screen (min-width: 768px) and (max-width: 992px) {
-  .rachael-wrap {
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .rachael-text {
     width:100%;
   }
 }
-@media screen (min-width: 992px) and (max-width: 1200px) {
-  .rachael-wrap {
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .rachael-text {
     width:100%;
   }
 }
-@media screen (min-width: 1200px) {
-  .rachael-wrap {
+@media screen and (min-width: 1200px) {
+  .rachael-text {
     width:50%;
   }
 }
@@ -205,6 +205,21 @@
   /*background-color:white;*/
   /*z-index:1;*/
   margin-top:40px
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .rachael-text-two {
+    width:100%;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .rachael-text-two {
+    width:100%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .rachael-text-two {
+    width:50%;
+  }
 }
 
 .guest-user-icon {
