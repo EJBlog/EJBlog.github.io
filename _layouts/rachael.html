@@ -107,11 +107,11 @@
 <!--End Search-->
 
 
-                 <div class="home-page-posts animated fadeIn"> <!--was style="padding-top:4px"-->
+                   <div class="home-page-posts animated fadeIn" style="padding-top:4px"> <!--was style="padding-top:4px"-->
                     	
                     			    <!--<img src="img/ota_badge.jpg" class="rachael-img"><br><br>-->
-		    <p class="home-page-posts animated fadeIn rachael-text">Welcome to</p>
-		    <p class="home-page-posts animated fadeIn rachael-text-two">"Office To Adventure"!</p>
+		    <h5 class="home-page-posts animated fadeIn rachael-text">Welcome to</h5>
+		    <h5 class="home-page-posts animated fadeIn rachael-text-two">"Office To Adventure"!</h5>
 		
                     <div class="sub-nav" style=
                     "   position: fixed;
@@ -122,9 +122,7 @@
                         <a href="#" class="select-posts active">Posts</a>
                         <a href="#" class="select-categories">Categories</a>
                     </div>
-                  </div>
                   
-                    <div class="home-page-posts animated fadeIn" style="padding-top:4px">	
     			{% assign postCount = '0' %}
     			{% for post in site.posts limit:5 %}
     			{% capture postCount %}{{ postCount | plus: '1' }}{% endcapture %}
