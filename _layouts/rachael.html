@@ -89,8 +89,6 @@
 		
                     <div class="sub-nav" style=
                     "   position: fixed;
-                        z-index: 1;
-                        background-color: white;
                         margin-top:80px;">
                     	
                         <a href="#" class="select-posts active">Posts</a>
@@ -98,6 +96,7 @@
                     </div>
                   </div> 
                   
+                  <div>
     			{% assign postCount = '0' %}
     			{% for post in site.posts limit:5 %}
     			{% capture postCount %}{{ postCount | plus: '1' }}{% endcapture %}
@@ -126,7 +125,8 @@
 				</p>
 				<hr>     
 			{% endfor %}
-		    
+		 </div>
+		 
 			<script type="text/javascript">
 			 function showhide(id) 
 			 {
