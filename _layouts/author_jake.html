@@ -111,14 +111,13 @@
                             {% for post in posts limit:5 %}
                    	    {% capture postCount %}{{ postCount | plus: '1' }}{% endcapture %}
                             
-                            <!--<article class="post">-->
                               <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
                               <div class="entry">
                                 {{ post.excerpt }}
                               </div>
 				<hr>
-                            <!--</article>-->
+                            
                           {% endfor %}
 
                         </div>
@@ -148,13 +147,11 @@
 	                            
 	                <!--            {% capture postCount2 %}{{ postCount2 | plus: '1' }}{% endcapture %}-->
 	                <!--            {% if postCount < postCount2 %}-->
-		        <!--                   <article class="post">-->
 		        <!--                   	<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>-->
 		        <!--                      <div class="entry">-->
 		 <!--                               {{ post.excerpt }}-->
 		 <!--                             </div>-->
 			<!--	    {% endif %}-->
-		 <!--                           </article>-->
 	  <!--                        {% endfor %}-->
 	                          
 	  <!--               <div class="view-all-by-author">-->
