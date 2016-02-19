@@ -108,17 +108,17 @@
                             {% assign posts = site.posts | where: "post_author","Jake Ellis" %}
                             {% assign postCount = '0' %}
 			    
-                            {% for post in posts limit:2 %}
+                            {% for post in posts limit:5 %}
                    	    {% capture postCount %}{{ postCount | plus: '1' }}{% endcapture %}
                             
-                            <article class="post">
+                            <!--<article class="post">-->
                               <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
                               <div class="entry">
                                 {{ post.excerpt }}
                               </div>
-
-                            </article>
+				<hr>
+                            <!--</article>-->
                           {% endfor %}
 
                         </div>
@@ -144,13 +144,13 @@
 			<!--	   {% assign posts = site.posts | where: "post_author","Jake Ellis" %}-->
 				   
 			<!--	   {% assign postCount2 = '0' %}-->
-	  <!--                          {% for post in posts limit:5%}-->
+	                <!--            {% for post in posts limit:5%}-->
 	                            
-	  <!--                          {% capture postCount2 %}{{ postCount2 | plus: '1' }}{% endcapture %}-->
-	  <!--                          {% if postCount < postCount2 %}-->
-		 <!--                           <article class="post">-->
-		 <!--                           	<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>-->
-		 <!--                             <div class="entry">-->
+	                <!--            {% capture postCount2 %}{{ postCount2 | plus: '1' }}{% endcapture %}-->
+	                <!--            {% if postCount < postCount2 %}-->
+		        <!--                   <article class="post">-->
+		        <!--                   	<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>-->
+		        <!--                      <div class="entry">-->
 		 <!--                               {{ post.excerpt }}-->
 		 <!--                             </div>-->
 			<!--	    {% endif %}-->
@@ -192,7 +192,6 @@
                                 <a href="https://github.com/JakeEllis"><i class="fa fa-github fa-5x"></i></a>
                                 <i class="link-spacer"></i>
                                 <a href="https://www.instagram.com/jake_m_ellis/"><i class="fa fa-instagram fa-5x"></i></a>
-                                
                             </div>
                         </div>
                     </div>
