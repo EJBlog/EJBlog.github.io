@@ -1,10 +1,10 @@
-- name: John Smith
-  bio: Just your typical John... test entry for guest authors
-  image_file: surfing.jpg
+# - name: John Smith
+#   bio: Just your typical John... test entry for guest authors
+#   image_file: surfing.jpg
 
-- name: Jane Doe
-  bio: Test entry number 2 with a longer bio in case one of our guest authors sends us a long paragraph. This will help me test the spacing between multiple authors and also see how well the text wraps.
-  image_file: 157.jpg
+# - name: Jane Doe
+#   bio: Test entry number 2 with a longer bio in case one of our guest authors sends us a long paragraph. This will help me test the spacing between multiple authors and also see how well the text wraps.
+#   image_file: 157.jpg
 
 # - name: Chuck Norris
   # bio: Test entry number 3
