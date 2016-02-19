@@ -141,7 +141,6 @@
   position: absolute;
   /*z-index:1;	*/
 }
------------------------
 
 .rachael-text
 {
@@ -154,24 +153,24 @@
   background-color:white;
   z-index:1;
 }
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {*/
   /* line 1, ../sass/partials/_single.sass */
-  .rachael-text {
-    top: 180px;
-  }
-}
-@media (min-width: 992px) {
+/*  .rachael-text {*/
+/*    top: 180px;*/
+/*  }*/
+/*}*/
+/*@media (min-width: 992px) {*/
   /* line 1, ../sass/partials/_single.sass */
-  .rachae-text {
-    height: 250px;
-  }
-}
-@media (min-width: 1200px) {
+/*  .rachae-text {*/
+/*    height: 250px;*/
+/*  }*/
+/*}*/
+/*@media (min-width: 1200px) {*/
   /* line 1, ../sass/partials/_single.sass */
-  .rachael-text {
-    height: 320px;
-  }
-}
+/*  .rachael-text {*/
+/*    height: 320px;*/
+/*  }*/
+/*}*/
 
 
 .rachael-text-two
@@ -184,24 +183,24 @@
   background-color:white;
   z-index:1;
 }
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {*/
   /* line 1, ../sass/partials/_single.sass */
-  .rachael-text-two {
-    height: 180px;
-  }
-}
-@media (min-width: 992px) {
+/*  .rachael-text-two {*/
+/*    height: 180px;*/
+/*  }*/
+/*}*/
+/*@media (min-width: 992px) {*/
   /* line 1, ../sass/partials/_single.sass */
-  .rachael-text-two {
-    height: 250px;
-  }
-}
-@media (min-width: 1200px) {
+/*  .rachael-text-two {*/
+/*    height: 250px;*/
+/*  }*/
+/*}*/
+/*@media (min-width: 1200px) {*/
   /* line 1, ../sass/partials/_single.sass */
-  .rachael-text-two {
-    height: 320px;
-  }
-}
+/*  .rachael-text-two {*/
+/*    height: 320px;*/
+/*  }*/
+/*}*/
 
 
 .guest-user-icon {
