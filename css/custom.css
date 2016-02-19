@@ -143,7 +143,7 @@
 }
 
 .rachael-wrap {
-  width: 60%;
+  width: 50%;
   border: 1px solid #ccc;
   height: 480px;
   overflow: auto;
@@ -154,7 +154,7 @@
 {
   height:50px;
   /*top:0px;*/
-  /*width:60%;*/
+  width:50%;
   position: fixed;
   font-family:lucida handwriting;
   text-align:center;
@@ -184,7 +184,7 @@
 .rachael-text-two
 {
   height:72px;
-  /*width:60%;*/
+  width:50%;
   font-family:lucida handwriting;
   text-align:center;
   position:fixed;
