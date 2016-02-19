@@ -142,6 +142,14 @@
   /*z-index:1;	*/
 }
 
+.rachael-wrap {
+  width: 60%;
+  border: 1px solid #ccc;
+  height: 480px;
+  overflow: auto;
+  position: fixed;
+}
+
 .rachael-text
 {
   height:50px;
