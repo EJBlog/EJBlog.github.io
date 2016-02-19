@@ -173,12 +173,12 @@
     width:80%;
   }
 }
-/*@media (min-width: 1200px) {*/
-/*   line 1, ../sass/partials/_single.sass */
-/*  .rachael-text {*/
-/*    width:50%;*/
-/*  }*/
-/*}*/
+@media (min-width: 1200px) {
+   line 1, ../sass/partials/_single.sass 
+  .rachael-text {
+    width:50%;
+  }
+}
 
 
 .rachael-text-two
@@ -204,12 +204,12 @@
     width:80%;
   }
 }
-/*@media (min-width: 1200px) {*/
-  /* line 1, ../sass/partials/_single.sass */
-/*  .rachael-text-two {*/
-/*    height: 320px;*/
-/*  }*/
-/*}*/
+@media (min-width: 1200px) {
+   line 1, ../sass/partials/_single.sass 
+  .rachael-text-two {
+    width:50%;
+  }
+}
 
 
 .guest-user-icon {
