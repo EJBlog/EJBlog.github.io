@@ -145,9 +145,11 @@
 .rachael-wrap {
   width: 50%;
   border: 1px solid #ccc;
-  height: 480px;
+  height: 120px;
   overflow: auto;
   position: fixed;
+  z-index:1;
+  background-color:white;
 }
 
 .rachael-text
@@ -158,8 +160,8 @@
   position: fixed;
   font-family:lucida handwriting;
   text-align:center;
-  background-color:white;
-  z-index:1;
+  /*background-color:white;*/
+  /*z-index:1;*/
 }
 @media (min-width: 768px) {
   .rachael-text {
@@ -185,8 +187,8 @@
   font-family:lucida handwriting;
   text-align:center;
   position:fixed;
-  background-color:white;
-  z-index:1;
+  /*background-color:white;*/
+  /*z-index:1;*/
   margin-top:40px
 }
 @media (min-width: 768px) {
