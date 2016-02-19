@@ -151,12 +151,12 @@
   z-index:1;
   background-color:white;
 }
-@media screen (min-width: 768px) {
+@media screen (min-width: 768px) and (max-width: 992px) {
   .rachael-wrap {
     width:100%;
   }
 }
-@media screen (min-width: 992px) {
+@media screen (min-width: 992px) and (max-width: 1200px) {
   .rachael-wrap {
     width:80%;
   }
