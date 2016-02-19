@@ -127,7 +127,7 @@
     			{% for post in site.posts limit:5 %}
     			{% capture postCount %}{{ postCount | plus: '1' }}{% endcapture %}
                     
-				<h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+				<h2 style="margin-top:500px"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 					<div class="col-xs-1 no-gutter pull-right">
 						{% if post.post_author == "Evan Neises" %}
 						<img src="{{ site.url }}/img/ENeises1.jpg" class="user-icon" alt="user-image">
