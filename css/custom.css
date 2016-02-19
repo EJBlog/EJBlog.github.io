@@ -169,6 +169,13 @@
   z-index:1;
 }
 
+.guest-user-icon {
+    width: 100px;
+	height: 100px;
+    padding: 0;
+    float: right;
+    border-radius: 50%;
+}
 
 
 /*.sidebar-evan {
