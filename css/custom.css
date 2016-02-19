@@ -144,9 +144,9 @@
 
 .rachael-text
 {
-  height:50px;
-  top:0px;
-  width:60%;
+  /*height:50px;*/
+  /*top:0px;*/
+  /*width:60%;*/
   position: fixed;
   font-family:lucida handwriting;
   text-align:center;
@@ -175,13 +175,14 @@
 
 .rachael-text-two
 {
-  height:63px;
-  width:60%;
+  /*height:63px;*/
+  /*width:60%;*/
   font-family:lucida handwriting;
   text-align:center;
   position:fixed;
   background-color:white;
   z-index:1;
+  margin-top:40px
 }
 /*@media (min-width: 768px) {*/
   /* line 1, ../sass/partials/_single.sass */
