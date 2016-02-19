@@ -162,19 +162,16 @@
   z-index:1;
 }
 @media (min-width: 768px) {
-   line 1, ../sass/partials/_single.sass 
   .rachael-text {
     width:100%;
   }
 }
 @media (min-width: 992px) {
-   line 1, ../sass/partials/_single.sass 
   .rachael-text {
     width:80%;
   }
 }
 @media (min-width: 1200px) {
-   line 1, ../sass/partials/_single.sass 
   .rachael-text {
     width:50%;
   }
@@ -193,19 +190,16 @@
   margin-top:40px
 }
 @media (min-width: 768px) {
-   line 1, ../sass/partials/_single.sass 
   .rachael-text-two {
     width:100&;
   }
 }
 @media (min-width: 992px) {
-   line 1, ../sass/partials/_single.sass 
   .rachael-text-two {
     width:80%;
   }
 }
 @media (min-width: 1200px) {
-   line 1, ../sass/partials/_single.sass 
   .rachael-text-two {
     width:50%;
   }
