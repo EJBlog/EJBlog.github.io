@@ -143,8 +143,8 @@
 }
 
 .rachael-wrap {
-  width: 50%;
-  border: 1px solid #ccc;
+  width: 53%;
+  /*border: 1px solid #ccc;*/
   height: 120px;
   overflow: auto;
   position: fixed;
@@ -152,17 +152,17 @@
   background-color:white;
 }
 @media (min-width: 768px) {
-  .rachael-text {
+  .rachael-wrap {
     width:100%;
   }
 }
 @media (min-width: 992px) {
-  .rachael-text {
+  .rachael-wrap {
     width:80%;
   }
 }
 @media (min-width: 1200px) {
-  .rachael-text {
+  .rachael-wrap {
     width:50%;
   }
 }
