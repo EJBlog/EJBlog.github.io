@@ -107,7 +107,7 @@
 <!--End Search-->
 
 
-                    <div class="home-page-posts animated fadeIn" style="padding-top:45px">
+                    <div class="home-page-posts animated fadeIn" style="padding-top:4px"> <!--was style="padding-top:4px"-->
                     	
                     			    <!--<img src="img/ota_badge.jpg" class="rachael-img"><br><br>-->
 		    <p class="home-page-posts animated fadeIn rachael-text">Exploring life in an Office as well as a life outdoors</p>
@@ -116,13 +116,14 @@
                     <div class="sub-nav" style=
                     "   position: fixed;
                         z-index: 1;
-                        background-color: white;">
+                        background-color: white;
+                        margin-top:80px;">
                     	
                         <a href="#" class="select-posts active">Posts</a>
                         <a href="#" class="select-categories">Categories</a>
                     </div>
                     	
-                    	<style="margin-top:100px"></style>
+                    	
     			{% assign postCount = '0' %}
     			{% for post in site.posts limit:5 %}
     			{% capture postCount %}{{ postCount | plus: '1' }}{% endcapture %}
