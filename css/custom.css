@@ -284,10 +284,10 @@
 
 .category-preview-1 {
     -webkit-animation-name: category1;
-    -webkit-animation-duration: 8s;
+    -webkit-animation-duration: 10s;
     -webkit-animation-iteration-count: infinite;
     animation-name: category1;
-    animation-duration: 8s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
 }
 
@@ -303,10 +303,10 @@
 
 .category-preview-2 {
     -webkit-animation-name: category2;
-    -webkit-animation-duration: 8s;
+    -webkit-animation-duration: 10s;
     -webkit-animation-iteration-count: infinite;
     animation-name: category2;
-    animation-duration: 8s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
 }
 
@@ -322,10 +322,10 @@
 
 .category-preview-3 {
     -webkit-animation-name: category3;
-    -webkit-animation-duration: 8s;
+    -webkit-animation-duration: 10s;
     -webkit-animation-iteration-count: infinite;
     animation-name: category3;
-    animation-duration: 8s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
 }
 
@@ -341,10 +341,10 @@
 
 .category-preview-4 {
     -webkit-animation-name: category4;
-    -webkit-animation-duration: 8s;
+    -webkit-animation-duration: 10s;
     -webkit-animation-iteration-count: infinite;
     animation-name: category4;
-    animation-duration: 8s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
 }
 
@@ -360,10 +360,10 @@
 
 .category-preview-5 {
     -webkit-animation-name: category5;
-    -webkit-animation-duration: 8s;
+    -webkit-animation-duration: 10s;
     -webkit-animation-iteration-count: infinite;
     animation-name: category5;
-    animation-duration: 8s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
 }
 
@@ -379,9 +379,9 @@
 
 .category-preview-6 {
     -webkit-animation-name: category6;
-    -webkit-animation-duration: 8s;
+    -webkit-animation-duration: 10s;
     -webkit-animation-iteration-count: infinite;
     animation-name: category6;
-    animation-duration: 8s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
 }
