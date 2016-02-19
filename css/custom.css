@@ -151,17 +151,17 @@
   z-index:1;
   background-color:white;
 }
-@media (min-width: 768px) {
+@media screen (min-width: 768px) {
   .rachael-wrap {
     width:100%;
   }
 }
-@media (min-width: 992px) {
+@media screen (min-width: 992px) {
   .rachael-wrap {
     width:80%;
   }
 }
-@media (min-width: 1200px) {
+@media screen (min-width: 1200px) {
   .rachael-wrap {
     width:53%;
   }
