@@ -12,12 +12,12 @@
       iii.	About page header (DONE - takes longer to load)
 4.	Add pages to display posts written by guests (In Progress)
   a.	Each guest author gets their own? Need to do the same as Evan and Jake posts (possibly a “see more” link)
-  b.  Add author_image_file variable to YAML file in _data repo so guest author page displays their image (blah.jpg)
+  b.  Add author_image_file variable to YAML file in _data repo so guest author page displays their image (blah.jpg) (DONE)
       - Have to manually upload their post and image, then add their author info to the YAML file in _data
       - Should we choose similar posts ourselves or not include them on guest posts?
 5.	Favorites page?
   a.	How would this page be used? Favorite/like button?
-6.	Remove unnecessary files from Repo
+6.	Remove unnecessary files from Repo (DONE)
 7.	Find a way to update author and category redundant scripts
 9.  Create and add logos/images for the office to adventure site name
     - Create favicon for new logo/title - (in progress)
