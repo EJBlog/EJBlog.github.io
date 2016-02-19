@@ -833,7 +833,7 @@ ol li {
 .user-icon {
   width: 50px;
   /* Removed height property for mobile sizing. -Evan */
-  height: 50px;
+  /*  height: 50px;*/
   padding: 0;
   float: right;
   border-radius: 50%;
