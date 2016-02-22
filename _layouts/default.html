@@ -139,7 +139,7 @@
 				    	{% elsif post.post_author == "Jake Ellis" %}
 				    		By <a href="{{ site.url }}/author_jake.html">{{ post.post_author }}</a> in <a href="{{ site.url }}/{{ post.post_category_link }}.html">{{ post.post_category }}</a>
 				    	{% else %}
-				    		By <a href="{{ site.url }}/guest_authors.html">Guest Author</a> in <a href="{{ site.url }}/{{ post.post_category_link }}e.html">{{ post.post_category }}</a>
+				    		By <a href="{{ site.url }}/guest_authors.html">{{ post.post_author }}</a> in <a href="{{ site.url }}/{{ post.post_category_link }}e.html">{{ post.post_category }}</a>
 				    	{% endif %}
 						
 		      		</div>
@@ -183,7 +183,18 @@
 		                     <div class="entry">
 		                                {{ post.excerpt }}
 		                     </div>
-		                     
+			 				<p class="meta">
+			 					{% if post.post_author == "Evan Neises" %}
+			 	                            		By <a href="{{ site.url }}/author_evan.html">{{ post.post_author }}</a> in <a href="{{ site.url }}/{{ post.post_category_link }}.html">{{ post.post_category }}</a>
+			 				    	{% elsif post.post_author == "Jake Ellis" %}
+			 				    		By <a href="{{ site.url }}/author_jake.html">{{ post.post_author }}</a> in <a href="{{ site.url }}/{{ post.post_category_link }}.html">{{ post.post_category }}</a>
+			 				    	{% else %}
+			 				    		By <a href="{{ site.url }}/guest_authors.html">{{ post.post_author }}</a> in <a href="{{ site.url }}/{{ post.post_category_link }}e.html">{{ post.post_category }}</a>
+			 				    	{% endif %}
+						
+			 		      		</div>
+			 				</p>
+		                     <hr>
 				    {% endif %}
 		                            </article>
 	                          {% endfor %}
