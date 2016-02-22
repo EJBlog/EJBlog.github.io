@@ -26,7 +26,6 @@
 Changes needed after testing:
 - Add similar posts to more existing posts (EVAN & JAKE)
 - Spacing/margins between posts and on sidebar text (JAKE)
-- Add search bar to view all posts (EVAN)
 - Discuss categories page (EVAN & JAKE)
 - Change IT image for category thumbnail and page sidebar
 - Change Miscellaneous image for page sidebar
@@ -41,8 +40,8 @@ Changes needed after testing:
 - Fix spacing at bottom of About.html page between text and footer links
 
 - Remove/change "See More Posts" after clicking
-- Line between posts changes after clikcing "See More Posts"
-- Name and category is removed on posts below "See More Posts" 
+- Line between posts changes after clikcing "See More Posts" (Need to change <article> tags to remove extra line between posts)
+- Name and category is removed on posts below "See More Posts"  (DONE)
 
 
 
