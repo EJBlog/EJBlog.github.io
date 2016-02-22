@@ -230,6 +230,22 @@
     border-radius: 50%;
 }
 
+.single-content-about {
+  padding: 30px 8%;
+}
+@media (min-width: 992px) {
+  /* line 48, ../sass/partials/_single.sass */
+  .single-content-about {
+    padding: 30px 14% 10px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 48, ../sass/partials/_single.sass */
+  .single-content-about {
+    padding: 30px 18% 17px;
+  }
+}
+
 
 /*.sidebar-evan {
   padding: 15px;
