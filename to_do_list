@@ -25,9 +25,7 @@
 
 Changes needed after testing:
 - Add similar posts to more existing posts (EVAN & JAKE)
-- Social media icons on bottom of author page (JAKE)
 - Spacing/margins between posts and on sidebar text (JAKE)
-- Add header/remove footer content (JAKE)
 - Add search bar to view all posts (EVAN)
 - Discuss categories page (EVAN & JAKE)
 - Change IT image for category thumbnail and page sidebar
@@ -120,7 +118,7 @@ a.	Categories functionality (In Progress)
 3.	Add “Read More” link on the home page to display 5 more posts under the previously shown posts  - (Jake - DONE but will need to be updated)      
   9.  Select and purchase domain (DONE)      
 8.	Change the “W” favicon on the tabs for the site - (Done)
-
-        
+- Social media icons on bottom of author page (JAKE)
+- Add header/remove footer content (JAKE)
         
         
