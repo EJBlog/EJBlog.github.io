@@ -116,7 +116,7 @@
                         <a href="#" class="select-categories">Categories</a>
                     </div>
 
-                    <div class="home-page-posts animated fadeIn">
+                    <div class="home-page-posts animated fadeIn ">
                     	
     			{% assign postCount = '0' %}
     			{% for post in site.posts limit:5 %}
@@ -168,7 +168,7 @@
 	                            
 	                            {% capture postCount2 %}{{ postCount2 | plus: '1' }}{% endcapture %}
 	                            {% if postCount < postCount2 %}
-		                            <div class="home-page-posts animated fadeIn">
+		                            <article class="post">
 		                            	<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 		           
 		                     <div class="col-xs-1 no-gutter pull-right">
@@ -194,7 +194,7 @@
 		                     </div>
 		                     <hr>
 				    {% endif %}
-		                            </div>
+		                            </article>
 	                          {% endfor %}
 			        </p>
 			    </div>
