@@ -44,7 +44,7 @@ Changes needed after testing:
 - Name and category is removed on posts below "See More Posts"  (DONE)
 
 - Send out emails to more potential guest authors
-
+- Fix IF statements for home page and guest author page (images)
 
 Potential items to add (now or in the future):
 - "See All Posts" page for home page
