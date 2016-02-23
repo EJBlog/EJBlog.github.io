@@ -45,7 +45,8 @@ Changes needed after testing:
 
 - Send out emails to more potential guest authors
 - Fix IF statements for home page and guest author page (images)
-- Fix post.html layout footer, links
+- Fix post.html layout footer
+- Fix category pages author images
 
 Potential items to add (now or in the future):
 - "See All Posts" page for home page
