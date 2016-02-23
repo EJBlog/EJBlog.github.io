@@ -43,6 +43,7 @@ Changes needed after testing:
 - Line between posts changes after clikcing "See More Posts" (Need to change <article> tags to remove extra line between posts)
 - Name and category is removed on posts below "See More Posts"  (DONE)
 
+- Send out emails to more potential guest authors
 
 
 Potential items to add (now or in the future):
