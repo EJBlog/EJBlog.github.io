@@ -47,6 +47,8 @@ Changes needed after testing:
 - Fix IF statements for home page and guest author page (images)
 - Fix post.html layout footer
 - Fix category pages author images
+- Remove unneeded stock photos
+- Cleanup code and remove large commented out sections
 
 Potential items to add (now or in the future):
 - "See All Posts" page for home page
