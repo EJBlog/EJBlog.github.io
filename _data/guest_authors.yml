@@ -1,11 +1,14 @@
-# - name: John Smith
-#   bio: Just your typical John... test entry for guest authors
-#   image_file: surfing.jpg
+ - name: Max Gurley
+   bio: I live for experiences rather than possessions. Meeting new people, trying new foods, seeing new things, is what gets me going. 
+   I love the outdoors, reading, sports, exercise. My faith in Christ makes everything in life worth it. I am easy-going, fun-loving, joke-telling Louisivillian. 
+   I have Dad humor and I use the word “goober” way too much. The Dab was created by Superman(Cam Newton). 
+   “The only thing we have to fear is fear itself”-FDR.  GO TAKE A RISK. You will be glad you did.
+   image_file: 
 
-# - name: Jane Doe
-#   bio: Test entry number 2 with a longer bio in case one of our guest authors sends us a long paragraph. This will help me test the spacing between multiple authors and also see how well the text wraps.
-#   image_file: 157.jpg
+ - name: John Smith
+   bio: Test entry with random image to check sizing, margins, etc. for the guest author page.
+   image_file: 157.jpg
 
-# - name: Chuck Norris
-  # bio: Test entry number 3
-  # image_file: 
+ - name: Chuck Norris
+   bio: Test entry number 3
+   image_file: surfing.jpg
