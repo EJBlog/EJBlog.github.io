@@ -98,7 +98,11 @@
       				</div>
 	  		   </div>
 	  		   <div class="col-xs-2 no-gutter">
-	  		   	<img src="{{ site.url }}/img/{{ author.image_file }}" class="guest-user-icon" alt="user-image">
+	  		   	{% if author.image_file != "" %}
+					<img src="{{ site.url }}/img/{{ author.image_file }}" class="guest-user-icon" alt="user-image">
+					{% else %}
+					<img src="{{ site.url }}/img/no_image.jpg" class="user-icon" alt="user-image">
+					{% endif %}
 	  		   </div>
     			</article>
   			{% endfor %}
