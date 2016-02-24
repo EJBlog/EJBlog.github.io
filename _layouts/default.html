@@ -117,13 +117,15 @@
                     </div>
 
                     <div class="home-page-posts animated fadeIn ">
-                
-				{% assign author = site.data.guest_authors | where:"id", page.author %}
+
+				
+
 				
     			{% assign postCount = '0' %}
     			{% for post in site.posts limit:5 %}
     			{% capture postCount %}{{ postCount | plus: '1' }}{% endcapture %}
-				
+			
+				{% assign author = site.data.guest_authors | where:"id", page.author %}
 				<h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 					<div class="col-xs-1 no-gutter pull-right">
 						{% if post.post_author == "Evan Neises" %}
@@ -133,6 +135,8 @@
 						{% else %}
 						<img src="{{ site.url }}/img/{{ author.image_file }}" class="user-icon" alt="user-image">
 						{% endif %}
+						<!--<img src="{{ site.url }}/img/{{ post.author.image_file }}" class="user-icon" alt="user-image">-->
+						
 					</div>
 	      			<div class="entry">
 				{{ post.excerpt }}
