@@ -90,7 +90,9 @@
 					
 					
                     <div class="posts">
-			 {% for author in site.data.guest_authors %}
+                    	
+                    	{% assign author = site.data.guest_authors[page.author] %}
+			 {% if author %}
 			 
 			 <!-- {% assign author = site.data.guest_authors[post.author] %} -->
     			 <article class="post">
@@ -109,7 +111,7 @@
 				{% endif %}
 	  		   </div>
     			</article>
-  			{% endfor %}
+  			{% endif %}
 		    </div>
                     <!-- Home page posts -->
 
