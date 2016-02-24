@@ -68,6 +68,8 @@
                 <hr>
             </div>
         </header>
+		
+		{% assign author = site.data.guest_authors[page.author] %}
 
         <main class="container">
             <div class="row">
@@ -78,7 +80,7 @@
 			{% elsif page.post_author == "Jake Ellis" %}
 				By <a href="{{ site.url }}/author_jake.html">{{ page.post_author }}</a> in <a href="{{ site.url }}/{{ page.post_category_link }}.html">{{ page.post_category }}</a>
 			{% else %}
-				By <a href="{{ site.url }}/guest_authors.html">{{ page.post_author}}</a> in <a href="{{ site.url }}/{{ page.post_category_link }}.html">{{ page.post_category }}</a>
+				By <a href="{{ site.url }}/guest_authors.html">{{ author.name }}</a> in <a href="{{ site.url }}/{{ page.post_category_link }}.html">{{ page.post_category }}</a>
 			{% endif %}
 		</p>
                     <h1>{{ page.title }}</h1>
