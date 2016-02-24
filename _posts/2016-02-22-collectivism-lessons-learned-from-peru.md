@@ -2,7 +2,7 @@
 layout: post
 title: "Collectivism: Lessons Learned from Peru"
 post_date: "Feb. 22nd, 2016"
-post_author: "Max Gurley"
+author: max_gurley
 post_category: "Travel"
 post_category_link: "travel_category"
 comments: True
