@@ -1287,14 +1287,14 @@ blockquote {
   /* line 48, ../sass/partials/_single.sass */
   .single-content,
   .single-content-sidebar {
-    padding: 30px 14% 70px;
+    padding: 30px 14% 10px;   /*Used to be padding: 30px 14% 70px;  */
   }
 }
 @media (min-width: 1200px) {
   /* line 48, ../sass/partials/_single.sass */
   .single-content,
   .single-content-sidebar {
-    padding: 30px 18% 170px;
+    padding: 30px 18% 17px;  /*Used to be padding: 30px 14% 170px;  */
   }
 }
 /* line 57, ../sass/partials/_single.sass */
