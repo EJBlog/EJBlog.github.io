@@ -40,13 +40,11 @@ Changes needed after testing:
 - Fix spacing at bottom of About.html page between text and footer links
 
 - Remove/change "See More Posts" after clicking
-- Line between posts changes after clikcing "See More Posts" (Need to change <article> tags to remove extra line between posts)
 - Name and category is removed on posts below "See More Posts"  (DONE)
 
 - Send out emails to more potential guest authors
-- Fix IF statements for home page and guest author page (images)
-- Fix post.html layout footer
-- Fix category pages author images
+- Fix IF statements for home page and guest author page (images) - (done but messing up guest authors page)
+- Fix category pages author images (done but messing up guest author page)
 - Remove unneeded stock photos
 - Cleanup code and remove large commented out sections
 
@@ -124,5 +122,10 @@ a.	Categories functionality (In Progress)
 8.	Change the “W” favicon on the tabs for the site - (Done)
 - Social media icons on bottom of author page (JAKE)
 - Add header/remove footer content (JAKE)
+- Fix post.html layout footer (Done)
+- Line between posts changes after clikcing "See More Posts" (Need to change <article> tags to remove extra line between posts)
+        
+        
+        
         
         
