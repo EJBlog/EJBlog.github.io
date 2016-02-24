@@ -118,7 +118,7 @@
 
                     <div class="home-page-posts animated fadeIn ">
                 
-				{% assign author = site.data.guest_authors[page.author] %}
+				{% assign author = site.data.guest_authors | where:"id", page.author %}
 				
     			{% assign postCount = '0' %}
     			{% for post in site.posts limit:5 %}
@@ -131,7 +131,7 @@
 						{% elsif post.post_author == "Jake Ellis" %}
 						<img src="{{ site.url }}/img/jake_rach_yosemite.jpg" class="user-icon" alt="user-image">
 						{% else %}
-						<img src="{{ site.url }}/img/{{ post.author.image_file }}" class="user-icon" alt="user-image">
+						<img src="{{ site.url }}/img/{{ author.image_file }}" class="user-icon" alt="user-image">
 						{% endif %}
 					</div>
 	      			<div class="entry">
