@@ -68,9 +68,7 @@
                 <hr>
             </div>
         </header>
-		
-		{% assign author = site.data.guest_authors[page.author] %}
-		
+
         <main class="container">
             <div class="row">
                 <div class="col-xs-12 single-content blog-post">
@@ -100,13 +98,18 @@
                     <div class="col-xs-12 col-sm-2">
                     	{% if page.post_author == "Evan Neises"%}
                         <img src="{{ site.url }}/img/profile-1.jpg" class="user-icon " alt="user-image">
-                        {% elsif page.post_author == "Jake Ellis"%}
+                        {%endif%}
+                        {% if page.post_author == "Jake Ellis"%}
                         <img src="{{ site.url }}/img/jake_grandcanyon.jpg" class="user-icon " alt="user-image">
+<<<<<<< HEAD
                         {% elsif author.image_file != null %}
 						<img src="{{ site.url }}/img/{{ author.image_file }}" class="user-icon " alt="user-image">
 						{% else %}
 						<img src="{{ site.url }}/img/no_image.jpg" class="user-icon " alt="user-image">
 						{% endif %}
+=======
+                        {%endif%}
+>>>>>>> origin/master
                     </div>
                     <div class="col-xs-12 col-sm-6">
                         <div class="category-list">
@@ -149,33 +152,38 @@
             <div class="row read-another-section">
                 <a href="post.html"><div class="col-sm-6 col-md-2 no-gutter read-another-container">
                     <div class="overlay"></div>
-                    <img src="{{ site.url }}/img/.jpg">
+                    <img src="{{ site.url }}/img/fitness_weights.jpg">
                     <h3 class="read-another">Fitness</h3>
                 </div></a>
                 <a href="post.html"><div class="col-sm-6 col-md-2 no-gutter read-another-container">
                     <div class="overlay"></div>
-                    <img src="{{ site.url }}/img/halfdome_view4.jpg">
+                    <img src="{{ site.url }}/img/chicago_downtown_category.jpg">
                     <h3 class="read-another">Travel</h3>
                 </div></a>
+                <!--<a href="post.html"><div class="col-sm-6 col-md-2 no-gutter read-another-container">-->
+                <!--    <div class="overlay"></div>-->
+                <!--    <img src="{{ site.url }}/img/.jpg">-->
+                <!--    <h3 class="read-another">Music</h3>-->
+                <!--</div></a>-->
                 <a href="post.html"><div class="col-sm-6 col-md-2 no-gutter read-another-container">
                     <div class="overlay"></div>
-                    <img src="{{ site.url }}/img/.jpg">
-                    <h3 class="read-another">Music</h3>
-                </div></a>
-                <a href="post.html"><div class="col-sm-6 col-md-2 no-gutter read-another-container">
-                    <div class="overlay"></div>
-                    <img src="{{ site.url }}/img/.jpg">
+                    <img src="{{ site.url }}/img/cover-1.jpg">
                     <h3 class="read-another">Information Technology</h3>
                 </div></a>
                 <a href="post.html"><div class="col-sm-6 col-md-2 no-gutter read-another-container">
                     <div class="overlay"></div>
-                    <img src="{{ site.url }}/img/jake_climbing.jpg">
+                    <img src="{{ site.url }}/img/climbcategory1.jpg">
                     <h3 class="read-another">Climbing</h3>
                 </div></a>
                 <a href="post.html"><div class="col-sm-6 col-md-2 no-gutter read-another-container">
                     <div class="overlay"></div>
-                    <img src="{{ site.url }}/img/.jpg">
+                    <img src="{{ site.url }}/img/38.jpg">
                     <h3 class="read-another">Snow Sports</h3>
+                </div></a>
+                <a href="post.html"><div class="col-sm-6 col-md-2 no-gutter read-another-container">
+                    <div class="overlay"></div>
+                    <img src="{{ site.url }}/img/green_logo_category2.jpg">
+                    <h3 class="read-another">Miscellaneous</h3>
                 </div></a>
             </div>
         </footer>
