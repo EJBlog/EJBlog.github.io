@@ -87,10 +87,12 @@
                         <!-- <a href="#" class="select-categories">Categories</a> -->
                     </div>
                     
-					{% assign author = site.data.guest_authors | where:"id", page.author %}
+					
 					
                     <div class="posts">
 			 {% for author in site.data.guest_authors %}
+			 
+			 {% assign author = site.data.guest_authors[post.author] %}
     			 <article class="post">
 			   <div class="col-xs-10 no-gutter">
       				<h2>{{ author.name }}</h2>
