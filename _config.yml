@@ -12,4 +12,7 @@ excerpt_separator: <!--endpreview-->
 
 disqus: officetoadventure.disqus.com
 
+collections:
+ - authors
+
 # permalink: /blog/:year/:month/:day/:title/
