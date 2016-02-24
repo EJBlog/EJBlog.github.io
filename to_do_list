@@ -45,6 +45,7 @@ Changes needed after testing:
 - Send out emails to more potential guest authors
 - Fix IF statements for home page and guest author page (images) - (done but messing up guest authors page)
 - Fix category pages author images (done but messing up guest author page)
+- Change guest author sidebar image
 - Remove unneeded stock photos
 - Cleanup code and remove large commented out sections
 
