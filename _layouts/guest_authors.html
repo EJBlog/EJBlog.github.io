@@ -92,8 +92,7 @@
                     <div class="posts">
                     	
                     	<!--{% assign author = site.data.guest_authors[page.author] %}-->
-			 {% for guest_author in site.data.guest_authors %}
-			 {% assign author = guest_author[1] %}
+			 {% for author in site.data.authors.name %}
 			 <!-- {% assign author = site.data.guest_authors[post.author] %} -->
     			 <article class="post">
 			   <div class="col-xs-10 no-gutter">
