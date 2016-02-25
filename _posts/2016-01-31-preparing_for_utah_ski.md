@@ -8,7 +8,7 @@ post_category_link: "snow_category"
 comments: True
 ---
 <p>
-Living in Kentucky, we have a hard time finding good snow for a yearly ski trip. <!--endpreview--> There are a couple places in Indiana, which are barely skiable most of the winter season although I am thankful for those place because that is where most of us got our start.
+Living in Kentucky, we have a hard time finding good snow for a yearly ski trip. <!--endpreview--> There are a couple places in Indiana, which are barely skiable most of the winter season, although I am thankful for those places because that is where most of us got our start.
 2015 was the first year I was able to get a group of friends to head to a larger mountain for a ski/snowboard trip. We drove 7 hours to Snowshoe, West Virginia for a 4 day trip. 
 </p>
 <p>
