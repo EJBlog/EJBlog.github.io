@@ -11,7 +11,7 @@ comments: True
 Collectivism is a word that isn’t too familiar to Americans.  It is a moral stance or idea that is used a lot in sociology, but why are we not too familiar with this term?<!--endpreview-->
 <br><br>
 It is because we are too focused on “I” and less focused on “Us.”  
-<br><br>
+<br>
 Bill McKibben, author of the book Deep Economy (I highly recommend it!), uses the term “hyper-individualism.” His definition is the “tendency for people to act in a highly individual way, without regard to society.”  With our smartphones, social media, the money chase, the all for me, none for all mentality, there is no wonder why the sense of community is withering away in our country.
 <br><br>
 After exploring Peru for 2 weeks during the month of May with my father, I realized we have it all wrong.
