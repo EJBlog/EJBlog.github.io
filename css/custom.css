@@ -150,7 +150,8 @@
   position: fixed;
   z-index:1;
 }
-@media screen and (min-width: 768px) and (max-width: 992px) {
+/*@media screen and (min-width: 768px) and (max-width: 992px)*/
+@media screen and (max-width: 992px){
   .rachael-wrap {
    width: 100%;
   /*border: 1px solid #ccc;*/
@@ -158,6 +159,7 @@
   overflow: auto;
   position: fixed;
   z-index:1;
+  padding-bottom:2px;
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {
