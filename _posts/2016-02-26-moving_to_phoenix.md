@@ -2,7 +2,7 @@
 title: "Moving to Pheonix, Arizona"
 post_category: "travel"
 layout: post-sidebar
-post_date: "Feb. 22, 2016"
+post_date: "Feb. 26, 2016"
 comments: True
 post_author: "Jake Ellis"
 post_category_link: "travel_category"
