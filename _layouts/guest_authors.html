@@ -99,14 +99,9 @@
 				{{ author_info.bio }}
       				</div>
 	  		   </div>
-	  		   <div class="col-xs-2 no-gutter">
-	  		   	<!-- {% if author_info.image_file == null %} -->
-	  		   		<!-- <img src="{{ site.url }}/img/no_image.jpg" class="guest-user-icon" alt="user-image"> -->
-				<!-- {% else %} -->
+	  		   <!-- <div class="col-xs-2 no-gutter"> -->
 					<img src="{{ site.url }}/img/{{ author_info.image_file }}" class="guest-user-icon" alt="user-image">
-				<!-- {% endif %} -->
-	  		   	</div>
-				<hr>
+	  		   	<!-- </div> -->
 				{% endfor %}
   			{% endfor %}
 		    </div>
