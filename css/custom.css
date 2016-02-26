@@ -245,7 +245,7 @@
   width:90%;
   font-family:lucida handwriting;
   text-align:center;
-  position:fixed;
+  position:absolute;
   /*background-color:white;*/
   /*z-index:1;*/
   margin-top:40px;
