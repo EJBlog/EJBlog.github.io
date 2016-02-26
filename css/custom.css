@@ -157,7 +157,7 @@
   /*border: 1px solid #ccc;*/
   height: 125px;
   overflow: auto;
-  position: fixed;
+  position: absolute;
   z-index:1;
   }
 }
@@ -201,7 +201,7 @@
       height:50px;
   /*top:0px;*/
   width:90%;
-  position: fixed;
+  position: absolute;
   font-family:lucida handwriting;
   text-align:center;
   }
@@ -233,7 +233,7 @@
   width:50%;
   font-family:lucida handwriting;
   text-align:center;
-  position:fixed;
+  position:absolute;
   /*background-color:white;*/
   /*z-index:1;*/
   margin-top:40px;
