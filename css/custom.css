@@ -197,7 +197,7 @@
   .rachael-text {
       height:50px;
   /*top:0px;*/
-  width:50%;
+  width:90%;
   position: fixed;
   font-family:lucida handwriting;
   text-align:center;
@@ -207,7 +207,7 @@
   .rachael-text {
       height:50px;
   /*top:0px;*/
-  width:80%;
+  width:50%;
   position: fixed;
   font-family:lucida handwriting;
   text-align:center;
@@ -217,7 +217,7 @@
   .rachael-text {
       height:50px;
   /*top:0px;*/
-  width:100%;
+  width:50%;
   position: fixed;
   font-family:lucida handwriting;
   text-align:center;
@@ -227,7 +227,7 @@
 .rachael-text-two
 {
   height:72px;
-  width:100%;
+  width:50%;
   font-family:lucida handwriting;
   text-align:center;
   position:fixed;
@@ -238,7 +238,7 @@
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .rachael-text-two {
   height:72px;
-  width:50%;
+  width:90%;
   font-family:lucida handwriting;
   text-align:center;
   position:fixed;
@@ -250,7 +250,7 @@
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   .rachael-text-two {
       height:72px;
-  width:80%;
+  width:50%;
   font-family:lucida handwriting;
   text-align:center;
   position:fixed;
@@ -262,7 +262,7 @@
 @media screen and (min-width: 1200px) {
   .rachael-text-two {
       height:72px;
-  width:100%;
+  width:50%;
   font-family:lucida handwriting;
   text-align:center;
   position:fixed;
