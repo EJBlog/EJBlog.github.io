@@ -196,24 +196,35 @@
   text-align:center;
   /*background-color:white;*/
   /*z-index:1;*/
-  color:orange;
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .rachael-text {
-    width:100%;
-    color:red;
+      height:50px;
+  /*top:0px;*/
+  width:50%;
+  position: fixed;
+  font-family:lucida handwriting;
+  text-align:center;
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   .rachael-text {
-    width:100%;
-    color:blue;
+      height:50px;
+  /*top:0px;*/
+  width:50%;
+  position: fixed;
+  font-family:lucida handwriting;
+  text-align:center;
   }
 }
 @media screen and (min-width: 1200px) {
   .rachael-text {
-    width:50%;
-    color:black;
+      height:50px;
+  /*top:0px;*/
+  width:50%;
+  position: fixed;
+  font-family:lucida handwriting;
+  text-align:center;
   }
 }
 
@@ -226,25 +237,42 @@
   position:fixed;
   /*background-color:white;*/
   /*z-index:1;*/
-  margin-top:40px
-  color:red;
+  margin-top:40px;
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .rachael-text-two {
-    width:100%;
-    color:blue;
+  height:72px;
+  width:50%;
+  font-family:lucida handwriting;
+  text-align:center;
+  position:fixed;
+  /*background-color:white;*/
+  /*z-index:1;*/
+  margin-top:40px;
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   .rachael-text-two {
-    width:100%;
-    color:black;
+      height:72px;
+  width:50%;
+  font-family:lucida handwriting;
+  text-align:center;
+  position:fixed;
+  /*background-color:white;*/
+  /*z-index:1;*/
+  margin-top:40px;
   }
 }
 @media screen and (min-width: 1200px) {
   .rachael-text-two {
-    width:50%;
-    color:orange;
+      height:72px;
+  width:50%;
+  font-family:lucida handwriting;
+  text-align:center;
+  position:fixed;
+  /*background-color:white;*/
+  /*z-index:1;*/
+  margin-top:40px;
   }
 }
 
