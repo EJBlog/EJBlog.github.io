@@ -11,7 +11,7 @@ post_category_link: "travel_category"
 <p>
 Rachael and I will be moving from Louisville, KY to Phoenix, AZ on March 10th, 2016.
 Rachael has accepted a 3 month (minimum) travel nursing assignment at the John C. Memorial hospital and I will be working as a remote employee 
-for my current employer, Humana Inc.  <!-- endpreview-->
+for my current employer, Humana Inc.  <!--endpreview-->
 
 We have always enjoyed traveling and knew that this was the best option to travel while being financially stable. Right now we 
 are in the planning process, although our timeframe is very short. Rachael was offered her position on Tuesday February 16th and 
