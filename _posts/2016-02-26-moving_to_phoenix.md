@@ -1,6 +1,6 @@
 ---
 title: "Moving to Pheonix, Arizona"
-post_category: "travel"
+post_category: "Travel"
 layout: post-sidebar
 post_date: "Feb. 26, 2016"
 comments: True
