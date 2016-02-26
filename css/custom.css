@@ -153,17 +153,35 @@
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .rachael-wrap {
-    width:1000px;
+   width: 530px;
+  /*border: 1px solid #ccc;*/
+  height: 120px;
+  overflow: auto;
+  position: fixed;
+  z-index:1;
+  background-color:blue;
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   .rachael-wrap {
-    width:1000px;
+      width: 530px;
+  /*border: 1px solid #ccc;*/
+  height: 120px;
+  overflow: auto;
+  position: fixed;
+  z-index:1;
+  background-color:black;
   }
 }
 @media screen and (min-width: 1200px) {
   .rachael-wrap {
-    width:1000px;
+      width: 1000px;
+  /*border: 1px solid #ccc;*/
+  height: 120px;
+  overflow: auto;
+  position: fixed;
+  z-index:1;
+  background-color:orange;
   }
 }
 
