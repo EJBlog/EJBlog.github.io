@@ -155,11 +155,10 @@
   .rachael-wrap {
    width: 100%;
   /*border: 1px solid #ccc;*/
-  height: 120px;
+  height: 125px;
   overflow: auto;
   position: fixed;
   z-index:1;
-  padding-bottom:2px;
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {
