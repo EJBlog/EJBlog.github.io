@@ -93,17 +93,18 @@
                     	
                     	{% assign author = site.data.guest_authors[page.author] %}
 			 {% for author in site.data.authors %}
+			 {% for author_info in author}
 			 <!-- {% assign author = site.data.guest_authors[post.author] %} -->
     			 <article class="post">
 			   <div class="col-xs-10 no-gutter">
-      				<h2>{{ author.name }}</h2>
+      				<h2>{{ author_info.name }}</h2>
 
       				<div class="meta">
-				{{ author.bio }}
+				{{ author_info.bio }}
       				</div>
 	  		   </div>
 	  		   <div class="col-xs-2 no-gutter">
-	  		   	{% if author.image_file == null %}
+	  		   	{% if author_info.image_file == null %}
 	  		   		<img src="{{ site.url }}/img/no_image.jpg" class="guest-user-icon" alt="user-image">
 				{% else %}
 					<img src="{{ site.url }}/img/{{ author.image_file }}" class="guest-user-icon" alt="user-image">
