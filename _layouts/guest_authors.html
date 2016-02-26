@@ -91,11 +91,10 @@
 					
                     <div class="posts">
                     	
-                    	<!-- {% assign author = site.data.guest_authors[page.author] %} -->
+                    	
 			 {% for author in site.data.authors %}
-			 {% for author_info in author}
-			 <!-- {% assign author = site.data.guest_authors[post.author] %} -->
-    			 <article class="post">
+			 	{% for author_info in author}
+			 
 			   <div class="col-xs-10 no-gutter">
       				<h2>{{ author_info.name }}</h2>
 
@@ -109,9 +108,8 @@
 				{% else %}
 					<img src="{{ site.url }}/img/{{ author.image_file }}" class="guest-user-icon" alt="user-image">
 				{% endif %}
-	  		   </div>
-    			</article>
-			{% endfor %}
+	  		   	</div>
+				{% endfor %}
   			{% endfor %}
 		    </div>
                     <!-- Home page posts -->
