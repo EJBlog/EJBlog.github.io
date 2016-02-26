@@ -178,20 +178,24 @@
   text-align:center;
   /*background-color:white;*/
   /*z-index:1;*/
+  color:orange;
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .rachael-text {
     width:100%;
+    color:red;
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   .rachael-text {
     width:100%;
+    color:blue;
   }
 }
 @media screen and (min-width: 1200px) {
   .rachael-text {
     width:50%;
+    color:black;
   }
 }
 
@@ -205,20 +209,24 @@
   /*background-color:white;*/
   /*z-index:1;*/
   margin-top:40px
+  color:red;
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .rachael-text-two {
     width:100%;
+    color:blue;
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   .rachael-text-two {
     width:100%;
+    color:black;
   }
 }
 @media screen and (min-width: 1200px) {
   .rachael-text-two {
     width:50%;
+    color:orange;
   }
 }
 
