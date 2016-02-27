@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="{{ site.url }}/css/bootstrap.min.css">
         <link rel="stylesheet" href="{{ site.url }}/css/font-awesome.min.css">
         <link rel="stylesheet" href="{{ site.url }}/css/main.css">
+        <script src="{{ site.url }}/js/jquery.sticky-kit.js" type="text/javascript"></script>-->
 	
         
 		<!--[if lte IE 9]>
@@ -84,9 +85,13 @@
                    
                  <div class="rachael-wrap">
                  	<script>
-                 	$(window).scroll(function(){
-  			$("div.rachael-wrap").toggleClass("scrolling", $("div.rachael-text").offset().top);
-  			// $(window).scrollTop() > $("div.rachael-text").offset().top
+                 	$(".rachael-wrap").stick_in_parent({
+    			// offset_top: 10
+			});
+			
+     //            	$(window).scroll(function(){
+  			// $("div.rachael-wrap").toggleClass("scrolling", $("div.rachael-text").offset().top);
+  			// // $(window).scrollTop() > $("div.rachael-text").offset().top
 			</script>
                     	
                     			    <!--<img src="img/ota_badge.jpg" class="rachael-img"><br><br>-->
