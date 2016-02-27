@@ -149,6 +149,7 @@
   overflow: auto;
   position: fixed;
   z-index:1;
+   background-color:white;
 }
 /*@media screen and (min-width: 768px) and (max-width: 992px)*/
 @media screen and (max-width: 992px){
@@ -159,6 +160,7 @@
   overflow: auto;
   position: absolute;
   z-index:1;
+   background-color:white;
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {
@@ -169,6 +171,7 @@
   overflow: auto;
   position: fixed;
   z-index:1;
+   background-color:white;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -179,6 +182,7 @@
   overflow: auto;
   position: fixed;
   z-index:1;
+  background-color:white;
   }
 }
 
