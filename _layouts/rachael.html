@@ -85,7 +85,8 @@
                  <div class="rachael-wrap">
                  	<script>
                  	$(window).scroll(function(){
-  			$('.rachael-text').toggleClass('scrolling', $(window).scrollTop() > $('.sidebar').offset().top);
+  			$("div.rachael-text").toggleClass('scrolling', $(window).scrollTop());
+  			// > $('.sidebar').offset().top
 			</script>
                     	
                     			    <!--<img src="img/ota_badge.jpg" class="rachael-img"><br><br>-->
