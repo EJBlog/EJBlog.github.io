@@ -1068,30 +1068,31 @@ ol li {
   border-bottom: solid 1px #f5f5f5;
   line-height: 30px;
 }
-@media screen and (max-width: 992px){
-  .sub-nav {
-  border-bottom: solid 1px #f5f5f5;
-  line-height: 30px;
-  position: absolute;
-  padding-top:80px;
-  }
-}
-@media screen and (min-width: 992px) and (max-width: 1200px) {
-  .sub-nav {
-  border-bottom: solid 1px #f5f5f5;
-  line-height: 30px;
-  position: fixed;
-  padding-top:80px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .sub-nav{
-  border-bottom: solid 1px #f5f5f5;
-  line-height: 30px;
-  position: fixed;
-  padding-top:80px;
-  }
-}
+/*This is for the new header on rachael.html*/
+/*@media screen and (max-width: 992px){*/
+/*  .sub-nav {*/
+/*  border-bottom: solid 1px #f5f5f5;*/
+/*  line-height: 30px;*/
+/*  position: absolute;*/
+/*  padding-top:80px;*/
+/*  }*/
+/*}*/
+/*@media screen and (min-width: 992px) and (max-width: 1200px) {*/
+/*  .sub-nav {*/
+/*  border-bottom: solid 1px #f5f5f5;*/
+/*  line-height: 30px;*/
+/*  position: fixed;*/
+/*  padding-top:80px;*/
+/*  }*/
+/*}*/
+/*@media screen and (min-width: 1200px) {*/
+/*  .sub-nav{*/
+/*  border-bottom: solid 1px #f5f5f5;*/
+/*  line-height: 30px;*/
+/*  position: fixed;*/
+/*  padding-top:80px;*/
+/*  }*/
+/*}*/
 /* line 14, ../sass/partials/_main-content.sass */
 .sub-nav a {
   display: inline-block;
