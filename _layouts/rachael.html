@@ -148,9 +148,17 @@
 			</script>
 			
 			<body>
-			    <a href="javascript:showhide('moreposts')" onclick="location.href='#jump'" class="meta">
-			        See More Posts.
-			    </a>
+			
+			<a href="javascript:showhide('moreposts')" onclick="if(this.innerHTML =='Read More')
+				{this.innerHTML = 'See More Posts'}else{this.innerHTML = 'See Less Posts'}" class="meta">
+				See More Posts
+			</a>
+			    <!--<a href="javascript:showhide('moreposts')" onclick="location.href='#jump'" class="meta">-->
+			    <!--    See More Posts-->
+			    <!--</a>-->
+			
+			
+			
 			
 			    <div id="moreposts" style="display:none;">
 			   <a name="jump"></a>	
