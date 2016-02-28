@@ -87,9 +87,16 @@
                    
                  <div class="rachael-wrap">
                  	<script type="text/javascript">
-                 	$(document).ready(function(){$(".rachael-wrap").stick_in_parent({
-	    			offset_top: 10
-				}) });
+                 	
+                 	jQuery(document).ready(function()
+                 	{
+                 		$(".rachael-wrap").stick_in_parent(
+                 		{
+	    			offset_top: 10;
+				}
+								   )
+                 	}
+                 	);
 			
 	    //      	$(window).scroll(function(){
   			// $("div.rachael-wrap").toggleClass("scrolling", $("div.rachael-text").offset().top);
