@@ -89,7 +89,7 @@
                     				
                     <div class="posts">                  	
                     	
-			 {% for author in site.data.authors %}
+			 {% assign author = site.data.authors[page.author] %}
 			 	{% for author_info in author %}
 			 
 			   <div class="col-xs-10 no-gutter">
