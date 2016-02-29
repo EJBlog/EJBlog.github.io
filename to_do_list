@@ -31,13 +31,13 @@ Changes needed after testing:
 - Change Miscellaneous image for page sidebar
 - Change Guest Authors image for page sidebar
 - Change Contact image for page sidebar
-- Remove black bar at the top of page on About.html and Contact.html
+- Remove black bar at the top of page on About.html and Contact.html (DONE)
   - Notes: Contact.html, About.html, and Category.html are only three pages showing black bar and
     only three pages not working on Google Analytics (nothing being tracked). Tried many things to
     fix this issue. They also happen to be the only three files that don't have a linked file within
     the _layouts folder... I think this has to be causing Analytics to fail for some reason and creating
     a random black bar. Have to do more research. -Evan
-- Fix spacing at bottom of About.html page between text and footer links
+- Fix spacing at bottom of About.html page between text and footer links (DONE)
 
 - Remove/change "See More Posts" after clicking
 - Name and category is removed on posts below "See More Posts"  (DONE)
