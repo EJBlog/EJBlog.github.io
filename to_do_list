@@ -43,8 +43,8 @@ Changes needed after testing:
 - Name and category is removed on posts below "See More Posts"  (DONE)
 
 - Send out emails to more potential guest authors
-- Fix IF statements for home page and guest author page (images) - (done but messing up guest authors page)
-- Fix category pages author images (done but messing up guest author page)
+- Fix IF statements for home page and guest author page (images) (DONE)
+- Fix category pages author images (DONE)
 - Change guest author sidebar image
 - Remove unneeded stock photos
 - Cleanup code and remove large commented out sections
