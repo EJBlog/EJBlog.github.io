@@ -96,11 +96,10 @@
        				<div class="meta">
  				{{ author.content | remove:'<p>' | remove:'</p>' }}
        				</div>
+       				<img src="{{ site.url }}/img/{{ author.image_file }}" class="guest-user-icon" alt="user-image">
  	  		   </div>
- 					<img src="{{ site.url }}/img/{{ author.image_file }}" class="guest-user-icon" alt="user-image">
+ 					
  				<hr>
-
- 			
   			{% endfor %}
 		    </div>
 		    
