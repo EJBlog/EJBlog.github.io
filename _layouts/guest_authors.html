@@ -94,7 +94,7 @@
        				<h2>{{ author.name }}</h2>
  
        				<div class="meta">
- 				{{ author.content }}
+ 				{{ author.content | remove:'<p>' | remove:'</p>' }}
        				</div>
  	  		   </div>
  					<img src="{{ site.url }}/img/{{ author.image_file }}" class="guest-user-icon" alt="user-image">
