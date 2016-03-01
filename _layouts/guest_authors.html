@@ -88,8 +88,9 @@
                     </div>
                     				
                     <div class="posts">                  	
-                    	
+                    
 			 {% for author in site.authors %}
+			 {% if author.name != "Evan Neises" and author.name != "Jake Ellis" %}
 				<div class="col-xs-10 no-gutter">
        				<h2>{{ author.name }}</h2>
  
@@ -99,6 +100,7 @@
  	  		   </div>
  				<img src="{{ site.url }}/img/{{ author.image_file }}" class="guest-user-icon" alt="user-image">	
  				<hr>
+ 			{% endif %}
   			{% endfor %}
 		    </div>
 		    
