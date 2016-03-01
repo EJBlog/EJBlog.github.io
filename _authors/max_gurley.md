@@ -1,4 +1,5 @@
 ---
+author_id: max_gurley
 name: Max Gurley
 image_file: MaxGurley.jpg
 ---
