@@ -86,12 +86,12 @@
                  <div class="rachael-wrap">
                  	<script language="javascript" type="text/javascript">
                  	
-                   $.noConflict();
-		   jQuery(document).ready(function()
+                   jQuery.noConflict();
+		   $(document).ready(function()
 		   {
 		    function attach() 
 		    {
-		      jQuery(".rachael-wrap .rachael-text .rachael-text-two").stick_in_parent
+		      $(".rachael-wrap .rachael-text .rachael-text-two").stick_in_parent
 		      ({
 		        parent: ".sidebar",
 		        // spacer: ".manual_spacer"
