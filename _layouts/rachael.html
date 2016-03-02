@@ -85,13 +85,16 @@
                    
                  <div class="rachael-wrap">
                  	<script language="javascript" type="text/javascript">
-                 	    
+                 	
+                   $.noConflict();
+		   jQuery(document).ready(function(){
 		    function attach() {
-		      $(".rachael-wrap .rachael-text .rachael-tex-two").stick_in_parent({
+		      jQuery(".rachael-wrap .rachael-text .rachael-text-two").stick_in_parent({
 		        parent: ".sidebar",
 		        // spacer: ".manual_spacer"
 		      });
 		    }
+		   )}
 				    
 		 attach();
                  	
