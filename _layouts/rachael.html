@@ -84,24 +84,32 @@
                    <div class="home-page-posts animated fadeIn" style="padding-top:.1px"> <!-- was style="padding-top:4px"-->
                    
                  <div class="rachael-wrap">
-                 	<script language="javascript" type="text/javascript">
+                 	// <script language="javascript" type="text/javascript">
                  	
-                   jQuery.noConflict();
-		   $(document).ready(function()
-		   {
-		    function attach() 
-		    {
-		      $(".rachael-wrap .rachael-text .rachael-text-two").stick_in_parent
-		      ({
-		        parent: ".sidebar",
-		        // spacer: ".manual_spacer"
-		      });
-		    }
-		   } );
+   //                jQuery.noConflict();
+		 //  $(document).ready(function()
+		 //  {
+		 //   function attach() 
+		 //   {
+		 //     $(".rachael-wrap .rachael-text .rachael-text-two").stick_in_parent
+		 //     ({
+		 //       parent: ".sidebar",
+		 //       // spacer: ".manual_spacer"
+		 //     });
+		 //   }
+		 //  } );
 				    
-		 attach();
+		 //attach();
                  	
-			</script>
+                 	<script src="jquery.js"></script>
+			<script src="jquery.sticky.js"></script>
+				<script>
+				  $(document).ready(function(){
+				    $(".racheal-wrap").sticky({topSpacing:0});
+				  });
+				</script>
+                 	
+			<!--</script>-->
 			
                     	
                     			    <!--<img src="img/ota_badge.jpg" class="rachael-img"><br><br>-->
