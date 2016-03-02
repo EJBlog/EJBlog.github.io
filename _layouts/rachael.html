@@ -11,9 +11,7 @@
         <link rel="stylesheet" href="{{ site.url }}/css/bootstrap.min.css">
         <link rel="stylesheet" href="{{ site.url }}/css/font-awesome.min.css">
         <link rel="stylesheet" href="{{ site.url }}/css/main.css">
-        <script src="{{ site.url }}/js/sticky-kit.js" type="text/javascript"></script>
-        <!--<script src="{{ site.url }}/js/jquery.sticky-kit.js" type="text/javascript"></script> -->
-        <script src="{{ site.url }}/js/jquery.sticky-kit.min.js" type="text/javascript"></script> 
+        <script src="{{ site.url }}/js/jquery.sticky-kit.js" type="text/javascript"></script> 
        
         
 		<!--[if lte IE 9]-->
@@ -87,11 +85,15 @@
                    
                  <div class="rachael-wrap">
                  	<script type="text/javascript">
-                 	    function attach() {
-				      (".rachael-wrap").stick_in_parent();
-				    }
+                 	    
+		    function attach() {
+		      $(".rachael-wrap .rachael-text .rachael-tex-two").stick_in_parent({
+		        parent: ".sidebar",
+		        // spacer: ".manual_spacer"
+		      });
+		    }
 				    
-				    attach();
+		 attach();
                  	
                  	
                  	// $(document).ready($(".rachael-wrap").stick_in_parent(
