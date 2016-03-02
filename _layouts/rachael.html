@@ -87,21 +87,27 @@
                    
                  <div class="rachael-wrap">
                  	<script type="text/javascript">
-                 	{literal}
-                 	$(document).ready($(".rachael-wrap").stick_in_parent(
+                 	    function attach() {
+				      $(".rachael-wrap").stick_in_parent();
+				    }
+				    
+				    attach();
+                 	
+                 	
+                 	// $(document).ready($(".rachael-wrap").stick_in_parent(
     //             		{
     //             		container: $(".col-md-7"),
     //             		// , .col-sm-12, .col-md-offset-5
 	   // 			offset_top: 10
 				// }
-								   )
+								   //)
                  	
-                 	);
+                 	// );
 			
 	    //      	$(window).scroll(function(){
   			// $("div.rachael-wrap").toggleClass("scrolling", $("div.rachael-text").offset().top);
   			// $(window).scrollTop() > $("div.rachael-text").offset().top
-  			{/literal}
+  			
 			</script>
 			
                     	
