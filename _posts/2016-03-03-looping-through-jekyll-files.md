@@ -73,7 +73,7 @@ image_file: jsmith.jpg
 This is my author bio explaining who I am and what I like.
 </code></pre>
 <br><br>
-You can add as many attributes to the markdown in the header as you like. You can then access and display each author’s information using a FOR loop {% for author in site.authors %} and then {{ author.name }}, {{ author.content }}, etc. Finally, to attach the author to the posts that they wrote you can use the following code:<br>
+You can add as many attributes to the markdown in the header as you like. You can then access and display each author’s information using a FOR loop &#123&#37 for author in site.authors &#37&#125 and then &#123&#123 author.name &#125&#125, &#123&#123 author.content &#125&#125, etc. Finally, to attach the author to the posts that they wrote you can use the following code:<br>
 <pre><code>
 &#123&#37 for post in site.posts &#37&#125
 &#123&#37 assign author = site.authors | where:”author_id”, post.author_id | first &#37&#125
