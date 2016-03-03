@@ -18,7 +18,7 @@ I started off adding a <a href=http://yaml.org/>YAML</a> file in the _data folde
 	  bio: Born and raised in Louisville, Kentucky.
 	  image_file: john.jpg
 
-	- name: Jane Doe
+- name: Jane Doe
 	  bio: I like long walks on the beach.
 	  image_file: jane.jpg
 </code></pre>
@@ -34,15 +34,15 @@ I then used a FOR loop to display each author on the Guest Authors page:<br>
 <br><br>
 This method works great for displaying all of the authors stored in the _data folder, but poses a new problem. What happens when you want to tie each author to the posts they wrote without any hard-coding? Well, Jekyll has a way to do this also, but it requires some modifications. The new authors yml file now looks like this: <br>
 <pre><code>
-      john_smith:
-  name: John Smith
-	  bio: Born and raised in Louisville, Kentucky.
-	  image_file: john.jpg
+john_smith:
+ 	name: John Smith
+	bio: Born and raised in Louisville, Kentucky.
+ 	image_file: john.jpg
 
-      jane_doe:
-	  name: Jane Doe
-	  bio: I like long walks on the beach.
-	  image_file: jane.jpg
+jane_doe:
+	name: Jane Doe
+	bio: I like long walks on the beach.
+	image_file: jane.jpg
 </code></pre>
 <br><br>
 Now, you can assign the authors in the yml file to the posts that they wrote as shown below:<br>
@@ -64,14 +64,14 @@ Collections:
 </code></pre>
 <br><br>
 Once you’ve done this, you can create a new _authors folder and start adding a new file for each author on the site, similar to the one below (john_smith.md).<br>
-<code>
+<pre><code>
 ---
 author_id: john_smith
 name: John Smith
 image_file: jsmith.jpg
 ---
 This is my author bio explaining who I am and what I like.
-</code>
+</code></pre>
 <br><br>
 You can add as many attributes to the markdown in the header as you like. You can then access and display each author’s information using a FOR loop {% for author in site.authors %} and then {{ author.name }}, {{ author.content }}, etc. Finally, to attach the author to the posts that they wrote you can use the following code:<br>
 <pre><code>
