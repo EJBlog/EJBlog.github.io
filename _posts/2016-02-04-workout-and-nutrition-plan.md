@@ -2,7 +2,7 @@
 layout: post-sidebar
 title: "Evan's Workout and Nutrition Plan"
 post_date: "Feb. 4th, 2016"
-post_author: "Evan Neises"
+author_id: evan_neises
 post_category: "Fitness"
 post_category_link: "fitness_category"
 comments: True
