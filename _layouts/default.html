@@ -113,7 +113,15 @@
 	      			<div class="entry">
 				{{ post.excerpt }}
 				
-
+				<p class="meta">
+					{% if author.author_id == evan_neises %}
+	                            		By <a href="{{ site.url }}/{{ author.author_page }}">{{ author.name }}</a> in <a href="{{ site.url }}/{{ post.post_category_link }}.html">{{ post.post_category }}</a>
+				    	{% elsif author.author_id == jake_ellis %}
+				    		By <a href="{{ site.url }}/{{ author.author_page }}">{{ author.name }}</a> in <a href="{{ site.url }}/{{ post.post_category_link }}.html">{{ post.post_category }}</a>
+				    	{% else %}
+				    		By <a href="{{ site.url }}/guest_authors.html">{{ author.name }}</a> in <a href="{{ site.url }}/{{ post.post_category_link }}.html">{{ post.post_category }}</a>
+				    	{% endif %}
+					</p>	
 		      	</div>
 				<hr>     
 			{% endfor %}
