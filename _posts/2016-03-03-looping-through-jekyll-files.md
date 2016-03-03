@@ -25,11 +25,11 @@ I started off adding a <a href="http://yaml.org/">YAML</a> file in the _data fol
 <br><br>
 I then used a FOR loop to display each author on the Guest Authors page:<br>
 <pre><code>
-{{ for author in site.data.authors }}
-{{ author.name }}
-{{ author.bio }}
-{{ author.image_file }}
-{{ endfor }}
+&#123;&#37; for author in site.data.authors &#37;&#125;
+  &#123;&#123; author.name &#125;&#125;
+  &#123&#123 author.bio &#125;&#125;
+  &#123;&#123; author.image_file &#125;&#125;
+&#123;&#37; endfor &#37;&#125;
 </code></pre>
 <br><br>
 This method works great for displaying all of the authors stored in the _data folder, but poses a new problem. What happens when you want to tie each author to the posts they wrote without any hard-coding? Well, Jekyll has a way to do this also, but it requires some modifications. The new authors yml file now looks like this: <br>
