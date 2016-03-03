@@ -4,7 +4,7 @@ post_category: "Travel"
 layout: post-sidebar
 post_date: "Feb. 27, 2016"
 comments: True
-post_author: "Jake Ellis"
+author_id: jake_ellis
 post_category_link: "travel_category"
 ---
 
