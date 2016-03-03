@@ -2,7 +2,7 @@
 layout: post-sidebar
 title: "Training In The Climbing Gym"
 post_date: "Jan. 18th, 2016"
-post_author: "Jake Ellis"
+author_id: jake_ellis
 post_category: "Climbing"
 post_category_link: "climbing_category"
 comments: True
