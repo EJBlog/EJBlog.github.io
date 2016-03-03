@@ -12,7 +12,7 @@ related_post: [
 ---
 Using Jekyll to create a static blog site has proved to be challenging, but extremely beneficial. One feature that is very useful with Jekyll is the ability to create layouts and display pages with the same look and feel as others.<!--endpreview--> This helps consistency and cuts down code duplication. One useful example of this is looping through items in a file or collection of files and displaying them on a page. I will explain how this site utilizes that capability and the issues encountered along the way while setting it up.
 <br><br>
-I started off adding a <a href=http://yaml.org/>YAML</a> file in the _data folder to store information for everyone who has written blog posts for this site. An example of the original layout looks something like this: <br>
+I started off adding a <a href="http://yaml.org/">YAML</a> file in the _data folder to store information for everyone who has written blog posts for this site. An example of the original layout looks something like this: <br>
 <pre><code>
 - name: John Smith
 	  bio: Born and raised in Louisville, Kentucky.
@@ -55,7 +55,7 @@ Now, you can assign the authors in the yml file to the posts that they wrote as 
 {% endfor %}
 </code></pre>
 <br><br>
-Problem solved, right? Not exactly. Now, the other page that is used to display all of the authors will not display the information anymore. What we want is to be able to connect authors to the posts they wrote on one page, while displaying their information on another page. There are some solutions online that recommend using nested FOR loops to achieve this when displaying information from a file in the _data folder. This is possible but it gets a little messy. In this case, the best solution was to use a <a href=”https://jekyllrb.com/docs/collections/”>collection</a> instead.
+Problem solved, right? Not exactly. Now, the other page that is used to display all of the authors will not display the information anymore. What we want is to be able to connect authors to the posts they wrote on one page, while displaying their information on another page. There are some solutions online that recommend using nested FOR loops to achieve this when displaying information from a file in the _data folder. This is possible but it gets a little messy. In this case, the best solution was to use a <a href="https://jekyllrb.com/docs/collections/">collection</a> instead.
 <br><br>
 First, I removed the _data folder and authors.yml file inside it (since they are no longer needed when using a collection). I then added the following to my _config.yml file:<br>
 <pre><code>
