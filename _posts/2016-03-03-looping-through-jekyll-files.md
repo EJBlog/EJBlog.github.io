@@ -27,7 +27,7 @@ I then used a FOR loop to display each author on the Guest Authors page:<br>
 <pre><code>
 &#123;&#37; for author in site.data.authors &#37;&#125;
   &#123;&#123; author.name &#125;&#125;
-  &#123&#123 author.bio &#125;&#125;
+  &#123;&#123; author.bio &#125;&#125;
   &#123;&#123; author.image_file &#125;&#125;
 &#123;&#37; endfor &#37;&#125;
 </code></pre>
@@ -47,12 +47,12 @@ jane_doe:
 <br><br>
 Now, you can assign the authors in the yml file to the posts that they wrote as shown below:<br>
 <pre><code>
-{{ for post in site.posts }}
-{{ assign author = site.data.authors[post.author] }}
-{{ post.title }}
-{{ author.name }}
-{{ post.excerpt }}
-{{ endfor }}
+&#123;&#37; for post in site.posts &#37;&#125;
+   &#123;&#123; assign author = site.data.authors[post.author] }}
+   &#123;&#123; post.title &#125;&#125;
+   &#123;&#123; author.name &#125;&#125;
+   &#123;&#123; post.excerpt &#125;&#125;
+&#123;&#37; endfor &#37;&#125;
 </code></pre>
 <br><br>
 Problem solved, right? Not exactly. Now, the other page that is used to display all of the authors will not display the information anymore. What we want is to be able to connect authors to the posts they wrote on one page, while displaying their information on another page. There are some solutions online that recommend using nested FOR loops to achieve this when displaying information from a file in the _data folder. This is possible but it gets a little messy. In this case, the best solution was to use a <a href="https://jekyllrb.com/docs/collections/">collection</a> instead.
@@ -75,12 +75,12 @@ This is my author bio explaining who I am and what I like.
 <br><br>
 You can add as many attributes to the markdown in the header as you like. You can then access and display each author’s information using a FOR loop &#123;&#37; for author in site.authors &#37;&#125; and then &#123;&#123; author.name &#125;&#125;, &#123;&#123; author.content &#125;&#125;, etc. Finally, to attach the author to the posts that they wrote you can use the following code:<br>
 <pre><code>
-{{ for post in site.posts }}
-{{ assign author = site.authors | where:”author_id”, post.author_id | first }}
-{{ post.title }}
-{{ author.name }}
-{{ post.excerpt }}
-{{ endfor }}
+&#123;&#37; for post in site.posts &#37;&#125;
+   &#123;&#123; assign author = site.authors | where:”author_id”, post.author_id | first }}
+   &#123;&#123; post.title &#125;&#125;
+   &#123;&#123; author.name &#125;&#125;
+   &#123;&#123; post.excerpt &#125;&#125;
+&#123;&#37; endfor &#37;&#125;
 </code></pre>
 <br>
 Make sure to add the author_id to the markdown in each post, so the connection can be made between the author and their posts.
