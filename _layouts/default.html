@@ -90,9 +90,9 @@
 
                     <div class="home-page-posts animated fadeIn ">
 	
-    			{% assign postCount = '0' %}
+    			<!--{% assign postCount = '0' %}-->
     			{% for post in site.posts %}
-    			{% capture postCount %}{{ postCount | plus: '1' }}{% endcapture %}
+    			<!--{% capture postCount %}{{ postCount | plus: '1' }}{% endcapture %}-->
 				
 				{% assign author = site.authors | where:"author_id", post.author_id | first %}
 				
