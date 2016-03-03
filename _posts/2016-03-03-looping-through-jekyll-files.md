@@ -25,11 +25,11 @@ I started off adding a <a href="http://yaml.org/">YAML</a> file in the _data fol
 <br><br>
 I then used a FOR loop to display each author on the Guest Authors page:<br>
 <pre><code>
-&#123&#37 for author in site.data.authors &#37&#125
-&#123&#123 author.name &#125&#125
-&#123&#123 author.bio &#125&#125
-&#123&#123 author.image_file &#125&#125
-&#123&#37 endfor &#37&#125
+{{ for author in site.data.authors }}
+{{ author.name }}
+{{ author.bio }}
+{{ author.image_file }}
+{{ endfor }}
 </code></pre>
 <br><br>
 This method works great for displaying all of the authors stored in the _data folder, but poses a new problem. What happens when you want to tie each author to the posts they wrote without any hard-coding? Well, Jekyll has a way to do this also, but it requires some modifications. The new authors yml file now looks like this: <br>
@@ -47,12 +47,12 @@ jane_doe:
 <br><br>
 Now, you can assign the authors in the yml file to the posts that they wrote as shown below:<br>
 <pre><code>
-&#123&#37 for post in site.posts &#37&#125
-&#123&#37 assign author = site.data.authors[post.author] &#37&#125
-&#123&#123 post.title &#125&#125
-&#123&#123 author.name &#125&#125
-&#123&#123 post.excerpt &#125&#125
-&#123&#37 endfor &#37&#125
+{{ for post in site.posts }}
+{{ assign author = site.data.authors[post.author] }}
+{{ post.title }}
+{{ author.name }}
+{{ post.excerpt }}
+{{ endfor }}
 </code></pre>
 <br><br>
 Problem solved, right? Not exactly. Now, the other page that is used to display all of the authors will not display the information anymore. What we want is to be able to connect authors to the posts they wrote on one page, while displaying their information on another page. There are some solutions online that recommend using nested FOR loops to achieve this when displaying information from a file in the _data folder. This is possible but it gets a little messy. In this case, the best solution was to use a <a href="https://jekyllrb.com/docs/collections/">collection</a> instead.
@@ -73,14 +73,14 @@ image_file: jsmith.jpg
 This is my author bio explaining who I am and what I like.
 </code></pre>
 <br><br>
-You can add as many attributes to the markdown in the header as you like. You can then access and display each author’s information using a FOR loop &#123&#37 for author in site.authors &#37&#125 and then &#123&#123 author.name &#125&#125, &#123&#123 author.content &#125&#125, etc. Finally, to attach the author to the posts that they wrote you can use the following code:<br>
+You can add as many attributes to the markdown in the header as you like. You can then access and display each author’s information using a FOR loop &#123;&#37; for author in site.authors &#37;&#125; and then &#123;&#123; author.name &#125;&#125;, &#123;&#123; author.content &#125;&#125;, etc. Finally, to attach the author to the posts that they wrote you can use the following code:<br>
 <pre><code>
-&#123&#37 for post in site.posts &#37&#125
-&#123&#37 assign author = site.authors | where:”author_id”, post.author_id | first &#37&#125
-&#123&#123 post.title &#125&#125
-&#123&#123 author.name &#125&#125
-&#123&#123 post.excerpt &#125&#125
-&#123&#37 endfor &#37&#125
+{{ for post in site.posts }}
+{{ assign author = site.authors | where:”author_id”, post.author_id | first }}
+{{ post.title }}
+{{ author.name }}
+{{ post.excerpt }}
+{{ endfor }}
 </code></pre>
 <br>
 Make sure to add the author_id to the markdown in each post, so the connection can be made between the author and their posts.
