@@ -2,7 +2,7 @@
 layout: post-sidebar
 title: "From One Young Professional to Another"
 post_date: "Dec. 23rd, 2015"
-post_author: "Evan Neises"
+author_id: evan_neises
 post_category: "Miscellaneous"
 post_category_link: "misc_category"
 comments: True
