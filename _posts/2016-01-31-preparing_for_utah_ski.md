@@ -2,7 +2,7 @@
 layout: post-sidebar
 title: "Planning our 2016 Ski Trip"
 post_date: "Jan. 31th, 2016"
-post_author: "Jake Ellis"
+author_id: jake_ellis
 post_category: "Snow Sports"
 post_category_link: "snow_category"
 comments: True
