@@ -98,9 +98,9 @@
 				
 				<h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 					<div class="col-xs-1 no-gutter pull-right">
-						{% if post.author_id == "evan_neises" %}
+						{% if author.name == "Evan Neises" %}
 						<img src="{{ site.url }}/img/ENeises1.jpg" class="user-icon" alt="user-image">
-						{% elsif post.author_id == "jake_ellis" %}
+						{% elsif author.name == "Jake Ellis" %}
 						<img src="{{ site.url }}/img/jake_rach_yosemite.jpg" class="user-icon" alt="user-image">
 						{% elsif author.image_file != null %}
 						<img src="{{ site.url }}/img/{{ author.image_file }}" class="user-icon" alt="user-image">
@@ -114,9 +114,9 @@
 				{{ post.excerpt }}
 				
 				<p class="meta">
-					{% if post.author_id == "evan_neises" %}
+					{% if author.name == "Evan Neises" %}
 	                            		By <a href="{{ site.url }}/author_evan.html">{{ author.name }}</a> in <a href="{{ site.url }}/{{ post.post_category_link }}.html">{{ post.post_category }}</a>
-				    	{% elsif post.author_id == "jake_ellis" %}
+				    	{% elsif author.name == "Jake Ellis" %}
 				    		By <a href="{{ site.url }}/author_jake.html">{{ author.name }}</a> in <a href="{{ site.url }}/{{ post.post_category_link }}.html">{{ post.post_category }}</a>
 				    	{% else %}
 				    		By <a href="{{ site.url }}/guest_authors.html">{{ author.name }}</a> in <a href="{{ site.url }}/{{ post.post_category_link }}.html">{{ post.post_category }}</a>
