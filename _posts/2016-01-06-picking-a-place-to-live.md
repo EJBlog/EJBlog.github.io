@@ -2,7 +2,7 @@
 layout: post-sidebar
 title: "Picking A Place To Live"
 post_date: "Jan. 6th, 2015"
-post_author: "Evan Neises"
+author_id: evan_neises
 post_category: "Travel"
 post_category_link: "travel_category"
 comments: True
