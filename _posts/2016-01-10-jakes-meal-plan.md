@@ -2,7 +2,7 @@
 layout: post-sidebar
 title: "Jake's Meal Plan"
 post_date: "Jan. 10th, 2016"
-post_author: "Jake Ellis"
+author_id: jake_ellis
 post_category: "Fitness"
 post_category_link: "fitness_category"
 comments: True
