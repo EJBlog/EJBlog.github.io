@@ -75,9 +75,9 @@
             <div class="row">
                 <div class="col-xs-12 single-content blog-post">
                     <p class="meta">
-                    	{% if author.author_id == evan_neises %}
+                    	{% if page.author_id == evan_neises %}
 	                        By <a href="{{ site.url }}/{{ author.author_page }}.html">{{ author.name }}</a> in <a href="{{ site.url }}/{{ page.post_category_link }}.html">{{ page.post_category }}</a>
-			{% elsif author.author_id == jake_ellis %}
+			{% elsif page.author_id == jake_ellis %}
 				By <a href="{{ site.url }}/{{ author.author_page }}">{{ author.name }}</a> in <a href="{{ site.url }}/{{ page.post_category_link }}.html">{{ page.post_category }}</a>
 			{% else %}
 				By <a href="{{ site.url }}/guest_authors.html">{{ author.name }}</a> in <a href="{{ site.url }}/{{ page.post_category_link }}.html">{{ page.post_category }}</a>
@@ -98,9 +98,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-sm-2">
-                    	{% if author.author_id == evan_neises %}
+                    	{% if page.author_id == evan_neises %}
                         <img src="{{ site.url }}/img/ENeises1.jpg" class="user-icon " alt="user-image">
-                        {% elsif author.author_id == jake_ellis %}
+                        {% elsif page.author_id == jake_ellis %}
                         <img src="{{ site.url }}/img/jake_grandcanyon.jpg" class="user-icon " alt="user-image">
                         {% elsif author.image_file != null %}
 						<img src="{{ site.url }}/img/{{ author.image_file }}" class="user-icon " alt="user-image">
