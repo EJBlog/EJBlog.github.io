@@ -1,7 +1,7 @@
 ---
 author_id: zach_adams
 name: Zach Adams
-image_file: Zach Adams.jpg
+image_file: ZachAdams.jpg
 ---
 Class of 2015 University of Louisville graduate with a BA in English and currently working on my Masters at Western Kentucky University in English.
 
