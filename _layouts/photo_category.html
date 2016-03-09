@@ -83,22 +83,22 @@
 
 			      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 				<div class="col-xs-1 no-gutter pull-right">
-						{% if post.post_author == "Evan Neises" %}
-						<img src="{{ site.url }}/img/ENeises1.jpg" class="user-icon" alt="user-image">
-						{% elsif post.post_author == "Jake Ellis" %}
-						<img src="{{ site.url }}/img/jake_rach_yosemite.jpg" class="user-icon" alt="user-image">
+						{% if author.image_file != null %}
+						<img src="{{ site.url }}/img/{{ author.image_file }}" class="user-icon" alt="user-image">
+						{% else %}
+						<img src="{{ site.url }}/img/no_image.jpg" class="user-icon" alt="user-image">
 						{% endif %}
 					</div>
 			      <div class="entry">
 				{{ post.excerpt }}
 			      </div>
 			<p  class="meta">
-				{% if post.post_author == "Evan Neises"%}
-					By <a href="{{ site.url }}/author_evan.html">{{ post.post_author }}</a> in {{ post.post_category }}
-				{% elsif post.post_author == "Jake Ellis"%}
-					By <a href="{{ site.url }}/author_jake.html">{{ post.post_author }}</a> in {{ post.post_category }}
+				{% if author.author_id == "evan_neises"%}
+					By <a href="{{ site.url }}/author_evan.html">{{author.name }}</a>
+				{% elsif author.author_id == "jake_ellis"%}
+					By <a href="{{ site.url }}/author_jake.html">{{ author.name }}</a>
 				{% else %}
-					By <a href="{{ site.url }}/author_guest.html">{{ post.post_author }}</a> in {{ post.post_category }}
+					By <a href="{{ site.url }}/guest_authors.html">{{ author.name }}</a>
 				{% endif %}
 			</p>
 			<hr>
