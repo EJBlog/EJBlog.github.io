@@ -128,20 +128,12 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-sm-2">
-                        {% if page.post_author == "Evan Neises"%}
-                        <img src="{{ site.url }}/img/ENeises1.jpg" class="user-icon " alt="user-image">
-                        {% else %}
-                        <img src="{{ site.url }}/img/jake_grandcanyon.jpg" class="user-icon " alt="user-image">
-                        {% endif %}
+                        <img src="{{ site.url }}/img/{{ author.image_file }}" class="user-icon " alt="user-image">
                     </div>
                     <div class="col-xs-12 col-sm-6">
                         <div class="category-list">
                             <p>Published <span>{{ page.post_date }}</span></p>
-                            {% if page.post_author == "Evan Neises" %}
-                            	<p><a href="{{ site.url }}/author_evan.html">{{ page.post_author }}</a> in <a href="{{ site.url }}/{{ page.post_category_link }}.html">{{ page.post_category }}</a></p>
-			    {% else %}
-			    	<p><a href="{{ site.url }}/author_jake.html">{{ page.post_author }}</a> in <a href="{{ site.url }}/{{ page.post_category_link }}.html">{{ page.post_category }}</a></p>
-			    {% endif %}
+                            <p><a href="{{ site.url }}/{{ author.author_page }}.html">{{ author.name }}</a> in <a href="{{ site.url }}/{{ page.post_category_link }}.html">{{ page.post_category }}</a></p>
 
                         </div>
                     </div><!-- end col -->
