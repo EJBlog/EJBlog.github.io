@@ -1,130 +1,120 @@
 <!DOCTYPE html>
 <html class="no-js">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Blog Post</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Blog Post</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width">
 	
 	<link rel="stylesheet" href="{{ site.url }}/css/custom.css">
-        <link rel="stylesheet" href="{{ site.url }}/css/bootstrap.min.css">
-        <link rel="stylesheet" href="{{ site.url }}/css/font-awesome.min.css">
-        <link rel="stylesheet" href="{{ site.url }}/css/main.css">
+	<link rel="stylesheet" href="{{ site.url }}/css/bootstrap.min.css">
+	<link rel="stylesheet" href="{{ site.url }}/css/font-awesome.min.css">
+	<link rel="stylesheet" href="{{ site.url }}/css/main.css">
 
-		<!--[if lte IE 9]>
-		  <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
-		  <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.3.0/respond.js"></script>
+	<!--[if lte IE 9]>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.3.0/respond.js"></script>
 		<![endif]-->
 
-        <script src="{{ site.url }}/js/vendor/modernizr.custom.32229-2.8-respondjs-1-4-2.js"></script>
-        {% include google_analytics.html %}
-    </head>
-    <body>
-        <!-- <header class="hero-image" role="banner" style="background-image: url({{ site.url }}/img/default-single-hero.jpg);"> -->
-	<header class="hero-image-evan-all-posts">
-            <span class="menu-trigger animated fadeInDown">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </span>
+		<script src="{{ site.url }}/js/vendor/modernizr.custom.32229-2.8-respondjs-1-4-2.js"></script>
+		{% include google_analytics.html %}
+	</head>
+	<body>
+		<!-- <header class="hero-image" role="banner" style="background-image: url({{ site.url }}/img/default-single-hero.jpg);"> -->
+			<header class="hero-image-evan-all-posts">
+				<span class="menu-trigger animated fadeInDown">
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+				</span>
 
-            <!-- if the user has javascript disabled they can still use the menu -->
-            <noscript>
-                <div class="no-js-menu">
-                    <ul>
-                        <li><i class="fa fa-home"></i><a href="index.html">Home</a></li>
-			<li><i class="fa fa-th"></i><a href="category.html">Categories</a></li>
-                        <li><i class="fa fa-user"></i><a href="author_evan.html">Evan Neises</a></li>
-                        <li><i class="fa fa-user"></i><a href="author_jake.html">Jake Ellis</a></li>
-			<li><i class="fa fa-users"></i><a href="guest_authors.html">Guest Authors</a></li>
-                        <li><i class="fa fa-beer"></i><a href="about.html">About</a></li>
-                        <li><i class="fa fa-paper-plane"></i><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-            </noscript>
-            <!-- end no script -->
+				<!-- if the user has javascript disabled they can still use the menu -->
+				<noscript>
+					<div class="no-js-menu">
+						<ul>
+							<li><i class="fa fa-home"></i><a href="index.html">Home</a></li>
+							<li><i class="fa fa-th"></i><a href="category.html">Categories</a></li>
+							<li><i class="fa fa-user"></i><a href="author_evan.html">Evan Neises</a></li>
+							<li><i class="fa fa-user"></i><a href="author_jake.html">Jake Ellis</a></li>
+							<li><i class="fa fa-users"></i><a href="guest_authors.html">Guest Authors</a></li>
+							<li><i class="fa fa-beer"></i><a href="about.html">About</a></li>
+							<li><i class="fa fa-paper-plane"></i><a href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+				</noscript>
+				<!-- end no script -->
 
-            <div id="menu-target">
-                <ul>
-                    <li><i class="fa fa-home"></i><a href="index.html">Home</a></li>
-		    <li><i class="fa fa-th"></i><a href="category.html">Categories</a></li>
-                    <li><i class="fa fa-user"></i><a href="author_evan.html">Evan Neises</a></li>
-                    <li><i class="fa fa-user"></i><a href="author_jake.html">Jake Ellis</a></li>
-		    <li><i class="fa fa-users"></i><a href="guest_authors.html">Guest Authors</a></li>
-                    <li><i class="fa fa-beer"></i><a href="about.html">About</a></li>
-                    <li><i class="fa fa-paper-plane"></i><a href="contact.html">Contact</a></li>
-                </ul>
-                <hr>
-            </div>
-        </header>
+				<div id="menu-target">
+					<ul>
+						<li><i class="fa fa-home"></i><a href="index.html">Home</a></li>
+						<li><i class="fa fa-th"></i><a href="category.html">Categories</a></li>
+						<li><i class="fa fa-user"></i><a href="author_evan.html">Evan Neises</a></li>
+						<li><i class="fa fa-user"></i><a href="author_jake.html">Jake Ellis</a></li>
+						<li><i class="fa fa-users"></i><a href="guest_authors.html">Guest Authors</a></li>
+						<li><i class="fa fa-beer"></i><a href="about.html">About</a></li>
+						<li><i class="fa fa-paper-plane"></i><a href="contact.html">Contact</a></li>
+					</ul>
+					<hr>
+				</div>
+			</header>
 
-        <main class="container">
-            <div class="row">
-            	<h1>Evan Neises</h1><br>
+			<main class="container">
+				<div class="row">
+					<h1>Evan Neises</h1><br>
             	
-  <!--Search-->
-            <!-- Html Elements for Search -->
-		<!-- <div id="search-container">
-		<input type="text" id="search-input" placeholder="Search...">
-		<ul id="results-container"></ul>
-		</div> -->
+					<!--Search-->
+					<!-- Html Elements for Search -->
+					<!-- <div id="search-container">
+						<input type="text" id="search-input" placeholder="Search...">
+						<ul id="results-container"></ul>
+						</div> -->
 
-		<!-- Script pointing to jekyll-search.js -->
-		<script src="{{ site.url }}/js/jekyll-search.js" type="text/javascript"></script>
+						<!-- Script pointing to jekyll-search.js -->
+						<script src="{{ site.url }}/js/jekyll-search.js" type="text/javascript"></script>
 
-    <script type="text/javascript">
-      SimpleJekyllSearch({
-        searchInput: document.getElementById('search-input'),
-        resultsContainer: document.getElementById('results-container'),
-        json: '{{ site.url }}/search.json',
-        searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
-        noResultsText: 'No results found',
-        limit: 10,
-        fuzzy: false,
-        exclude: ['Welcome']
-      })
-    </script>
-<!--End Search-->
+						<script type="text/javascript">
+						SimpleJekyllSearch({
+							searchInput: document.getElementById('search-input'),
+							resultsContainer: document.getElementById('results-container'),
+							json: '{{ site.url }}/search.json',
+							searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+							noResultsText: 'No results found',
+							limit: 10,
+							fuzzy: false,
+							exclude: ['Welcome']
+						})
+						</script>
+						<!--End Search-->
             	
-                <div class="home-page-posts animated fadeIn all-posts-evan">
+						<div class="home-page-posts animated fadeIn all-posts-evan">
                         
-                        {% assign posts = site.posts | where:"author_id", "evan_neises" %}
-                          {% for post in posts  %}
-                              <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-                              <div class="entry">
-                              {{ post.excerpt }}
-                              </div>
-                              <hr>
-                          {% endfor %}
-                     </div>
-		<div class="col-xs-12 col-md-3 col-md-offset-1 single-content-sidebar-area">
+							{% assign posts = site.posts | where:"author_id", "evan_neises" %}
+							{% for post in posts  %}
+							<h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+							<div class="entry">
+								{{ post.excerpt }}
+							</div>
+							<hr>
+							{% endfor %}
+						</div>
+						<div class="col-xs-12 col-md-3 col-md-offset-1 single-content-sidebar-area">
                     
 
-                </div>
-            </div> <!--/row -->
+						</div>
+					</div> <!--/row -->
 
-        </main> <!-- /container -->
-
-        <!-- <footer class="single without-readmore">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-2">
-                        <img src="{{ site.url }}/img/ENeises1.jpg" class="user-icon " alt="user-image">
-                    </div>
-                </div>
-            </div>
-
-        </footer> -->
-
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="{{ site.url }}/js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-
-        <script src="{{ site.url }}/js/vendor/jquery.jpanelmenu.min.js"></script>
-        <script src="{{ site.url }}/js/vendor/bootstrap.min.js"></script>
-        <script src="{{ site.url }}/js/vendor/fastclick.min.js"></script>
+				</main> <!-- /container -->
 
 
-        <script src="{{ site.url }}/js/main.js"></script>
-    </body>
-</html>
+				<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+				<script>window.jQuery || document.write('<script src="{{ site.url }}/js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+				<script src="{{ site.url }}/js/vendor/jquery.jpanelmenu.min.js"></script>
+				<script src="{{ site.url }}/js/vendor/bootstrap.min.js"></script>
+				<script src="{{ site.url }}/js/vendor/fastclick.min.js"></script>
+
+
+				<script src="{{ site.url }}/js/main.js"></script>
+			</body>
+			</html>
