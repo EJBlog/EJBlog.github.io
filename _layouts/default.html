@@ -119,7 +119,7 @@
 				    	{% elsif author.author_id == jake_ellis %}
 				    		By <a href="{{ site.url }}/author_jake.html">{{ author.name }}</a> in <a href="{{ site.url }}/{{ post.post_category_link }}.html">{{ post.post_category }}</a>
 				    	{% else %}
-				    		By {{ author.author_id }} in <a href="{{ site.url }}/{{ post.post_category_link }}.html">{{ post.post_category }}</a>
+				    		By {{ author }} in <a href="{{ site.url }}/{{ post.post_category_link }}.html">{{ post.post_category }}</a>
 				    	{% endif %}
 					</p>	
 		      	</div>
