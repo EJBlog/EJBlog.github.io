@@ -84,7 +84,7 @@
                     				
 					<div class="posts">                  	
                     
-						{% for author in site.authors %}
+						{% for author in site.authors | sort: 'name' %}
 						{% if author.name != "Evan Neises" and author.name != "Jake Ellis" %}
 						<div class="col-xs-10 no-gutter">
 							<h2>{{ author.name }}</h2>
