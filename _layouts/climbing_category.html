@@ -95,12 +95,12 @@
 				{{ post.excerpt }}
 			      </div>
 			<p  class="meta">
-				{% if author.name == "Evan Neises"%}
-					By <a href="{{ site.url }}/author_evan.html">{{ post.post_author }}</a>
-				{% elsif author.name == "Jake Ellis"%}
-					By <a href="{{ site.url }}/author_jake.html">{{ post.post_author }}</a>
+				{% if author.author_id == "evan_neises"%}
+					By <a href="{{ site.url }}/author_evan.html">{{author.author_id }}</a>
+				{% elsif author.author_id == "jake_ellis"%}
+					By <a href="{{ site.url }}/author_jake.html">{{ author.author_id }}</a>
 				{% else %}
-					By <a href="{{ site.url }}/author_guest.html">{{ post.post_author }}</a>
+					By <a href="{{ site.url }}/author_guest.html">{{ author.author_id }}</a>
 				{% endif %}
 			</p>
 			<hr>
