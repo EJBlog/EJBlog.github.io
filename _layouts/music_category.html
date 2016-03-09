@@ -80,6 +80,8 @@
 
 			  {% assign posts = site.posts | where: "post_category","Music" %}
 			  {% for post in posts %}
+			  
+			  {% assign author = site.authors| where:"author_id", post.author_id | first %}
 
 			      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 				<div class="col-xs-1 no-gutter pull-right">
