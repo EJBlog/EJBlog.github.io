@@ -299,7 +299,7 @@
 }
 
 .meta-guest {
-	margin-bottom: 5%;
+	margin-bottom: 5% !important;
 }
 
 .single-content-about,
