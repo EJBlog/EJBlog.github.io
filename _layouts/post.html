@@ -98,9 +98,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-sm-2">
-                    	{% if page.author_id == evan_neises %}
+                    	{% if author.name == "Evan Neises" %}
                         <img src="{{ site.url }}/img/ENeises1.jpg" class="user-icon " alt="user-image">
-                        {% elsif page.author_id == jake_ellis %}
+                        {% elsif author.name == "Jake Ellis" %}
                         <img src="{{ site.url }}/img/jake_grandcanyon.jpg" class="user-icon " alt="user-image">
                         {% elsif author.image_file != null %}
 						<img src="{{ site.url }}/img/{{ author.image_file }}" class="user-icon " alt="user-image">
@@ -112,9 +112,9 @@
                     <div class="col-xs-12 col-sm-6">
                         <div class="category-list">
                             <p>Published <span>{{ page.post_date }}</span></p>
-                            {% if author.author_id == evan_neises %}
-                            	<p><a href="{{ site.url }}/{{ author.author_page }}.html">{{ author.name }}</a> in <a href="{{ site.url }}/{{ page.post_category_link }}.html">{{ page.post_category }}</a></p>
-			    {% elsif author.author_id == jake_ellis %}
+                            {% if author.name == "Evan Neises" %}
+                            	<p><a href="{{ site.url }}/{{ author.author_page }}">{{ author.name }}</a> in <a href="{{ site.url }}/{{ page.post_category_link }}.html">{{ page.post_category }}</a></p>
+			    {% elsif author.name == "Jake Ellis" %}
 			    	<p><a href="{{ site.url }}/{{ author.author_page }}">{{ author.name }}</a> in <a href="{{ site.url }}/{{ page.post_category_link }}.html">{{ page.post_category }}</a></p>
 			    {% else %}
 			    	<p><a href="{{ site.url }}/guest_authors.html">{{ author.name }}</a> in <a href="{{ site.url }}/{{ page.post_category_link }}.html">{{ page.post_category }}</a></p>
