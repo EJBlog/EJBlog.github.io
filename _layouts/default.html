@@ -114,9 +114,9 @@
 				{{ post.excerpt }}
 				
 				<p class="meta">
-					{% if author.author_id == evan_neises %}
+					{% if author.author_id == "evan_neises" %}
 	                            		By <a href="{{ site.url }}/author_evan.html">{{ author.name }}</a> in <a href="{{ site.url }}/{{ post.post_category_link }}.html">{{ post.post_category }}</a>
-				    	{% elsif author.name == "Jake Ellis" %}
+				    	{% elsif author.author_id == jake_ellis %}
 				    		By <a href="{{ site.url }}/author_jake.html">{{ author.name }}</a> in <a href="{{ site.url }}/{{ post.post_category_link }}.html">{{ post.post_category }}</a>
 				    	{% else %}
 				    		By {{ author.author_id }} in <a href="{{ site.url }}/{{ post.post_category_link }}.html">{{ post.post_category }}</a>
