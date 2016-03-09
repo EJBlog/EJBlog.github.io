@@ -69,15 +69,15 @@
             </div>
         </header>
 		
-		{% assign author = site.authors[page.author] %}
+		{% assign author = site.authors[page.author_id] %}
 
         <main class="container">
             <div class="row">
                 <div class="col-xs-12 single-content blog-post">
                     <p class="meta">
-                    	{% if author.author_id == "evan_neises" %}
+                    	{% if author.name == "Evan Neises" %}
 	                        By <a href="{{ site.url }}/author_evan.html">{{ author.name }}</a> in <a href="{{ site.url }}/{{ page.post_category_link }}.html">{{ page.post_category }}</a>
-			{% elsif author.author_id == "jake_ellis" %}
+			{% elsif author.name == "Jake Ellis" %}
 				By <a href="{{ site.url }}/author_jake.html">{{ author.name }}</a> in <a href="{{ site.url }}/{{ page.post_category_link }}.html">{{ page.post_category }}</a>
 			{% else %}
 				By <a href="{{ site.url }}/guest_authors.html">{{ author.name }}</a> in <a href="{{ site.url }}/{{ page.post_category_link }}.html">{{ page.post_category }}</a>
