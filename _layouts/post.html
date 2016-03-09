@@ -69,8 +69,8 @@
             </div>
         </header>
 		
-		{% capture post %}{{site.posts}}{% endcapture %}
-		{% assign author = site.authors | where:"author_id", post.author_id | first %}
+		
+		{% assign author = site.authors | where:"author_id", page.author_id | first %}
 
         <main class="container">
             <div class="row">
@@ -81,7 +81,7 @@
 			{% elsif author.author_id == "jake_ellis" %}
 				By <a href="{{ site.url }}/author_jake.html">{{ author.name }}</a> in <a href="{{ site.url }}/{{ page.post_category_link }}.html">{{ page.post_category }}</a>
 			{% else %}
-				By <a href="{{ site.url }}/guest_authors.html">{{ author.name }}</a> in <a href="{{ site.url }}/{{ page.post_category_link }}.html">{{ page.post_category }}</a>
+				By <a href="{{ site.url }}/guest_authors.html">{{ page.author_id }}</a> in <a href="{{ site.url }}/{{ page.post_category_link }}.html">{{ page.post_category }}</a>
 			{% endif %}
 		</p>
                     <h1>{{ page.title }}</h1>
