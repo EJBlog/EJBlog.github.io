@@ -85,10 +85,10 @@
 
 			      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 					<div class="col-xs-1 no-gutter pull-right">
-						{% if author.author_id == "evan_neises" %}
-						<img src="{{ site.url }}/img/ENeises1.jpg" class="user-icon" alt="user-image">
-						{% elsif author.author_id == "jake_ellis" %}
-						<img src="{{ site.url }}/img/jake_rach_yosemite.jpg" class="user-icon" alt="user-image">
+						{% if author.image_file != null %}
+						<img src="{{ site.url }}/img/{{ author.image_file }}" class="user-icon" alt="user-image">
+						{% else %}
+						<img src="{{ site.url }}/img/no_image.jpg" class="user-icon" alt="user-image">
 						{% endif %}
 					</div>
 			      <div class="entry">
