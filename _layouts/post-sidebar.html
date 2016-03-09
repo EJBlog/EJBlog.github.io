@@ -69,20 +69,15 @@
             </div>
         </header>
 
-		<!--{% capture post %}{{site.posts}}{% endcapture %}-->
-		{% assign post = site.posts %}
-		{% assign author = site.authors | where:"author_id", post.author_id | first %}
+		
+		{% assign author = site.authors | where:"author_id", page.author_id | first %}
 
         <main class="container">
             <div class="row">
                 <div class="col-xs-12 col-md-8 single-content-sidebar">
-			<p class="meta">
-                    	{% if author.author_id == "evan_neises" %}
-                            <a class="" href="{{ site.url }}/author_evan.html">{{ author.name }}</a> in <a class="" href="{{ site.url }}/{{ page.post_category_link }}.html">{{ page.post_category }}</a> <i class="link-spacer"></i> <i class="fa fa-bookmark"></i>
-			    {% else %}
-			    <a class="" href="{{ site.url }}/author_jake.html">{{ author.name }}</a> in <a class="" href="{{ site.url }}/{{ page.post_category_link }}.html">{{ page.post_category }}</a> <i class="link-spacer"></i> <i class="fa fa-bookmark"></i>
-			    {% endif %}
-			</p>
+		<p class="meta">
+                    	<a class="" href="{{ site.url }}/{{ author.author_page }}">{{ author.name }}</a> in <a class="" href="{{ site.url }}/{{ page.post_category_link }}.html">{{ page.post_category }}</a> <i class="link-spacer"></i> <i class="fa fa-bookmark"></i>
+		</p>
                     <h1>{{ page.title }}</h1>
 
                     <p>{{ content }}</p>
