@@ -85,9 +85,9 @@
 
 			      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 					<div class="col-xs-1 no-gutter pull-right">
-						{% if author.name == "Evan Neises" %}
+						{% if author.author_id == "evan_neises" %}
 						<img src="{{ site.url }}/img/ENeises1.jpg" class="user-icon" alt="user-image">
-						{% elsif author.name == "Jake Ellis" %}
+						{% elsif author.author_id == "jake_ellis" %}
 						<img src="{{ site.url }}/img/jake_rach_yosemite.jpg" class="user-icon" alt="user-image">
 						{% endif %}
 					</div>
@@ -96,11 +96,11 @@
 			      </div>
 			<p  class="meta">
 				{% if author.author_id == "evan_neises"%}
-					By <a href="{{ site.url }}/author_evan.html">{{author.author_id }}</a>
+					By <a href="{{ site.url }}/author_evan.html">{{author.name }}</a>
 				{% elsif author.author_id == "jake_ellis"%}
-					By <a href="{{ site.url }}/author_jake.html">{{ author.author_id }}</a>
+					By <a href="{{ site.url }}/author_jake.html">{{ author.name }}</a>
 				{% else %}
-					By <a href="{{ site.url }}/author_guest.html">{{ author.author_id }}</a>
+					By <a href="{{ site.url }}/author_guest.html">{{ author.name }}</a>
 				{% endif %}
 			</p>
 			<hr>
