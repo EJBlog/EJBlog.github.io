@@ -69,7 +69,7 @@
             </div>
         </header>
 		
-		{% assign author = site.authors | where:"author_id", page.author_id | first %}
+		{% assign author = site.authors | where:"author_id", post.author_id | first %}
 
         <main class="container">
             <div class="row">
