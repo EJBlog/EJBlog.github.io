@@ -1,3 +1,15 @@
+
+---
+layout: post
+title: "Finding Time to Travel"
+post_date: "Mar. 12th, 2016"
+author_id: "jacob_huff"
+post_category: "Travel"
+post_category_link: "travel_category"
+comments: True
+---
+
+
 <p>
 The ability to travel is a blessing. I am thankful for it and take advantage of the opportunity every chance I get. But I hear so many excuses from friends saying they can’t travel because (insert crap here).<!--endpreview-->
 </p>
