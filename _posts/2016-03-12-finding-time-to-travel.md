@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: "Finding Time to Travel"
