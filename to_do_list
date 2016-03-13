@@ -9,6 +9,8 @@
 4.	Add pages to display posts written by guests (In Progress)
   a.	Each guest author gets their own? Need to do the same as Evan and Jake posts (possibly a “see more” link)
       - Should we choose similar posts ourselves or not include them on guest posts?
+ 5. Guest author page - bio images are not in the correct place when looking on mobile
+ 6. Categories page - some titles do not fit on the image on mobile
 
 Changes needed after testing:
 - Add similar posts to more existing posts (EVAN & JAKE)
