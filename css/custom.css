@@ -321,20 +321,6 @@
   }
 }
 
-/*Start guest author sidebar modifications */
-.sidebar-guest-authors {
-  padding: 15px;
-  width: 100%;
-  height: 350px;
-  background-image: url(../img/Waterfall1.jpg) !important;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  transition: all 450ms;
-}
-/*End guest author sidebar modifications */
-
-
 /*.sidebar-evan {
   padding: 15px;
   padding-bottom: 29.2%;
