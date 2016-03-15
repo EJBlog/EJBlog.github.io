@@ -12,21 +12,31 @@
  5. Guest author page - bio images are not in the correct place when looking on mobile
  6. Categories page - some titles do not fit on the image on mobile
 
-Changes needed after testing:
-- Add similar posts to more existing posts (EVAN & JAKE)
-- Discuss categories page (EVAN & JAKE)
-- Change Guest Authors image for page sidebar
-- Send out emails to more potential guest authors (In Progress)
-- Change guest author sidebar image
-- Remove unneeded stock photos
-- Cleanup code and remove large commented out sections
 
-TO DO WHEN I GET HOME (EVAN)
-- Remove commented code from pages
-- Change posts from post_author to author_id in markdown
-- Edit IF statement on home page for author info
-- Take picture for contact, IT, miscellaneous images
-- Delete all stock photos
+
+NEW TO-DO SECTION - NECESSARY BEFORE "PROMOTION" (03/15/16):
+- Add image for contact page sidebar (JAKE - envelopes)
+- Add image for Misc. page sidebar
+- Add image for IT category thumbnail
+- Add "similar posts" to all of our own posts (JAKE and EVAN)
+- Remove all stock photos
+- Remove commented code (default layout is one of the only pages left with lots of commented code)
+- Get in touch with contacted guest authors
+- Mobile changes below:
+   - Category page text size on thumbnails
+   - Author page alignment (EVAN)
+   - Post.html footer with huge category images
+   - Fix "share post" functionality
+   - Guest author page layout/images
+   - Home page/category pages image size for each post? Kinda small
+
+FUTURE
+- Individual page for each author
+  - Read more for author bio's in mean time?
+- Fixed header (rachael.html page) - (JAKE)
+- Logo
+- Other stuff in below list maybe
+
 
 Potential items to add (now or in the future):
 - "See All Posts" page for home page
