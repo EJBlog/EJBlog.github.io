@@ -16,19 +16,21 @@
 
 NEW TO-DO SECTION - NECESSARY BEFORE "PROMOTION" (03/15/16):
 - Add image for contact page sidebar (JAKE - envelopes)
+   -- I looked at them and all of them only show the last few letters or last word on the envelope. The one you photoshopped
+      that showed all of the text looked like the best angle but would be better with the actual text. Just my opinion though -Evan
 - Add image for Misc. page sidebar
 - Add image for IT category thumbnail
-- Add "similar posts" to all of our own posts (JAKE and EVAN)
+- Add "similar posts" to all of our own posts (JAKE and EVAN) (EVAN-DONE)
 - Remove all stock photos
 - Remove commented code (default layout is one of the only pages left with lots of commented code)
 - Get in touch with contacted guest authors
 - Mobile changes below:
    - Category page text size on thumbnails
-   - Author page alignment (EVAN)
+   - Author page alignment (DONE)
    - Post.html footer with huge category images
-   - Fix "share post" functionality
-   - Guest author page layout/images
-   - Home page/category pages image size for each post? Kinda small
+   - Fix "share post" functionality (DONE for now)
+   - Guest author page layout/images (DONE)
+   - Home page/category pages image size for each post? Kinda small (DONE)
 
 FUTURE
 - Individual page for each author
