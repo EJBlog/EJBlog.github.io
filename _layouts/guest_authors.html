@@ -86,8 +86,8 @@
                     
 						{% for author in site.authors | sort: 'name' %}
 						{% if author.name != "Evan Neises" and author.name != "Jake Ellis" %}
-							<h2>{{ author.name }}</h2>
 							<div class="no-gutter pull-right">
+							<h2>{{ author.name }}</h2>
 							{% if author.image_file != null %}
 							<img src="{{ site.url }}/img/{{ author.image_file }}" class="guest-user-icon" alt="user-image">
 							{% else %}
