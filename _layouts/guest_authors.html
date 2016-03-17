@@ -88,17 +88,16 @@
 						{% if author.name != "Evan Neises" and author.name != "Jake Ellis" %}
 						<div class="col-xs-10 no-gutter">
 							<h2>{{ author.name }}</h2>
- 						   	<div class="pull-right no-gutter">
-								{% if author.image_file != null %}
-								<img src="{{ site.url }}/img/{{ author.image_file }}" class="guest-user-icon" alt="user-image">
-								{% else %}
-								<img src="{{ site.url }}/img/no_image.jpg" class="guest-user-icon" alt="user-image">
-								{% endif %}
-							</div>
+ 
 							<div class="meta meta-guest">
 								{{ author.content | remove:'<p>' | remove:'</p>' }}
 							</div>
 						</div>
+						{% if author.image_file != null %}
+						<img src="{{ site.url }}/img/{{ author.image_file }}" class="guest-user-icon" alt="user-image">
+						{% else %}
+						<img src="{{ site.url }}/img/no_image.jpg" class="guest-user-icon" alt="user-image">
+						{% endif %}	
 						<hr>
 						{% endif %}
 						{% endfor %}
