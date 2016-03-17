@@ -831,7 +831,7 @@ ol li {
 
 /* line 35, ../sass/partials/_shared.sass */
 .user-icon {
-  width: 50px;
+  width: 65px;
   /* Removed height property for mobile sizing. -Evan */
   /*  height: 50px;*/
   padding: 0;
