@@ -7,10 +7,9 @@ post_category: "Fitness"
 post_category_link: "fitness_category"
 comments: True
 related_post: [
-	"Insert Inspirational Quote Here"
-]
-related_category: [
-	"Miscellaneous"
+	"Evan's Workout and Nutrition Plan",
+	"Insert Inspirational Quote Here",
+	"Jake's Meal Plan"
 ]
 ---
 

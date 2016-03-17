@@ -7,13 +7,7 @@ post_category: "Miscellaneous"
 post_category_link: "misc_category"
 comments: True
 related_post: [
-	"Picking A Place To Live",
-	"Insert Inspirational Quote Here"
-]
-related_category: [
-	"Climbing",
-	"Travel",
-	"Fitness"
+	"Picking A Place To Live"
 ]
 ---
 

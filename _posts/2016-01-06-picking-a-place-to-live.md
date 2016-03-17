@@ -6,6 +6,10 @@ author_id: evan_neises
 post_category: "Travel"
 post_category_link: "travel_category"
 comments: True
+related_post: [
+	"Moving to Pheonix, Arizona",
+	"From One Young Professional to Another"
+]
 ---
 
 How do you know where to settle down and spend the rest of your life?
