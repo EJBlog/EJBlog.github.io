@@ -97,7 +97,7 @@
 				{% assign author = site.authors | where:"author_id", post.author_id | first %}
 				
 				<h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-					<div class="col-xs-1 no-gutter pull-right">
+					<div class="no-gutter pull-right">
 						{% if author.image_file != null %}
 						<img src="{{ site.url }}/img/{{ author.image_file }}" class="user-icon" alt="user-image">
 						{% else %}
