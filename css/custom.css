@@ -410,126 +410,128 @@
 }
 
 /*More animation practice. -Evan */
-/*@keyframes category1 {*/
-/*    0% {left:0px; top:0px;}*/
-/*    16.67% {left:33.33%; top:0px;}*/
-/*    33.34% {left:66.66%; top:0px;}*/
-/*    50% {left:66.66%; top:33%;}*/
-/*    66.67% {left:33.33%; top:33%;}*/
-/*    83.34% {left:0px; top:33%;}*/
-/*    100% {left:0px; top:0px;}*/
-/*}*/
+@media (min-width: 768px) {
+@keyframes category1 {
+    0% {left:0px; top:0px;}
+    16.67% {left:33.33%; top:0px;}
+    33.34% {left:66.66%; top:0px;}
+    50% {left:66.66%; top:33%;}
+    66.67% {left:33.33%; top:33%;}
+    83.34% {left:0px; top:33%;}
+    100% {left:0px; top:0px;}
+}
 
-/*@-webkit-keyframes category1 {*/
-/*    0% {left:0px; top:0px;}*/
-/*    16.67% {left:33.33%; top:0px;}*/
-/*    33.34% {left:66.66%; top:0px;}*/
-/*    50% {left:66.66%; top:410px;}*/
-/*    66.67% {left:33.33%; top:410px;}*/
-/*    83.34% {left:0px; top:410px;}*/
-/*    100% {left:0px; top:0px;}*/
-/*}*/
+@-webkit-keyframes category1 {
+    0% {left:0px; top:0px;}
+    16.67% {left:33.33%; top:0px;}
+    33.34% {left:66.66%; top:0px;}
+    50% {left:66.66%; top:410px;}
+    66.67% {left:33.33%; top:410px;}
+    83.34% {left:0px; top:410px;}
+    100% {left:0px; top:0px;}
+}
 
-/*.category-preview-1 {*/
-/*    -webkit-animation-name: category1;*/
-/*    -webkit-animation-duration: 10s;*/
-/*    -webkit-animation-iteration-count: infinite;*/
-/*    animation-name: category1;*/
-/*    animation-duration: 10s;*/
-/*    animation-iteration-count: infinite;*/
-/*}*/
+.category-preview-1 {
+    -webkit-animation-name: category1;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: category1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
 
-/*@-webkit-keyframes category2 {*/
-/*    0% {left:0px; top:0px;}*/
-/*    16.67% {left:33.33%; top:0px;}*/
-/*    33.34% {left:33.33%; top:410px;}*/
-/*    50% {left:0px; top:410px;}*/
-/*    66.67% {left:-33.33%; top:410px;}*/
-/*    83.34% {left:-33.33%; top:0px;}*/
-/*    100% {left:0px; top:0px;}*/
-/*}*/
+@-webkit-keyframes category2 {
+    0% {left:0px; top:0px;}
+    16.67% {left:33.33%; top:0px;}
+    33.34% {left:33.33%; top:410px;}
+    50% {left:0px; top:410px;}
+    66.67% {left:-33.33%; top:410px;}
+    83.34% {left:-33.33%; top:0px;}
+    100% {left:0px; top:0px;}
+}
 
-/*.category-preview-2 {*/
-/*    -webkit-animation-name: category2;*/
-/*    -webkit-animation-duration: 10s;*/
-/*    -webkit-animation-iteration-count: infinite;*/
-/*    animation-name: category2;*/
-/*    animation-duration: 10s;*/
-/*    animation-iteration-count: infinite;*/
-/*}*/
+.category-preview-2 {
+    -webkit-animation-name: category2;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: category2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
 
-/*@-webkit-keyframes category3 {*/
-/*    0% {left:0px; top:0px;}*/
-/*    16.67% {left:0px; top:410px;}*/
-/*    33.34% {left:-33.33%; top:410px;}*/
-/*    50% {left:-66.66%; top:410px}*/
-/*    66.67% {left:-66.66%; top:0px;}*/
-/*    83.34% {left:-33.33%; top:0px;}*/
-/*    100% {left:0px; top:0px;}*/
-/*}*/
+@-webkit-keyframes category3 {
+    0% {left:0px; top:0px;}
+    16.67% {left:0px; top:410px;}
+    33.34% {left:-33.33%; top:410px;}
+    50% {left:-66.66%; top:410px}
+    66.67% {left:-66.66%; top:0px;}
+    83.34% {left:-33.33%; top:0px;}
+    100% {left:0px; top:0px;}
+}
 
-/*.category-preview-3 {*/
-/*    -webkit-animation-name: category3;*/
-/*    -webkit-animation-duration: 10s;*/
-/*    -webkit-animation-iteration-count: infinite;*/
-/*    animation-name: category3;*/
-/*    animation-duration: 10s;*/
-/*    animation-iteration-count: infinite;*/
-/*}*/
+.category-preview-3 {
+    -webkit-animation-name: category3;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: category3;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
 
-/*@-webkit-keyframes category4 {*/
-/*    0% {left:0px; top:0px;}*/
-/*    16.67% {left:0px; top:-410px;}*/
-/*    33.34% {left:33.33%; top:-410px;}*/
-/*    50% {left:66.66%; top:-410px;}*/
-/*    66.67% {left:66.66%; top:0px;}*/
-/*    83.34% {left:33.33%; top:0px;}*/
-/*    100% {left:0px; top:0px;}*/
-/*}*/
+@-webkit-keyframes category4 {
+    0% {left:0px; top:0px;}
+    16.67% {left:0px; top:-410px;}
+    33.34% {left:33.33%; top:-410px;}
+    50% {left:66.66%; top:-410px;}
+    66.67% {left:66.66%; top:0px;}
+    83.34% {left:33.33%; top:0px;}
+    100% {left:0px; top:0px;}
+}
 
-/*.category-preview-4 {*/
-/*    -webkit-animation-name: category4;*/
-/*    -webkit-animation-duration: 10s;*/
-/*    -webkit-animation-iteration-count: infinite;*/
-/*    animation-name: category4;*/
-/*    animation-duration: 10s;*/
-/*    animation-iteration-count: infinite;*/
-/*}*/
+.category-preview-4 {
+    -webkit-animation-name: category4;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: category4;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
 
-/*@-webkit-keyframes category5 {*/
-/*    0% {left:0px; top:0px;}*/
-/*    16.67% {left:-33.33%; top:0px;}*/
-/*    33.34% {left:-33.33%; top:-410px;}*/
-/*    50% {left:0px; top:-410px;}*/
-/*    66.67% {left:33.33%; top:-410px;}*/
-/*    83.34% {left:33.33%; top:0px;}*/
-/*    100% {left:0px; top:0px;}*/
-/*}*/
+@-webkit-keyframes category5 {
+    0% {left:0px; top:0px;}
+    16.67% {left:-33.33%; top:0px;}
+    33.34% {left:-33.33%; top:-410px;}
+    50% {left:0px; top:-410px;}
+    66.67% {left:33.33%; top:-410px;}
+    83.34% {left:33.33%; top:0px;}
+    100% {left:0px; top:0px;}
+}
 
-/*.category-preview-5 {*/
-/*    -webkit-animation-name: category5;*/
-/*    -webkit-animation-duration: 10s;*/
-/*    -webkit-animation-iteration-count: infinite;*/
-/*    animation-name: category5;*/
-/*    animation-duration: 10s;*/
-/*    animation-iteration-count: infinite;*/
-/*}*/
+.category-preview-5 {
+    -webkit-animation-name: category5;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: category5;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
 
-/*@-webkit-keyframes category6 {*/
-/*    0% {left:0px; top:0px;}*/
-/*    16.67% {left:-33.33%; top:0px;}*/
-/*    33.34% {left:-66.66%; top:0px;}*/
-/*    50% {left:-66.66%; top:-410px;}*/
-/*    66.67% {left:-33.33%; top:-410px;}*/
-/*    83.34% {left:0px; top:-410px;}*/
-/*    100% {left:0px; top:0px;}*/
-/*}*/
+@-webkit-keyframes category6 {
+    0% {left:0px; top:0px;}
+    16.67% {left:-33.33%; top:0px;}
+    33.34% {left:-66.66%; top:0px;}
+    50% {left:-66.66%; top:-410px;}
+    66.67% {left:-33.33%; top:-410px;}
+    83.34% {left:0px; top:-410px;}
+    100% {left:0px; top:0px;}
+}
 
-/*.category-preview-6 {*/
-/*    -webkit-animation-name: category6;*/
-/*    -webkit-animation-duration: 10s;*/
-/*    -webkit-animation-iteration-count: infinite;*/
-/*    animation-name: category6;*/
-/*    animation-duration: 10s;*/
-/*    animation-iteration-count: infinite;*/
-/*}*/
+.category-preview-6 {
+    -webkit-animation-name: category6;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: category6;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+}
