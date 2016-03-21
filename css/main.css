@@ -1335,15 +1335,6 @@ blockquote {
     font-size: 4.4rem;
   }
 }
-/*Added media query for mobile category text. -Evan */
-@media (min-width: 768px) {
-  /* line 57, ../sass/partials/_single.sass */
-  .single-content h2,
-  .single-content-sidebar h2 {
-    font-size: 20px;
-    font-size: 2rem;
-  }
-}
 /* line 62, ../sass/partials/_single.sass */
 .single-content h2,
 .single-content-sidebar h2 {
