@@ -1,5 +1,5 @@
 ---
-title: "Working Remote"
+title: "Lessons From a Week of Working Remote"
 post_category: "Information Technology"
 layout: post-sidebar
 post_date: "Mar. 21, 2016"
