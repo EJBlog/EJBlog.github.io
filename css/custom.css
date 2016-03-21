@@ -415,9 +415,9 @@
     0% {left:0px; top:0px;}
     16.67% {left:33.33%; top:0px;}
     33.34% {left:66.66%; top:0px;}
-    50% {left:66.66%; top:33%;}
-    66.67% {left:33.33%; top:33%;}
-    83.34% {left:0px; top:33%;}
+    50% {left:66.66%; top:410px;}
+    66.67% {left:33.33%; top:410px;}
+    83.34% {left:0px; top:410px;}
     100% {left:0px; top:0px;}
 }
 
