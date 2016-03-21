@@ -2,7 +2,7 @@
 title: "Working Remote"
 post_category: "Information Technology"
 layout: post-sidebar
-post_date: "Mar. 18, 2016"
+post_date: "Mar. 21, 2016"
 comments: True
 author_id: jake_ellis
 post_category_link: "it_category"
@@ -17,7 +17,7 @@ Originally, I thought the person that chose to work remotely/at-home full time w
 </p>
 
 <p>
-Being in a place where your personal life collides with your professional life will inevitably create conflicts. (Talk about work - life balance) Those that are successful must be persistent, have the ability to prioritize tasks, be self-motivated and self aware. This relates to personally as well as professionally. 
+We arrived in Phoenix, AZ on March 11th, 2016, which gave us some time to get settled in. We set up the wifi, unpacked our bags and before we knew it the work week had begun. I quickly learned that Working in a place where your personal life collides with your professional life will inevitably create conflicts. I knew that in order to be successful I must must be persistent, have the ability to prioritize tasks, be self-motivated and self aware. This relates to personally as well as professionally. 
 </p>
 
 <p>
@@ -60,7 +60,11 @@ So here is my list of pros:
 </p>
 
 <p>
-I could go on for days about all of the positives, although there are definitely negatives associated with this as well. Here is my list of cons:
+I could go on for days about all of the positives, although there are always negatives associated with this as well. 
+</p>
+
+<p>
+Here is my list of cons:
 
 <ul>
 
@@ -88,12 +92,11 @@ Pressures of being at home.
   </ul>
 </li>
 
-
 <ul>
 </p>
 
 <p>
-I have realized, working remotely is best for those people that have enough focus to get their tasks done each day, but also want to experience every aspect of life. Throughout all of this, working remote is teaching me to be more conscience of my work as well as my time. It would be easy to take an "extended lunch break" to watch a new season on Netflix or go for a hike. The reason I choose not to do those things is because I know my work is my most important priority. If I did not make work my top priority then none of the things on my pro list would be possible.
+In just the first week of working remote I have learned to be more conscience of my work as well as my time. It would be easy to take an "extended lunch break" to watch a new season on Netflix or go for a hike. The reason I choose not to do those things is because I know my work is my most important priority. If I did not make work my top priority then none of the things on my "pros" list would be possible.
 </p>
 
 
