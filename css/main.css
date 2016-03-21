@@ -1341,7 +1341,14 @@ blockquote {
   font-size: 28px;
   font-size: 2.8rem;
 }
-
+/*Added media query mobile. -Evan */
+@media (max-width: 768px) {
+  .single-content h2,
+  .single-content-sidebar h2 {
+    font-size: 20px;
+    font-size: 2rem;
+  }
+}
 /* line 65, ../sass/partials/_single.sass */
 .single-content-sidebar {
   padding: 30px 8%;
