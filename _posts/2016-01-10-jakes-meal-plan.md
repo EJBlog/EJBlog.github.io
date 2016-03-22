@@ -6,6 +6,10 @@ author_id: jake_ellis
 post_category: "Fitness"
 post_category_link: "fitness_category"
 comments: True
+related_post: [
+	"Investing In Your Body"
+	,"Evan's Workout and Nutrition Plan"
+]
 ---
 
 
