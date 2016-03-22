@@ -6,6 +6,9 @@ post_date: "Mar. 21, 2016"
 comments: True
 author_id: jake_ellis
 post_category_link: "it_category"
+related_post: [
+	"Looping Through Jekyll Files and Collections"
+]
 ---
 
 <p>
