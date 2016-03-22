@@ -6,6 +6,11 @@ post_date: "Feb. 27, 2016"
 comments: True
 author_id: jake_ellis
 post_category_link: "travel_category"
+related_post: [
+	"Planning our 2016 Ski Trip"
+	,"Moving to Phoenix, Arizona"
+	,"Picking A Place To Live"
+]
 ---
 
 <p>
