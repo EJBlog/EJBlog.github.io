@@ -6,6 +6,12 @@ post_date: "Feb. 26, 2016"
 comments: True
 author_id: jake_ellis
 post_category_link: "travel_category"
+related_post: [
+	"Planning our 2016 Ski Trip"
+	,"Travel Alert!!"
+	,"Picking A Place To Live"
+	,"Finding Time to Travel"
+]
 ---
 
 <p>
