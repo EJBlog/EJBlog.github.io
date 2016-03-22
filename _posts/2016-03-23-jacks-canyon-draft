@@ -7,14 +7,19 @@ comments: True
 author_id: jake_ellis
 post_category_link: "climbing_category"
 related_post: [
-	""
+	"Training In The Climbing Gym"
+	
 ]
 ---
 
 <p>
 </p>
 
-<src img="casino_wall.jpg"></src>
+<img src="{{ site.url }}/img/casino_wall.jpg" style="width: 50%">
+<img src="{{ site.url }}/img/boone_sunset.jpg" style="width: 50%">
+<img src="{{ site.url }}/img/jake_boone_sunset.jpg" style="width: 50%">
+<img src="{{ site.url }}/img/subaru_living.jpg" style="width: 50%">
+<img src="{{ site.url }}/img/dan_clay_connie.jpg" style="width: 50%">
 
 
 
