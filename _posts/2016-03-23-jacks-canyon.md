@@ -28,7 +28,7 @@ This being our first day out climbing in Arizona, we spent our day at a warm up 
 </p>
 
 <p>
-<img src="{{ site.url }}/img/dan_clay_connie.jpg" style="width: 50%">
+<img src="{{ site.url }}/img/dan_clay_connie.jpg" style="width: 100%">
 Sorry for the blurry picture (Left to right: Dan, Clay, and Connie).
 </p>
 
