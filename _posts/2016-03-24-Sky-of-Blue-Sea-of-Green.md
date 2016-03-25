@@ -70,7 +70,6 @@ rivaled, in my opinion. Unfortunately, my Sounders lost that home opener (and ar
 losing streak, get it together boys), but what made the game an amazing experience were the 
 
 fans. And what an eclectic group they were. 
-<img src="{{ site.url }}/img/zach_seattle.jpg" style="width: 50%">
 </p>
 
 <p>
