@@ -12,7 +12,7 @@ comments: True
 <p>
 Buckle up your seat belts, lift up your trays, and prepare for take off.
 
-Friends, a lot can happen in a year. A LOT. Last year in my fourth and final year of undergrad at 
+Friends, a lot can happen in a year. A LOT. <!--endpreview-->Last year in my fourth and final year of undergrad at 
 
 the University of Louisville I went to Disney for spring break with my then serious girlfriend of 
 
@@ -21,7 +21,6 @@ four years; however, this year was not quite the same.  Being in my first year o
 and having a different spring break than most of all my friends I decided to do things a little 
 
 differently. This year I traveled alone for the first time out west to Seattle, Washington.
-<!--endpreview-->
 </p>
 
 <p>
