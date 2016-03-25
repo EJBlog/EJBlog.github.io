@@ -1,6 +1,14 @@
 ---
-Sky of Blue, Sea of Green 3/24/2016
+layout: post
+title: "Sky of Blue, Sea of Green"
+post_date: "Mar. 24th, 2016"
+author_id: zach_adams
+post_category: "Travel"
+post_category_link: "travel_category"
+comments: True
 ---
+
+
 <p>
 Buckle up your seat belts, lift up your trays, and prepare for take off.
 
