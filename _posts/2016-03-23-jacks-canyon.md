@@ -23,6 +23,8 @@ Now I don't want it to seem as if we know everything there is to know about rock
 This past weekend Rachael, Boone, and I made our first climbing trip to Jack's Canyon. Luckily our awesome landlord is an avid climber and let us borrow her guide book. After getting lost on the two and a half hour car ride to the Winslow area, we found the gate covered with stickers. We found a random spot, set up camp and fell asleep. When we woke, it was a cool 30 degrees. By the time we finally got out of bed it was sunny and 60 degrees and we were very excited to get started.
 </p>
 
+<img src="{{ site.url }}/img/subaru_living.jpg" style="width: 50%; height:50%">
+
 <p>
 This being our first day out climbing in Arizona, we spent our day at a warm up wall known as the Casino wall. We started with an easy few routes and topped it off with the infamous "Mickey goes to Vegas". Throughout the day we met a lot of people. We even had a neighbor's dog casually walk away with Boone's bag of food (it was more funny than anything). Of those people we were lucky enough to run into three people in particular - Dan, Clay, and Connie.
 </p>
@@ -36,7 +38,7 @@ Sorry for the blurry picture (Left to right: Dan, Clay, and Connie).
 Dan, Clay, and Connie had much more experience than us and were willing to help us out. All three are all avid outdoors(wo)man (climbing, mountaineering, mountain biking, fishing, you name it). They knew the area and were telling us all about other crags to go to before the Arizona summer was in full force. They even helped Rachael get through a tough spot on the last lead of the day. By the end of the day, they invited us to join them on their next weekend climbing trip at one of the many places around Phoenix. Needless to say, we are very thankful to meet them. Being new to the area we were hoping to meet some great people to help us find our way around and that exactly what we found in them.
 </p>
 
-<img src="{{ site.url }}/img/jake_boone_sunset.jpg" style="width: 50%"><img src="{{ site.url }}/img/subaru_living.jpg" style="width: 50%">
+<img src="{{ site.url }}/img/jake_boone_sunset.jpg" style="width: 50%">
 
 
 
