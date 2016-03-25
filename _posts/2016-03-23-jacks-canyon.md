@@ -35,7 +35,7 @@ Sorry for the blurry picture (Left to right: Dan, Clay, and Connie).
 </p>
 
 <p>
-Dan, Clay, and Connie had much more experience than us and were willing to help us out. All three are all avid outdoors(wo)man (climbing, mountaineering, mountain biking, fishing, you name it). They knew the area and were telling us all about other crags to go to before the Arizona summer was in full force. They even helped Rachael get through a tough spot on the last lead of the day. By the end of the day, they invited us to join them on their next weekend climbing trip at one of the many places around Phoenix. Needless to say, we are very thankful to meet them. Being new to the area we were hoping to meet some great people to help us find our way around and that exactly what we found in them.
+Dan, Clay, and Connie had much more experience than us and were willing to help us out. All three are all avid outdoors(wo)man (climbing, mountaineering, mountain biking, fishing, you name it). They knew the area and were telling us all about other crags to go to before the Arizona summer was in full force. They even helped Rachael get through a tough spot on the last lead of the day. By the end of the day, they invited us to join them on their next weekend climbing trip at one of the many places around Phoenix. Needless to say, we are very thankful to meet them. Being new to the area we were hoping to meet some great people to help us find our way around and thats exactly what we found in them.
 </p>
 
 <img src="{{ site.url }}/img/jake_boone_sunset.jpg">
