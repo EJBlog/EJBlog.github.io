@@ -84,16 +84,16 @@
 						<form action="http://formspree.io/officetoadventure@gmail.com" id="contactform" method="post">
 							<div class="form-group">
 								<label for="name">Name</label>
-								<input type="text" placeholder="John Smith" class="form-control" name="name">
+								<input type="text" placeholder="John Smith" class="form-control" name="name" value="" required="required">
 							</div>
 							<div class="form-group">
 								<label for="email">Email</label>
-								<input type="email" placeholder="youremail@email.com" class="form-control" name="_replyto">
+								<input type="email" placeholder="youremail@email.com" class="form-control" name="_replyto" value="" required="required">
 							</div>
 
 							<div class="form-group">
 								<label for="message">Message</label>
-								<textarea class="form-control" name="message" placeholder="I love your blog posts, stay awesome." ></textarea>
+								<textarea class="form-control" name="message" placeholder="I love your blog posts, stay awesome." value="" required="required" ></textarea>
 							</div>
 
 							<div class="form-group">
@@ -101,6 +101,7 @@
 							</div>
 						</form> 
 						
+						<!--<script>$("#contactform").validate();</script> -->
 						<footer class="split-footer">
 							<a href="about.html">About</a>
 							<i class="link-spacer"></i>
@@ -120,7 +121,7 @@
         
 			<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.12.0/jquery.validate.js"></script>
 			<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.12.0/additional-methods.js"></script>
-
+			<script>$("#contactform").validate();</script> 
 
 			<!--<script src="js/validate.js" type="text/javascript"></script>-->
 			<script src="js/main.js"></script>
