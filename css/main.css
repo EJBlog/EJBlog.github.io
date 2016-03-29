@@ -1489,7 +1489,7 @@ footer.single .category-list {
 /* line 155, ../sass/partials/_single.sass */
 footer.single img {
   width: 60px;
-  height: 60px;
+  /*height: 60px;*/
 }
 /* line 159, ../sass/partials/_single.sass */
 footer.single .user-icon {
