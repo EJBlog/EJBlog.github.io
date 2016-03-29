@@ -145,7 +145,7 @@
 .rachael-wrap {
   width: 100%;
   /*border: 1px solid #ccc;*/
-  height: 80px;
+  height: 115px;
   overflow: auto;
   position: fixed;
   z-index:1;
@@ -161,7 +161,7 @@
   .rachael-wrap {
       width: 80%;
   /*border: 1px solid #ccc;*/
-  height: 80px;
+  height: 115px;
   overflow: auto;
   position: fixed;
   z-index:1;
@@ -172,7 +172,7 @@
   .rachael-wrap {
       width: 53%;
   /*border: 1px solid #ccc;*/
-  height: 80px;
+  height: 115px;
   overflow: auto;
   position: fixed;
   z-index:1;
