@@ -145,7 +145,7 @@
 .rachael-wrap {
   width: 100%;
   /*border: 1px solid #ccc;*/
-  height: 120px;
+  height: 80px;
   overflow: auto;
   position: fixed;
   z-index:1;
@@ -161,7 +161,7 @@
   .rachael-wrap {
       width: 80%;
   /*border: 1px solid #ccc;*/
-  height: 120px;
+  height: 80px;
   overflow: auto;
   position: fixed;
   z-index:1;
@@ -172,7 +172,7 @@
   .rachael-wrap {
       width: 53%;
   /*border: 1px solid #ccc;*/
-  height: 120px;
+  height: 80px;
   overflow: auto;
   position: fixed;
   z-index:1;
@@ -183,11 +183,11 @@
 
 .rachael-text
 {
-  height:50px;
+  height:40px;
   /*top:0px;*/
   width:50%;
   position: fixed;
-  font-family:lucida handwriting;
+  font-family:didot;
   text-align:center;
   background-color:white;
   /*z-index:1;*/
@@ -201,22 +201,22 @@
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   .rachael-text {
-      height:50px;
+      height:40px;
   /*top:0px;*/
   width:50%;
   position: fixed;
-  font-family:lucida handwriting;
+  font-family:didot;
   text-align:center;
     background-color:white;
   }
 }
 @media screen and (min-width: 1200px) {
   .rachael-text {
-      height:50px;
+      height:40px;
   /*top:0px;*/
   width:50%;
   position: fixed;
-  font-family:lucida handwriting;
+  font-family:didot;
   text-align:center;
   background-color:white;
   }
