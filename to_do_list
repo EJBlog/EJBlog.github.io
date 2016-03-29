@@ -5,14 +5,11 @@
 
 - Mobile changes:
    - Category page text size on thumbnails
-   - Author page alignment (DONE)
    - Post.html footer with huge category images
-   - Fix "share post" functionality (DONE for now)
-   - Guest author page layout/images (DONE)
-   - Home page/category pages image size for each post? Kinda small (DONE)
-   - Categories page - some titles do not fit on the image on mobile 
+   - Fix "share post" functionality 
+   - Code the menu box to stay on the screen at all times
    
-- Changes steming from analytics saying mobiles views are shorter than people on desktop
+- Changes steming from analytics showing mobile view times are shorter than people on desktop
    - Add "view next post" button for mobile viewers 
      - make the mobile site work similar to how Facebook articles work (you know, that ones we waste hours viewing each day)
 
@@ -146,3 +143,6 @@ a.	Categories functionality (In Progress)
 - Add "similar posts" to all of our own posts (JAKE and EVAN) (EVAN-DONE)
 - Remove commented code (default layout is one of the only pages left with lots of commented code) - DONE
 - Get in touch with contacted guest authors - DONE
+   - Guest author page layout/images (DONE)
+   - Home page/category pages image size for each post? Kinda small (DONE)
+   - Categories page - some titles do not fit on the image on mobile (DONE)
