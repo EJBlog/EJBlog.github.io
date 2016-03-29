@@ -154,13 +154,7 @@
 /*@media screen and (min-width: 768px) and (max-width: 992px)*/
 @media screen and (max-width: 992px){
   .rachael-wrap {
-   width: 100%;
-  /*border: 1px solid #ccc;*/
-  height: 125px;
-  overflow: auto;
-  position: absolute;
-  z-index:1;
-   background-color:white;
+	display:none;
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {
@@ -202,13 +196,7 @@
 @media screen and (max-width: 992px)
 {
   .rachael-text {
-      height:50px;
-  /*top:0px;*/
-  width:90%;
-  position: absolute;
-  font-family:lucida handwriting;
-  text-align:center;
-    background-color:white;
+	display:none;
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {
@@ -248,14 +236,7 @@
 /*@media screen and (min-width: 768px) and (max-width: 992px)*/
 @media screen and (max-width: 992px) {
   .rachael-text-two {
-  height:72px;
-  width:90%;
-  font-family:lucida handwriting;
-  text-align:center;
-  position:absolute;
-  background-color:white;
-  /*z-index:1;*/
-  margin-top:40px;
+	display:none;
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {
