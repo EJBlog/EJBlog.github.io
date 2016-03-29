@@ -109,27 +109,6 @@
 <!--End Search-->
 
                  <div class="rachael-wrap">
-      <!--           	
-     //              jQuery.noConflict();
-		   //$(document).ready(function()
-		   //{
-		   // function attach() 
-		   // {
-		   //   $(".rachael-wrap .rachael-text .rachael-text-two").stick_in_parent
-		   //   ({
-		   //     // parent: ".sidebar"
-		   //   });
-		   // }
-		   //} );
-				    
-		 attach();
-		 -->
-
-			<script type="text/javascript">
-			  $(document).ready(function(){
-			    $(".racheal-wrap").sticky({topSpacing:0});
-			  });
-			</script>
 
                     			    <!--<img src="img/ota_badge.jpg" class="rachael-img"><br><br>-->
 		    <!--<p class="home-page-posts animated fadeIn rachael-text">Welcome to</p>-->
@@ -142,7 +121,7 @@
                     </div>
                   </div> 
                   
-                  <div style="margin-top:15%">
+                  <div style="margin-top:20%">
     			{% assign postCount = '0' %}
     			{% for post in site.posts limit:5 %}
     			{% capture postCount %}{{ postCount | plus: '1' }}{% endcapture %}
