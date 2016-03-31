@@ -7,8 +7,7 @@ post_category: "Travel"
 post_category_link: "travel_category"
 comments: True
 related_post: [
-	"Moving to Pheonix, Arizona",
-	"From One Young Professional to Another"
+	"Moving to Pheonix, Arizona"
 ]
 ---
 
