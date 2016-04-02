@@ -36,7 +36,7 @@ My favorite runs were anything off of the Summit Express lift, especially near t
 </p>
 
 <P>
-<img src="{{ site.url }}/img/jake_traverse.JPG" style="width: 50%; height: 70%"> <img src="{{ site.url }}/img/honeycomb_canyon.JPG" style="width: 50%; height: 70%">
+<img src="{{ site.url }}/img/jake_traverse.JPG" style="width: 50%; height: 70%"><img src="{{ site.url }}/img/honeycomb_canyon.JPG" style="width: 50%; height: 70%">
 </p>
 
 <p>
