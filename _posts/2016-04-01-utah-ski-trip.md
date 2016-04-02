@@ -35,7 +35,9 @@ When the morning came, we woke up before our alarms and were ready to go before 
 My favorite runs were anything off of the Summit Express lift, especially near the Honeycomb Canyon. The traverse underneath Fantasy ridge was unlike anything I've ever skied before. Keeping up the momentum to make it through valleys and over ridges made it difficult and the views were amazing. We tried to make it the entire traverse, although signs saying "Avalanche Area" stopped us. As much as we wanted to continue on, we didnt have the knowledge or gear to explore in avalanche terrain. My heart wanted to hike to the top of Fantasy Ridge, but my head said I wasn't ready and my head won. So we would ride the traverse and drop into the canyon wherever we wanted and would meet back at the bottom of the lift.
 </p>
 
+<P>
 <img src="{{ site.url }}/img/jake_traverse.JPG" style="width: 50%; height: 70%"> <img src="{{ site.url }}/img/honeycomb_canyon.JPG" style="width: 50%; height: 70%">
+</p>
 
 <p>
 At the end of the trip we were all exhausted but, given the chance, we would have ran back to the slopes in a heartbeat. Maybe next year we will head to Wyoming or even out of the country.
