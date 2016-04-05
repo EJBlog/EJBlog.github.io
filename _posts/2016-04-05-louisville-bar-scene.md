@@ -30,7 +30,7 @@ When people talk about the bar with the two wrecked cars out front, Garage Bar i
 <br> <br>
 <h3><a href="http://www.haymarketwhiskeybar.com/">Haymarket Whiskey Bar</a></h3>
 If you’re looking for a nice dive bar with a huge selection of bourbon, look no further. Renowned as one of the best bourbon bars in the country, Haymarket Whiskey Bar offers over 150+ whiskeys from all over the world. Their selection includes the run of the rare Pappys, Jeffersons, and many more. Grab a unique bourbon, play a game of pinball, and enjoy the weird, but still cool, vibe that Haymarket Whiskey Bar brings. 
-<br><br>
+<br><br><br>
 I can’t write this article without giving a tribute to the (now closed) <b>World Famous Sully’s Saloon</b> on 4th Street Live. No bar will ever recreate the mayhem that Sully’s provided every single weekend. You will be missed.
 <br><br>
 <h2><b>Bardstown Road Area</b></h2>
