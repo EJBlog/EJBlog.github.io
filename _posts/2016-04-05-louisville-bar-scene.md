@@ -13,7 +13,6 @@ related_post: [
 The city of Louisville (Lou-a-vul for those of you aren't from around here) offers not only an incredible selection of food, but a wide variety of bars as well. No matter what type of scene you are looking for, there is a probably a bar for you. <!--endpreview-->
 <br><br>
 <h2><b>Downtown Area</b></h2>
-<br>
 <h3><a href="http://www.tavernon4thky.com/">Tavern (4th Street Live)</a></h3>
 If you’re looking for a place to play games while grabbing a drink with some friends, this is your best bet. Pool, cornhole, ping pong, giant Jenga, bocce ball, shuffleboard, battle shots (like battleship but with shot glasses), a variety of arcade games, and more. Drinks are a bit pricey but if you go on a weekend you’ll more than likely find some great drink specials.
 <br><br>
@@ -35,7 +34,6 @@ If you’re looking for a nice dive bar with a huge selection of bourbon, look n
 I can’t write this article without giving a tribute to the (now closed) <b>World Famous Sully’s Saloon</b> on 4th Street Live. No bar will ever recreate the mayhem that Sully’s provided every single weekend. You will be missed.
 <br><br>
 <h2><b>Bardstown Road Area</b></h2>
-<br>
 <h3><a href="http://holygralelouisville.com/">Holy Grale</a></h3>
 Holy Grale, a small church transformed into a bar with an incredible selection of beers, what could get more interesting? If you want to try beers you and your friends have never heard of, Holy Grale is for you. Beers from all over the world, some on tap, some in bottles, some light, some dark, Holy Grale is changing and updating their selection constantly. Grab a small bite to eat and buy the kitchen staff a round while you’re at it – they will appreciate it! When the weather is nice, the back patio provides a fun and relaxing environment to hang out with a large group as well.
 <br><br>
@@ -47,7 +45,6 @@ O’Shea’s is a bar with an all-around fun environment. On the weekends, there
 <br><br>
 
 <h2><b>St. Matthews Area</b></h2>
-<br>
 <h3><a href="http://www.tinrooflouisville.com/">Tin Roof</a></h3>
 Boasting probably the biggest college crowd among all bars in Louisville, the Tin Roof is sure to create some crazy memories. With the option to hang out both inside and outside depending on the weather, this is a prime place to bring a group of friends for a night of drinking. If you’re looking for the drunkest and craziest group of people at a bar, this is the place to go. 
 <br><br>
