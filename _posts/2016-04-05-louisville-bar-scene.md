@@ -12,7 +12,7 @@ related_post: [
 ---
 The city of Louisville (Lou-a-vul for those of you aren't from around here) offers not only an incredible selection of food, but a wide variety of bars as well. No matter what type of scene you are looking for, there is a probably a bar for you. <!--endpreview-->
 <br><br>
-<b><h2>Downtown Area</h2></b>
+<h2><b>Downtown Area</b></h2>
 <br>
 <h3><a href="http://www.tavernon4thky.com/">Tavern (4th Street Live)</a></h3>
 If you’re looking for a place to play games while grabbing a drink with some friends, this is your best bet. Pool, cornhole, ping pong, giant Jenga, bocce ball, shuffleboard, battle shots (like battleship but with shot glasses), a variety of arcade games, and more. Drinks are a bit pricey but if you go on a weekend you’ll more than likely find some great drink specials.
@@ -34,7 +34,7 @@ If you’re looking for a nice dive bar with a huge selection of bourbon, look n
 <br><br>
 I can’t write this article without giving a tribute to the (now closed) <b>World Famous Sully’s Saloon</b> on 4th Street Live. No bar will ever recreate the mayhem that Sully’s provided every single weekend. You will be missed.
 <br><br>
-<b><h2>Bardstown Road Area</h2></b>
+<h2><b>Bardstown Road Area</b></h2>
 <br>
 <h3><a href="http://holygralelouisville.com/">Holy Grale</a></h3>
 Holy Grale, a small church transformed into a bar with an incredible selection of beers, what could get more interesting? If you want to try beers you and your friends have never heard of, Holy Grale is for you. Beers from all over the world, some on tap, some in bottles, some light, some dark, Holy Grale is changing and updating their selection constantly. Grab a small bite to eat and buy the kitchen staff a round while you’re at it – they will appreciate it! When the weather is nice, the back patio provides a fun and relaxing environment to hang out with a large group as well.
@@ -46,7 +46,7 @@ Tucked away behind a small movie theatre/shopping center, the Back Door bar is a
 O’Shea’s is a bar with an all-around fun environment. On the weekends, there is typically live entertainment in the front and a DJ and dance floor in the back. When it gets too crowded, there are so many different areas to hang out in and lots of individual bars you can get drinks at. It’s worth stopping by to grab some Irish Car Bombs.
 <br><br>
 
-<b><h2>St. Matthews Area</h2></b>
+<h2><b>St. Matthews Area</b></h2>
 <br>
 <h3><a href="http://www.tinrooflouisville.com/">Tin Roof</a></h3>
 Boasting probably the biggest college crowd among all bars in Louisville, the Tin Roof is sure to create some crazy memories. With the option to hang out both inside and outside depending on the weather, this is a prime place to bring a group of friends for a night of drinking. If you’re looking for the drunkest and craziest group of people at a bar, this is the place to go. 
@@ -55,7 +55,7 @@ Boasting probably the biggest college crowd among all bars in Louisville, the Ti
 Gerstle’s is another bar with a great environment for all ages (legal of course). This bar is split into three main sections: the smaller side with live entertainment connected to the outside patio, the middle area with the pool table, and the larger section with the dance floor, more live entertainment and a bigger bar. If you like to dance, this is a good place to be on the weekends. 
 <br><br>
 
-<b><h2>Honorable Mentions</h2></b>
+<h2><b>Honorable Mentions</b></h2>
 <h3><a href="http://www.whiskeybythedrink.com/">The Silver Dollar</a></h3>
 With some of the best cocktails in the city, Silver Dollar deserves some recognition. This bar also provides a great vibe and experience while delivering an incredible selection of whiskeys and other liquors. Although a bit pricey, the drinks are worth a little extra $$. If new to Louisville, I suggest the Kentucky Mule. Giving you a refreshing taste while being served over ice in a chilled copper tin, this bourbon cocktail is one of my favorites. If it is near the Kentucky Derby time of the year however, you have to at least give the Mint Julep a taste. 
 <br><br><br>
