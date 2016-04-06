@@ -1,6 +1,6 @@
 ---
 layout: post-sidebar
-title: "Louisville Bar Scene"
+title: "Choosing The Right Louisville Bars"
 post_date: "April 5th, 2016"
 author_id: evan_neises
 post_category: "Miscellaneous"
