@@ -1,6 +1,6 @@
 ---
 layout: post-sidebar
-title: "Looping Through Jekyll Files and Collections"
+title: "How To Loop Through Jekyll Files and Collections"
 post_date: "March 3rd, 2016"
 author_id: evan_neises
 post_category: "Information Technology"
