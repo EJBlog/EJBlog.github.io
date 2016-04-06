@@ -470,15 +470,15 @@
 
 .page-navigation
 {
-  font-size: 14px;
+  font-size: 20px;
   display: block;
   width: auto;
   overflow: hidden;
 }
 
-.next-post
+.page-navigation .next-post
 {
-color: grey;
+color: gray;
 float: right;
 }
  .next-post a:hover{
@@ -486,9 +486,9 @@ float: right;
   color: black;
 }
 
-.prev-post
+.post-navigation .prev-post
 {
-color: grey;
+color: gray;
 float: left;
 }
 .prev-post a:hover {
