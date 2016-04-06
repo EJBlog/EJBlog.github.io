@@ -467,3 +467,39 @@
 /*    animation-iteration-count: infinite;*/
 /*}*/
 /*}*/
+
+.page-navigation
+{
+  font-size: 14px;
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+
+.next-post
+{
+color: grey;
+float: right;
+}
+ .next-post a:hover{
+  border-bottom: solid 2px #000;
+  color: black;
+}
+
+.prev-post
+{
+color: grey;
+float: left;
+}
+.prev-post a:hover {
+  border-bottom: solid 2px #000;
+  color: black;
+}
+
+
+
+
+
+
+
+
