@@ -2018,3 +2018,31 @@ a:hover, a:active, a:focus {
   color: #333;
   border-bottom: solid 1px #999;
 }
+
+
+.page-navigation
+{
+  font-size: 15px;
+  display: block;
+  width: auto;
+}
+
+.next-post
+{
+color: lightgray;
+float: right;
+}
+ .next-post a:hover{
+  border-bottom: solid 2px #000;
+  color: black;
+}
+
+.prev-post
+{
+color: lightgray;
+float: left;
+}
+.prev-post a:hover {
+  border-bottom: solid 2px #000;
+  color: black;
+}
