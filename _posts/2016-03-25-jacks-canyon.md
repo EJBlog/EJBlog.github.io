@@ -2,7 +2,7 @@
 title: "Climbing Jack's Canyon"
 post_category: "Climbing"
 layout: post-sidebar
-post_date: "Mar. 25, 2016"
+post_date: "Mar. 25th, 2016"
 comments: True
 author_id: jake_ellis
 post_category_link: "climbing_category"
