@@ -3,23 +3,24 @@
   font-size: 20px;
   display: block;
   width: auto;
-  overflow: hidden;
 }
 
-.page-navigation .next-post
+.next-post
 {
-color: pink;
+color: lightgray;
 float: right;
+padding-bottom: 3%;
 }
  .next-post a:hover{
   border-bottom: solid 2px #000;
   color: black;
 }
 
-.page-navigation .prev-post
+.prev-post
 {
-color: pink;
+color: lightgray;
 float: left;
+padding-bottom: 3%;
 }
 .prev-post a:hover {
   border-bottom: solid 2px #000;
