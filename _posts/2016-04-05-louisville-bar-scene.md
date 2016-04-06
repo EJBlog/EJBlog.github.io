@@ -1,7 +1,7 @@
 ---
 layout: post-sidebar
 title: "Louisville Bar Scene"
-post_date: "April 5, 2016"
+post_date: "April 5th, 2016"
 author_id: evan_neises
 post_category: "Miscellaneous"
 post_category_link: "misc_category"
