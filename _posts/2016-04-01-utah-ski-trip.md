@@ -1,7 +1,7 @@
 ---
 layout: post-sidebar
 title: "Skiing: Solitude Mountain"
-post_date: "April 1, 2016"
+post_date: "April 1st, 2016"
 author_id: jake_ellis
 post_category: "Snow Sports"
 post_category_link: "snow_category"
