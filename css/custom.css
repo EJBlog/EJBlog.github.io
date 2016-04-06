@@ -1,3 +1,31 @@
+.page-navigation
+{
+  font-size: 20px;
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+
+.page-navigation .next-post
+{
+color: gray;
+float: right;
+}
+ .next-post a:hover{
+  border-bottom: solid 2px #000;
+  color: black;
+}
+
+.page-navigation .prev-post
+{
+color: gray;
+float: left;
+}
+.prev-post a:hover {
+  border-bottom: solid 2px #000;
+  color: black;
+}
+
 /*.blog-post {
 	font-weight:200;
 
@@ -468,33 +496,7 @@
 /*}*/
 /*}*/
 
-.page-navigation
-{
-  font-size: 20px;
-  display: block;
-  width: auto;
-  overflow: hidden;
-}
 
-.page-navigation .next-post
-{
-color: gray;
-float: right;
-}
- .next-post a:hover{
-  border-bottom: solid 2px #000;
-  color: black;
-}
-
-.page-navigation .prev-post
-{
-color: gray;
-float: left;
-}
-.prev-post a:hover {
-  border-bottom: solid 2px #000;
-  color: black;
-}
 
 
 
