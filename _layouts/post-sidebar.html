@@ -82,8 +82,6 @@
 
 					<p>{{ content }}</p>
 
-				</div><!-- main-content/col -->
-				
 				<div class="page-navigation">
 					  {% if page.previous.url %}
 					    <a class="prev-post" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
@@ -96,7 +94,9 @@
 					   {% else %}
 					    <a class="next-post" href="{{site.url}}">Home</a>
 					  {% endif %}
-					</div>
+				</div>
+
+				</div><!-- main-content/col -->
 				
 				<div class="col-xs-12 col-md-3 col-md-offset-1 single-content-sidebar-area">
            		    
