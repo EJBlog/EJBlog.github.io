@@ -8,7 +8,7 @@
 
 .page-navigation .next-post
 {
-color: gray;
+color: pink;
 float: right;
 }
  .next-post a:hover{
@@ -18,7 +18,7 @@ float: right;
 
 .page-navigation .prev-post
 {
-color: gray;
+color: pink;
 float: left;
 }
 .prev-post a:hover {
