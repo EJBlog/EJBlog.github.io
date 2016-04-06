@@ -81,15 +81,26 @@
                 </section><!-- end sidebar -->
 
 <!-- Starting main page -->
-                <section class="col-md-7 col-sm-12 col-md-offset-5 main-content">
-                	
-                    <div class="sub-nav">
-                        <a href="#" class="select-posts active">Posts</a>
-                        <a href="#" class="select-categories">Categories</a>
-                    </div>
+                <!--<section class="col-md-7 col-sm-12 col-md-offset-5 main-content">-->
+                <section class="col-md-7 col-sm-12 col-md-offset-5">	
+                    <!--<div class="sub-nav">-->
+                    <!--    <a href="#" class="select-posts active">Posts</a>-->
+                    <!--    <a href="#" class="select-categories">Categories</a>-->
+                    <!--</div>-->
 
                     <div class="home-page-posts animated fadeIn ">
-	
+                    	
+	                 <div class="header-wrap">
+			    <p class="header-text">Office To Adventure!</p>
+			
+	                    <div class="sub-nav">
+	                    	
+	                        <a href="#" class="select-posts active">Posts</a>
+	                        <a href="#" class="select-categories">Categories</a>
+	                    </div>
+	                  </div> 
+		
+		<div style="margin-top:20%">
     			<!--{% assign postCount = '0' %}-->
     			{% for post in site.posts %}
     			<!--{% capture postCount %}{{ postCount | plus: '1' }}{% endcapture %}-->
@@ -120,6 +131,8 @@
 		      	</div>
 				<hr>     
 			{% endfor %}
+			
+			</div>
 		    
 			<!--<script type="text/javascript">-->
 			<!-- function showhide(id) -->
@@ -182,10 +195,19 @@
 
 <!-- Start Categories Tab info -->
 			<div class="home-page-categories hide animated fadeIn ">
-				<div class="category row">
+				<div class="header-wrap">
+				    <p class="header-text">Office To Adventure!</p>
+		                    <div class="sub-nav">
+		                        <a href="#" class="select-posts active">Posts</a>
+		                        <a href="#" class="select-categories">Categories</a>
+		                    </div>
+		                  </div> 
+				
+				<!--<div class="category row">-->
+				<div class="row">
 					<!--Changed/added categories to fit our activities. Feel free to modify -Evan -->
 					<!-- Better pictures need to be added to categories -Evan -->
-					<section>
+					<section style="margin-top:15%;">
 						
 						<div class="category-preview col-xs-6 col-sm-4 ">
 							<h2>Travel</h2>
