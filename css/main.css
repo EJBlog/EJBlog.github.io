@@ -1545,6 +1545,11 @@ footer.single-page {
 .read-another-section {
   margin-top: 40px;
 }
+@media screen and (max-width: 992px) {
+  .read-another-section {
+    display: none;
+  }
+}
 
 /* line 200, ../sass/partials/_single.sass */
 footer .read-another-container {
