@@ -227,43 +227,44 @@
   border-bottom: solid 1px #f5f5f5;
   line-height: 30px;
 }
-@media screen and (max-width: 992px){
-  .sub-nav-cat {
-  border-bottom: solid 1px #f5f5f5;
-  line-height: 30px;
-  }
-}
-@media screen and (min-width: 992px) and (max-width: 1200px) {
-  .sub-nav-cat {
-  border-bottom: solid 1px #f5f5f5;
-  line-height: 30px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .sub-nav-cat{
-  border-bottom: solid 1px #f5f5f5;
-  line-height: 30px;
-  }
-}
+/*@media screen and (max-width: 992px){*/
+/*  .sub-nav-cat {*/
+/*  border-bottom: solid 1px #f5f5f5;*/
+/*  line-height: 30px;*/
+/*  }*/
+/*}*/
+/*@media screen and (min-width: 992px) and (max-width: 1200px) {*/
+/*  .sub-nav-cat {*/
+/*  border-bottom: solid 1px #f5f5f5;*/
+/*  line-height: 30px;*/
+/*  }*/
+/*}*/
+/*@media screen and (min-width: 1200px) {*/
+/*  .sub-nav-cat{*/
+/*  border-bottom: solid 1px #f5f5f5;*/
+/*  line-height: 30px;*/
+/*  }*/
+/*}*/
+
 /* line 31, ../sass/partials/_main-content.sass */
-.sub-nav-cat a {
-  display: inline-block;
-  margin-right: 10px;
-  line-height: 30px;
-  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
-  letter-spacing: 2pt;
-  text-decoration: none;
-  color: #b6b6b6;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 12px;
-  font-size: 1.2rem;
-}
+/*.sub-nav-cat a {*/
+/*  display: inline-block;*/
+/*  margin-right: 10px;*/
+/*  line-height: 30px;*/
+/*  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;*/
+/*  letter-spacing: 2pt;*/
+/*  text-decoration: none;*/
+/*  color: #b6b6b6;*/
+/*  text-transform: uppercase;*/
+/*  font-weight: 700;*/
+/*  font-size: 12px;*/
+/*  font-size: 1.2rem;*/
+/*}*/
  /*line 25, ../sass/partials/_main-content.sass */
-.sub-nav-cat a:hover, .sub-nav-cat a:active, .sub-nav-cat a.active {
-  border-bottom: solid 2px #000;
-  color: #333337;
-}
+/*.sub-nav-cat a:hover, .sub-nav-cat a:active, .sub-nav-cat a.active {*/
+/*  border-bottom: solid 2px #000;*/
+/*  color: #333337;*/
+/*}*/
 
 
 .guest-user-icon {
