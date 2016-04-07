@@ -2022,16 +2022,16 @@ a:hover, a:active, a:focus {
 
 .page-navigation
 {
-  font-size: 15px;
+  font-size: 16px;
   display: block;
   width: auto;
+  margin-top: 15%;
 }
 
 .next-post
 {
 color: gray;
 float: right;
-font-size: 16px;
 }
  .next-post a:hover{
   border-bottom: solid 2px #000;
@@ -2042,7 +2042,6 @@ font-size: 16px;
 {
 color: gray;
 float: left;
-font-size: 16px;
 }
 .prev-post a:hover {
   border-bottom: solid 2px #000;
