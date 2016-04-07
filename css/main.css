@@ -2029,8 +2029,9 @@ a:hover, a:active, a:focus {
 
 .next-post
 {
-color: lightgray;
+color: gray;
 float: right;
+font-size: 16px;
 }
  .next-post a:hover{
   border-bottom: solid 2px #000;
@@ -2039,8 +2040,9 @@ float: right;
 
 .prev-post
 {
-color: lightgray;
+color: gray;
 float: left;
+font-size: 16px;
 }
 .prev-post a:hover {
   border-bottom: solid 2px #000;
