@@ -85,15 +85,15 @@
 				<div class="page-navigation">
 
 					  {% if page.next.url %}
-					    <a class="prev-post" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+					    <a class="next-post" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
 					   {% else %}
-					    <a class="prev-post" href="{{site.url}}/">&laquo; Home</a>
+					    <a class="next-post" href="{{site.url}}/">&laquo; Home</a>
 					  {% endif %}
 					  
 					  {% if page.previous.url %}
-					    <a class="next-post" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+					    <a class="prev-post" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
 					  {% else %}
-					    <a class="next-post" href="{{site.url}}/">Home &raquo;</a>
+					    <a class="prev-post" href="{{site.url}}/">Home &raquo;</a>
 					  {% endif %}
 				</div>
 
