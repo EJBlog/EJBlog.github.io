@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/custom.css">
 
 		<!--[if lte IE 9]>
 		  <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
@@ -72,8 +73,8 @@
 
             <section class="col-md-7 col-sm-12 col-md-offset-5 main-content">
 
-                <div class="sub-nav">
-                    <a href="#" class="select-posts active">Posts ({{ site.posts | where: "post_category","Fitness" | size }})</a>
+                <div class="sub-nav-cat">
+                    <a class="select-posts active">Posts ({{ site.posts | where: "post_category","Fitness" | size }})</a>
                 </div>
 
                 <div class="category-page-posts animated fadeIn ">
