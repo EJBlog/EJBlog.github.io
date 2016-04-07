@@ -2,7 +2,7 @@
 title: "Pros and Cons: Working Remote"
 post_category: "Information Technology"
 layout: post-sidebar
-post_date: "Mar. 21, 2016"
+post_date: "Mar. 21st, 2016"
 comments: True
 author_id: jake_ellis
 post_category_link: "it_category"
