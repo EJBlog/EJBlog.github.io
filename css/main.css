@@ -2027,22 +2027,22 @@ a:hover, a:active, a:focus {
   width: auto;
 }
 
-.next-post
+.prev-post
 {
 color: lightgray;
 float: right;
 }
- .next-post a:hover{
+ .prev-post a:hover{
   border-bottom: solid 2px #000;
   color: black;
 }
 
-.prev-post
+.next-post
 {
 color: lightgray;
 float: left;
 }
-.prev-post a:hover {
+.next-post a:hover {
   border-bottom: solid 2px #000;
   color: black;
 }
