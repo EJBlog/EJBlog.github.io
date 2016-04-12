@@ -1,7 +1,7 @@
 ---
 author_id: rachael_chlebowy
 name: Rachael Chlebowy
-image_file: rachael.jpg
+image_file: rachael1.jpg
 author_page: guest_authors.html
 ---
 
