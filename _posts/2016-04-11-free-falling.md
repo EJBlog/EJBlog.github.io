@@ -13,7 +13,7 @@ related_post: [
 ---
 
 <p>
-When Jake and I first moved to Phoenix, we made an “Arizona Bucket List” within the first week, I mean who wouldn’t? What I was forgetting to take into account was mine, and Jake’s, life bucket list. Having worked the night before, Jake woke me up around 1pm like a kid on Christmas morning. He asked, “Guess what we are going to do?” Jake had found a great deal on Groupon for skydiving at Phoenix Area Skydiving. Needless to say, I was ecstatic, because this is something Jake and I have talked about knocking off of our bucket list for years! 
+When Jake and I first moved to Phoenix, we made an “Arizona Bucket List” within the first week, I mean who wouldn’t? What I was forgetting to take into account was mine, and Jake’s, life bucket list. Having worked the night before, Jake woke me up around 1pm like a kid on Christmas morning. He asked, “Guess what we are going to do?” Jake had found a great deal on Groupon for skydiving at Phoenix Area Skydiving. Needless to say, I was ecstatic, because this is something Jake and I have talked about knocking off of our bucket list for years!  <!--endpreview-->
 </p>
 <p>
 I tend to be a procrastinator at times and Jake tends to get ants in his pants the longer it takes to get things carried out. So, it was no surprise Jake brought up when we would want to go skydiving. On Saturday, March 26th Jake called Phoenix Area Skydiving to schedule our skydiving date and time. It was final; we would jump out of a plane on Sunday, April 3. 
