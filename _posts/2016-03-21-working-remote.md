@@ -1,5 +1,5 @@
 ---
-title: "Pros and Cons: Working Remote"
+title: How to Work From Home"
 post_category: "Information Technology"
 layout: post-sidebar
 post_date: "Mar. 21st, 2016"
