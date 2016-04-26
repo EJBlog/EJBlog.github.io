@@ -369,6 +369,17 @@
   }
 }
 
+.it-sidebar {
+  padding: 15px;
+  width: 100%;
+  height: 350px;
+  background-image: url(../img/Technology2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 450ms;
+}
+
 /*More animation practice. -Evan */
 /*@media (min-width: 768px) {*/
 /*@keyframes category1 {*/
