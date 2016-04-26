@@ -31,7 +31,7 @@ Like we had mentioned before, this rope was very new. We didn't want to retire t
 </p>
 
 <P>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/?v=Qm_TYDJImyI&feature=youtu.be" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Qm_TYDJImyI" allowfullscreen></iframe>
 </p>
 
 <p>
