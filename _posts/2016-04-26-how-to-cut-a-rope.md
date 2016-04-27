@@ -1,7 +1,7 @@
 ---
 layout: post-sidebar
 title: "How to Cut a Climbing Rope"
-post_date: "April 2th, 2016"
+post_date: "April 26th, 2016"
 author_id: jake_ellis
 post_category: "Climbing"
 post_category_link: "climb_category"
