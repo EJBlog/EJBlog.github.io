@@ -2062,17 +2062,17 @@ float: left;
   float: right; 
   transform: rotate(20deg);
 }
-@media screen (max-width: 992px) {
+@media screen and (max-width: 992px) {
   .ota-stamp-post {
     margin-right: 9%;
   }
 }
-@media screen (min-width:992px) and (max-width: 1200px) {
+@media screen and (min-width:992px) and (max-width: 1200px) {
   .ota-stamp-post {
     margin-right:20%;
   }
 }
-@media screen (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .ota-stamp-post {
     margin-right:20%;
   }
@@ -2087,17 +2087,17 @@ float: left;
   float: right; 
   transform: rotate(20deg);
 }
-@media screen (max-width: 992px) {
+@media screen and (max-width: 992px) {
   .ota-stamp-sidebar {
     margin-right: 13%;
   }
 }
-@media screen (min-width:992px) and (max-width: 1200px) {
+@media screen and (min-width:992px) and (max-width: 1200px) {
   .ota-stamp-sidebar {
     margin-right:34%;
   }
 }
-@media screen (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .ota-stamp-sidebar {
     margin-right:40%;
   }
