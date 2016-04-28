@@ -2057,12 +2057,19 @@ float: left;
 {
   width: 200px; 
   height: 200px; 
-  margin-right: 40%; 
+  margin-right: 20%; 
   margin-bottom: -100%; 
   float: right; 
   transform: rotate(20deg);
   /*src="/img/OTA.jpg*/
 }
+/*@media (min-width: 768px) and (max-width: 992px) {*/
+  /* line 23, ../sass/main.sass */
+/*  .left-container {*/
+/*    max-width: 100%;*/
+/*    width: 100%;*/
+/*  }*/
+/*}*/
 
 .ota-stamp-sidebar
 {
@@ -2074,3 +2081,10 @@ float: left;
   transform: rotate(20deg);
   /*src="/img/OTA.jpg*/
 }
+/*@media (min-width: 768px) and (max-width: 992px) {*/
+  /* line 23, ../sass/main.sass */
+/*  .left-container {*/
+/*    max-width: 100%;*/
+/*    width: 100%;*/
+/*  }*/
+/*}*/
