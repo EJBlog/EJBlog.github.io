@@ -2053,7 +2053,18 @@ float: left;
   color: black;
 }
 
-.ota-stamp
+.ota-stamp-post
+{
+  width: 200px; 
+  height: 200px; 
+  margin-right: 40%; 
+  margin-bottom: -100%; 
+  float: right; 
+  transform: rotate(20deg);
+  /*src="/img/OTA.jpg*/
+}
+
+.ota-stamp-sidebar
 {
   width: 200px; 
   height: 200px; 
