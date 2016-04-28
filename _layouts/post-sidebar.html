@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<span itemscope itemtype="http://schema.org/Blog">
 <html class="no-js">
 <head>
 	<meta charset="utf-8">
@@ -72,7 +73,7 @@
 		
 		{% assign author = site.authors | where:"author_id", page.author_id | first %}
 
-		<main class="container">
+		<main class="container" itemprop="blogpost">
 			<div class="row">
 				<div class="col-xs-12 col-md-8 single-content-sidebar">
 					<p class="meta">
@@ -165,4 +166,5 @@
         
 			<script id="dsq-count-scr" src="//officetoadventure.disqus.com/count.js" async></script>
 		</body>
+		</span>
 		</html>
