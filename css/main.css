@@ -2097,7 +2097,7 @@ float: left;
     display:none;
   }
 }
-@media screen screen and (min-width:400px) and (max-width: 992px) {
+@media screen and (min-width:400px) and (max-width: 992px) {
   .ota-stamp-sidebar {
     margin-right: 13%;
   }
