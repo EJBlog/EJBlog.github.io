@@ -2052,3 +2052,14 @@ float: left;
   border-bottom: solid 2px #000;
   color: black;
 }
+
+.ota-stamp
+{
+  width: 200px; 
+  height: 200px; 
+  margin-right: 40%; 
+  margin-bottom: -100%; 
+  float: right; 
+  transform: rotate(20deg);
+  /*src="/img/OTA.jpg*/
+}
