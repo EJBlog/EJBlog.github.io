@@ -2067,7 +2067,7 @@ float: left;
     width: 110px; 
     height: 110px; 
     margin-right: 9%;
-    margin-bottom: 20%;
+    margin-bottom: -20%;
   }
 }
 @media screen and (min-width: 500px) and (max-width: 992px) {
