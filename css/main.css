@@ -2061,7 +2061,6 @@ float: left;
   margin-bottom: -100%; 
   float: right; 
   transform: rotate(20deg);
-  /*src="/img/OTA.jpg*/
 }
 @media screen (max-width: 992px) {
   .ota-stamp-post {
@@ -2073,11 +2072,11 @@ float: left;
     margin-right:20%;
   }
 }
-/*@media screen (min-width: 1200px) {*/
-/*  .ota-stamp-post {*/
-/*    margin-right:20%;*/
-/*  }*/
-/*}*/
+@media screen (min-width: 1200px) {
+  .ota-stamp-post {
+    margin-right:20%;
+  }
+}
 
 .ota-stamp-sidebar
 {
@@ -2087,7 +2086,6 @@ float: left;
   margin-bottom: -100%; 
   float: right; 
   transform: rotate(20deg);
-  /*src="/img/OTA.jpg*/
 }
 @media screen (max-width: 992px) {
   .ota-stamp-sidebar {
@@ -2099,8 +2097,8 @@ float: left;
     margin-right:34%;
   }
 }
-/*@media screen (min-width: 1200px) {*/
-/*  .ota-stamp-sidebar {*/
-/*    margin-right:40%;*/
-/*  }*/
-/*}*/
+@media screen (min-width: 1200px) {
+  .ota-stamp-sidebar {
+    margin-right:40%;
+  }
+}
