@@ -2062,7 +2062,12 @@ float: left;
   float: right; 
   transform: rotate(20deg);
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 400px) {
+  .ota-stamp-post {
+    display:none;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 992px) {
   .ota-stamp-post {
     margin-right: 9%;
   }
@@ -2087,7 +2092,12 @@ float: left;
   float: right; 
   transform: rotate(20deg);
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 400px) {
+  .ota-stamp-sidebar {
+    display:none;
+  }
+}
+@media screen screen and (min-width:400px) and (max-width: 992px) {
   .ota-stamp-sidebar {
     margin-right: 13%;
   }
