@@ -1,15 +1,17 @@
 •	To Do List:
  
+ - WRITE BLOG POSTS
+ - Add google AdSense 
+ - https://github.com/woothemes/FlexSlider 
+ - Code the menu box to stay on the screen at all times
  -	Change photos for Category squares - Still need to do the IT square
  - Remove stock images - Add image for IT category thumbnail
- - https://github.com/woothemes/FlexSlider 
+
 
 - Mobile changes:
-   - Category page text size on thumbnails (Done - Evan)
-   - Post.html footer with huge category images (Done - Jake removed with media queries)
+
    - Fix "share post" functionality 
-   - Code the menu box to stay on the screen at all times
-   
+
 - Changes steming from analytics showing mobile view times are shorter than people on desktop
    - Add "view next post" button for mobile viewers (Done - Might need to change the CSS for mobile)
      - make the mobile site work similar to how Facebook articles work (you know, that ones we waste hours viewing each day)
@@ -20,7 +22,6 @@ FUTURE:
   - Read more for author bio's in mean time?
     a.	Each guest author gets their own? Need to do the same as Evan and Jake posts (possibly a “see more” link)
       - Should we choose similar posts ourselves or not include them on guest posts
-- Fixed header (rachael.html page) - (JAKE - DONE - need to replace the text with logo once it is created)
 - Create OTA Logo
 
 
@@ -147,3 +148,5 @@ a.	Categories functionality (In Progress)
    - Guest author page layout/images (DONE)
    - Home page/category pages image size for each post? Kinda small (DONE)
    - Categories page - some titles do not fit on the image on mobile (DONE)
+   - Category page text size on thumbnails (Done - Evan)
+   - Post.html footer with huge category images (Done - Jake removed with media queries)
