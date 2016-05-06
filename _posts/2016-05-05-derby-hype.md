@@ -19,9 +19,9 @@ First off, happy Cinco De Mayo! The holiday that many believe is to celebrate th
 If you're not into drinking margaritas then don't worry. The first week of May also brings a different reason to celebrate; at least if you live in Kentucky or love horse racing. The first weekend in May is always home to the famous Kentucky Oaks and Derby horse races. The races span just a Friday and Saturday, although the celebrations last much longer. Many may wonder why there is such hype over one of the fastest events in sports. Well here is why. 
 </p>
 
-<p><code>
+<p><pre><code>
 FYI: There are two major races in the first weekend of May. The first is "Kentucky Oaks" which is on Friday; the second is "The Kentucky Derby" which is on Saturday. Many refer to the entire day of racing as "Oaks" or "The Derby", although that is technically incorrect. There is one race on Friday named "Longines Kentucky Oaks" and there is one race on Saturday name "The Kentucky Derby". All other racing done on those days are for other purposes that just happen to be on the same day and in the same track.
-</code></p>
+</code></pre></p>
 
 <p>
 With all of the traditions and love for horses in the Blue Grass state (and surrounding states) there is no surprise why many would get excited about one of the largest horses races (and largest parties) of the year. But for the locals there is more to it. The days leading up to the Oaks and Derby races are filled with events such as the Chow Wagon, the Pegasus Parade, the Derby marathon, Derby themed parties and nightlife every day of the week, and of course Thurby.
