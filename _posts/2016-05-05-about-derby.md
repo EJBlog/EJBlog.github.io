@@ -7,7 +7,9 @@ post_category: "Miscellaneous"
 post_category_link: "misc_category"
 comments: True
 related_post: [
-
+"Sky of Blue, Sea of Green",
+"Free Falling",
+"Choosing The Right Louisville Bars"
 ]
 ---
 
