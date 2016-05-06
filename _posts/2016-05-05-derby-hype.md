@@ -25,7 +25,7 @@ FYI: There are two major races in the first weekend of May. The first is "Kentuc
 <br>
 
 <p>
-With all of the traditions and love for horses in the Blue Grass state (and surrounding states) there is no surprise why many would get excited about one of the largest horses races (and largest parties) of the year. But for the locals there is more to it. The days leading up to the Oaks and Derby races are filled with events such as the Chow Wagon, the Pegasus Parade, the Derby marathon, Derby themed parties and nightlife every day of the week, and of course Thurby.
+With all of the traditions and love for horses in the Blue Grass state (and surrounding states) there is no surprise why many people would get excited about one of the largest horses races (and largest parties) of the year. But for the locals there is more to it. The days leading up to the Oaks and Derby races are filled with events such as the Chow Wagon, the Pegasus Parade, the Derby marathon, Derby themed parties and nightlife every day of the week, and of course Thurby.
 </p>
 
 <p>
