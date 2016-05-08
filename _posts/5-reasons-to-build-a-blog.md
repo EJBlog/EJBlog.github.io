@@ -3,11 +3,12 @@ layout: post-sidebar
 title: "5 Reasons To Build A Blog"
 post_date: "May 8th, 2016"
 author_id: jake_ellis
-post_category: "Miscellaneous"
-post_category_link: "misc_category"
+post_category: "Information Technology"
+post_category_link: "it_category"
 comments: True
 related_post: [
-""
+"How to Work From Home",
+"How To Loop Through Jekyll Files and Collections"
 ]
 ---
 
