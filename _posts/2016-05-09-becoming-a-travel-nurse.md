@@ -9,12 +9,6 @@ comments: True
 ---
 
 <p>
-My Journey to Become a Travel Nurse.
-<!--endpreview-->
-</p>
-
-<p>
-
 Ever since I was a little girl, I always knew I wanted to go into nursing. I guess it
 
 helped that my mom is also a nurse. During my senior year of high school, I was
@@ -25,9 +19,7 @@ the day. I took full advantage of this program which confirmed my preexisting
 
 thoughts that nursing was the chosen path for me. With nursing, there are endless
 
-opportunities, which I don’t think I fully grasped until I was in college studying
-
-nursing.
+opportunities, which I don’t think I fully grasped until I was in college.<!--endpreview-->
 </p>
 
 <p>
