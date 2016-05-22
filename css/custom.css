@@ -136,46 +136,45 @@
 
 .header-wrap {
   width: 100%;
-  /*border: 1px solid #ccc;*/
   height: 115px;
   overflow: auto;
   position: fixed;
   z-index:1;
    background-color:white;
+   top:0px;
 }
 /*@media screen and (min-width: 768px) and (max-width: 992px)*/
 @media screen and (max-width: 992px){
   .header-wrap {
-	/*display:none;*/
    width: 100%;
-  /*border: 1px solid #ccc;*/		
    height: 45px;		
    overflow: auto;		
    position: absolute;		
    z-index:1;		
    background-color:white;
+   top:0px;
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   .header-wrap {
       width: 80%;
-  /*border: 1px solid #ccc;*/
   height: 115px;
   overflow: auto;
   position: fixed;
   z-index:1;
    background-color:white;
+   top:0px;
   }
 }
 @media screen and (min-width: 1200px) {
   .header-wrap {
       width: 53%;
-  /*border: 1px solid #ccc;*/
   height: 115px;
   overflow: auto;
   position: fixed;
   z-index:1;
   background-color:white;
+  top:0px;
   }
 }
 
