@@ -22,7 +22,7 @@ Now on the plus side, many of the things you could forget to bring are able to b
 <br><br>
 <h3><b>Invest in a Camelbak (or some knockoff brand)</b></h3>
 <br>
-Seems like an obvious piece of advice, but staying hydrated as much as possible makes all the difference when you’re trying to survive the 12-hour day out in the sun (especially if alcohol is involved). There are fill-up stations scattered throughout the festival that allow you to fill up any backpack bladder or water bottle for free as many times as you want. <b>Take full advantage of that.</b>
+Seems like an obvious piece of advice, but staying hydrated as much as possible makes all the difference when you’re trying to survive the 12-hour days out in the sun (especially if alcohol is involved). There are fill-up stations scattered throughout the festival that allow you to fill up any backpack bladder or water bottle for free as many times as you want. <b>Take full advantage of that.</b>
 <br><br>
 <h3><b>Book a place to stay early</b></h3>
 <br>
@@ -38,6 +38,6 @@ For those of you looking to bring GoPro’s or other video cameras, this is impo
 <br><br>
 Last but not least, bring a koozie or two into the festival with you if you plan on buying drinks. To avoid the long lines, my friends and I would purchase two beers at a time. The problem is, each day it was between 80 and 90 degrees so the beers will get warm very quickly. This leaves you with two options: drink quickly or keep them as cold as possible with the help of a koozie. If you want to finish them before they get warm, more power to you. But 12 hours a day on the beach out in the sun is not an ideal situation to be chugging beer (in my opinion). 
 <br><br>
-Overall, I would recommend this music festival to anyone and everyone. It was an amazing experience and we got to see an amazing lineup (image below). You can watch the official 2016 Hangout Music Fest video <a href="https://www.youtube.com/watch?v=-nKWQok2MRE">here</a>. <b>Happy Hangout!</b>
+Overall, I would recommend this music festival to anyone and everyone. It was an awesome experience and we got to see an amazing lineup (image below). You can watch the official 2016 Hangout Music Fest video <a href="https://www.youtube.com/watch?v=-nKWQok2MRE">here</a>. <b>Happy Hangout!</b>
 <br><br>
 <img src="{{ site.url }}/img/HangoutFestLineup.jpg">
