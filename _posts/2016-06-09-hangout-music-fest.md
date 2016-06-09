@@ -30,8 +30,8 @@ The earlier you book a condo or hotel in Gulf Shores, the better price and locat
 <br><br>
 The earlier you lock down a good location, the better off you will be when you get there and you won’t be disappointed. Don’t wait to book.
 <br><br>
- <h3><b>Other useful tips</b></h3>
-<br><br>
+<h3><b>Other useful tips</b></h3>
+<br>
 Bring plenty of sunscreen. Chances are, other people in your group will forget and yours will end up becoming the community sunscreen. Regardless, make sure someone has it. You will be out in the sun 12+ hours for three days straight. Trust me, you will want/need it. 
 <br><br>
 For those of you looking to bring GoPro’s or other video cameras, this is important. <b>You can bring in the camera, but nothing else.</b> I saw some people who managed to bring in a selfie stick, flagpole, and other attachments but most of them were all confiscated or the person received a warning. I brought my GoPro in with me each day and just took videos/pictures with my hand in the air or gave it to my taller friends. They are strict about searching when you enter the festival and they treat most camera accessories as weapons (poles, mounts, etc.) so be warned. Bring valuable items in at your own risk. 
