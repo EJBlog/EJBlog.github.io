@@ -40,4 +40,4 @@ Last but not least, bring a koozie or two into the festival with you if you plan
 <br><br>
 Overall, I would recommend this music festival to anyone and everyone. It was an amazing experience and we got to see an amazing lineup (image below). You can watch the official 2016 Hangout Music Fest video <a href="https://www.youtube.com/watch?v=-nKWQok2MRE">here</a>. <b>Happy Hangout!</b>
 <br><br>
-<img src="img/HangoutFestLineup.jpg">
+<img src="{{ site.url }}/img/HangoutFestLineup.jpg">
