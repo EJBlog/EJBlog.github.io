@@ -1,6 +1,6 @@
 ---
 layout: post-sidebar
-title: "Tips for Making the Most of Hangout Music Festival"
+title: "Making the Most of Hangout Music Festival"
 post_date: "June 9th, 2016"
 author_id: evan_neises
 post_category: "Miscellaneous"
@@ -12,7 +12,7 @@ related_post: [
 ---
 So you’ve made the decision to go to Hangout Music Festival in Gulf Shores, AL. Now you’re doing your preparatory pre-festival research just as I did. Here’s what you need to know to get the most out of your trip. <!--endpreview-->
 <br><br>
-Now on the plus side, many of the things you could forget to bring are able to be purchased once you are down there but the prices are going to be much higher than normal. Save yourself time and money and just bring the essentials with you.
+Now on the plus side, many of the things you could forget to bring are able to be purchased once you are down there but the prices are going to be much higher than normal. Save yourself time and money and just bring the essentials with you. Here are some useful tips.
 <br><br>
 <h3><b>Pack light on the clothing!</b></h3>
 <br>
