@@ -1,4 +1,4 @@
-var rsr = Raphael('rsr', '959', '593'); 
+var rsr = Raphael('map', '959', '593'); 
 var frames = rsr.path("M215,493v55l36,45 M0,425h147l68,68h85l54,54v46"); 
 
 frames.attr({id: 'frames',fill: 'none',stroke: '#A9A9A9',"stroke-width": '2','stroke-opacity': '1'}).data('id', 'frames'); 
