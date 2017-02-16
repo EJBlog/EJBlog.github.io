@@ -222,4 +222,17 @@ states.push(DC2);
 
 var rsrGroups = [outlines,DC]; outlines.push( AK , HI , AL , AR , AZ , CA , CO , CT , DE , FL , GA , IA , ID , IL , IN , KS , KY , LA , MA , MD , ME , MI , MN , MO , MS , MT , NC , ND , NE , NH , NJ , NM , NV , NY , OH , OK , OR , PA , RI , SC , SD , TN , TX , UT , VA , VT , WA , WI , WV , WY ); DC.push( DC1 , DC2 );
 
+// Iterate through the states
+for (var i = 0; i < states.length; i++) {
 
+    // Showing off
+    states[i].mouseover(function(e){
+       // this.node.style.opacity = 0.7;
+      this.node.style.color = "red"
+        document.getElementById('region-name').innerHTML = this.data('region');
+    });
+
+    states[i].mouseout(function(e){
+        this.node.style.opacity = 1;
+    });
+}
