@@ -228,11 +228,11 @@ for (var i = 0; i < states.length; i++) {
     // Showing off
     states[i].mouseover(function(e){
        // this.node.style.opacity = 0.7;
-      this.node.style.color = "red"
-        document.getElementById('state-name').innerHTML = this.data('state');
+      this.node.style.color = "red";
+        //document.getElementById('state-name').innerHTML = this.data('state');
     });
 
-    states[i].mouseout(function(e){
+    states[i].mouseover(function(e){
         this.node.style.opacity = 1;
         
     });
