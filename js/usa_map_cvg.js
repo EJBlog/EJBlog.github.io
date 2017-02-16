@@ -229,10 +229,11 @@ for (var i = 0; i < states.length; i++) {
     states[i].mouseover(function(e){
        // this.node.style.opacity = 0.7;
       this.node.style.color = "red"
-        document.getElementById('region-name').innerHTML = this.data('region');
+        document.getElementById('state-name').innerHTML = this.data('state');
     });
 
     states[i].mouseout(function(e){
         this.node.style.opacity = 1;
+        
     });
 }
