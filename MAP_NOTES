@@ -4,6 +4,9 @@ HTML 5 Canvas image editing - https://www.html5rocks.com/en/tutorials/canvas/int
 Canvas Image editing tutorial - https://code.tutsplus.com/tutorials/build-a-canvas-image-editor-with-canvas--net-18143
 Free SVG maps - https://www.amcharts.com/svg-maps/
 Free USA SVG maps of different sizes - https://commons.wikimedia.org/wiki/File:Blank_US_Map_(states_only).svg
+https://parall.ax/blog/view/2985/tutorial-creating-an-interactive-svg-map
+http://stackoverflow.com/questions/38427325/how-to-draw-on-an-image-using-javascript-and-snap-tracing-to-a-grid
+https://www.html5rocks.com/en/tutorials/raphael/intro/ - SVG versus Canvas. SVG seems better.
 
 Requirements:
 Upload pictures onto the site
