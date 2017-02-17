@@ -85,7 +85,8 @@
 	</head>
   <body>
     <h1>Map Project</h1>
-	  <!--<img id="state" src="img/ota_badge.jpg">-->
+	<p id="demo"> hello </p>
+	<p id="demo2"> hello </p>
 		<div id="map"><div id="myModal" class="modal">
 			 <span id="close">&times;</span>
 			 <!--<img src="img/ota_badge.jpg" class="modal-content" id="state">-->
@@ -107,10 +108,13 @@
 	
 		// var captionText = document.getElementById("caption");
 		mapImg.onclick = function()
-		{
-		    modal.style.display = "block";
+		{	
+			document.getElementById("demo").innerHTML = "Jake";
+			document.getElementById("demo2").innerHTML = alert(paths[0].childNodes[0].getAttribute("id"));
+		    // modal.style.display = "block";
 		    //modalImg.src = this.src;
 		    //captionText.innerHTML = this.alt;
+			
 		}
 
 		// Get the <span> element that closes the modal
@@ -124,11 +128,15 @@
 		  modal.style.display = "none";
 		}
 		
-		window.onclick = function(event) {
-    		if (event.target == modal) {
-        	modal.style.display = "none";
-    }
-}	
+		window.onclick = function(event) 
+		{
+			if (event.target == modal) 
+			{
+			modal.style.display = "none";
+			}
+		}	
+		
+		
 	</script>
   </body>
 </html>
