@@ -85,16 +85,15 @@
 	</head>
   <body>
     <h1>Map Project</h1>
-	  <div id="myModal" class="modal">
 		
-	  	<div id="map">
-		  
-	  	</div>
-		  
-		<span class="close">&times;</span>
-		<img class="modal-content" id="state">
-		<!-- <div id="caption"></div> -->
+	  <div id="map">
+		<div id="myModal" class="modal">
+			 <span class="close">&times;</span>
+			<img class="modal-content" id="state">
+			<!-- <div id="caption"></div> -->
+		</div>
 	  </div>
+	  
 	  <script src="js/raphael.js"></script>
 	  <script src="js/usa_map_cvg.js"></script>
 	  
@@ -103,7 +102,7 @@
 	  
 	<script>
 		var mapImg = document.getElementById('map');
-		var modalImg = document.getElementById('state');
+		var modalImg = document.getElementById('map');
 	
 		// var captionText = document.getElementById("caption");
 		mapImg.onclick = function()
