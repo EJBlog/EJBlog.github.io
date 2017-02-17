@@ -88,7 +88,7 @@
 	  <!--<img id="state" src="img/ota_badge.jpg">-->
 	  <div id="map">
 		<div id="myModal" class="modal">
-			 <span id="close" class="close">&times;</span>
+			 <span onclick="document.getElementById('myModal').style.display='none'" class="close">&times;</span>
 			 <img class="modal-content" id="state">
 			<!-- <div id="caption"></div> -->
 		</div>
@@ -114,15 +114,15 @@
 		}
 
 		// Get the <span> element that closes the modal
-		//var span = document.getElementsByClassName("close")[0];
+		var span = document.getElementsByClassName("close")[0];
 		
-		var spanClose = document.getElementById("close");
+		//var spanClose = document.getElementById("close");
 
 		// When the user clicks on <span> (x), close the modal
-		 spanClose.onclick = function() 
-		{ 
-		    modal.style.display = "none";
-		}
+		 //span.onclick = function() 
+		//{ 
+		  //  modal.style.display = "none";
+		//}
 	</script>
   </body>
 </html>
