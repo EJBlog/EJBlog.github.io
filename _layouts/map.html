@@ -6,7 +6,7 @@
 	<title>Map</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width">
-	
+
 	<link rel="stylesheet" href="css/custom.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
@@ -19,10 +19,10 @@
 
 		<script src="js/vendor/modernizr.custom.32229-2.8-respondjs-1-4-2.js"></script>
 		{% include google_analytics.html %}
-	
+
 	<!-- Style for the modal (box that opens when a state is clicked -->
 	<style>
-		
+
 		/* The Modal (background) */
 		.modal {
 		    display: none; /* Hidden by default */
@@ -47,12 +47,12 @@
 		}
 
 		@-webkit-keyframes zoom {
-		    from {-webkit-transform:scale(0)} 
+		    from {-webkit-transform:scale(0)}
 		    to {-webkit-transform:scale(1)}
 		}
 
 		@keyframes zoom {
-		    from {transform:scale(0)} 
+		    from {transform:scale(0)}
 		    to {transform:scale(1)}
 		}
 
@@ -73,7 +73,7 @@
 		    text-decoration: none;
 		    cursor: pointer;
 		}
-		
+
 		.ky {
 		    color: white;
 		    text-decoration: none;
@@ -92,12 +92,12 @@
 	    }
 	}
 	</style>
-	
+
 	</head>
   <body>
     <h1>Map Project</h1>
 	<p id="demo"> hello </p>
-	
+
 		<div id="map"><div id="myModal" class="modal">
 			 <span id="close">&times;</span>
 			 <div id="ky" class="ky"> </div>
@@ -105,31 +105,32 @@
 			<!-- <div id="caption"></div> -->
 		</div>
 	  </div>
-	  
+
 	  <script src="js/raphael.js"></script>
 	  <script src="js/usa_map_cvg.js"></script>
 	  <script src="js/ky_state_svg.js"></script>
-	  
+
 	<h1 id="state-name"></h1>
 	<h1 id="id"></h1>
-	  
+
 	<script>
 		var modal = document.getElementById('myModal');
 		var mapImg = document.getElementById('map');
 		var span = document.getElementById("close");
 		//var modalImg = document.getElementById('state');
-	
+
 		// var captionText = document.getElementById("caption");
 		mapImg.onclick = function()
-		{	
+		{
 			// var state = states[0].data.id;
 		document.getElementById("demo").innerHTML = "Jake";
-			
+
 		    modal.style.display = "block";
-		    
+ATOM test
+
 		    //modalImg.src = this.src;
 		    //captionText.innerHTML = this.alt;
-			
+
 		}
 
 		// Get the <span> element that closes the modal
@@ -139,19 +140,19 @@
 
 		// When the user clicks on <span> (x), close the modal
 		span.onclick = function()
-		{ 
+		{
 		  modal.style.display = "none";
 		}
-		
-		window.onclick = function(event) 
+
+		window.onclick = function(event)
 		{
-			if (event.target == modal) 
+			if (event.target == modal)
 			{
 			modal.style.display = "none";
 			}
-		}	
-		
-		
+		}
+
+
 	</script>
   </body>
 </html>
