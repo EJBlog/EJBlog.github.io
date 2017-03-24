@@ -36,12 +36,15 @@
                       context.drawImage(this, 0, 0);
                   }
             }),
+
             tools = {};
             $('#toolbar').children().click(function(e){
               e.preventDefault();
               //call the relevant function
               tools[this.id].call(this);
+            })
 
+            //output to img 
               save: function() {
               var saveDialog = $("<div>").appendTo("body");
               $("<img/>", {
@@ -178,9 +181,6 @@
           }
 
 
-
-
-            })
             //more code to follow here...
             })(jQuery);
         </script>
