@@ -20,8 +20,8 @@
                 <a id="sepia" href="#" title="Convert to sepia tone">Sepia</a>
             </section>
         </div>
-        <script src="jquery-1.4.4.min.js"></script>
-        <script src="jquery-ui-1.8.7.custom.min.js"></script>
+        <script src="jquery-1.11.0.min.js"></script>
+        <script src="jquery-ui-1.12.custom.min.js"></script>
         <script>
             (
               function($){
@@ -29,9 +29,9 @@
             var editor = document.getElementById("editor"),
               context = editor.getContext("2d"),
               //create/load image
-              image = $("<img/>",
+              image = $('<img/>',
                   {
-                  src: "www.officetoadventure.com/img/ota_badge.jpg",
+                  src: 'img/ota_badge.jpg',
                   load: function() {
                       context.drawImage(this, 0, 0);
                   }
