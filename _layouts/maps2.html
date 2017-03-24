@@ -42,9 +42,9 @@
               e.preventDefault();
               //call the relevant function
               tools[this.id].call(this);
-            })
+            });
 
-            //output to img 
+            //output to img
               save: function() {
               var saveDialog = $("<div>").appendTo("body");
               $("<img/>", {
@@ -71,7 +71,8 @@
                       context.drawImage(this, 0, 0);
                   }
               });
-          },
+              },
+
                 rotateL: function() {
                     var conf = {
                         x: 0,
@@ -80,6 +81,7 @@
                     };
                     tools.rotate(conf);
                 },
+
                 rotateR: function() {
                     var conf = {
                         x: editor.width,
@@ -131,6 +133,7 @@
                               }).appendTo("body");
                           }
                       },
+
                       stop: function(e, ui) {
 
                           //confirm resize, then do it
@@ -144,7 +147,7 @@
                               modal: true,
                               title: "Confirm resize?",
                               buttons: {
-                                  Cancel: function() {
+                              Cancel: function() {
 
                                       //tidy up
                                       $(this).dialog("close");
@@ -180,8 +183,6 @@
               });
           }
 
-
-            //more code to follow here...
             })(jQuery);
         </script>
     </body>
