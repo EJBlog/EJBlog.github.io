@@ -96,7 +96,7 @@
 	</head>
   <body>
     <h1>Map Project</h1>
-	<p id="demo"> hello </p>
+			<p id="demo"> hello </p>
 
 		<div id="map"><div id="myModal" class="modal">
 			 <span id="close">&times;</span>
@@ -122,11 +122,14 @@
 		// var captionText = document.getElementById("caption");
 		mapImg.onclick = function()
 		{
-			// var state = states[0].data.id;
-		document.getElementById("demo").innerHTML = "Jake";
+			var selectedState = document.getElementById('state-name');
+			var selectedId = document.getElementById('id');
 
-		    modal.style.display = "block";
-ATOM test jake2
+			selectedState.innerHTML = this.data('state-name');
+			selectedId.innerHTML = this.data('id');
+
+		document.getElementById("demo").innerHTML = "Jake";
+	  modal.style.display = "block";
 
 		    //modalImg.src = this.src;
 		    //captionText.innerHTML = this.alt;
