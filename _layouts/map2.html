@@ -104,10 +104,12 @@
                         xpos = editor.offsetLeft + 5,
                         ypos = editor.offsetTop + 5;
 
-                    resizer.resizable({
+                    resizer.resizable({``
                         aspectRatio: true,
-                        maxWidth: editor.width - 1,
-                        maxHeight: editor.height - 1,
+                      //  maxWidth: editor.width - 1,
+                        //maxHeight: editor.height - 1,
+                        maxWidth: editcontainer.width,
+                        maxHeight: editcontainer.height,
 
                         resize: function(e, ui) {
                             resizeWidth = Math.round(ui.size.width);
