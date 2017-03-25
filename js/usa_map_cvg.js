@@ -229,8 +229,8 @@ for (var i = 0; i < states.length; i++) {
     states[i].mouseover(function(e){
        this.node.style.opacity = 0.7;
 
-    //  document.getElementById('state-name').innerHTML = this.data('state-name');
-    //  document.getElementById('id').innerHTML = this.data('id');
+      document.getElementById('state-name').innerHTML = this.data('state-name');
+      document.getElementById('id').innerHTML = this.data('id');
     });
 
     states[i].mouseout(function(e){
