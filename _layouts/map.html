@@ -122,13 +122,15 @@
 		// var captionText = document.getElementById("caption");
 		mapImg.onclick = function()
 		{
+			document.getElementById("demo").innerHTML = "Jake";
+			
 			var selectedState = document.getElementById('state-name');
 			var selectedId = document.getElementById('id');
 
 			selectedState.innerHTML = this.data('state-name');
 			selectedId.innerHTML = this.data('id');
 
-		document.getElementById("demo").innerHTML = "Jake";
+
 	  modal.style.display = "block";
 
 		    //modalImg.src = this.src;
