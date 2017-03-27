@@ -22,7 +22,7 @@
                 <a id="clicked" href="#" title="What State was chosen?"
             </section>
         </div>
-        <div id="clickedState"></div>
+        <div id="clickedState">HELLO</div>
         <!-- <script src="jquery/jquery-1.4.4.min.js"></script> -->
         <script src="jquery/jquery-1.12.4.min.js"></script>
        <script src="jquery/jquery-ui-1.10.3.js"></script>
@@ -227,12 +227,11 @@
                 //paint sepia image back
                 context.putImageData(imgData, 0, 0);
             },
-            
+
             //output to <img>
           clicked: function() {
 
-            var clickedText = document.getElementById("clickedState").innerHTML;
-            clickedText = "On the map, you clicked " + clickedState;
+            document.getElementById("clickedState").innerHTML = "On the map, you clicked " + clickedState;
 
               // var saveDialog = $("<div>").appendTo("body");
               // $("<img/>", {
