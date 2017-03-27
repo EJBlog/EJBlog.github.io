@@ -19,10 +19,10 @@
                 <a id="resize" href="#" title="Resize">Resize</a>
                 <a id="greyscale" href="#" title="Convert to grayscale">B&W</a>
                 <a id="sepia" href="#" title="Convert to sepia tone">Sepia</a>
-                <a id="clicked" href="#" title="What State was chosen?"
+                <a id="clicked" href="#" title="What State was chosen?"></a>
             </section>
         </div>
-        <div id="clickedState">HELLO</div>
+        <div id="jake">HELLO</div>
         <!-- <script src="jquery/jquery-1.4.4.min.js"></script> -->
         <script src="jquery/jquery-1.12.4.min.js"></script>
        <script src="jquery/jquery-ui-1.10.3.js"></script>
@@ -39,7 +39,7 @@
               context = editor.getContext("2d"),
               //create/load image
               image = $("<img/>", {
-                    src: "img/ota_badge.jpg";
+                    src: "img/ota_badge.jpg"
                   }
                   ,
                   load: function() {
@@ -231,7 +231,7 @@
             //output to <img>
           clicked: function() {
 
-            document.getElementById("clickedState").innerHTML = "On the map, you clicked " + clickedState;
+            document.getElementById("jake").innerHTML = "On the map, you clicked " + clickedState;
 
               // var saveDialog = $("<div>").appendTo("body");
               // $("<img/>", {
