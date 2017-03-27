@@ -39,9 +39,7 @@
               context = editor.getContext("2d"),
               //create/load image
               image = $("<img/>", {
-                    src: "img/ota_badge.jpg"
-                  })
-                  ,
+                    src: "img/ota_badge.jpg",
                   load: function() {
                       context.drawImage(this, 0, 0);
                   }
