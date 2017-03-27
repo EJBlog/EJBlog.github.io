@@ -23,6 +23,7 @@
             </section>
         </div>
         <div id="jake">HELLO</div>
+        <div id="jake2">HELLO</div>
         <!-- <script src="jquery/jquery-1.4.4.min.js"></script> -->
         <script src="jquery/jquery-1.12.4.min.js"></script>
        <script src="jquery/jquery-ui-1.10.3.js"></script>
@@ -31,6 +32,12 @@
        <script src="js/ky_state_svg.js"></script>
 
         <script>
+
+        // (function (global) {
+        //     document.getElementById("save").addEventListener("click", function () {
+        //         global.localStorage.setItem("mySharedData", document.getElementById("input").value);
+        //     }, false);
+        // }(window));
 
             (
               function($){
@@ -229,7 +236,9 @@
             //output to <img>
           clicked: function() {
 
-            document.getElementById("jake").innerHTML = "On the map, you clicked ";
+            //document.getElementById("jake").innerHTML = "On the map, you clicked ";
+            global.localStorage.setItem("myState", document.getElementById("jake").innerHTML;
+            global.localStorage.setItem("myStateId", document.getElementById("jake2").innerHTML;
 
               // var saveDialog = $("<div>").appendTo("body");
               // $("<img/>", {

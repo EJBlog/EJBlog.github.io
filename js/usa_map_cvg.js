@@ -248,19 +248,31 @@ for (var i = 0; i < states.length; i++) {
   // var captionText = document.getElementById("caption");
   mapImg.onclick = function()
   {
+
+    // (function (global) {
+    //     document.getElementById("save").addEventListener("click", function () {
+    //         global.localStorage.setItem("mySharedData", document.getElementById("output").value);
+    //     }, false);
+    // }(window));
+
     var clickedStateName = document.getElementById('state-name').innerHTML;
     var ClickedIdName = document.getElementById('id').innerHTML;
     var stateIsClicked;
+
+    global.localStorage.setItem("myState", document.getElementById("state-name").innerHTML);
+    global.localStorage.setItem("myStateId", document.getElementById("id").innerHTML);
 
     if(clickedStateName === null)
     {
       stateIsClicked = false;
     }
-    else {
+    else
+    {
       stateIsClicked = true;
     }
 
-    alert("You chose the state of " + clickedStateName + " and it is " + stateIsClicked + " that the state was clicked");
+    // alert("You chose the state of " + clickedStateName + " and it is " + stateIsClicked + " that the state was clicked");
+    alert("You chose the state of " + myState + " and it is " + myStateId + " that the state was clicked");
 
     //modal.style.display = "block";
     //modalImg.src = this.src;
