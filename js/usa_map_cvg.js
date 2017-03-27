@@ -248,11 +248,19 @@ for (var i = 0; i < states.length; i++) {
   // var captionText = document.getElementById("caption");
   mapImg.onclick = function()
   {
-    document.getElementById("demo").innerHTML = "Jake";
-    var stateName = document.getElementById('state-name').innerHTML;
-    var idName = document.getElementById('id').innerHTML;
+    var clickedStateName = document.getElementById('state-name').innerHTML;
+    var ClickedIdName = document.getElementById('id').innerHTML;
+    var stateIsClicked;
 
-    alert(stateName);
+    if(clickedStateName === null)
+    {
+      stateIsClicked = false;
+    }
+    else {
+      stateIsClicked = true;
+    }
+
+    alert("You chose the state of " + stateName + "and it is " + stateIsClicked + "that the state was clicked");
 
     //modal.style.display = "block";
     //modalImg.src = this.src;

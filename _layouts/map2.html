@@ -24,6 +24,17 @@
         <!-- <script src="jquery/jquery-1.4.4.min.js"></script> -->
         <script src="jquery/jquery-1.12.4.min.js"></script>
        <script src="jquery/jquery-ui-1.10.3.js"></script>
+       <script src="js/raphael.js"></script>
+       <script src="js/usa_map_cvg.js"></script>
+       <script src="js/ky_state_svg.js"></script>
+
+       if (hour < 18) {
+           greeting = "Good day";
+       } else {
+           greeting = "Good evening";
+       }
+
+
         <script>
             (
               function($){
@@ -32,7 +43,15 @@
               context = editor.getContext("2d"),
               //create/load image
               image = $("<img/>", {
-                  src: "img/ota_badge.jpg",
+                if (stateIsClicked = true)
+                  {
+                    src: "img/"+ stateName +".jpg"
+                  }
+                  else
+                  {
+                    src: "img/ota_badge.jpg"
+                  }
+                  ,
                   load: function() {
                       context.drawImage(this, 0, 0);
                   }
