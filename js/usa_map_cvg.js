@@ -260,7 +260,7 @@ for (var i = 0; i < states.length; i++) {
       stateIsClicked = true;
     }
 
-    alert("You chose the state of " + clickedStateName + "and it is " + stateIsClicked + "that the state was clicked");
+    alert("You chose the state of " + clickedStateName + "and it is " + stateIsClicked + " that the state was clicked");
 
     //modal.style.display = "block";
     //modalImg.src = this.src;
