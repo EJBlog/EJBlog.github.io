@@ -231,6 +231,7 @@ for (var i = 0; i < states.length; i++) {
 
       document.getElementById('state-name').innerHTML = this.data('state-name');
       document.getElementById('id').innerHTML = this.data('id');
+
     });
 
     states[i].mouseout(function(e){
@@ -238,3 +239,40 @@ for (var i = 0; i < states.length; i++) {
 
     });
 }
+
+  var modal = document.getElementById('myModal');
+  var mapImg = document.getElementById('map');
+  var span = document.getElementById("close");
+  //var modalImg = document.getElementById('state');
+
+  // var captionText = document.getElementById("caption");
+  mapImg.onclick = function()
+  {
+    document.getElementById("demo").innerHTML = "Jake";
+    var stateName = document.getElementById('state-name').innerHTML;
+    var idName = document.getElementById('id').innerHTML;
+
+    alert(stateName);
+
+    //modal.style.display = "block";
+    //modalImg.src = this.src;
+    //captionText.innerHTML = this.alt;
+  }
+
+  // Get the <span> element that closes the modal
+  //var span = document.getElementsByClassName("close")[0];
+  //var spanClose = document.getElementById("close");
+
+  // When the user clicks on <span> (x), close the modal
+  // span.onclick = function()
+  // {
+  //   modal.style.display = "none";
+  // }
+  //
+  // window.onclick = function(event)
+  // {
+  // 	if (event.target == modal)
+  // 	{
+  // 	modal.style.display = "none";
+  // 	}
+  // }
