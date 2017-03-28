@@ -22,6 +22,13 @@
             </section>
         </div>
         <div id="clickedText"></div>
+        
+        <div id="ky"> <!-- trying to show the ky state svg image -->
+        <!-- <div id="map"><div id="myModal" class="modal">
+           <span id="close">&times;</span>
+           <div id="ky" class="ky"> </div>
+        </div> -->
+        </div>
 
         <script src="jquery/jquery-1.12.4.min.js"></script>
        <script src="jquery/jquery-ui-1.10.3.js"></script>
@@ -30,38 +37,8 @@
        <script src="js/ky_state_svg.js"></script>
 
         <script>
-                    (
-                      function($){
-
-                    //get canvas and context
-                    // var editor = document.getElementById("editor"),
-                    //   context = editor.getContext("2d"),
-                    //   //create/load image
-                    //   image = $("<img/>", {
-                    //         src: "img/ota_badge.jpg",
-                    //       load: function() {
-                    //           context.drawImage(this, 0, 0);
-                    //       }
-                    // }),
-
-
-
-
-                    // if( stateNameStoredz = "Kentucky")
-                    //   image = $("<img/>", {
-                    //         src: "img/kentucky.jpg"
-                    //
-                    // else if ( stateNameStoredz = "Kentucky")
-                    // {
-                    //   image = $("<img/>", {
-                    //         src: "img/ota_badge.jpg"
-                    // }
-                    // ,
-                    //       load: function() {
-                    //           context.drawImage(this, 0, 0);
-                    //       }
-                    //
-                    // }),
+                (
+                  function($){
 
                     //get canvas and context
                     var stateNameStoredz = localStorage.getItem('storedStateName');
