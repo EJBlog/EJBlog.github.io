@@ -255,12 +255,20 @@ for (var i = 0; i < states.length; i++) {
     //     }, false);
     // }(window));
 
-    var clickedStateName = document.getElementById('state-name').innerHTML;
-    var ClickedIdName = document.getElementById('id').innerHTML;
+    // var clickedStateName = document.getElementById('state-name').innerHTML;
+    // var ClickedIdName = document.getElementById('id').innerHTML;
     var stateIsClicked;
 
-    global.localStorage.setItem("myState", document.getElementById("state-name").innerHTML);
-    global.localStorage.setItem("myStateId", document.getElementById("id").innerHTML);
+    //Need to get the value from what was clicked
+    var stateNameStored = localStorage.getItem('state-name');
+    var idNameStored = localStorage.getItem('id');
+
+    // localStorage.setItem('state-name', stateNameStored);
+    // localStorage.setItem('id', idNameStored)
+
+    //This is for the map2 page when SETTING the new field with the stored value
+    localStorage.setItem("myState", document.getElementById("state-name").innerHTML);
+    localStorage.setItem("myStateId", document.getElementById("id").innerHTML);
 
     if(clickedStateName === null)
     {
@@ -272,7 +280,7 @@ for (var i = 0; i < states.length; i++) {
     }
 
     // alert("You chose the state of " + clickedStateName + " and it is " + stateIsClicked + " that the state was clicked");
-    alert("You chose the state of " + myState + " and it is " + myStateId + " that the state was clicked");
+    alert("You chose the state of " + stateNameStored + " and it is " + idNameStored + " that the state was clicked");
 
     //modal.style.display = "block";
     //modalImg.src = this.src;

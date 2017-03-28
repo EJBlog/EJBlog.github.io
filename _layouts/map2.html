@@ -237,8 +237,10 @@
           clicked: function() {
 
             //document.getElementById("jake").innerHTML = "On the map, you clicked ";
-            global.localStorage.setItem("myState", document.getElementById("jake").innerHTML;
-            global.localStorage.setItem("myStateId", document.getElementById("jake2").innerHTML;
+          
+            //This is for the map2 page when SETTING the new field with the stored value
+            localStorage.setItem("myState", document.getElementById("jake").innerHTML);
+            localStorage.setItem("myStateId", document.getElementById("jake2").innerHTML);
 
               // var saveDialog = $("<div>").appendTo("body");
               // $("<img/>", {
