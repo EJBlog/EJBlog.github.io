@@ -249,24 +249,13 @@ for (var i = 0; i < states.length; i++) {
   mapImg.onclick = function()
   {
 
-    // (function (global) {
-    //     document.getElementById("save").addEventListener("click", function () {
-    //         global.localStorage.setItem("mySharedData", document.getElementById("output").value);
-    //     }, false);
-    // }(window));
-
      var clickedStateName = document.getElementById('state-name').innerHTML;
      var ClickedIdName = document.getElementById('id').innerHTML;
-    var stateIsClicked;
+     var stateIsClicked;
 
     //Need to get the value from what was clicked
     localStorage.setItem('storedStateName', clickedStateName);
     localStorage.setItem('storedIdName', ClickedIdName);
-
-    // //populating variables from what was clicked on the USA map
-    // var stateNameStored = localStorage.getItem('storedStateName');
-    // var idNameStored = localStorage.getItem('storedIdName');
-
 
     if(clickedStateName === null)
     {
@@ -276,9 +265,6 @@ for (var i = 0; i < states.length; i++) {
     {
       stateIsClicked = true;
     }
-
-    // alert("You chose the state of " + clickedStateName + " and it is " + stateIsClicked + " that the state was clicked");
-    alert("You chose the state of " + stateNameStored + " and it is " + idNameStored + " that the state was clicked");
 
     //modal.style.display = "block";
     //modalImg.src = this.src;

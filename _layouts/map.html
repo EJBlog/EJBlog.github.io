@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/map.css">
 
 	<!--[if lte IE 9]>
 		<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
@@ -22,75 +23,7 @@
 
 	<!-- Style for the modal (box that opens when a state is clicked -->
 	<style>
-
-		/* The Modal (background) */
-		.modal {
-		    display: none; /* Hidden by default */
-		    position: fixed; /* Stay in place */
-		    z-index: 1; /* Sit on top */
-		    padding-top: 100px; /* Location of the box */
-		    left: 0;
-		    top: 0;
-		    width: 100%; /* Full width */
-		    height: 100%; /* Full height */
-		    overflow: auto; /* Enable scroll if needed */
-		    background-color: rgb(0,0,0); /* Fallback color */
-		    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-		}
-
-		/* Modal Content (image) */
-		.modal-content {
-		    margin: auto;
-		    display: block;
-		    width: 80%;
-		    max-width: 700px;
-		}
-
-		@-webkit-keyframes zoom {
-		    from {-webkit-transform:scale(0)}
-		    to {-webkit-transform:scale(1)}
-		}
-
-		@keyframes zoom {
-		    from {transform:scale(0)}
-		    to {transform:scale(1)}
-		}
-
-		/* The Close Button */
-		.close {
-		    position: absolute;
-		    top: 15px;
-		    right: 35px;
-		    color: #f1f1f1;
-		    font-size: 40px;
-		    font-weight: bold;
-		    transition: 0.3s;
-		}
-
-		.close:hover,
-		.close:focus {
-		    color: #bbb;
-		    text-decoration: none;
-		    cursor: pointer;
-		}
-
-		.ky {
-		    color: white;
-		    text-decoration: none;
-		    cursor: pointer;
-		    width: 100%;
-		    height: 100%;
-		    position: absolute;
-		    top: 15px;
-		    right: 35px;
-		}
-
-	/* 100% Image Width on Smaller Screens */
-	@media only screen and (max-width: 700px){
-	    .modal-content {
-		width: 100%;
-	    }
-	}
+/*css in map.css file can go here*/
 	</style>
 
 	</head>
@@ -101,8 +34,6 @@
 		<div id="map"><div id="myModal" class="modal">
 			 <span id="close">&times;</span>
 			 <div id="ky" class="ky"> </div>
-			 <!--<img src="img/ota_badge.jpg" class="modal-content" id="state">-->
-			<!-- <div id="caption"></div> -->
 		</div>
 	  </div>
 
