@@ -262,6 +262,9 @@ for (var i = 0; i < states.length; i++) {
     //Need to get the value from what was clicked
     localStorage.setItem('storedStateName', clickedStateName);
     localStorage.setItem('storedIdName', ClickedIdName);
+    
+    var stateNameStored = localStorage.getItem('storedStateName');
+    var idNameStored = localStorage.getItem('storedIdName');
 
     // localStorage.setItem('state-name', stateNameStored);
     // localStorage.setItem('id', idNameStored)
@@ -277,7 +280,7 @@ for (var i = 0; i < states.length; i++) {
     }
 
     // alert("You chose the state of " + clickedStateName + " and it is " + stateIsClicked + " that the state was clicked");
-    alert("You chose the state of " + storedStateName + " and it is " + storedIdName + " that the state was clicked");
+    alert("You chose the state of " + stateNameStored + " and it is " + idNameStored + " that the state was clicked");
 
     //modal.style.display = "block";
     //modalImg.src = this.src;
