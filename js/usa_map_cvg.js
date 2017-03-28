@@ -255,7 +255,7 @@ for (var i = 0; i < states.length; i++) {
     //     }, false);
     // }(window));
 
-    // var clickedStateName = document.getElementById('state-name').innerHTML;
+     var clickedStateName = document.getElementById('state-name').innerHTML;
     // var ClickedIdName = document.getElementById('id').innerHTML;
     var stateIsClicked;
 
@@ -266,9 +266,6 @@ for (var i = 0; i < states.length; i++) {
     // localStorage.setItem('state-name', stateNameStored);
     // localStorage.setItem('id', idNameStored)
 
-    //This is for the map2 page when SETTING the new field with the stored value
-    localStorage.setItem("myState", document.getElementById("state-name").innerHTML);
-    localStorage.setItem("myStateId", document.getElementById("id").innerHTML);
 
     if(clickedStateName === null)
     {
