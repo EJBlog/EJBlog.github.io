@@ -262,12 +262,10 @@ for (var i = 0; i < states.length; i++) {
     //Need to get the value from what was clicked
     localStorage.setItem('storedStateName', clickedStateName);
     localStorage.setItem('storedIdName', ClickedIdName);
-    
-    var stateNameStored = localStorage.getItem('storedStateName');
-    var idNameStored = localStorage.getItem('storedIdName');
 
-    // localStorage.setItem('state-name', stateNameStored);
-    // localStorage.setItem('id', idNameStored)
+    // //populating variables from what was clicked on the USA map
+    // var stateNameStored = localStorage.getItem('storedStateName');
+    // var idNameStored = localStorage.getItem('storedIdName');
 
 
     if(clickedStateName === null)

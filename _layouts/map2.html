@@ -23,7 +23,6 @@
             </section>
         </div>
         <div id="jake">HELLO</div>
-        <div id="jake2">HELLO</div>
         <!-- <script src="jquery/jquery-1.4.4.min.js"></script> -->
         <script src="jquery/jquery-1.12.4.min.js"></script>
        <script src="jquery/jquery-ui-1.10.3.js"></script>
@@ -236,22 +235,17 @@
             //output to <img>
           clicked: function() {
 
-            //document.getElementById("jake").innerHTML = "On the map, you clicked ";
+            //populating variables from what was clicked on the USA map
+            var stateNameStored = localStorage.getItem('storedStateName');
+            var idNameStored = localStorage.getItem('storedIdName');
+
+            document.getElementById("jake").innerHTML = "On the map, you clicked " + stateNameStored + " and " + idNameStored;
+
 
             //This is for the map2 page when SETTING the new field with the stored value
-            localStorage.setItem("storedStateName", document.getElementById("jake").innerHTML);
-            localStorage.setItem("storedIdName", document.getElementById("jake2"));
+            // localStorage.setItem("storedStateName", document.getElementById("jake").innerHTML);
+            // localStorage.setItem("storedIdName", document.getElementById("jake2"));
 
-              // var saveDialog = $("<div>").appendTo("body");
-              // $("<img/>", {
-              //     src: editor.toDataURL()
-              // }).appendTo(saveDialog);
-              // saveDialog.dialog({
-              //     resizable: false,
-              //     modal: true,
-              //     title: "Right-click and choose 'Save Image As'",
-              //     width: editor.width + 35
-              // });
           }
         };
 
