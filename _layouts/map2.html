@@ -66,25 +66,31 @@
                     //get canvas and context
                     var stateNameStoredz = localStorage.getItem('storedStateName');
                     var idNameStoredz = localStorage.getItem('storedIdName');
-                    var editor = document.getElementById("editor"),
-                      context = editor.getContext("2d"),
+                    var editor = document.getElementById("editor")
+                    var  context = editor.getContext("2d")
                       //create/load image
                         if( stateNameStoredz = "Kentucky")
-                            image = $("<img/>", {
+                        {
+                            var image = $("<img/>", {
                               src: "img/kentucky.jpg",
                             load: function() {
                                 context.drawImage(this, 0, 0);
+                              }
+                            })
+                        }
                          else
-                            image = $("<img/>", {
+                         {
+                            var image = $("<img/>", {
                               src: "img/ota_badge.jpg",
                             load: function() {
                                 context.drawImage(this, 0, 0);
+                            }
+                          })
+                        }
 
-                          }
-                    }),
 
                     //toolbar functions
-                    tools = {
+                  var  tools = {
 
                       //output to <img>
                     save: function() {
