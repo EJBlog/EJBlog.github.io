@@ -22,7 +22,7 @@
             </section>
         </div>
         <div id="clickedText"></div>
-        
+
         <div id="ky"> <!-- trying to show the ky state svg image -->
         <!-- <div id="map"><div id="myModal" class="modal">
            <span id="close">&times;</span>
@@ -37,17 +37,31 @@
        <script src="js/ky_state_svg.js"></script>
 
         <script>
+
+        // var img = new Image();
+        // img.onload = function() {
+        //     ctx.drawImage(img, 0, 0);
+        // }
+        // img.src = "http://upload.wikimedia.org/wikipedia/commons/d/d2/Svg_example_square.svg";
+
+
                 (
                   function($){
 
                     //get canvas and context
-                    var stateNameStoredz = localStorage.getItem('storedStateName');
-                    var idNameStoredz = localStorage.getItem('storedIdName');
+                    var stateNameStored = localStorage.getItem('storedStateName');
+                    var idNameStored = localStorage.getItem('storedIdName');
                     var editor = document.getElementById("editor")
                     var  context = editor.getContext("2d")
                       //create/load image
-                        if( stateNameStoredz == "Kentucky")
+                        if( stateNameStored == "Kentucky")
                         {
+                          // var image = new Image();
+                          // image.onload = function() {
+                          //     ctx.drawImage(image, 0, 0);
+                          // }
+                          // img.src = "http://upload.wikimedia.org/wikipedia/commons/d/d2/Svg_example_square.svg";
+                  
                             var image = $("<img/>", {
                               src: "img/kentucky.jpg",
                             load: function() {
@@ -64,7 +78,6 @@
                             }
                           })
                         }
-
 
                     //toolbar functions
                   var  tools = {
@@ -252,8 +265,6 @@
                   clicked: function() {
 
                     //populating variables from what was clicked on the USA map
-                    var stateNameStored = localStorage.getItem('storedStateName');
-                    var idNameStored = localStorage.getItem('storedIdName');
 
                     document.getElementById("clickedText").innerHTML = "On the map, you clicked " + stateNameStored + " and " + idNameStored;
 
