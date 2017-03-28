@@ -69,14 +69,17 @@
                     var editor = document.getElementById("editor"),
                       context = editor.getContext("2d"),
                       //create/load image
-                      image = $("<img/>", {
                         if( stateNameStoredz = "Kentucky")
-                            src: "img/kentucky.jpg"
+                            image = $("<img/>", {
+                              src: "img/kentucky.jpg",
+                            load: function() {
+                                context.drawImage(this, 0, 0);
                          else
-                            src: "img/ota_badge.jpg"
-                          ,
-                          load: function() {
-                              context.drawImage(this, 0, 0);
+                            image = $("<img/>", {
+                              src: "img/ota_badge.jpg",
+                            load: function() {
+                                context.drawImage(this, 0, 0);
+
                           }
                     }),
 
