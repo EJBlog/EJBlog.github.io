@@ -256,12 +256,12 @@ for (var i = 0; i < states.length; i++) {
     // }(window));
 
      var clickedStateName = document.getElementById('state-name').innerHTML;
-    // var ClickedIdName = document.getElementById('id').innerHTML;
+     var ClickedIdName = document.getElementById('id').innerHTML;
     var stateIsClicked;
 
     //Need to get the value from what was clicked
-    var stateNameStored = localStorage.getItem('state-name');
-    var idNameStored = localStorage.getItem('id');
+    var stateNameStored = localStorage.getItem('storedStateName', clickedStateName);
+    var idNameStored = localStorage.getItem('storedIdName', ClickedIdName);
 
     // localStorage.setItem('state-name', stateNameStored);
     // localStorage.setItem('id', idNameStored)
