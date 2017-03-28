@@ -33,7 +33,7 @@
                     (
                       function($){
 
-                    // //get canvas and context
+                    //get canvas and context
                     // var editor = document.getElementById("editor"),
                     //   context = editor.getContext("2d"),
                     //   //create/load image
@@ -44,6 +44,25 @@
                     //       }
                     // }),
 
+
+
+
+                    // if( stateNameStoredz = "Kentucky")
+                    //   image = $("<img/>", {
+                    //         src: "img/kentucky.jpg"
+                    //
+                    // else if ( stateNameStoredz = "Kentucky")
+                    // {
+                    //   image = $("<img/>", {
+                    //         src: "img/ota_badge.jpg"
+                    // }
+                    // ,
+                    //       load: function() {
+                    //           context.drawImage(this, 0, 0);
+                    //       }
+                    //
+                    // }),
+
                     //get canvas and context
                     var stateNameStoredz = localStorage.getItem('storedStateName');
                     var idNameStoredz = localStorage.getItem('storedIdName');
@@ -52,14 +71,10 @@
                       //create/load image
                       image = $("<img/>", {
                         if( stateNameStoredz = "Kentucky")
-                        {
                             src: "img/kentucky.jpg"
-                        }
-                        // else
-                        // {
-                        //     src: "img/ota_badge.jpg"
-                        // }
-                        ,
+                         else
+                            src: "img/ota_badge.jpg"
+                          ,
                           load: function() {
                               context.drawImage(this, 0, 0);
                           }
