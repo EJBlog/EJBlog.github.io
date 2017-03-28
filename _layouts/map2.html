@@ -45,11 +45,13 @@
                     // }),
 
                     //get canvas and context
+                    var stateNameStoredz = localStorage.getItem('storedStateName');
+                    var idNameStoredz = localStorage.getItem('storedIdName');
                     var editor = document.getElementById("editor"),
                       context = editor.getContext("2d"),
                       //create/load image
                       image = $("<img/>", {
-                        if( stateNameStored == "Kentucky")
+                        if( stateNameStoredz == "Kentucky")
                         {
                             {src: "img/kentucky.jpg"};
                         }
