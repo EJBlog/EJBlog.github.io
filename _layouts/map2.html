@@ -53,12 +53,13 @@
                       image = $("<img/>", {
                         if( stateNameStoredz = "Kentucky")
                         {
-                            {src: "img/kentucky.jpg"};
+                            src: "img/kentucky.jpg";
                         }
                         else
                         {
-                            {src: "img/ota_badge.jpg"};
-                        },
+                            src: "img/ota_badge.jpg";
+                        }
+                        ,
                           load: function() {
                               context.drawImage(this, 0, 0);
                           }
@@ -143,7 +144,8 @@
                                     //tooltip to show new size
                                     var string = "New width: " + resizeWidth + "px,<br />new height: " + resizeHeight + "px";
 
-                                    if ($("#tip").length) {
+                                    if ($("#tip").length)
+                                    {
                                         $("#tip").html(string);
                                     } else {
                                         var tip = $("<p></p>", {
