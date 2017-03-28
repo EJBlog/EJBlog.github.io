@@ -32,17 +32,36 @@
         <script>
                     (
                       function($){
+
+                    // //get canvas and context
+                    // var editor = document.getElementById("editor"),
+                    //   context = editor.getContext("2d"),
+                    //   //create/load image
+                    //   image = $("<img/>", {
+                    //         src: "img/ota_badge.jpg",
+                    //       load: function() {
+                    //           context.drawImage(this, 0, 0);
+                    //       }
+                    // }),
+
                     //get canvas and context
                     var editor = document.getElementById("editor"),
                       context = editor.getContext("2d"),
                       //create/load image
                       image = $("<img/>", {
-                            src: "img/ota_badge.jpg",
+                        if( stateNameStored === "Kentucky")
+                        {
+                            {src: "img/kentucky.jpg"};
+                        }
+                        else
+                        {
+                            {src: "img/ota_badge.jpg"};
+                        },
                           load: function() {
                               context.drawImage(this, 0, 0);
                           }
                     }),
-
+                    
                     //toolbar functions
                     tools = {
 
