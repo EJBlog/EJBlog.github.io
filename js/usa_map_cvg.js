@@ -260,8 +260,8 @@ for (var i = 0; i < states.length; i++) {
     var stateIsClicked;
 
     //Need to get the value from what was clicked
-    var stateNameStored = localStorage.getItem('storedStateName', clickedStateName);
-    var idNameStored = localStorage.getItem('storedIdName', ClickedIdName);
+    var stateNameStored = localStorage.setItem('storedStateName', clickedStateName);
+    var idNameStored = localStorage.setItem('storedIdName', ClickedIdName);
 
     // localStorage.setItem('state-name', stateNameStored);
     // localStorage.setItem('id', idNameStored)
