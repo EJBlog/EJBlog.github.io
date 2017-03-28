@@ -248,6 +248,8 @@ for (var i = 0; i < states.length; i++) {
   // var captionText = document.getElementById("caption");
   mapImg.onclick = function()
   {
+      localStorage.removeItem('myState');
+      localStorage.removeItem('myStateId');
 
      var clickedStateName = document.getElementById('state-name').innerHTML;
      var ClickedIdName = document.getElementById('id').innerHTML;
