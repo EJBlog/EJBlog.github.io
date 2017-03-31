@@ -16,6 +16,14 @@ Allow users to choose from preexsting maps or load their own
 Export Individual state images or entire country projects
 Save states and/or country projects
 
+Short term goals:
+Be able to click on a state and move to the editor page for that particular state
+Get editor to change size and shape to specific states - start with Kentucky
+Be able to resize and move an image to fit inside the state size and shape
+be able to load an image from our local drive
+Be able to save a finished Kentucky state image
+
+
 Long term goals:
 Start printing/ cutting states or images into wood
 Maybe work with small business for printing - we create the map of images and partner with Etsy or small businesses for printing
@@ -26,4 +34,3 @@ Helpful Links (03/30/2017)
 https://codepen.io/dudleystorey/pen/JGGpzw/
 http://scottcheng.github.io/cropit/
 http://stackoverflow.com/questions/3796025/fill-svg-path-element-with-a-background-image
-
