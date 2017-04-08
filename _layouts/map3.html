@@ -14,10 +14,17 @@
   <body>
     <p>Fabric JS example</p>
 
-    <img src="img/ota_badge.jpg" id="target">
+		<script>
+		fabric.Image.fromURL("img/ota_badge.jpg", function(oImg) {
+		  oImg.scale(0.5).setFlipX(true);
+			canvas.add(oImg);
+		});
+		</script>
+
+    <!-- <img src="img/ota_badge.jpg" id="target">
     <script>
       new Darkroom('#target');
-    </script>
+    </script> -->
 
 	  <script src="js/Fabric_JS/fabric.js"></script>
 		<script src="js/Fabric_JS/darkroom.js"></script>
