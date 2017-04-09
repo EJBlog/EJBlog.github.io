@@ -29,6 +29,7 @@
 								<!-- <a id="greyscale" href="#" title="Convert to grayscale">B&W</a>
 								<a id="sepia" href="#" title="Convert to sepia tone">Sepia</a> -->
 								<!-- <a id="Re-Center" href="#" title="Re-Center Your Image">Sepia</a> --> <!-- Need to write a function to bring the user image back to the starting point -->
+								<!-- <a id="Upload Image" href="#" title="Upload Your Image">Sepia</a> --> <!-- Need to write a function which will allow the user to upload their image-->
 								<a id="clicked" href="#" title="What State was chosen?">Clicked State</a>		<!-- used for testing -->
 
 						</section>
@@ -51,7 +52,7 @@
 								backgroundColor: 'white'
 							});
 
-							var overlay_img = document.getElementById('overlay'); // background image would be the state image that they had chosen
+							var overlay_img = document.getElementById('overlay'); // overlay image would be the state that they had chosen
 							var overlayState = new fabric.Image(overlay_img,{
 									opacity: .5,
 									left: 0,
@@ -64,14 +65,12 @@
 							canvas.setOverlayImage(overlayState); 	// overlay the image of the state that the user selected
 
 
-							var imgElement = document.getElementById('user-image');
+							var imgElement = document.getElementById('user-image'); // This is the image that the user wants to fit into the state. We will need to build a way to upload images
 							var imgInstance = new fabric.Image(imgElement, {
 									left: 0,
 									top: 0,
 									height: canvas.height - 10,
 									width: canvas.width - 10
-									// angle: 30,
-									// opacity: 0.85
 								});
 
 							canvas.add(imgInstance);
