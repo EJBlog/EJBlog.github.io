@@ -141,10 +141,9 @@
 
 										UploadImage: function() {
 
-											document.getElementById('UploadImage').onchange = function handleImage(e) {
+											// document.getElementById('UploadImage').onchange = function handleImage(e) {
 									    var reader = new FileReader();
-									    reader.onload = function (event)
-								{
+									    reader.onload = function (event){
 									    //console.log('fdsf');
 
 											var imgObj = new Image();
@@ -162,8 +161,8 @@
             							canvas.add(userImage);
         							}
     						}
-    reader.readAsDataURL(e.target.files[0]);
-		}
+    					reader.readAsDataURL(e.target.files[0]);
+		// }
 
 },
 
