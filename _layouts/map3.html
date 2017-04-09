@@ -12,6 +12,14 @@
 
 	</head>
   <body>
+		<p>Fabric JS example</p>
+		<!-- <canvas id="canvas" width="800" height="450" style="border:1px solid #000000"> -->
+			<!-- <img src="img/ota_badge.jpg" id="user-image"></img> <!-- This would be the image that the user loads and can be manipulated -->
+			<!-- <img src="img/ota_badge1.png" id="background"></img> <!-- This would be the state image which be used as the background image/ stensil -->
+		<!-- </canvas> -->
+
+			<p id="clickedText"></p>
+
 				 <div id="imageEditor">
 						<section id="editorContainer">
 								<canvas id="editor" width="480" height="480" style="border:1px solid #000000">
@@ -39,11 +47,6 @@
 
 			<script src="js/Fabric_JS/fabric.min.js"></script>
 
-		    <p>Fabric JS example</p>
-				<!-- <canvas id="canvas" width="800" height="450" style="border:1px solid #000000"> -->
-					<!-- <img src="img/ota_badge.jpg" id="user-image"></img> <!-- This would be the image that the user loads and can be manipulated --> -->
-					<!-- <img src="img/ota_badge1.png" id="background"></img> <!-- This would be the state image which be used as the background image/ stensil --> -->
-				<!-- </canvas> -->
 
 		<script>
 		// Below is the fabric script
@@ -77,8 +80,8 @@
 							var imgInstance = new fabric.Image(imgElement, {
 								left: 100,
 								top: 100,
-								height = canvas.height,
-								width = canvas.width
+								height = 480,
+								width = 480
 								// angle: 30,
 								// opacity: 0.85
 							});
@@ -89,8 +92,8 @@
 								opacity: .85,
 								left: 100,
 								top: 100,
-								height = canvas.height,
-								width = canvas.width
+								height = 480,
+								width = 480
 							});
 							canvas.controlsAboveOverlay = true;
 							canvas.setOverlayImage(overlayState); 	// overlay the image of the state that the user selected
