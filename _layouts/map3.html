@@ -18,21 +18,25 @@
 
     <p>Fabric JS example</p>
 		<canvas id="canvas" width="800" height="450" style="border:1px solid #000000">
-			<img src="img/ota_badge.jpg" id="state-image"></img>
+			<img src="img/ota_badge.jpg" id="user-image"></img> <!-- This would be the image that the user loads and can be manipulated -->
+			<img src="img/ota_badge1.png" id="background"></img> <!-- This would be the state image which be used as the background image/ stensil -->
 		</canvas>
 
 <script>
 		var canvas = new fabric.Canvas('canvas');
 		// canvas.add(new fabric.Circle({ radius: 30, fill: '#f55', top: 100, left: 100 }));
-		// canvas.add(new fabric.Image.fromURL("img/ota_badge.jpg"));
 
-		var imgElement = document.getElementById('state-image');
+		var background_img = document.getElementById('background'); // background image would be the state image that they had chosen.. I think.
+		// var bckgrdImg_Instance = new fabric.Image(background_img);
+
+		var imgElement = document.getElementById('user-image');
 		var imgInstance = new fabric.Image(imgElement, {
 		  // left: 100,
 		  // top: 100,
 		  // angle: 30,
 		  // opacity: 0.85
 		});
+		canvas.setBackgroundImage(background_img)
 		canvas.add(imgInstance);
 </script>
 
