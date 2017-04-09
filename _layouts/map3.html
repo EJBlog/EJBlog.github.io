@@ -17,24 +17,23 @@
 		<script src="js/Fabric_JS/fabric.min.js"></script>
 
     <p>Fabric JS example</p>
-		<canvas id="canvas" width="800" height="450" style="border:1px solid #000000"></canvas>
-
-		<!-- <script>
-		fabric.Image.fromURL("img/ota_badge.jpg", function(oImg) {
-		  oImg.scale(0.5).setFlipX(true);
-			canvas.add(oImg);
-		});
-		</script> -->
-
+		<canvas id="canvas" width="800" height="450" style="border:1px solid #000000">
+			<img src="img/ota_badge.jpg" id="state-image"></img>
+		</canvas>
 
 <script>
 		var canvas = new fabric.Canvas('canvas');
 		// canvas.add(new fabric.Circle({ radius: 30, fill: '#f55', top: 100, left: 100 }));
-		canvas.add(new fabric.Image.fromURL("img/ota_badge.jpg"));
+		// canvas.add(new fabric.Image.fromURL("img/ota_badge.jpg"));
 
-		// canvas.selectionColor = 'rgba(0,255,0,0.3)';
-		// canvas.selectionBorderColor = 'red';
-		// canvas.selectionLineWidth = 5;
+		var imgElement = document.getElementById('state-image');
+		var imgInstance = new fabric.Image(imgElement, {
+		  // left: 100,
+		  // top: 100,
+		  // angle: 30,
+		  // opacity: 0.85
+		});
+		canvas.add(imgInstance);
 </script>
 
     <!-- <img src="img/ota_badge.jpg" id="target">
