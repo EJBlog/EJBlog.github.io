@@ -47,6 +47,7 @@
 				<!-- </canvas> -->
 
 		<script>
+		// Below is the fabric script
 				var canvas = new fabric.Canvas('editor');
 
 				var imgElement = document.getElementById('user-image');
@@ -64,7 +65,7 @@
 				});
 				canvas.controlsAboveOverlay = true;
 				canvas.setOverlayImage(overlayState); // overlay the image of the state that the user selected
-
+// above is the fabric script stuff
 
 
 				// var img = new Image();
@@ -74,54 +75,46 @@
 				// img.src = "http://upload.wikimedia.org/wikipedia/commons/d/d2/Svg_example_square.svg";
 
 
-								// (
-								// 	function($){
-								//
-								// 		//get canvas and context
-								// 		var stateNameStored = localStorage.getItem('storedStateName');
-								// 		var idNameStored = localStorage.getItem('storedIdName');
-								// 		var editor = document.getElementById("editor")
-								// 		var  context = editor.getContext("2d")
-								// 			//create/load image
-								// 				if( stateNameStored == "Kentucky")
-								// 				{
-								// 					// var image = new Image(); -->
-								// 					// image.onload = function() {
-								// 					//     ctx.drawImage(image, 0, 0);
-								// 					// }
-								// 					// img.src = "http://upload.wikimedia.org/wikipedia/commons/d/d2/Svg_example_square.svg";
-								//
-								// 						var image = $("<img/>", {
-								// 							src: "img/kentucky.jpg",
-								// 						load: function() {
-								// 								context.drawImage(this, 0, 0);
-								// 							}
-								// 						})
-								// 				}
-								// 				 else
-								// 				 {
-								// 						var image = $("<img/>", {
-								// 							src: "img/ota_badge.jpg",
-								// 						load: function() {
-								// 								context.drawImage(this, 0, 0);
-								// 						}
-								// 					})
-								// 				}
-								//
-								// 		//toolbar functions
+								(
+									function($){
+
+										//get canvas and context
+										var stateNameStored = localStorage.getItem('storedStateName');
+										var idNameStored = localStorage.getItem('storedIdName');
+
+										var canvas = new fabric.Canvas('editor');
+											//create/load image
+											var imgElement = document.getElementById('user-image');
+											var imgInstance = new fabric.Image(imgElement, {
+												// left: 100,
+												// top: 100,
+												// angle: 30,
+												// opacity: 0.85
+											});
+											canvas.add(imgInstance);
+
+											var overlay_img = document.getElementById('overlay'); // background image would be the state image that they had chosen
+											var overlayState = new fabric.Image(overlay_img,{
+												opacity: .85
+											});
+											canvas.controlsAboveOverlay = true;
+											canvas.setOverlayImage(overlayState); // overlay the image of the state that the user selected
+
+
+										//toolbar functions
 								// 	var  tools = {
 								//
 								// 			//output to <img>
 								// 		save: function() {
 								// 				var saveDialog = $("<div>").appendTo("body");
 								// 				$("<img/>", {
-								// 						src: editor.toDataURL()
+								// 						src: canvas.toDataURL()
 								// 				}).appendTo(saveDialog);
 								// 				saveDialog.dialog({
 								// 						resizable: false,
 								// 						modal: true,
 								// 						title: "Right-click and choose 'Save Image As'",
-								// 						width: editor.width + 35
+								// 						width: canvas.width + 35
 								// 				});
 								// 		},
 								//
