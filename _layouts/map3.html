@@ -69,13 +69,6 @@
 
 	(		function($){
 
-		var imgObj = new Image();
-		imgObj.src = event.target.result;
-		imgObj.onload = function () {
-		  var image = new fabric.Image(imgObj);
-		}
-
-
 							//get canvas and context
 							var stateNameStored = localStorage.getItem('storedStateName');
 							var idNameStored = localStorage.getItem('storedIdName');
@@ -108,7 +101,7 @@
 									// opacity: 0.85
 								});
 							}
-	
+
 							canvas.add(imgInstance);
 
 									// 	toolbar functions
