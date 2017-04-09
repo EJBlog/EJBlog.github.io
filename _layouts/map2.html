@@ -12,11 +12,7 @@
 
 	</head>
   <body>
-		<p>Fabric JS example</p>
-		<!-- <canvas id="canvas" width="800" height="450" style="border:1px solid #000000"> -->
-			<!-- <img src="img/ota_badge.jpg" id="user-image"></img> <!-- This would be the image that the user loads and can be manipulated -->
-			<!-- <img src="img/ota_badge1.png" id="background"></img> <!-- This would be the state image which be used as the background image/ stensil -->
-		<!-- </canvas> -->
+		<p>Image Editor</p>
 
 			<p id="clickedText"></p>
 
@@ -30,12 +26,10 @@
 
 						<section id="toolbar">
 								<a id="save" href="#" title="Save">Save</a>
-								<!-- <a id="rotateL" href="#" title="Rotate left">Rotate Left</a>
-								<a id="rotateR" href="#" title="Rotate right">Rotate Right</a>
-								<a id="resize" href="#" title="Resize">Resize</a> -->
 								<!-- <a id="greyscale" href="#" title="Convert to grayscale">B&W</a>
 								<a id="sepia" href="#" title="Convert to sepia tone">Sepia</a> -->
-								<a id="clicked" href="#" title="What State was chosen?">Clicked State</a>
+								<a id="clicked" href="#" title="What State was chosen?">Clicked State</a>		<!-- used for testing -->
+
 						</section>
 				</div>
 				<div id="clickedText"></div>
@@ -47,25 +41,6 @@
 
 
 		<script>
-		// Below is the fabric script
-				// var canvas = new fabric.Canvas('editor');
-				//
-				// var imgElement = document.getElementById('user-image');
-				// var imgInstance = new fabric.Image(imgElement, {
-				//   // left: 100,
-				//   // top: 100,
-				//   // angle: 30,
-				//   // opacity: 0.85
-				// });
-				// canvas.add(imgInstance);
-				//
-				// var overlay_img = document.getElementById('overlay'); // background image would be the state image that they had chosen
-				// var overlayState = new fabric.Image(overlay_img,{
-				// 	opacity: .85
-				// });
-				// canvas.controlsAboveOverlay = true;
-				// canvas.setOverlayImage(overlayState); // overlay the image of the state that the user selected
-// above is the fabric script stuff
 
 	(		function($){
 
@@ -113,7 +88,8 @@
 														resizable: false,
 														modal: true,
 														title: "Right-click and choose 'Save Image As'",
-														width: canvas.width + 35
+														// width: canvas.width + 35
+														width: canvas.width
 												});
 										},
 
@@ -159,6 +135,8 @@
 								// 		},
 								//
 										//checking that the clicked state from the USA MAP page is coming over to the editor page
+
+									// The below function is used for testing
 									clicked: function() {
 										//populating variables from what was clicked on the USA map
 										document.getElementById("clickedText").innerHTML = "On the map, you clicked " + stateNameStored + " and " + idNameStored;
@@ -175,11 +153,6 @@
 
 				</script>
 
-
-    <!-- <img src="img/ota_badge.jpg" id="target">
-    <script>
-      new Darkroom('#target');
-    </script> -->
 
   </body>
 </html>
