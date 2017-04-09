@@ -37,7 +37,9 @@
 		  // opacity: 0.85
 		});
 		// canvas.setBackgroundImage(background_img);
-		canvas.setBackgroundImage(bckgrdImg_Instance);
+		// canvas.setBackgroundImage(bckgrdImg_Instance); -- Remove this if the overlay image works
+		// canvas.setOverlayImage('../assets/jail_cell_bars.png', canvas.renderAll.bind(canvas));
+		canvas.setOverlayImage(bckgrdImg_Instance); // overlay the image of the state that the user selected
 		canvas.add(imgInstance);
 </script>
 
