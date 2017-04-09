@@ -67,6 +67,7 @@
 				// canvas.setOverlayImage(overlayState); // overlay the image of the state that the user selected
 // above is the fabric script stuff
 
+	(		function($){
 
 							//get canvas and context
 							var stateNameStored = localStorage.getItem('storedStateName');
@@ -76,7 +77,7 @@
 
 							var overlay_img = document.getElementById('overlay'); // background image would be the state image that they had chosen
 							var overlayState = new fabric.Image(overlay_img,{
-								opacity: .95,
+								opacity: .15,
 								left: 0,
 								top: 0,
 								height: canvas.height,
@@ -97,7 +98,6 @@
 							});
 							canvas.add(imgInstance);
 
-							(		function($){
 									// 	toolbar functions
 									var  tools = {
 
