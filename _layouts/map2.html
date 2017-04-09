@@ -28,8 +28,8 @@
 								<a id="save" href="#" title="Save">Save</a>
 								<!-- <a id="greyscale" href="#" title="Convert to grayscale">B&W</a>
 								<a id="sepia" href="#" title="Convert to sepia tone">Sepia</a> -->
-								<!-- <a id="Re-Center" href="#" title="Re-Center Your Image">Sepia</a> --> <!-- Need to write a function to bring the user image back to the starting point -->
-								<!-- <a id="Upload Image" href="#" title="Upload Your Image">Sepia</a> --> <!-- Need to write a function which will allow the user to upload their image-->
+								 <a id="ReCenter" href="#" title="Re-Center Your Image">Sepia</a> <!-- Need to write a function to bring the user image back to the starting point -->
+								 <a id="UploadImage" href="#" title="Upload Your Image">Sepia</a> <!-- Need to write a function which will allow the user to upload their image-->
 								<a id="clicked" href="#" title="What State was chosen?">Clicked State</a>		<!-- used for testing -->
 
 						</section>
@@ -64,17 +64,18 @@
 							canvas.controlsAboveOverlay = true;
 							canvas.setOverlayImage(overlayState); 	// overlay the image of the state that the user selected
 
+			//commenting this out while working on image uploader
 
-							var imgElement = document.getElementById('user-image'); // This is the image that the user wants to fit into the state. We will need to build a way to upload images
-							var imgInstance = new fabric.Image(imgElement, {
-									left: 0,
-									top: 0,
-									height: canvas.height - 10,
-									width: canvas.width - 10,
-									opacity: 1
-								});
+							// var imgElement = document.getElementById('user-image'); // This is the image that the user wants to fit into the state. We will need to build a way to upload images
+							// var imgInstance = new fabric.Image(imgElement, {
+							// 		left: 0,
+							// 		top: 0,
+							// 		height: canvas.height - 10,
+							// 		width: canvas.width - 10,
+							// 		opacity: 1
+							// 	});
 
-							canvas.add(imgInstance);
+							// canvas.add(imgInstance);
 
 (		function($){
 									// 	toolbar functions
@@ -137,6 +138,50 @@
 								// 		},
 								//
 										//checking that the clicked state from the USA MAP page is coming over to the editor page
+
+										UploadImage: function() {
+
+											document.getElementById('UploadImage').onchange = function handleImage(e) {
+									    var reader = new FileReader();
+									    reader.onload = function (event)
+								{
+									    //console.log('fdsf');
+
+											var imgObj = new Image();
+							        imgObj.src = event.target.result;
+							        imgObj.onload = function ()
+											{
+							            var userImage = new fabric.Image(imgObj);
+							            userImage.set({
+							                left: 0,
+							                top: 0,
+							                // angle: 20,
+							                // padding: 10,
+							                // cornersize: 10
+            														});
+            							canvas.add(userImage);
+        							}
+    						}
+    reader.readAsDataURL(e.target.files[0]);
+		}
+
+},
+
+
+
+
+
+											ReCenter: function() {
+												// imgInstance.set({
+												userImage.set({
+													left: 0,
+													top: 0,
+													height: canvas.height - 10,
+													width: canvas.width - 10,
+												});
+
+											},
+
 
 									// The below function is used for testing
 									clicked: function() {
