@@ -27,7 +27,7 @@
 		// canvas.add(new fabric.Circle({ radius: 30, fill: '#f55', top: 100, left: 100 }));
 
 		var background_img = document.getElementById('background'); // background image would be the state image that they had chosen.. I think.
-		// var bckgrdImg_Instance = new fabric.Image(background_img);
+		var bckgrdImg_Instance = new fabric.Image(background_img);
 
 		var imgElement = document.getElementById('user-image');
 		var imgInstance = new fabric.Image(imgElement, {
@@ -36,7 +36,8 @@
 		  // angle: 30,
 		  // opacity: 0.85
 		});
-		canvas.setBackgroundImage(background_img)
+		// canvas.setBackgroundImage(background_img);
+		canvas.setBackgroundImage(bckgrdImg_Instance);
 		canvas.add(imgInstance);
 </script>
 
