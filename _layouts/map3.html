@@ -74,6 +74,18 @@
 
 							var canvas = new fabric.Canvas('editor');
 
+							var overlay_img = document.getElementById('overlay'); // background image would be the state image that they had chosen
+							var overlayState = new fabric.Image(overlay_img,{
+								opacity: .95,
+								left: 0,
+								top: 0,
+								height: canvas.height,
+								width: canvas.width
+							});
+							canvas.controlsAboveOverlay = true;
+							canvas.setOverlayImage(overlayState); 	// overlay the image of the state that the user selected
+
+
 							var imgElement = document.getElementById('user-image');
 							var imgInstance = new fabric.Image(imgElement, {
 								left: 0,
@@ -84,17 +96,6 @@
 								// opacity: 0.85
 							});
 							canvas.add(imgInstance);
-
-							var overlay_img = document.getElementById('overlay'); // background image would be the state image that they had chosen
-							var overlayState = new fabric.Image(overlay_img,{
-								opacity: .85,
-								left: 0,
-								top: 0,
-								height: canvas.height,
-								width: canvas.width
-							});
-							canvas.controlsAboveOverlay = true;
-							canvas.setOverlayImage(overlayState); 	// overlay the image of the state that the user selected
 
 							(		function($){
 									// 	toolbar functions
