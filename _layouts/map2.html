@@ -47,6 +47,7 @@
 
 	<script src="jquery/jquery-1.12.4.min.js"></script>
 	<script src="jquery/jquery-ui-1.10.3.js"></script>
+	<script src="js/raphael.js"></script>
 	<script src="js/usa_map.js"></script>
 	<script src="js/Fabric_JS/fabric.min.js"></script>
 
@@ -93,7 +94,7 @@
 
 		// loading SVG images
 		var groupStates = [];
-		fabric.loadSVGFromURL("js/usa_map.js",function(objects,options)
+		fabric.loadSVGFromURL("_svg/usa_map.svg",function(objects,options)
 		{
 		  var stateObjects = new fabric.Group(groupStates);
 		  stateObjects.set({
