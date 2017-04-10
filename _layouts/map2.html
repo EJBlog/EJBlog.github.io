@@ -36,8 +36,9 @@
 			<!-- used for testing -->
 		</section>
 	</div>
-	<input type="file" id="UploadImage" href="#" title="Upload Your Image">Upload Image</input>
-	<!-- Need to write a function which will allow the user to upload their image-->
+	<input type="file" id="UploadImage" href="#" title="Upload Your Image">Upload Image</input> <!-- Need to write a function which will allow the user to upload their image-->
+	<button type="button" onclick="imageIsNull()"> Has an image already been loaded? </button>
+	<p id="isImageNull"></p>
 
 	<script src="jquery/jquery-1.12.4.min.js"></script>
 	<script src="jquery/jquery-ui-1.10.3.js"></script>
@@ -169,20 +170,29 @@
 		})(jQuery);
 
 		// Function for the upload image button
+		// Need to add something to say "If image already found then remove old image before loading a new image"
+
+		var imgObj = new Image();
+		var userImage = new fabric.Image(); //Trying to bring some variables outside of the function to make the global variables
+
+
 		document.getElementById('UploadImage').onchange = function handleImage(e) {
 			var reader = new FileReader();
 			reader.onload = function(event) {
 				//console.log('fdsf');
 
-				var imgObj = new Image();
+				// var imgObj = new Image();
 				imgObj.src = event.target.result;
 				imgObj.onload = function() {
-					var userImage = new fabric.Image(imgObj);
+
+					// var userImage = new fabric.Image(imgObj);
+					userImage = new fabric.Image(imgObj);
 					userImage.set({
 						left: 0,
 						top: 0,
 						width: canvas.width,
-						height: canvas.height
+						height: canvas.height,
+						opacity: 1
 						// angle: 20,
 						// padding: 10,
 						// cornersize: 10
@@ -192,6 +202,13 @@
 			}
 			reader.readAsDataURL(e.target.files[0]);
 		}
+
+		// This function is used to test to see if an image has been loaded yet or not
+		function imageIsNull() {
+		if(image <> null){ document.getElementById("test").innerHTML = "image is not null"}
+    else {document.getElementById("isImageNull").innerHTML = "image is null"}
+				};
+
 	</script>
 
 
