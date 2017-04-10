@@ -172,7 +172,7 @@
 		document.getElementById('UploadImage').onchange = function handleImage(e) {
 			var reader = new FileReader();
 			reader.onload = function(event) {
-				console.log('fdsf');
+				//console.log('fdsf');
 
 				var imgObj = new Image();
 				imgObj.src = event.target.result;
@@ -181,6 +181,8 @@
 					userImage.set({
 						left: 0,
 						top: 0,
+						width: canvas.width,
+						height: canvas.height
 						// angle: 20,
 						// padding: 10,
 						// cornersize: 10
