@@ -172,9 +172,8 @@
 		// Function for the upload image button
 		// Need to add something to say "If image already found then remove old image before loading a new image"
 
-		var imgObj = new Image();
-		var userImage = new fabric.Image(); //Trying to bring some variables outside of the function to make the global variables
 
+		var userImage = new fabric.Image(); //Trying to bring some variables outside of the function to make the global variables
 
 		document.getElementById('UploadImage').onchange = function handleImage(e) {
 			var reader = new FileReader();
@@ -201,13 +200,16 @@
 				}
 			}
 			reader.readAsDataURL(e.target.files[0]);
-		}
+		};
 
 		// This function is used to test to see if an image has been loaded yet or not
 		function imageIsNull() {
-		if(image <> null){ document.getElementById("test").innerHTML = "image is not null"}
-    else {document.getElementById("isImageNull").innerHTML = "image is null"}
-				};
+		if(userImage <> null){
+			document.getElementById("isImageNull").innerHTML = "image is not null"
+		}
+    else {
+			document.getElementById("isImageNull").innerHTML = "image is null"}
+		};
 
 	</script>
 
