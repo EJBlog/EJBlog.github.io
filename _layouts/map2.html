@@ -105,19 +105,17 @@
 		    height: canvas.height - 10
 		  });
 
-			// for(var i=0; i < objects.length; i++) {
-			// 	if(stateObjects._objects[i].id == 'ky')
-			// 	{
-			// 		canvas.add(stateObjects._objects[i].id);
-			// 	}
-			// 	else {
-			// 		canvas.add(stateObjects._objects[0]);
-			// 	}
- 		// 		}
+			for(var i=0; i < objects.length; i++) {
+				if(stateObjects._objects[i].id == idNameStored)
+				{
+					// canvas.add(stateObjects._objects[i]);
+				}
+
+ 				}
 
 				document.getElementById('testsvg').innerHTML = stateObjects._objects[0].id; // This correctly pull the state abreviation of the first state in the array
 		  	// canvas.add(stateObjects._objects[0]);
-				canvas.add(stateObjects);
+				canvas.add(stateObjects._objects[0]);
 		  // canvas.renderAll();
 		},
 		function(item, object) {
