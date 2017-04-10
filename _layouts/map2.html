@@ -77,10 +77,10 @@
 			width: canvas.width
 		});
 
-		overlayState.onload = function() {
+		window.onload = function() {
     // context.drawImage(image, 50, 50);
 		canvas.setOverlayImage(overlayState);
-};
+		};
 
 		// canvas.setOverlayImage(overlayState); // overlay the image of the state that the user selected
 		canvas.controlsAboveOverlay = true;
