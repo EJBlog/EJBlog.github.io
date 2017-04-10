@@ -36,8 +36,11 @@
 			<!-- used for testing -->
 		</section>
 	</div>
+
 	<input type="file" id="UploadImage" href="#" title="Upload Your Image">Upload Image</input>
 	<!-- Need to write a function which will allow the user to upload their image-->
+
+	<!-- Testing to see if an image has been loaded - Testing that my function and if statements work -->
 	<br>
 	<button onclick="imageIsNull()"> Has an image already been loaded? </button>
 	<p id="isImageNull"></p>
@@ -49,6 +52,15 @@
 
 
 	<script>
+
+//Changing the control colors from light blue to black
+	fabric.Object.prototype.set({
+	transparentCorners: false,
+	borderColor: '#111111',
+	cornerColor: '#111111'
+});
+
+
 		//get canvas and context
 		var stateNameStored = localStorage.getItem('storedStateName');
 		var idNameStored = localStorage.getItem('storedIdName');
@@ -147,8 +159,8 @@
 				ReCenter: function() {
 					// imgInstance.set({
 					userImage.set({
-						left: 0,
-						top: 0,
+						left: 10,
+						top: 10,
 						height: canvas.height - 10,
 						width: canvas.width - 10,
 					});
@@ -172,10 +184,8 @@
 		})(jQuery);
 
 		// Function for the upload image button
-		// Need to add something to say "If image already found then remove old image before loading a new image"
-
-
-		var userImage = new fabric.Image(); //Trying to bring some variables outside of the function to make the global variables
+		// checks If image already found then ask if that is correct - can be changed to remove old image before loading a new image"
+		var userImage = new fabric.Image(); // This is outside of the function to make it a global variable
 
 		document.getElementById('UploadImage').onchange = function handleImage(e) {
 
@@ -192,10 +202,10 @@
 							// var userImage = new fabric.Image(imgObj);
 							userImage = new fabric.Image(imgObj);
 							userImage.set({
-								left: 0,
-								top: 0,
-								width: canvas.width,
-								height: canvas.height,
+								left: 10,
+								top: 10,
+								width: canvas.width - 10,
+								height: canvas.height - 10,
 								opacity: 1
 								// angle: 20,
 								// padding: 10,
