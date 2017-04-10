@@ -36,7 +36,8 @@
 			<!-- used for testing -->
 		</section>
 	</div>
-	<input type="file" id="UploadImage" href="#" title="Upload Your Image">Upload Image</input> <!-- Need to write a function which will allow the user to upload their image-->
+	<input type="file" id="UploadImage" href="#" title="Upload Your Image">Upload Image</input>
+	<!-- Need to write a function which will allow the user to upload their image-->
 	<br>
 	<button onclick="imageIsNull()"> Has an image already been loaded? </button>
 	<p id="isImageNull"></p>
@@ -177,9 +178,41 @@
 		var userImage = new fabric.Image(); //Trying to bring some variables outside of the function to make the global variables
 
 		document.getElementById('UploadImage').onchange = function handleImage(e) {
+
+			if (userImage.height > 0) {
+
+				if (confirm("An image has already been loaded. Did you mean to load a second image?") === true) {
+					var reader = new FileReader();
+					reader.onload = function(event) {
+
+						var imgObj = new Image();
+						imgObj.src = event.target.result;
+						imgObj.onload = function() {
+
+							// var userImage = new fabric.Image(imgObj);
+							userImage = new fabric.Image(imgObj);
+							userImage.set({
+								left: 0,
+								top: 0,
+								width: canvas.width,
+								height: canvas.height,
+								opacity: 1
+								// angle: 20,
+								// padding: 10,
+								// cornersize: 10
+							});
+							canvas.add(userImage);
+						}
+					}
+					reader.readAsDataURL(e.target.files[0]);
+				}
+				//end of if for "confirm"
+
+			//document.getElementById("isImageNull").innerHTML = "image is not null"
+		}
+		else {
 			var reader = new FileReader();
 			reader.onload = function(event) {
-				//console.log('fdsf');
 
 				var imgObj = new Image();
 				imgObj.src = event.target.result;
@@ -201,20 +234,47 @@
 				}
 			}
 			reader.readAsDataURL(e.target.files[0]);
+		}
+
+
+
+		// var reader = new FileReader();
+		// reader.onload = function(event) {
+		// 	//console.log('fdsf');
+		//
+		// 	var imgObj = new Image();
+		// 	imgObj.src = event.target.result;
+		// 	imgObj.onload = function() {
+		//
+		// 		// var userImage = new fabric.Image(imgObj);
+		// 		userImage = new fabric.Image(imgObj);
+		// 		userImage.set({
+		// 			left: 0,
+		// 			top: 0,
+		// 			width: canvas.width,
+		// 			height: canvas.height,
+		// 			opacity: 1
+		// 			// angle: 20,
+		// 			// padding: 10,
+		// 			// cornersize: 10
+		// 		});
+		// 		canvas.add(userImage);
+		// 	}
+		// }
+		// reader.readAsDataURL(e.target.files[0]);
 		};
 
 		// This function is used to test to see if an image has been loaded yet or not
-		function imageIsNull(){
+		function imageIsNull() {
 
 			// document.getElementById("isImageNull").innerHTML = "button works"
 
-		if(userImage.height > 0){
-			document.getElementById("isImageNull").innerHTML = "image is not null"
-		}
-    else {
-			document.getElementById("isImageNull").innerHTML = "image is null"}
-		 };
-
+			if (userImage.height > 0) {
+				document.getElementById("isImageNull").innerHTML = "image is not null"
+			} else {
+				document.getElementById("isImageNull").innerHTML = "image is null"
+			}
+		};
 	</script>
 
 
