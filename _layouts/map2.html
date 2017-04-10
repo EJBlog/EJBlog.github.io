@@ -44,6 +44,7 @@
 	<br>
 	<button onclick="imageIsNull()"> Has an image already been loaded? </button>
 	<p id="isImageNull"></p>
+	<p id="testsvg"></p>
 
 	<script src="jquery/jquery-1.12.4.min.js"></script>
 	<script src="jquery/jquery-ui-1.10.3.js"></script>
@@ -105,17 +106,18 @@
 		  });
 
 			// for(var i=0; i < objects.length; i++) {
-			// 	if(stateObjects._objects[0].id == 'ky')
+			// 	if(stateObjects._objects[i].id == 'ky')
 			// 	{
 			// 		canvas.add(stateObjects._objects[i].id);
 			// 	}
 			// 	else {
 			// 		canvas.add(stateObjects._objects[0]);
 			// 	}
- 		// 	}
+ 		// 		}
 
-		  canvas.add(stateObjects._objects[0].id == 'ky');
-		  canvas.renderAll();
+				document.getElementById('testsvg').innerHTML = stateObjects._objects[0].id;
+		  	canvas.add(stateObjects._objects[0]);
+		  // canvas.renderAll();
 		},
 		function(item, object) {
 		  object.set('id', item.getAttribute('id'));
