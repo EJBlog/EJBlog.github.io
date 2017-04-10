@@ -77,11 +77,6 @@
 			width: canvas.width
 		});
 
-		window.onload = function() {
-    // context.drawImage(image, 50, 50);
-		canvas.setOverlayImage(overlayState);
-		};
-
 		// canvas.setOverlayImage(overlayState); // overlay the image of the state that the user selected
 		canvas.controlsAboveOverlay = true;
 
@@ -283,6 +278,12 @@
 			} else {
 				document.getElementById("isImageNull").innerHTML = "image is null"
 			}
+		};
+
+		// moved this to the bottom so it would load without having to click on the editor
+		window.onload = function() {
+		// context.drawImage(image, 50, 50);
+		canvas.setOverlayImage(overlayState);
 		};
 	</script>
 
