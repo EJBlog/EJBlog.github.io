@@ -181,7 +181,7 @@
 			reader.onload = function(event) {
 				//console.log('fdsf');
 
-				// var imgObj = new Image();
+				var imgObj = new Image();
 				imgObj.src = event.target.result;
 				imgObj.onload = function() {
 
@@ -206,13 +206,13 @@
 		// This function is used to test to see if an image has been loaded yet or not
 		function imageIsNull(){
 
-			document.getElementById("isImageNull").innerHTML = "button works"
+			// document.getElementById("isImageNull").innerHTML = "button works"
 
-		// if(userImage <> null){
-		// 	document.getElementById("isImageNull").innerHTML = "image is not null"
-		// }
-    // else {
-		// 	document.getElementById("isImageNull").innerHTML = "image is null"}
+		if(userImage <> null){
+			document.getElementById("isImageNull").innerHTML = "image is not null"
+		}
+    else {
+			document.getElementById("isImageNull").innerHTML = "image is null"}
 		 };
 
 	</script>
