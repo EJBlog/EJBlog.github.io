@@ -139,35 +139,9 @@
 								//
 										//checking that the clicked state from the USA MAP page is coming over to the editor page
 
-										UploadImage: function() {
+										ImageUPLOAD: function() {
 
-											// document.getElementById('UploadImage').onchange = function handleImage(e) {
-									    var reader = new FileReader();
-									    reader.onload = function (event){
-									    console.log('fdsf');
-
-											var imgObj = new Image();
-							        imgObj.src = event.target.result;
-							        imgObj.onload = function ()
-											{
-							            var userImage = new fabric.Image(imgObj);
-							            userImage.set({
-							                left: 0,
-							                top: 0,
-							                // angle: 20,
-							                // padding: 10,
-							                // cornersize: 10
-            														});
-            							canvas.add(userImage);
-        							}
-    						}
-    					reader.readAsDataURL(e.target.files[0]);
-		// }
-
-},
-
-
-
+		},
 
 
 											ReCenter: function() {
@@ -187,7 +161,7 @@
 										//populating variables from what was clicked on the USA map
 										document.getElementById("clickedText").innerHTML = "On the map, you clicked " + stateNameStored + " and " + idNameStored;
 									}
-								};
+		};
 
 										$("#toolbar").children().click(function(e) {
 												e.preventDefault();
@@ -197,6 +171,29 @@
 
 										})(jQuery);
 
+										// Function for the upload image button
+										document.getElementById('UploadImage').onchange = function handleImage(e) {
+										var reader = new FileReader();
+										reader.onload = function (event){
+										console.log('fdsf');
+
+										var imgObj = new Image();
+										imgObj.src = event.target.result;
+										imgObj.onload = function ()
+										{
+												var userImage = new fabric.Image(imgObj);
+												userImage.set({
+														left: 0,
+														top: 0,
+														// angle: 20,
+														// padding: 10,
+														// cornersize: 10
+																			});
+												canvas.add(userImage);
+										}
+							}
+						reader.readAsDataURL(e.target.files[0]);
+}
 				</script>
 
 
