@@ -37,7 +37,8 @@
 		</section>
 	</div>
 	<input type="file" id="UploadImage" href="#" title="Upload Your Image">Upload Image</input> <!-- Need to write a function which will allow the user to upload their image-->
-	<button type="button" onclick="imageIsNull()"> Has an image already been loaded? </button>
+	<br>
+	<button onclick="imageIsNull()"> Has an image already been loaded? </button>
 	<p id="isImageNull"></p>
 
 	<script src="jquery/jquery-1.12.4.min.js"></script>
@@ -203,13 +204,16 @@
 		};
 
 		// This function is used to test to see if an image has been loaded yet or not
-		function imageIsNull() {
-		if(userImage <> null){
-			document.getElementById("isImageNull").innerHTML = "image is not null"
-		}
-    else {
-			document.getElementById("isImageNull").innerHTML = "image is null"}
-		};
+		function imageIsNull(){
+
+			document.getElementById("isImageNull").innerHTML = "button works"
+
+		// if(userImage <> null){
+		// 	document.getElementById("isImageNull").innerHTML = "image is not null"
+		// }
+    // else {
+		// 	document.getElementById("isImageNull").innerHTML = "image is null"}
+		 };
 
 	</script>
 
