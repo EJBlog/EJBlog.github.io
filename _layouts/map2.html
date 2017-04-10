@@ -52,13 +52,12 @@
 
 
 	<script>
-
-//Changing the control colors from light blue to black
-	fabric.Object.prototype.set({
-	transparentCorners: false,
-	borderColor: '#111111',
-	cornerColor: '#111111'
-});
+		//Changing the control colors from light blue to black
+		fabric.Object.prototype.set({
+			transparentCorners: true,
+			borderColor: '#111111',
+			cornerColor: '#111111'
+		});
 
 
 		//get canvas and context
@@ -78,8 +77,8 @@
 			width: canvas.width
 		});
 
-		canvas.controlsAboveOverlay = true;
 		canvas.setOverlayImage(overlayState); // overlay the image of the state that the user selected
+		canvas.controlsAboveOverlay = true;
 
 		//commenting this out while working on image uploader
 
@@ -218,59 +217,55 @@
 				}
 				//end of if for "confirm"
 
-		}
-		else {
-			var reader = new FileReader();
-			reader.onload = function(event) {
+			} else {
+				var reader = new FileReader();
+				reader.onload = function(event) {
 
-				var imgObj = new Image();
-				imgObj.src = event.target.result;
-				imgObj.onload = function() {
+					var imgObj = new Image();
+					imgObj.src = event.target.result;
+					imgObj.onload = function() {
 
-					// var userImage = new fabric.Image(imgObj);
-					userImage = new fabric.Image(imgObj);
-					userImage.set({
-						left: 0,
-						top: 0,
-						width: canvas.width,
-						height: canvas.height,
-						opacity: 1
-						// angle: 20,
-						// padding: 10,
-						// cornersize: 10
-					});
-					canvas.add(userImage);
+						// var userImage = new fabric.Image(imgObj);
+						userImage = new fabric.Image(imgObj);
+						userImage.set({
+							left: 10,
+							top: 10,
+							width: canvas.width - 10,
+							height: canvas.height - 10,
+							opacity: 1
+						});
+						canvas.add(userImage);
+					}
 				}
+				reader.readAsDataURL(e.target.files[0]);
 			}
-			reader.readAsDataURL(e.target.files[0]);
-		}
 
 
 
-		// var reader = new FileReader();
-		// reader.onload = function(event) {
-		// 	//console.log('fdsf');
-		//
-		// 	var imgObj = new Image();
-		// 	imgObj.src = event.target.result;
-		// 	imgObj.onload = function() {
-		//
-		// 		// var userImage = new fabric.Image(imgObj);
-		// 		userImage = new fabric.Image(imgObj);
-		// 		userImage.set({
-		// 			left: 0,
-		// 			top: 0,
-		// 			width: canvas.width,
-		// 			height: canvas.height,
-		// 			opacity: 1
-		// 			// angle: 20,
-		// 			// padding: 10,
-		// 			// cornersize: 10
-		// 		});
-		// 		canvas.add(userImage);
-		// 	}
-		// }
-		// reader.readAsDataURL(e.target.files[0]);
+			// var reader = new FileReader();
+			// reader.onload = function(event) {
+			// 	//console.log('fdsf');
+			//
+			// 	var imgObj = new Image();
+			// 	imgObj.src = event.target.result;
+			// 	imgObj.onload = function() {
+			//
+			// 		// var userImage = new fabric.Image(imgObj);
+			// 		userImage = new fabric.Image(imgObj);
+			// 		userImage.set({
+			// 			left: 0,
+			// 			top: 0,
+			// 			width: canvas.width,
+			// 			height: canvas.height,
+			// 			opacity: 1
+			// 			// angle: 20,
+			// 			// padding: 10,
+			// 			// cornersize: 10
+			// 		});
+			// 		canvas.add(userImage);
+			// 	}
+			// }
+			// reader.readAsDataURL(e.target.files[0]);
 		};
 
 		// This function is used to test to see if an image has been loaded yet or not
