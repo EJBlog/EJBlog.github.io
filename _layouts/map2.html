@@ -103,7 +103,18 @@
 		    width:canvas.width - 10,
 		    height: canvas.height - 10
 		  });
-		  canvas.add(stateObjects._objects.id == 'ky');
+
+			// for(var i=0; i < objects.length; i++) {
+			// 	if(stateObjects._objects[0].id == 'ky')
+			// 	{
+			// 		canvas.add(stateObjects._objects[i].id);
+			// 	}
+			// 	else {
+			// 		canvas.add(stateObjects._objects[0]);
+			// 	}
+ 		// 	}
+
+		  canvas.add(stateObjects._objects[0].id == 'ky');
 		  canvas.renderAll();
 		},
 		function(item, object) {
