@@ -79,26 +79,50 @@
 
 		// moved this to the bottom so it would load without having to click on the editor
 		window.onload = function() {
-		// context.drawImage(image, 50, 50);
-		canvas.setOverlayImage(overlayState);
-		canvas.renderAll();
+				canvas.setOverlayImage(overlayState);
+				canvas.renderAll();
 		};
 
 		// canvas.setOverlayImage(overlayState); // overlay the image of the state that the user selected
 		canvas.controlsAboveOverlay = true;
 
-		//commenting this out while working on image uploader
 
-		// var imgElement = document.getElementById('user-image'); // This is the image that the user wants to fit into the state. We will need to build a way to upload images
-		// var imgInstance = new fabric.Image(imgElement, {
-		// 		left: 0,
-		// 		top: 0,
-		// 		height: canvas.height - 10,
-		// 		width: canvas.width - 10,
-		// 		opacity: 1
-		// 	});
 
-		// canvas.add(imgInstance);
+
+
+
+		// loading SVG images
+		var groupStates = [];
+		fabric.loadSVGFromURL("usa_map.svg",function(objects,options)
+		{
+		  var stateObjects = new fabric.Group(group);
+		  stateObjects.set({
+		    left: 10,
+		    top: 10,
+		    width:canvas.width - 10,
+		    height: canvas.height - 10
+		  });
+		  canvas.add(stateObjects);
+		  canvas.renderAll();
+		},
+		function(item, object) {
+		  object.set('id', item.getAttribute('ky'));
+		  group.push(object);
+		});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 		(function($) {
 			// 	toolbar functions
