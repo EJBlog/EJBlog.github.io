@@ -77,6 +77,13 @@
 			width: canvas.width
 		});
 
+		// moved this to the bottom so it would load without having to click on the editor
+		window.onload = function() {
+		// context.drawImage(image, 50, 50);
+		canvas.setOverlayImage(overlayState);
+		canvas.renderAll();
+		};
+
 		// canvas.setOverlayImage(overlayState); // overlay the image of the state that the user selected
 		canvas.controlsAboveOverlay = true;
 
@@ -280,11 +287,6 @@
 			}
 		};
 
-		// moved this to the bottom so it would load without having to click on the editor
-		window.onload = function() {
-		// context.drawImage(image, 50, 50);
-		canvas.setOverlayImage(overlayState);
-		};
 	</script>
 
 
