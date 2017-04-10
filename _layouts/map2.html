@@ -115,8 +115,9 @@
 			// 	}
  		// 		}
 
-				document.getElementById('testsvg').innerHTML = stateObjects._objects[0].id;
-		  	canvas.add(stateObjects._objects[0]);
+				document.getElementById('testsvg').innerHTML = stateObjects._objects[0].id; // This correctly pull the state abreviation of the first state in the array
+		  	// canvas.add(stateObjects._objects[0]);
+				canvas.add(stateObjects);
 		  // canvas.renderAll();
 		},
 		function(item, object) {
