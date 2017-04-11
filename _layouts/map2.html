@@ -21,7 +21,6 @@
 	<div id="imageEditor">
 		<section id="editorContainer">
 			<canvas id="editor" width="480" height="480" style="border:1px solid #000000">
-										<img src="img/ota_badge.jpg" id="user-image"></img> <!-- This would be the image that the user loads and can be manipulated -->
 										<img src="img/kentucky_outline.jpg" id="overlay"></img> <!-- This would be the state image which be used as the background image/ stensil -->
 								</canvas>
 		</section>
@@ -61,7 +60,6 @@
 			cornerColor: '#111111'
 		});
 
-
 		//get canvas and context
 		var stateNameStored = localStorage.getItem('storedStateName');
 		var idNameStored = localStorage.getItem('storedIdName');
@@ -70,68 +68,45 @@
 			backgroundColor: 'white'
 		});
 
-		var overlay_img = document.getElementById('overlay'); // overlay image would be the state that they had chosen
-		var overlayState = new fabric.Image(overlay_img, {
-			opacity: .5,
-			left: 0,
-			top: 0,
-			height: canvas.height,
-			width: canvas.width
-		});
-
-		// moved this to the bottom so it would load without having to click on the editor
+		// loading the background/overlay image
 		window.onload = function() {
-				canvas.setOverlayImage(overlayState);
-				canvas.renderAll();
+
+			// loading SVG images
+			var groupStates = [];
+			fabric.loadSVGFromURL("svg/usa_map.svg", function(objects, options) {
+						var stateObjects = new fabric.Group(groupStates);
+						stateObjects.set({
+							left: 10,
+							top: 10,
+							width: canvas.width - 10,
+							height: canvas.height - 10
+						});
+
+						for (var i = 0; i < objects.length; i++) {
+							if (stateObjects._objects[i].id == idNameStored) {
+								// var overlay_img = document.getElementById('overlay'); // overlay image would be the state that they had chosen
+								// var overlayState = new fabric.Image(overlay_img, {
+								// 	opacity: .5,
+								// 	left: 0,
+								// 	top: 0,
+								// 	height: canvas.height,
+								// 	width: canvas.width
+								// });
+
+								//canvas.add(stateObjects._objects[i]);
+
+								canvas.setOverlayImage(canvas.add(stateObjects._objects[i]));
+								canvas.renderAll();
+								canvas.controlsAboveOverlay = true;
+							}
+						}
+				},
+				function(item, object) {
+					object.set('id', item.getAttribute('id'));
+					groupStates.push(object);
+				});
+
 		};
-
-		// canvas.setOverlayImage(overlayState); // overlay the image of the state that the user selected
-		canvas.controlsAboveOverlay = true;
-
-
-
-
-
-
-		// loading SVG images
-		var groupStates = [];
-		fabric.loadSVGFromURL("svg/usa_map.svg",function(objects,options)
-		{
-		  var stateObjects = new fabric.Group(groupStates);
-		  stateObjects.set({
-		    left: 10,
-		    top: 10,
-		    width:canvas.width - 10,
-		    height: canvas.height - 10
-		  });
-
-			for(var i=0; i < objects.length; i++) {
-				if(stateObjects._objects[i].id == idNameStored)
-				{
-					console.log("We have a winner")
-					// canvas.add(stateObjects._objects[i]);
-				}
-
- 				}
-
-				document.getElementById('testsvg').innerHTML = stateObjects._objects[0].id; // This correctly pull the state abreviation of the first state in the array
-		  	// canvas.add(stateObjects._objects[0]);
-				canvas.add(stateObjects._objects[10]);
-		  // canvas.renderAll();
-		},
-		function(item, object) {
-		  object.set('id', item.getAttribute('id'));
-		  groupStates.push(object);
-		});
-
-
-
-
-
-
-
-
-
 
 
 
@@ -324,7 +299,6 @@
 				document.getElementById("isImageNull").innerHTML = "image is null"
 			}
 		};
-
 	</script>
 
 
