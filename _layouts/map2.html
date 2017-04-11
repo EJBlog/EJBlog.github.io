@@ -95,7 +95,7 @@
 						var overlayState = stateObjects._objects[i];
 
 						overlayState.set({
-								opacity: .5,
+								// opacity: .5,
 								left: 0,
 								top: 0,
 								height: canvas.height,
@@ -103,9 +103,9 @@
 								borderColor: '#111111',
 								backgroundColor: 'gray'
 						})
+						overlayState.selectable = false;
 
-
-						// canvas.add(overlayState);
+						canvas.add(overlayState);
 						 canvas.setOverlayImage(overlayState);
 							//canvas.renderAll();
 							canvas.controlsAboveOverlay = true;
