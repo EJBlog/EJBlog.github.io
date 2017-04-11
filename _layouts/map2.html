@@ -69,7 +69,6 @@
 		});
 
 		// loading the background/overlay image from SVG of the state that was cicked
-		window.onload = function(){
 		var groupStates = [];
 		fabric.loadSVGFromURL("svg/usa_map.svg", function(objects, options) {
 				var stateObjects = new fabric.Group(groupStates);
@@ -117,7 +116,7 @@
 				object.set('id', item.getAttribute('id'));
 				groupStates.push(object);
 			});
-}
+
 
 
 		(function($) {
