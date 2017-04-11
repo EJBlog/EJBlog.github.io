@@ -69,46 +69,40 @@
 		});
 
 		// loading the background/overlay image
-		//window.onload = function() {
-
-			// loading SVG images
-			var groupStates = [];
-			fabric.loadSVGFromURL("svg/usa_map.svg", function(objects, options) {
-						var stateObjects = new fabric.Group(groupStates);
-						stateObjects.set({
-							left: 10,
-							top: 10,
-							width: canvas.width - 10,
-							height: canvas.height - 10
-						});
-
-						for (var i = 0; i < objects.length; i++) {
-							if (stateObjects._objects[i].id == idNameStored) {
-								// var overlay_img = document.getElementById('overlay'); // overlay image would be the state that they had chosen
-								// var overlayState = new fabric.Image(overlay_img, {
-								// 	opacity: .5,
-								// 	left: 0,
-								// 	top: 0,
-								// 	height: canvas.height,
-								// 	width: canvas.width
-								// });
-
-								canvas.setOverlayImage(stateObjects._objects[i]);
-								//canvas.renderAll();
-								canvas.controlsAboveOverlay = true;
-							}
-						}
-				},
-				function(item, object) {
-					object.set('id', item.getAttribute('id'));
-					groupStates.push(object);
+		// loading SVG images
+		var groupStates = [];
+		fabric.loadSVGFromURL("svg/usa_map.svg", function(objects, options) {
+				var stateObjects = new fabric.Group(groupStates);
+				stateObjects.set({
+					left: 10,
+					top: 10,
+					width: canvas.width - 10,
+					height: canvas.height - 10
 				});
 
-		//};
+				for (var i = 0; i < objects.length; i++) {
+					if (stateObjects._objects[i].id == idNameStored) {
+						// var overlay_img = document.getElementById('overlay'); // overlay image would be the state that they had chosen
+						// var overlayState = new fabric.Image(overlay_img, {
+						// 	opacity: .5,
+						// 	left: 0,
+						// 	top: 0,
+						// 	height: canvas.height,
+						// 	width: canvas.width
+						// });
 
-
-
-
+						window.onload() = function() {
+							canvas.setOverlayImage(stateObjects._objects[i]);
+							canvas.renderAll();
+							canvas.controlsAboveOverlay = true;
+						}
+					}
+				}
+			},
+			function(item, object) {
+				object.set('id', item.getAttribute('id'));
+				groupStates.push(object);
+			});
 
 
 		(function($) {
