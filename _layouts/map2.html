@@ -20,30 +20,24 @@
 
 	<div id="imageEditor">
 		<section id="editorContainer">
-			<canvas id="editor" width="480" height="480" style="border:1px solid #000000">
-										<!-- <img src="img/kentucky_outline.jpg" id="overlay"></img> <!-- This would be the state image which be used as the background image/ stensil --> -->
-								</canvas>
+			<canvas id="editor" width="480" height="480" style="border:1px solid #000000"></canvas>
 		</section>
 
 		<section id="toolbar">
 			<a id="save" href="#" title="Save">Save</a>
 			<!-- <a id="greyscale" href="#" title="Convert to grayscale">B&W</a>
-								<a id="sepia" href="#" title="Convert to sepia tone">Sepia</a> -->
-			<a id="ReCenter" href="#" title="Re-Center Your Image">Re-Center</a>
-			<!-- Need to write a function to bring the user image back to the starting point -->
-			<a id="clicked" href="#" title="What State was chosen?">Clicked State</a>
-			<!-- used for testing -->
+					<a id="sepia" href="#" title="Convert to sepia tone">Sepia</a> -->
+			<a id="ReCenter" href="#" title="Re-Center Your Image">Re-Center</a> <!-- Need to write a function to bring the user image back to the starting point -->
+			<a id="clicked" href="#" title="What State was chosen?">Clicked State</a> <!-- used for testing -->
 		</section>
 	</div>
 
 	<input type="file" id="UploadImage" href="#" title="Upload Your Image">Upload Image</input>
-	<!-- Need to write a function which will allow the user to upload their image-->
 
-	<!-- Testing to see if an image has been loaded - Testing that my function and if statements work -->
+
 	<br>
-	<button onclick="imageIsNull()"> Has an image already been loaded? </button>
+	<button onclick="imageIsNull()"> Has an image already been loaded? </button> <!-- Testing to see if an image has been loaded - Testing that my function and if statements work -->
 	<p id="isImageNull"></p>
-	<p id="testsvg"></p>
 
 	<script src="jquery/jquery-1.12.4.min.js"></script>
 	<script src="jquery/jquery-ui-1.10.3.js"></script>
@@ -60,10 +54,11 @@
 			cornerColor: '#111111'
 		});
 
-		//get canvas and context
+		//get information about the state that the user clicked on the main map page
 		var stateNameStored = localStorage.getItem('storedStateName');
 		var idNameStored = localStorage.getItem('storedIdName');
 
+		// changing the editor background color
 		var canvas = new fabric.Canvas('editor', {
 			backgroundColor: 'white'
 		});
@@ -81,33 +76,22 @@
 
 				for (var i = 0; i < objects.length; i++) {
 					if (stateObjects._objects[i].id == idNameStored) {
-						// var overlay_img = document.getElementById('overlay'); // overlay image would be the state that they had chosen
-
-						// var overlayState = new fabric.Image(stateObjects._objects[i], {
-						// 	opacity: .5,
-						// 	left: 0,
-						// 	top: 0,
-						// 	height: canvas.height,
-						// 	width: canvas.width
-						// });
-
 						var overlayState = stateObjects._objects[i];
 
 						overlayState.set({
-								opacity: .5,
-								left: 0,
-								top: 0,
-								height: canvas.height,
-								width: canvas.width,
-								// borderColor: '#111111',
-								// backgroundColor: 'gray'
+							opacity: .5,
+							left: 0,
+							top: 0,
+							height: canvas.height,
+							width: canvas.width,
+							// borderColor: '#111111',
+							// backgroundColor: 'gray'
 						})
 						overlayState.selectable = false;
 
 						canvas.add(overlayState);
-						 canvas.setOverlayImage(overlayState);
-							//canvas.renderAll();
-							canvas.controlsAboveOverlay = true;
+						canvas.setOverlayImage(overlayState);
+						canvas.controlsAboveOverlay = true;
 
 					}
 				}
@@ -208,8 +192,7 @@
 
 		})(jQuery);
 
-		// Function for the upload image button
-		// checks If image already found then ask if that is correct - can be changed to remove old image before loading a new image"
+		// Function for the upload image button - We check to see if an image was already found then ask if that is correct - can be changed to remove old image before loading a new image"
 		var userImage = new fabric.Image(); // This is outside of the function to make it a global variable
 
 		document.getElementById('UploadImage').onchange = function handleImage(e) {
@@ -224,7 +207,6 @@
 						imgObj.src = event.target.result;
 						imgObj.onload = function() {
 
-							// var userImage = new fabric.Image(imgObj);
 							userImage = new fabric.Image(imgObj);
 							userImage.set({
 								left: 10,
@@ -232,9 +214,6 @@
 								width: canvas.width - 10,
 								height: canvas.height - 10,
 								opacity: 1
-								// angle: 20,
-								// padding: 10,
-								// cornersize: 10
 							});
 							canvas.add(userImage);
 						}
@@ -265,40 +244,10 @@
 				}
 				reader.readAsDataURL(e.target.files[0]);
 			}
-
-
-
-			// var reader = new FileReader();
-			// reader.onload = function(event) {
-			// 	//console.log('fdsf');
-			//
-			// 	var imgObj = new Image();
-			// 	imgObj.src = event.target.result;
-			// 	imgObj.onload = function() {
-			//
-			// 		// var userImage = new fabric.Image(imgObj);
-			// 		userImage = new fabric.Image(imgObj);
-			// 		userImage.set({
-			// 			left: 0,
-			// 			top: 0,
-			// 			width: canvas.width,
-			// 			height: canvas.height,
-			// 			opacity: 1
-			// 			// angle: 20,
-			// 			// padding: 10,
-			// 			// cornersize: 10
-			// 		});
-			// 		canvas.add(userImage);
-			// 	}
-			// }
-			// reader.readAsDataURL(e.target.files[0]);
 		};
 
 		// This function is used to test to see if an image has been loaded yet or not
 		function imageIsNull() {
-
-			// document.getElementById("isImageNull").innerHTML = "button works"
-
 			if (userImage.height > 0) {
 				document.getElementById("isImageNull").innerHTML = "image is not null"
 			} else {

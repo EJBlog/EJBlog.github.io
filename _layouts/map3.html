@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html class="no-js">
+
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -7,42 +8,59 @@
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width">
 
-	<link rel="stylesheet" href="css/custom.css">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
+
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/map.css">
+	<link rel="stylesheet" href="css/editor.css"> 	<!-- CSS for editor -->
+	<link rel="stylesheet" href="css/ui-lightness-jquery-ui-1.8.7.custom.css"> 	<!-- CSS for editor -->
 
-	<!--[if lte IE 9]>
-		<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
-		<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.3.0/respond.js"></script>
-		<![endif]-->
 
-		<script src="js/vendor/modernizr.custom.32229-2.8-respondjs-1-4-2.js"></script>
-		{% include google_analytics.html %}
+</head>
 
-	<!-- Style for the modal (box that opens when a state is clicked -->
-	<style>
-/*css in map.css file can go here*/
-	</style>
+<body>
+	<h1>Map 3</h1>
 
-	</head>
-  <body>
-    <h1>Map 3</h1>
+	<div id="ky"></div>
 
-		<div id="ky">
-		<!-- <div id="map"><div id="myModal" class="modal">
-			 <span id="close">&times;</span>
-			 <div id="ky" class="ky"> </div>
-		</div> -->
-	  </div>
+	<div id="imageEditor">
+		<section id="editorContainer">
+			<canvas id="editor" width="480" height="480" style="border:1px solid #000000"></canvas>
+		</section>
 
-	  <script src="js/raphael.js"></script>
-	  <script src="js/usa_map.js"></script>
-	  <script src="js/ky_state_svg.js"></script>
+	<script>
 
-	<h1 id="state-name">State Name</h1>
-	<h1 id="id">State ID</h1>
+	var canvas = new fabric.Canvas('editor', {
+		backgroundColor: 'white'
+	});
 
-  </body>
+///////////////////////////////////////////////////////////////////
+	// EVAN CHANGE THE CODE BELOW TO GET THE SVG IMAGE TO SHOW UP
+/////////////////////////////////////////////////////////////////
+
+		var canvas = new fabric.Canvas('editor');
+		var group = [];
+		fabric.loadSVGFromURL("ky.svg", function(objects, options) {
+				var loadedObjects = new fabric.Group(group);
+				loadedObjects.set({
+					left: 0,
+					top: 0,
+					width: 100,
+					height: 100
+				});
+				canvas.add(loadedObjects);
+				canvas.renderAll();
+			},
+			function(item, object) {
+				object.set('id', item.getAttribute('id'));
+				group.push(object);
+			});
+
+	</script>
+
+	<script src="js/raphael.js"></script>
+	<script src="js/usa_map.js"></script>
+	<script src="js/ky_state_svg.js"></script>
+
+</body>
+
 </html>
