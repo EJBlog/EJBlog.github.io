@@ -95,13 +95,13 @@
 						var overlayState = stateObjects._objects[i];
 
 						overlayState.set({
-								// opacity: .5,
+								opacity: .5,
 								left: 0,
 								top: 0,
 								height: canvas.height,
 								width: canvas.width,
-								borderColor: '#111111',
-								backgroundColor: 'gray'
+								// borderColor: '#111111',
+								// backgroundColor: 'gray'
 						})
 						overlayState.selectable = false;
 
@@ -182,7 +182,7 @@
 				//checking that the clicked state from the USA MAP page is coming over to the editor page
 
 				ReCenter: function() {
-					// imgInstance.set({
+					// I need to set the current coordinates of the user's image before being able to move them.
 					userImage.set({
 						left: 10,
 						top: 10,
