@@ -78,9 +78,8 @@
 					if (stateObjects._objects[i].id == idNameStored) {
 						var overlayState = stateObjects._objects[i];
 
-
-						// theSVG = theSVG.replace('width="390" height="546" xml:space="preserve"',
-						// 'width="188" height="264" viewBox="0 0 390 546" xml:space="preserve"')
+						overlayState.scaleX = 2;
+						overlayState.scaleY = 2;
 
 						overlayState.set({
 							opacity: .5,
@@ -92,8 +91,6 @@
 							// backgroundColor: 'gray'
 						})
 						overlayState.selectable = false;
-						overlayState.scaleX = 2;
-						overlayState.scaleY = 2;
 
 						canvas.add(overlayState);
 						canvas.setOverlayImage(overlayState);
