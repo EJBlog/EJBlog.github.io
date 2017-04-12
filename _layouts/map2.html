@@ -92,8 +92,6 @@
 							// backgroundColor: 'gray'
 						})
 						overlayState.selectable = false;
-						overlayState.scaleToWidth(canvas.width);
-						overlayState.scaleToHeight(canvas.height);
 
 						// scaleToWidth(overlayState, canvas.width);
 						// scaleToHeight(overlayState, canvas.height);
@@ -101,6 +99,8 @@
 						canvas.add(overlayState);
 						canvas.setOverlayImage(overlayState);
 						canvas.controlsAboveOverlay = true;
+						overlayState.scaleToWidth(canvas.width);
+						overlayState.scaleToHeight(canvas.height);
 
 					}
 				}
