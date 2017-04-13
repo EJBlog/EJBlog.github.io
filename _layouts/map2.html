@@ -60,9 +60,8 @@
 
 		// changing the editor background color
 		var canvas = new fabric.Canvas('editor', {
-			// backgroundColor: 'white'
-			backgroundColor: 'gray',
-			opacity: .4
+			backgroundColor: 'white'
+			// backgroundColor: 'gray'
 		});
 
 		// loading the background/overlay image from SVG of the state that was cicked
@@ -87,12 +86,11 @@
 							opacity: .4,
 							left: 0,
 							top: 0,
-							// fill: 'white',
-							fill: 'red',
+							fill: 'white',
 							// height: canvas.height,
 							// width: canvas.width
 							height: 250,
-							width: 300
+							width: 300 // Changed the size of the state so that it fits better in the canvas. This ties with the scaling X and Y above.
 						})
 						overlayState.selectable = false;
 
