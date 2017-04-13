@@ -23,8 +23,13 @@
 
 <body>
 	<h1>Map 3</h1>
-
+	<svg>
+	<defs>
+	<clippath id="outlines">
 	<div id="ky"></div>
+</clippath>
+</defs>
+</svg>
 
 	<div id="imageEditor">
 		<section id="editorContainer">
@@ -40,9 +45,7 @@
 ///////////////////////////////////////////////////////////////////
 	// EVAN CHANGE THE CODE BELOW TO GET THE SVG IMAGE TO SHOW UP
 /////////////////////////////////////////////////////////////////
-<svg>
-<defs>
-<clippath id="outlines">
+
 		var group = [];
 		fabric.loadSVGFromURL("svg/ky.svg", function(objects, options) {
 				var loadedObjects = new fabric.Group(group);
@@ -59,9 +62,7 @@
 				object.set('id', item.getAttribute('id'));
 				group.push(object);
 			});
-			</clippath>
-		</defs>
-</svg>
+
 	</script>
 
 </body>
