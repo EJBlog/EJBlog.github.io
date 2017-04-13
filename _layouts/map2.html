@@ -112,17 +112,29 @@
 
 				//output to <img>
 				save: function() {
-					var saveDialog = $("<div>").appendTo("body");
-					$("<img/>", {
-						src: canvas.toDataURL()
-					}).appendTo(saveDialog);
-					saveDialog.dialog({
-						resizable: false,
-						modal: true,
-						title: "Right-click and choose 'Save Image As'",
-						width: canvas.width + 50,
-						height: canvas.height + 50
-					});
+					// var saveDialog = $("<div>").appendTo("body");
+					// $("<img/>", {
+					// 	src: canvas.toDataURL()
+					// }).appendTo(saveDialog);
+					// saveDialog.dialog({
+					// 	resizable: false,
+					// 	modal: true,
+					// 	title: "Right-click and choose 'Save Image As'",
+					// 	width: canvas.width + 50,
+					// 	height: canvas.height + 50
+					// });
+
+
+
+					 if (!fabric.Canvas.supports('toDataURL')) {
+					  alert('This browser doesn\'t provide means to serialize canvas to an image');
+					}
+					else {
+					  window.open(canvas.toDataURL('png'));
+					}
+
+
+
 				},
 
 				// 		greyscale: function() {
