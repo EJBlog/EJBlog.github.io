@@ -14,6 +14,10 @@
 	<link rel="stylesheet" href="css/editor.css"> 	<!-- CSS for editor -->
 	<link rel="stylesheet" href="css/ui-lightness-jquery-ui-1.8.7.custom.css"> 	<!-- CSS for editor -->
 
+	<script src="js/raphael.js"></script>
+	<script src="js/usa_map.js"></script>
+	<script src="js/ky_state_svg.js"></script>
+	<script src="js/Fabric_JS/fabric.min.js"></script>
 
 </head>
 
@@ -36,7 +40,9 @@
 ///////////////////////////////////////////////////////////////////
 	// EVAN CHANGE THE CODE BELOW TO GET THE SVG IMAGE TO SHOW UP
 /////////////////////////////////////////////////////////////////
-
+<svg>
+<defs>
+<clippath id="outlines">
 		var group = [];
 		fabric.loadSVGFromURL("svg/ky.svg", function(objects, options) {
 				var loadedObjects = new fabric.Group(group);
@@ -53,12 +59,10 @@
 				object.set('id', item.getAttribute('id'));
 				group.push(object);
 			});
-
+			</clippath>
+		</defs>
+</svg>
 	</script>
-
-	<script src="js/raphael.js"></script>
-	<script src="js/usa_map.js"></script>
-	<script src="js/ky_state_svg.js"></script>
 
 </body>
 
