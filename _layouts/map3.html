@@ -14,18 +14,14 @@
 	<link rel="stylesheet" href="css/editor.css"> 	<!-- CSS for editor -->
 	<link rel="stylesheet" href="css/ui-lightness-jquery-ui-1.8.7.custom.css"> 	<!-- CSS for editor -->
 
-	<script src="js/raphael.js"></script>
-	<script src="js/usa_map.js"></script>
-	<script src="js/ky_state_svg.js"></script>
-	<script src="js/Fabric_JS/fabric.min.js"></script>
 
 </head>
 
 <body>
 	<h1>Map 3</h1>
-
+<!-- <g id="outlines"> -->
 	<div id="ky"></div>
-
+<!-- </g> -->
 
 
 <!-- <svg>
@@ -40,6 +36,12 @@
 		<section id="editorContainer">
 			<canvas id="editor" width="480" height="480" style="border:1px solid #000000"></canvas>
 		</section>
+
+		<script src="jquery/jquery-1.12.4.min.js"></script>
+		<script src="jquery/jquery-ui-1.10.3.js"></script>
+		<script src="js/raphael.js"></script>
+		<script src="js/usa_map.js"></script>
+		<script src="js/Fabric_JS/fabric.min.js"></script>>
 
 	<script>
 
@@ -67,6 +69,7 @@
 				object.set('id', item.getAttribute('id'));
 				group.push(object);
 			});
+
 
 	</script>
 
