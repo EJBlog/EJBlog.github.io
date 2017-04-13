@@ -19,9 +19,11 @@
 
 <body>
 	<h1>Map 3</h1>
-<!-- <g id="outlines"> -->
-	<div id="ky"></div>
-<!-- </g> -->
+<g id="outlines">
+	<div id="ky">
+		<img src="img/ota_badge.jpg" alt=""></img>
+	</div>
+</g>
 
 
 <!-- <svg>
@@ -59,8 +61,8 @@
 				loadedObjects.set({
 					left: 0,
 					top: 0,
-					width: 100,
-					height: 100
+					width: canvas.width,
+					height: canvas.height
 				});
 				canvas.add(loadedObjects);
 				canvas.renderAll();
