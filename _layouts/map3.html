@@ -30,10 +30,10 @@
 			clip-path: url(#outlines);
 		}
 
-		.svg-clipped2 {
+		/*.svg-clipped2 {
 			-webkit-clip-path: url(#outlines2);
 			clip-path: url(#outlines2);
-		}
+		}*/
 	</style>
 
 	<img src="img/ota_badge.jpg" class="svg-clipped"></img>
@@ -51,7 +51,8 @@
 
 	<div id="imageEditor">
 		<section id="editorContainer">
-			<canvas id="editor" class="svg-clipped" width="480" height="480" style="border:1px solid #000000">
+			<!-- <canvas id="editor" class="svg-clipped" width="480" height="480" style="border:1px solid #000000"> -->
+			<canvas id="editor" width="480" height="480" style="border:1px solid #000000">
 			</canvas>
 		</section>
 	</div>
@@ -101,8 +102,8 @@
 
 			};
 
-			var statePath = loadedObjects._objects[16].path
-			var stateOutline = new fabric.Path(statePath);
+			var statePath = new fabric.Path(loadedObjects._objects[16].path);
+			// var stateOutline = new fabric.Path(statePath);
 			// stateOutline.set(); // Set width, height and other properties here
 
 
