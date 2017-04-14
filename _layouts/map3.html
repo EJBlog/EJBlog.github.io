@@ -53,7 +53,9 @@
 			</canvas>
 		</section>
 
+		<button onclick="pathTest()"> </button>
 		<p id="pathTest"> Path Test </p>
+
 
 		<script src="jquery/jquery-1.12.4.min.js"></script>
 		<script src="jquery/jquery-ui-1.10.3.js"></script>
@@ -82,7 +84,7 @@
 				});
 				// canvas.add(loadedObjects._objects[16]);
 				canvas.add(loadedObjects._objects[16].path[16]);
-				document.getElementById("pathTest").innerHTML = "Jake"//loadedObjects._objects[16].path; //This might be used for the clippath
+				// document.getElementById("pathTest").innerHTML = "Jake"//loadedObjects._objects[16].path; //This might be used for the clippath
 				canvas.renderAll();
 			},
 			function(item, object) {
@@ -90,6 +92,9 @@
 				group.push(object);
 			});
 
+function testPath() {
+				document.getElementById("pathTest").innerHTML = "Jake" ; //loadedObjects._objects[16].path; //This might be used for the clippath
+};
 
 	</script>
 
