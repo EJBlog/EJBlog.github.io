@@ -81,8 +81,8 @@
 					height: canvas.height
 				});
 				// canvas.add(loadedObjects._objects[16]);
-				canvas.add(loadedObjects._objects[16].path);
-				document.getelementbyid("pathTest").innerhtml = "Jake"; //This might be used for the clippath
+				canvas.add(loadedObjects._objects.path[16]);
+				document.getelementbyid("pathTest").innerHTML = loadedObjects._objects.path[16]; //This might be used for the clippath
 				canvas.renderAll();
 			},
 			function(item, object) {
