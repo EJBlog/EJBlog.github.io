@@ -55,6 +55,9 @@
 
 		<button onclick="pathTest()"> </button>
 		<p id="pathTest"> Path Test </p>
+		<p id="pathTest2"> Path Test2 </p>
+				<p id="pathTest3"> Path Test2 </p>
+						<p id="pathTest4"> Path Test2 </p>
 
 
 		<script src="jquery/jquery-1.12.4.min.js"></script>
@@ -93,7 +96,10 @@
 			});
 
 function pathTest() {
-				document.getElementById("pathTest").innerHTML = "Jake" ; //loadedObjects._objects[16].path; //This might be used for the clippath
+				document.getElementById("pathTest").innerHTML = loadedObjects._objects[16].path; //This might be used for the clippath
+				document.getElementById("pathTest2").innerHTML = loadedObjects._objects[16].path[16];
+				document.getElementById("pathTest3").innerHTML = loadedObjects._objects.path[16];
+				document.getElementById("pathTest4").innerHTML = loadedObjects._objectS.path;
 };
 
 	</script>
