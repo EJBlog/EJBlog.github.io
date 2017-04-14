@@ -23,6 +23,7 @@
 	<!-- <svg xmlns="http://www.w3.org/2000/svg" width="959" height="593"> -->
 
 <style>.svg-clipped{-webkit-clip-path:url(#outlines);clip-path:url(#outlines);}</style>
+
 <img src="img/ota_badge.jpg" class="svg-clipped"></img>
 <!-- <div id="ky" class="svg-clipped"></div> -->
 <svg>
@@ -36,14 +37,14 @@
 
 	</svg>
 
+	<!-- <svg>
+	<defs>
+	<clippath id="outlines">
+	<div id="ky"></div>
+	</clippath>
+	</defs>
+	</svg> -->
 
-<!-- <svg>
-<defs>
-<clippath id="outlines">
-<div id="ky"></div>
-</clippath>
-</defs>
-</svg> -->
 
 	<div id="imageEditor">
 		<section id="editorContainer">
@@ -75,7 +76,7 @@
 					width: canvas.width,
 					height: canvas.height
 				});
-				canvas.add(loadedObjects);
+				canvas.add(loadedObjects._objects[16]);
 				canvas.renderAll();
 			},
 			function(item, object) {
