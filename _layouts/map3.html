@@ -53,6 +53,8 @@
 			</canvas>
 		</section>
 
+		<p id="pathTest"></p>
+
 		<script src="jquery/jquery-1.12.4.min.js"></script>
 		<script src="jquery/jquery-ui-1.10.3.js"></script>
 		<script src="js/raphael.js"></script>
@@ -79,6 +81,7 @@
 					height: canvas.height
 				});
 				canvas.add(loadedObjects._objects[16]);
+				document.getelementbyid("pathTest").innerhtml = loadedObjects._objects[16].path; //This might be used for the clippath 
 				canvas.renderAll();
 			},
 			function(item, object) {
