@@ -100,6 +100,8 @@
 						height: canvas.height
 					});
 
+					canvas.add(loadedObjects._objects[16]);
+
 					fabric.Image.fromURL('img/ota_badge1.png', function(img) {
 						 img.set({
 							 left: 250,
@@ -109,10 +111,9 @@
 							 }
 						 });
 						 canvas.add(img);
-						 canvas.renderAll();
+
 						});
 
-					canvas.add(loadedObjects._objects[16]);
 					canvas.renderAll();
 					statePath = String(loadedObjects._objects[15].path);
 					//document.querySelector(".svg-clipped2").style.clip-path = "url(#statePath)"; // Maybe try to change the css to use the path? idk
