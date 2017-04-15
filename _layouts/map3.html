@@ -107,7 +107,8 @@
 							 left: 250,
 							 top: 250,
 							 clipTo: function (ctx) {
-								 logo.render(ctx);
+								//  logo.render(ctx);
+								ctx.arc(0, 0, radius, 0, Math.PI * 2, true);
 							 }
 						 });
 						 canvas.add(img);
