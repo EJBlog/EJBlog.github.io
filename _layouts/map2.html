@@ -65,6 +65,7 @@
 		});
 
 		// loading the background/overlay image from SVG of the state that was cicked
+		var statePath;
 		var groupStates = [];
 		fabric.loadSVGFromURL("svg/usa_map.svg", function(objects, options) {
 				var stateObjects = new fabric.Group(groupStates);
@@ -97,6 +98,7 @@
 						canvas.add(overlayState);
 						canvas.setOverlayImage(overlayState);
 						canvas.controlsAboveOverlay = true;
+						statePath = String(loadedObjects._objects[i].path); // hoping this will work for clip-path
 
 					}
 				}
