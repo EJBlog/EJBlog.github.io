@@ -98,6 +98,12 @@
 							 height: canvas.height,
 							 clipTo: function (ctx) {
 								loadedObjects._objects[16].render(ctx);
+								loadedObjects._objects[16].set({
+									left: 0,
+									top: 0,
+									width: canvas.width,
+									height: canvas.height
+								});
 							}
 						 });
 						 canvas.add(img);
