@@ -69,19 +69,19 @@
 		var groupStates = [];
 		fabric.loadSVGFromURL("svg/usa_map.svg", function(objects, options) {
 				var stateObjects = new fabric.Group(groupStates);
-				stateObjects.set({
-					left: 10,
-					top: 10,
-					width: canvas.width - 10,
-					height: canvas.height - 10
-				});
+				// stateObjects.set({
+				// 	left: 10,
+				// 	top: 10,
+				// 	width: canvas.width - 10,
+				// 	height: canvas.height - 10
+				// });
 
 				for (var i = 0; i < objects.length; i++) {
 					if (stateObjects._objects[i].id == idNameStored) {
 						var overlayState = stateObjects._objects[i];
 
-						overlayState.scaleX = 1.5;
-						overlayState.scaleY = 1.5; // Increasing the size of the state image so it is easier for the user to fit their image into the shape of the state.
+						// overlayState.scaleX = 1.5;
+						// overlayState.scaleY = 1.5; // Increasing the size of the state image so it is easier for the user to fit their image into the shape of the state.
 
 						overlayState.set({
 							opacity: .4,
@@ -91,9 +91,12 @@
 							// height: canvas.height,
 							// width: canvas.width
 							height: 250,
-							width: 300 // Changed the size of the state so that it fits better in the canvas. This ties with the scaling X and Y above.
+							width: 300, // Changed the size of the state so that it fits better in the canvas. This ties with the scaling X and Y above.
+							selectable: false,
+							scaleY: canvas.height / objects.width,
+          		scaleX: canvas.width / objects.width
 						})
-						overlayState.selectable = false;
+						// overlayState.selectable = false;
 
 						canvas.add(overlayState);
 						canvas.setOverlayImage(overlayState);
@@ -235,6 +238,7 @@
 								opacity: 1
 							});
 							canvas.add(userImage);
+							userImage.globalCompositeOperation = 'source-atop';
 						}
 					}
 					reader.readAsDataURL(e.target.files[0]);
@@ -259,6 +263,7 @@
 							opacity: 1
 						});
 						canvas.add(userImage);
+						userImage.globalCompositeOperation = 'source-atop';
 					}
 				}
 				reader.readAsDataURL(e.target.files[0]);
