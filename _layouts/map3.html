@@ -133,53 +133,39 @@
 
 
 			// uploading user image2
-
 			var userImage = new fabric.Image();
 			document.getElementById('UploadImage').onchange = function handleImage(e) {
 
-				clipTo: function (ctx) {
+						var reader = new FileReader();
+						reader.onload = function(event) {
 
-					var reader = new FileReader();
-					reader.onload = function(event) {
+							var imgObj = new Image();
+							imgObj.src = event.target.result;
+							imgObj.onload = function() {
 
-						var imgObj = new Image();
-						imgObj.src = event.target.result;
-						imgObj.onload = function() {
-
-							userImage = new fabric.Image(imgObj);
-							userImage.set({
-								left: 10,
-								top: 10,
-								width: canvas.width - 10,
-								height: canvas.height - 10,
-								opacity: 1
-							});
-							canvas.add(userImage);
-							userImage.globalCompositeOperation = 'source-atop';
-							canvas.renderAll();
+								userImage = new fabric.Image(imgObj);
+								userImage.set({
+									left: 10,
+									top: 10,
+									width: canvas.width - 10,
+									height: canvas.height - 10,
+									opacity: 1,
+									clipTo: function (ctx) {
+										overlayState.set ({
+											// left: 10,
+											// top: 10,
+											// width: canvas.width - 10,
+											// height: canvas.height - 10
+										});
+									 overlayState.render(ctx);
+								 }
+								});
+								canvas.add(userImage);
+								userImage.globalCompositeOperation = 'source-atop';
+								canvas.renderAll();
+							}
 						}
-					}
-					reader.readAsDataURL(e.target.files[0]);
-}
-
-
-
-
-				// 	overlayState.set ({
-				// 		// left: 10,
-				// 		// top: 10,
-				// 		// width: canvas.width - 10,
-				// 		// height: canvas.height - 10
-				// 	});
-				//  overlayState.render(ctx);
-
-
-
-
-
-
-
-
+						reader.readAsDataURL(e.target.files[0]);
 				}
 	</script>
 
