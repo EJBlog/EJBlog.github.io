@@ -89,6 +89,7 @@
 							});
 							canvas.add(userImage);
 							userImage.globalCompositeOperation = 'source-atop';
+							canvas.renderAll();
 						}
 					}
 					reader.readAsDataURL(e.target.files[0]);
@@ -162,6 +163,7 @@
 						canvas.setOverlayImage(overlayState);
 						canvas.controlsAboveOverlay = true;
 						statePath = String(loadedObjects._objects[i].path); // hoping this will work for clip-path
+						canvas.renderAll();
 
 					}
 				}
