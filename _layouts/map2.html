@@ -102,7 +102,7 @@
 						canvas.add(overlayState);
 						canvas.setOverlayImage(overlayState);
 						canvas.controlsAboveOverlay = true;
-						statePath = String(loadedObjects._objects[i].path); // hoping this will work for clip-path
+						statePath = String(stateObjects._objects[i].path); // hoping this will work for clip-path
 						canvas.renderAll();
 
 					}
@@ -136,7 +136,7 @@
 									height: canvas.height - 10,
 									opacity: 1,
 									clipTo: function (ctx) {
-									 loadedObjects._objects[i].render(ctx);
+									 stateObjects._objects[i].render(ctx);
 								 }
 								});
 								canvas.add(userImage);
@@ -165,7 +165,7 @@
 								height: canvas.height - 10,
 								opacity: 1,
 								clipTo: function (ctx) {
-								 loadedObjects._objects[i].render(ctx);
+								 stateObjects._objects[i].render(ctx);
 							 }
 							});
 							canvas.add(userImage);
