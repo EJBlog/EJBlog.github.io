@@ -86,8 +86,11 @@
 
 		<script>
 			var canvas = new fabric.Canvas('editor', {
-				backgroundColor: 'white'
+				backgroundColor: 'white',
+				width: $("#editor").width(),
+	      height: $("#editor").height()
 			});
+
 
 			var statePath;
 			// var loadedObjects;
