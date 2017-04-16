@@ -212,12 +212,14 @@
 
 				ReCenter: function() {
 					// I need to set the current coordinates of the user's image before being able to move them.
-					userImage.set({
-						left: 10,
-						top: 10,
-						height: canvas.height - 10,
-						width: canvas.width - 10,
-					});
+					// userImage.set({
+					// 	left: 10,
+					// 	top: 10,
+					// 	height: canvas.height - 10,
+					// 	width: canvas.width - 10,
+					// });
+
+					canvas.centerObject(userImage);
 
 				},
 
