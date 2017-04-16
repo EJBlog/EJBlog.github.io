@@ -114,6 +114,7 @@
 						});
 						canvas.add(userImage);
 						userImage.globalCompositeOperation = 'source-atop';
+						canvas.renderAll();
 					}
 				}
 				reader.readAsDataURL(e.target.files[0]);
