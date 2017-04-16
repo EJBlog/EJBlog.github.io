@@ -48,6 +48,7 @@
 	<!-- Hoping the path we pull from the SVG image for the selected state could be used in the clippath -->
 
 
+
 	<div id="imageEditor">
 		<section id="editorContainer">
 			<!-- <canvas id="editor" class="svg-clipped" width="480" height="480" style="border:1px solid #000000"> -->
@@ -95,8 +96,12 @@
 							 top: 0,
 							 clipTo: function (ctx) {
 								//  logo.render(ctx);
-								ctx.arc(0, 0, 300, 0, Math.PI * 2, true);
-							 }
+								// ctx.arc(0, 0, 300, 0, Math.PI * 2, true);
+								// <circle stroke="#000000" stroke-miterlimit="10" cx="193.949" cy="235" r="97.1801">
+								// </circle>
+								// ctx.circle("#000000","10","193.949", "235", "97.1801" );
+								circle.render(ctx);
+							},
 						 });
 						 canvas.add(img);
 
