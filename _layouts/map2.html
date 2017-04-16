@@ -91,10 +91,12 @@
 							// height: canvas.height,
 							// width: canvas.width
 							height: 250,
-							width: 300, // Changed the size of the state so that it fits better in the canvas. This ties with the scaling X and Y above.
+							width: 300, // Changed the size of the state so that it fits better in the canvas. This ties with the scaling X and Y 
 							selectable: false,
-							scaleY: canvas.height / objects.width,
-          		scaleX: canvas.width / objects.width
+							// scaleY: canvas.height / objects.width,
+          		// scaleX: canvas.width / objects.width
+							scaleX: 1.5,
+							scaleY = 1.5 // Increasing the size of the state image so it is easier for the user to fit their image into the shape of the state.
 						})
 						// overlayState.selectable = false;
 
