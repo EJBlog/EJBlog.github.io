@@ -67,8 +67,9 @@
 		// loading the background/overlay image from SVG of the state that was cicked
 		var statePath;
 		var groupStates = [];
+		var stateObjects;
 		fabric.loadSVGFromURL("svg/usa_map.svg", function(objects, options) {
-				var stateObjects = new fabric.Group(groupStates);
+				stateObjects = new fabric.Group(groupStates);
 				stateObjects.set({
 					left: 10,
 					top: 10,
