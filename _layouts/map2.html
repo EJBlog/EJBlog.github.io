@@ -110,7 +110,7 @@
 
 
 			// uploading user image
-			var userImage = new fabric.Image(); 
+			var userImage = new fabric.Image();
 
 			document.getElementById('UploadImage').onchange = function handleImage(e) {
 
@@ -228,15 +228,6 @@
 
 		})(jQuery);
 
-
-		// This function is used to test to see if an image has been loaded yet or not
-		function imageIsNull() {
-			if (userImage.height > 0) {
-				document.getElementById("isImageNull").innerHTML = "image is not null"
-			} else {
-				document.getElementById("isImageNull").innerHTML = "image is null"
-			}
-		};
 	</script>
 
 
