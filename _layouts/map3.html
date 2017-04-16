@@ -115,13 +115,27 @@
 
 						});
 
-					canvas.renderAll();
-					statePath = String(loadedObjects._objects[15].path);
-					//document.querySelector(".svg-clipped2").style.clip-path = "url(#statePath)"; // Maybe try to change the css to use the path? idk
-				},
-				function(item, object) {
-					object.set('id', item.getAttribute('id'));
-					group.push(object);
+				// 	canvas.renderAll();
+				// 	statePath = String(loadedObjects._objects[15].path);
+				// 	//document.querySelector(".svg-clipped2").style.clip-path = "url(#statePath)"; // Maybe try to change the css to use the path? idk
+				// },
+				// function(item, object) {
+				// 	object.set('id', item.getAttribute('id'));
+				// 	group.push(object);
+				// });
+
+				var background;
+				fabric.Image.fromURL('img/ota_badge.jpg', function (objects, options) {
+						background = objects;
+						background.set({
+								left: 0,
+								top: 0,
+								scaleY: canvas.height / background.width,
+								scaleX: canvas.width / background.width,
+								selectable: false
+						});
+						canvas.add(background);
+						canvas.renderAll();
 				});
 
 			function pathTest() {
