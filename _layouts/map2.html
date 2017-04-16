@@ -64,6 +64,62 @@
 			// backgroundColor: 'gray'
 		});
 
+		// Function for the upload image button - We check to see if an image was already found then ask if that is correct - can be changed to remove old image before loading a new image"
+		var userImage = new fabric.Image(); // This is outside of the function to make it a global variable
+
+		document.getElementById('UploadImage').onchange = function handleImage(e) {
+
+			if (userImage.height > 0) {
+
+				if (confirm("An image has already been loaded. Did you mean to load a second image?") === true) {
+					var reader = new FileReader();
+					reader.onload = function(event) {
+
+						var imgObj = new Image();
+						imgObj.src = event.target.result;
+						imgObj.onload = function() {
+
+							userImage = new fabric.Image(imgObj);
+							userImage.set({
+								left: 10,
+								top: 10,
+								width: canvas.width - 10,
+								height: canvas.height - 10,
+								opacity: 1
+							});
+							canvas.add(userImage);
+							userImage.globalCompositeOperation = 'source-atop';
+						}
+					}
+					reader.readAsDataURL(e.target.files[0]);
+				}
+				//end of if for "confirm"
+
+			} else {
+				var reader = new FileReader();
+				reader.onload = function(event) {
+
+					var imgObj = new Image();
+					imgObj.src = event.target.result;
+					imgObj.onload = function() {
+
+						// var userImage = new fabric.Image(imgObj);
+						userImage = new fabric.Image(imgObj);
+						userImage.set({
+							left: 10,
+							top: 10,
+							width: canvas.width - 10,
+							height: canvas.height - 10,
+							opacity: 1
+						});
+						canvas.add(userImage);
+						userImage.globalCompositeOperation = 'source-atop';
+					}
+				}
+				reader.readAsDataURL(e.target.files[0]);
+			}
+		};
+
 		// loading the background/overlay image from SVG of the state that was cicked
 		var statePath;
 		var groupStates = [];
@@ -217,61 +273,6 @@
 
 		})(jQuery);
 
-		// Function for the upload image button - We check to see if an image was already found then ask if that is correct - can be changed to remove old image before loading a new image"
-		var userImage = new fabric.Image(); // This is outside of the function to make it a global variable
-
-		document.getElementById('UploadImage').onchange = function handleImage(e) {
-
-			if (userImage.height > 0) {
-
-				if (confirm("An image has already been loaded. Did you mean to load a second image?") === true) {
-					var reader = new FileReader();
-					reader.onload = function(event) {
-
-						var imgObj = new Image();
-						imgObj.src = event.target.result;
-						imgObj.onload = function() {
-
-							userImage = new fabric.Image(imgObj);
-							userImage.set({
-								left: 10,
-								top: 10,
-								width: canvas.width - 10,
-								height: canvas.height - 10,
-								opacity: 1
-							});
-							canvas.add(userImage);
-							userImage.globalCompositeOperation = 'source-atop';
-						}
-					}
-					reader.readAsDataURL(e.target.files[0]);
-				}
-				//end of if for "confirm"
-
-			} else {
-				var reader = new FileReader();
-				reader.onload = function(event) {
-
-					var imgObj = new Image();
-					imgObj.src = event.target.result;
-					imgObj.onload = function() {
-
-						// var userImage = new fabric.Image(imgObj);
-						userImage = new fabric.Image(imgObj);
-						userImage.set({
-							left: 10,
-							top: 10,
-							width: canvas.width - 10,
-							height: canvas.height - 10,
-							opacity: 1
-						});
-						canvas.add(userImage);
-						userImage.globalCompositeOperation = 'source-atop';
-					}
-				}
-				reader.readAsDataURL(e.target.files[0]);
-			}
-		};
 
 		// This function is used to test to see if an image has been loaded yet or not
 		function imageIsNull() {
