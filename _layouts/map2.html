@@ -91,7 +91,7 @@
 							width: 300, // Changed the size of the state so that it fits better in the canvas. This ties with the scaling X and Y
 							selectable: false,
 							scaleX: 1.5,
-							scaleY: 1.5 // Increasing the size of the state image so it is easier for the user to fit their image into the shape of the state.
+							scaleY: 1.5 // Increasing the size of the state image so it is easier for the user to fit their image into the shape of the state.\
 						})
 
 						canvas.add(overlayState);
@@ -132,6 +132,12 @@
 									height: canvas.height - 10,
 									opacity: 1,
 									clipTo: function (ctx) {
+										overlayState.set ({
+											left: 10,
+											top: 10,
+											width: canvas.width - 10,
+											height: canvas.height - 10
+										});
 									 overlayState.render(ctx);
 								 }
 								});
@@ -161,6 +167,12 @@
 								height: canvas.height - 10,
 								opacity: 1,
 								clipTo: function (ctx) {
+									overlayState.set ({
+										left: 10,
+										top: 10,
+										width: canvas.width - 10,
+										height: canvas.height - 10
+									});
 								 overlayState.render(ctx);
 							 }
 							});
