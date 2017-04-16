@@ -89,23 +89,23 @@
 			});
 
 			var statePath;
-			var loadedObjects;
-			var group = [];
-			fabric.loadSVGFromURL("svg/ky.svg", function(objects, options) {
-					loadedObjects = new fabric.Group(group);
-					loadedObjects.set({
-						left: 0,
-						top: 0,
-						width: canvas.width,
-						height: canvas.height
-					});
-
-					canvas.add(loadedObjects._objects[16]);
+			// var loadedObjects;
+			// var group = [];
+			// fabric.loadSVGFromURL("svg/ky.svg", function(objects, options) {
+			// 		loadedObjects = new fabric.Group(group);
+			// 		loadedObjects.set({
+			// 			left: 0,
+			// 			top: 0,
+			// 			width: canvas.width,
+			// 			height: canvas.height
+			// 		});
+			//
+			// 		canvas.add(loadedObjects._objects[16]);
 
 					fabric.Image.fromURL('img/ota_badge1.png', function(img) {
 						 img.set({
-							 left: 250,
-							 top: 250,
+							 left: 0,
+							 top: 0,
 							 clipTo: function (ctx) {
 								//  logo.render(ctx);
 								ctx.arc(0, 0, 300, 0, Math.PI * 2, true);
