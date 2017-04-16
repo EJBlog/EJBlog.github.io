@@ -127,16 +127,16 @@
 									top: 10,
 									width: canvas.width - 10,
 									height: canvas.height - 10,
-									opacity: 1,
-									clipTo: function (ctx) {
-										overlayState.set ({
-											// left: 10,
-											// top: 10,
-											// width: canvas.width - 10,
-											// height: canvas.height - 10
-										});
-									 overlayState.render(ctx);
-								 }
+									opacity: 1
+								// 	,clipTo: function (ctx) {
+								// 		overlayState.set ({
+								// 			// left: 10,
+								// 			// top: 10,
+								// 			// width: canvas.width - 10,
+								// 			// height: canvas.height - 10
+								// 		});
+								// 	 overlayState.render(ctx);
+								//  }
 								});
 								canvas.add(userImage);
 								userImage.globalCompositeOperation = 'source-atop';
