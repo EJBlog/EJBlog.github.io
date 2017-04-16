@@ -47,8 +47,8 @@
 	</defs>
 	</svg>
 
-	<img src="img/ota_badge1.png" class="svg-clipped2"></img>
-	<!-- <div id="ky" class="svg-clipped"></div> -->
+	<img src="img/ota_badge1.png" class="svg-clipped"></img>
+
 	<!-- <svg>
 	<defs>
 	<clipPath id="outlines2">
@@ -126,21 +126,6 @@
 					object.set('id', item.getAttribute('id'));
 					group.push(object);
 				});
-
-				var background;
-				fabric.Image.fromURL('http://www.clipartbest.com/cliparts/Rid/Bjo/RidBjoni9.png', function (objects, options) {
-						background = objects;
-						background.set({
-								left: 0,
-								top: 0,
-								scaleY: canvas.height / background.width,
-								scaleX: canvas.width / background.width,
-								selectable: false
-						});
-						canvas.add(background);
-						canvas.renderAll();
-				});
-
 
 
 			function pathTest() {
