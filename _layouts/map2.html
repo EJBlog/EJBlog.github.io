@@ -76,16 +76,6 @@
 					height: canvas.height - 10
 				});
 
-				objects.set({
-				left: 0,
-				top: 0,
-				// scaleY: canvas.height / objects.width,
-				// scaleX: canvas.width / objects.width,
-				height: canvas.height,
-				width: canvas.width,
-				selectable: false
-		});
-		canvas.add(objects);
 
 				for (var i = 0; i < objects.length; i++) {
 					if (stateObjects._objects[i].id == idNameStored) {

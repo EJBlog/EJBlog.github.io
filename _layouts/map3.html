@@ -92,15 +92,26 @@
 			var loadedObjects;
 			var group = [];
 			fabric.loadSVGFromURL("svg/ky.svg", function(objects, options) {
-					loadedObjects = new fabric.Group(group);
-					loadedObjects.set({
-						left: 0,
-						top: 0,
-						width: canvas.width,
-						height: canvas.height
-					});
+					// loadedObjects = new fabric.Group(group);
+					// loadedObjects.set({
+					// 	left: 0,
+					// 	top: 0,
+					// 	width: canvas.width,
+					// 	height: canvas.height
+					// });
 
-					canvas.add(loadedObjects._objects[16]);
+					// canvas.add(loadedObjects._objects[16]);
+
+					objects.set({
+					left: 0,
+					top: 0,
+					// scaleY: canvas.height / objects.width,
+					// scaleX: canvas.width / objects.width,
+					height: canvas.height,
+					width: canvas.width,
+					selectable: false
+			});
+			canvas.add(objects);
 
 					fabric.Image.fromURL('img/ota_badge1.png', function(img) {
 						 img.set({
