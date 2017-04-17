@@ -12,19 +12,27 @@ Requirements:
 Upload pictures onto the site
 Edit, Crop, filter images on our site
 Fit images to the shape of state(s) of the user's choice
-Allow users to choose from preexsting maps or load their own
+Allow users to choose from preexisting maps or load their own
 Export Individual state images or entire country projects
 Save states and/or country projects
 
 Short term goals:
-Be able to click on a state and move to the editor page for that particular state
-Get editor to change size and shape to specific states - start with Kentucky
-Be able to resize and move an image to fit inside the state size and shape
-be able to load an image from our local drive
-Be able to save a finished Kentucky state image
+Get editor/canvas to change size and shape to specific states
 
+
+xBe able to click on a state and move to the editor page for that particular state - DONE
+xBe able to resize and move an image to fit inside the state size and shape - DONE
+xBe able to load an image from our local drive - DONE
+xBe able to save a finished Kentucky state image - DONEish
+
+Medium term goals (After MVP is finished):
+Build log-in page
+build in storage for people to work on a map, save, and come back later to work on it.
+If the user has an account and is logged in then allow user to edit and save their image and then that state should show up GREEN on the large map to show they have completed that state
+Alternative to having storage and a log-in --> Maybe we could have the user save a file to their own computer when they are finished and when they want to start again they can reload that file to our site
 
 Long term goals:
+Allow user to edit and save their image into the shape of a state and then that image should show up on the large map if they have an account and are logged in
 Start printing/ cutting states or images into wood
 Maybe work with small business for printing - we create the map of images and partner with Etsy or small businesses for printing
 User can upload any image and we will use the outline of that image to fit a picture of the user's choice into it.
