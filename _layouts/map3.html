@@ -153,9 +153,9 @@
 									clipTo: function (ctx) {
 										overlayState.set ({
 											left: -100,
-											 top: -100
-											width: canvas.width - 10,
-											height: canvas.height - 10
+											 top: -100,
+											width: ctx.width,
+											height: ctx.height
 										});
 										// canvas.centerObject(overlayState);
 									 overlayState.render(ctx);
