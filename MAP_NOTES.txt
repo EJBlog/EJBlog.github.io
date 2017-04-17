@@ -18,6 +18,7 @@ Save states and/or country projects
 
 Short term goals:
 Get editor/canvas to change size and shape to specific states
+I think we can use clipTo in the save button
 
 
 xBe able to click on a state and move to the editor page for that particular state - DONE

@@ -93,6 +93,13 @@
 				groupStates.push(object);
 			});
 
+			var elPath = document.createElement('path');
+
+			elPath.setAttribute('d', statePath);
+			elPath.setAttribute('fill', 'red');
+
+			fabric.Path.fromElement(elPath);
+
 
 
 			// // uploading user image
