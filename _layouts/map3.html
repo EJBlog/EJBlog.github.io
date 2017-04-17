@@ -80,8 +80,8 @@
 							scaleY: 1.5 // Increasing the size of the state image so it is easier for the user to fit their image into the shape of the state.\
 						})
 
-						canvas.add(overlayState);
-						canvas.setOverlayImage(overlayState);
+						//canvas.add(overlayState);
+						//canvas.setOverlayImage(overlayState);
 						canvas.controlsAboveOverlay = true;
 						statePath = String(stateObjects._objects[i].path); // hoping this will work for clip-path
 
@@ -152,8 +152,8 @@
 									opacity: 1,
 									clipTo: function (ctx) {
 										overlayState.set ({
-											// left: 10,
-											// top: 10,
+											left: 0,
+											 top: 0,
 											// width: canvas.width - 10,
 											// height: canvas.height - 10
 										});
