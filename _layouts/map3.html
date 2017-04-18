@@ -85,6 +85,7 @@
 						// canvas.controlsAboveOverlay = true;
 						statePath = String(stateObjects._objects[i].path); // hoping this will work for clip-path
 						statePathObj = new fabric.Path(statePath);
+						statePathObj.setAttribute('fill', 'red');
 						canvas.add(statePathObj);
 
 					}
@@ -94,16 +95,6 @@
 				object.set('id', item.getAttribute('id'));
 				groupStates.push(object);
 			});
-
-			var elPath = document.createElement('path');
-
-			// elPath.setAttribute('d', statePath);
-			elPath.setAttribute('d', 'M 100 100 L 300 100 L 200 300 z');
-			elPath.setAttribute('fill', 'red');
-
-			// fabric.Path.fromElement(elPath);
-			canvas.add(fabric.Path.fromElement(elPath.toObject()));
-
 
 
 			// // uploading user image
