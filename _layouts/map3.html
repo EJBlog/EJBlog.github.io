@@ -85,7 +85,7 @@
 						// canvas.controlsAboveOverlay = true;
 						statePath = String(stateObjects._objects[i].path); // hoping this will work for clip-path
 						statePathObj = new fabric.Path(statePath);
-						statePathObj.setAttribute('fill', 'red');
+						statePathObj.set({fill: 'red'});
 						canvas.add(statePathObj);
 
 					}
