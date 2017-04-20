@@ -18,7 +18,11 @@ Save states and/or country projects
 
 Short term goals:
 Get editor/canvas to change size and shape to specific states
-I think we can use clipTo in the save button
+  -- We are having issues with Clippath not working so here are other possible (untried) solutions
+        - save the state image into PNG and reload it some how?
+        - Create images for each state in photoshop where the inside/background of the state is empty
+        - 
+I think we can possibly use clipTo in the save button
 
 
 xBe able to click on a state and move to the editor page for that particular state - DONE
