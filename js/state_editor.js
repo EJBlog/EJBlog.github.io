@@ -144,6 +144,7 @@
     var tools = {
 
       //output to <img>
+      // I think we can possibly use clipTo in the save button
       save: function() {
          if (!fabric.Canvas.supports('toDataURL')) {
           alert('This browser doesn\'t provide means to serialize canvas to an image');

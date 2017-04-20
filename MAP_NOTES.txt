@@ -21,8 +21,8 @@ Get editor/canvas to change size and shape to specific states
   -- We are having issues with Clippath not working so here are other possible (untried) solutions
         - save the state image into PNG and reload it some how?
         - Create images for each state in photoshop where the inside/background of the state is empty
-        - 
-I think we can possibly use clipTo in the save button
+        - Embedding/nesting canvases?
+Add CSS and make the pages look good
 
 
 xBe able to click on a state and move to the editor page for that particular state - DONE
@@ -31,6 +31,7 @@ xBe able to load an image from our local drive - DONE
 xBe able to save a finished Kentucky state image - DONEish
 
 Medium term goals (After MVP is finished):
+Maybe change the site so the editor isnt a separate page but is just a pop up
 Build log-in page
 build in storage for people to work on a map, save, and come back later to work on it.
 If the user has an account and is logged in then allow user to edit and save their image and then that state should show up GREEN on the large map to show they have completed that state
