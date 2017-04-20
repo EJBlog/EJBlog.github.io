@@ -29,11 +29,13 @@
 			<clipPath id="myClip">
 				<!-- <path stroke="#000000" d= statePath />   No Bueno -->
 				<!-- <path stroke="#000000" d= String(statePathObj) /> No Bueno -->
-     <!-- <circle stroke="#000000" stroke-miterlimit="10" cx="193.949" cy="235" r="74.576"/> -->
-		<path> <script> canvas.add(statePathObj);</script> </path>
+     <circle stroke="#000000" stroke-miterlimit="10" cx="193.949" cy="235" r="74.576"/>
+		<!-- <path> <script> canvas.add(statePathObj);</script> </path> -->
 			</clipPath>
 		</defs>
 	</svg>
+
+	<p id="statePath"></p>
 
 	<div id="imageEditor">
 		<section id="editorContainer">
@@ -42,6 +44,7 @@
 	</div>
 
 	<input type="file" id="UploadImage" href="#" title="Upload Your Image">Upload Image</input>
+	<button type="button" name="button" onclick="testPath()"></button>
 
 	<script src="jquery/jquery-1.12.4.min.js"></script>
 	<script src="jquery/jquery-ui-1.10.3.js"></script>
@@ -197,6 +200,11 @@
 			}
 			reader.readAsDataURL(e.target.files[0]);
 		}
+
+		function testPath() {
+			getElementById("testPath").innerHTML = statePath;
+		}
+
 	</script>
 
 
