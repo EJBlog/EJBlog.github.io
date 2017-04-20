@@ -107,6 +107,10 @@
 						// canvas.setOverlayImage(overlayState);
 						// canvas.controlsAboveOverlay = true;
 
+
+
+
+
 						var path = new fabric.Path('M 0 20',{
 					    left: 100,
 					    top: 100,
@@ -115,6 +119,30 @@
 					});
 
 					canvas.add(path);
+
+					var commandArray = [];
+					commandArray[0] = 'Q';
+					commandArray[1] = 50;
+					commandArray[2] = 100;
+					commandArray[3] = 100;
+					commandArray[4] = 20;
+
+					path.path[1] = commandArray;
+
+					var dims = path._parseDimensions();
+					path.setWidth(dims.width);
+					path.setHeight(dims.height);
+					path.pathOffset.x = path.width/2;
+					path.pathOffset.y = path.height/2;
+					path.setCoords();
+					canvas.renderAll();
+					console.log(path);
+
+
+
+
+
+
 
 						statePath = String(stateObjects._objects[i].path); // hoping this will work for clip-path... but it doesnt.
 						statePathObj = new fabric.Path(statePath);
