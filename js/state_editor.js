@@ -153,53 +153,7 @@
         }
       },
 
-
-// example of using clipTo
-      // var userImage = new fabric.Image();
-      // document.getElementById('UploadImage').onchange = function handleImage(e) {
-      //
-      // 			var reader = new FileReader();
-      // 			reader.onload = function(event) {
-      //
-      // 				var imgObj = new Image();
-      // 				imgObj.src = event.target.result;
-      // 				imgObj.onload = function() {
-      //
-      // 					userImage = new fabric.Image(imgObj);
-      // 					userImage.set({
-      // 						left: 10,
-      // 						top: 10,
-      // 						width: canvas.width - 10,
-      // 						height: canvas.height - 10,
-      // 						opacity: 1,
-      // 						clipTo: function (ctx) {
-      // 							overlayState.set ({
-      // 								left: -100,
-      // 								 top: -100,
-      // 								width: ctx.width,
-      // 								height: ctx.height
-      // 							});
-      // 							// canvas.centerObject(overlayState);
-      // 						 overlayState.render(ctx);
-      //
-      // 					 }
-      // 					});
-      // 					canvas.add(userImage);
-      // 					userImage.globalCompositeOperation = 'source-atop';
-      // 					canvas.renderAll();
-      // 				}
-      // 			}
-      // 			reader.readAsDataURL(e.target.files[0]);
-      // 	}
-
       ReCenter: function() {
-        // I need to set the current coordinates of the user's image before being able to move them.
-        // userImage.set({
-        // 	left: 10,
-        // 	top: 10,
-        // 	height: canvas.height - 10,
-        // 	width: canvas.width - 10,
-        // });
 
         canvas.centerObject(userImage);
 
