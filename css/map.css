@@ -5,6 +5,12 @@ font-family: sans-serif;
 color: black;
 }
 
+#title {
+font-size: 10px;
+font-family: cursive;
+color: black;
+}
+
 #container{
 	background-color: "black";
 	border-style: solid;
