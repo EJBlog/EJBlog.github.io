@@ -1,12 +1,12 @@
 
 .hover-state{
-font-size: 10px;
+font-size: 15px;
 font-family: sans-serif;
 color: black;
 }
 
 .title{
-font-size: 10px;
+font-size: 25px;
 font-family: initial;
 color: black;
 }
@@ -27,4 +27,15 @@ color: black;
 
 .menu{
 
+}
+
+.hover-display
+{
+    height: 10px;
+    width: 15px;
+    margin-left:12%;
+    position:relative;
+    top:95px;
+    overflow: auto;
+		border-style: dashed;
 }
