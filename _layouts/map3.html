@@ -190,7 +190,12 @@
 						opacity: 1,
 						clipTo: function(ctx)
 						{
-							arrowPlane.set({left: 0, right: 0});
+							arrowPlane.set({
+								left: -100,
+								right: -100,
+								width: ctx.width, 
+								length: ctx.length,
+							fill: 'red'});
 
 						arrowPlane.render(ctx);
 						}
