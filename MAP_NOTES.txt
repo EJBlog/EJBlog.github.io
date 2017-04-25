@@ -23,6 +23,7 @@ Get editor/canvas to change size and shape to specific states
         - Create images for each state in photoshop where the inside/background of the state is empty
         - Embedding/nesting canvases?
 Add CSS and make the pages look good
+Change or remove the confirm dialog box when the user clicks a state on the first map page.
 
 
 xBe able to click on a state and move to the editor page for that particular state - DONE
