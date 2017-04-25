@@ -1,7 +1,15 @@
+.hover-display
+{
+    /*height: 10%;
+    width: 100%;
+    margin-left:2%;
+    overflow: auto;*/
+}
 
 .hover-state{
 font-size: 15px;
 font-family: sans-serif;
+float: left;
 }
 
 .title{
@@ -10,6 +18,8 @@ font-family: initial;
 background-color: black;
 color: white;
 text-align: center;
+height:105px;
+padding-top: .1px
 }
 
 .container{
@@ -32,13 +42,6 @@ text-align: center;
 
 }
 
-.hover-display
-{
-    height: 10%;
-    width: 100%;
-    margin-left:2%;
-    overflow: auto;
-}
 
 .instructions{
 	height:10%;
