@@ -13,7 +13,9 @@ text-align: center;
 }
 
 .container{
-	/*background-color: black;*/
+	background-color: #0078F4;
+	width:959px;
+	padding-left: 0px;
 }
 
 .map{
