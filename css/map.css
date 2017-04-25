@@ -1,1 +1,24 @@
 
+#hover-state {
+font-size: 10px;
+font-family: sans-serif;
+color: black;
+}
+
+#container{
+	background-color: "black";
+	border-style: solid;
+}
+
+#map{
+	border-style: solid;
+	padding-left: 20px;
+}
+
+#header{
+
+}
+
+#menu{
+
+}
