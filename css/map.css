@@ -31,11 +31,11 @@ color: black;
 
 .hover-display
 {
-    height: 10px;
-    width: 15px;
+    height: 100px;
+    width: 150px;
     margin-left:12%;
     position:relative;
-    top:95px;
+    top:15px;
     overflow: auto;
 		border-style: dashed;
 }
