@@ -4,12 +4,16 @@
     width: 100%;
     margin-left:2%;
     overflow: auto;*/
+		float: left;
+		width:5%;
+		height: auto;
+		position: absolute;
 }
 
 .hover-state{
 font-size: 15px;
 font-family: sans-serif;
-float: left;
+/*float: left;*/
 }
 
 .title{
