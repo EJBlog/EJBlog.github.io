@@ -269,9 +269,9 @@ for (var i = 0; i < states.length; i++) {
       stateIsClicked = true;
     }
 
-    if( confirm("Did you mean to choose " + clickedStateName + "?") === true)
-    {    // window.open("http://www.officetoadventure.com/map2.html","_self");
-        window.open("map2.html","_self");
-    }
+    // if( confirm("Did you mean to choose " + clickedStateName + "?") === true)
+    // {    // window.open("http://www.officetoadventure.com/map2.html","_self");
+    //     window.open("map2.html","_self");
+    // }
 
   };
