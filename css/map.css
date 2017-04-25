@@ -7,6 +7,9 @@ font-family: sans-serif;
 .title{
 font-size: 25px;
 font-family: initial;
+background-color: "black";
+color: "white";
+text-align: center;
 }
 
 .container{
