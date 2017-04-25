@@ -1,13 +1,10 @@
 .hover-display
 {
-    /*height: 10%;
-    width: 100%;
-    margin-left:2%;
-    overflow: auto;*/
 		float: left;
-		width:5%;
+		width:208px;
 		height: auto;
 		position: absolute;
+		margin-top:10px
 }
 
 .hover-state{
@@ -30,6 +27,7 @@ padding-top: .1px
 	background-color: #0078F4;
 	width:959px;
 	padding-left: 0px;
+	margin-top:10px;
 }
 
 .map{
