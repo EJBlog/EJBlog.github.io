@@ -202,17 +202,17 @@
 						// arrowPlane.render(ctx);
 						// }
 
-						// clipTo: function(ctx) {
-						// 	overlayState.set({
-						// 		left: -100,
-						// 		top: -100,
-						// 		width: ctx.width,
-						// 		height: ctx.height
-						// 	});
-						// 	// canvas.centerObject(overlayState);
-						// 	overlayState.render(ctx);
+						,clipTo: function(ctx) {
+							overlayState.set({
+								left: -100,
+								top: -100,
+								width: ctx.width,
+								height: ctx.height
+							});
+							// canvas.centerObject(overlayState);
+							overlayState.render(ctx);
 
-						// }
+						}
 					});
 					canvas.add(userImage);
 					userImage.globalCompositeOperation = 'source-atop';
