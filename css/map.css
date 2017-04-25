@@ -1,30 +1,30 @@
 
-#hover-state {
+.hover-state{
 font-size: 10px;
 font-family: sans-serif;
 color: black;
 }
 
-#title {
+.title{
 font-size: 10px;
-font-family: cursive;
+font-family: initial;
 color: black;
 }
 
-#container{
+.container{
 	background-color: "black";
 	border-style: dotted;
 }
 
-#map{
+.map{
 	border-style: solid;
 	padding-left: 20px;
 }
 
-#header{
+.header{
 
 }
 
-#menu{
+.menu{
 
 }
