@@ -24,11 +24,10 @@
 }
 
 .instructions{
-	height:10%;
-	width:20%;
-	border-style: double;
+	height:auto;
+	width:30%;
 	position: absolute;
-	right: 0;
+	/*right: 0;*/
 	font-family: sans-serif;
 	font-size: 20px;
 	float:right;
