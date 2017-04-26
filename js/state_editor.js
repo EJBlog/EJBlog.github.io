@@ -12,8 +12,8 @@
 
   // changing the editor background color
   var canvas = new fabric.Canvas('editor', {
-    //backgroundColor: 'white'
-    backgroundColor: 'whitesmoke'
+    backgroundColor: 'white'
+    // backgroundColor: 'whitesmoke'
   });
 
   // loading the background/overlay image from SVG of the state that was cicked
@@ -38,8 +38,8 @@
             opacity: .4,
             left: 0,
             top: 0,
-            fill: 'white',
-            opacity:0.1,
+            // fill: 'white',
+            // opacity:0.1,
             // height: canvas.height,
             // width: canvas.width
             height: 250,
