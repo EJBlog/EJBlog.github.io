@@ -38,7 +38,7 @@
             opacity: .4,
             left: 0,
             top: 0,
-            // fill: 'white',
+            fill: 'white',
             // height: canvas.height,
             // width: canvas.width
             height: 250,
