@@ -1,3 +1,34 @@
+
+.title{
+font-size: 25px;
+font-family: initial;
+background-color: black;
+color: white;
+text-align: center;
+height:105px;
+padding-top: .1px
+}
+
+.load-image
+{
+		float: left;
+		width:208px;
+		height: auto;
+		position: absolute;
+		margin-top:10px
+}
+
+.instructions{
+	height:10%;
+	width:20%;
+	border-style: double;
+	position: absolute;
+	right: 0;
+	font-family: sans-serif;
+	font-size: 20px;
+	float:right;
+}
+
 #imageEditor {
   width:482px;
   margin:auto;
@@ -6,7 +37,7 @@
   -moz-border-radius:8px;
   -webkit-border-radius:8px;
   border-radius:8px;
-  background-color:#ababab;
+  /*background-color:#ababab;*/
 }
 
 #editorContainer {
@@ -24,16 +55,13 @@
 #toolbar {
   display:block;
   margin:20px 0 0;
+  text-align: center;
 }
 
 #toolbar a {
   margin-right:10px;
   outline:none;
   color:#4b4b4b;
-}
-
-#resizer {
-  border:2px dashed #000;
 }
 
 #tip {
