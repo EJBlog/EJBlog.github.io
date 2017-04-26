@@ -1,16 +1,16 @@
 
 .body{
-  margin: 0px;
   /*background-color: whitesmoke;*/
 }
 
 .title{
-font-family: initial;
-background-color: black;
-color: white;
-text-align: center;
-height:105px;
-padding-top: .1px
+  font-size: 25px;
+  font-family: initial;
+  background-color: black;
+  color: white;
+  text-align: center;
+  height:105px;
+  padding-top: .1px
 }
 
 .load-image
