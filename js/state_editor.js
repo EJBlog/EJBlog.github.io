@@ -40,6 +40,7 @@
             top: 0,
             // fill: 'white',
             // opacity:0.1,
+            // z-index:1,
             // height: canvas.height,
             // width: canvas.width
             height: 250,
