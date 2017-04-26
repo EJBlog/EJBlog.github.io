@@ -672,38 +672,38 @@ var DC = rsr.set();
 
 states.push(DC);
 
-var DC1 = rsr.path("M801.8,253.8 l-1.1-1.6 -1-0.8 1.1-1.6 2.2,1.5z").attr({
-  id: 'DC1',
-  fill: '#D3D3D3',
-  parent: 'outlines',
-  'stroke-width': '0',
-  'stroke-opacity': '1'
-}).data({
-  'id': 'DC1',
-  'state-name': 'District of Columbia'
-});
+// var DC1 = rsr.path("M801.8,253.8 l-1.1-1.6 -1-0.8 1.1-1.6 2.2,1.5z").attr({
+//   id: 'DC1',
+//   fill: '#D3D3D3',
+//   parent: 'outlines',
+//   'stroke-width': '0',
+//   'stroke-opacity': '1'
+// }).data({
+//   'id': 'DC1',
+//   'state-name': 'District of Columbia'
+// });
+//
+// states.push(DC1);
 
-states.push(DC1);
-
-var DC2 = rsr.circle(801, 251, 5).attr({
-  id: 'DC2',
-  fill: '#D3D3D3',
-  stroke: '#FFFFFF',
-  "stroke-width": '1.5',
-  opacity: '1',
-  parent: 'outlines',
-  'stroke-opacity': '1'
-}).data({
-  'id': 'DC2',
-  'state-name': 'District of Columbia'
-});
-DC.attr({
-  'id': 'DC',
-  'parent': 'outlines',
-  'name': 'DC'
-});
-
-states.push(DC2);
+// var DC2 = rsr.circle(801, 251, 5).attr({
+//   id: 'DC2',
+//   fill: '#D3D3D3',
+//   stroke: '#FFFFFF',
+//   "stroke-width": '1.5',
+//   opacity: '1',
+//   parent: 'outlines',
+//   'stroke-opacity': '1'
+// }).data({
+//   'id': 'DC2',
+//   'state-name': 'District of Columbia'
+// });
+// DC.attr({
+//   'id': 'DC',
+//   'parent': 'outlines',
+//   'name': 'DC'
+// });
+//
+// states.push(DC2);
 
 var rsrGroups = [outlines, DC];
 outlines.push(AK, HI, AL, AR, AZ, CA, CO, CT, DE, FL, GA, IA, ID, IL, IN, KS, KY, LA, MA, MD, ME, MI, MN, MO, MS, MT, NC, ND, NE, NH, NJ, NM, NV, NY, OH, OK, OR, PA, RI, SC, SD, TN, TX, UT, VA, VT, WA, WI, WV, WY);
