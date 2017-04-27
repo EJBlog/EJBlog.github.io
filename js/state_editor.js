@@ -38,7 +38,7 @@
             left: 0,
             top: 0,
             stroke: 'black',
-            strokeWidth: 2,
+            // strokeWidth: 2,
             fill: 'transparent',
             height: 250,
             width: 300, // Changed the size of the state so that it fits better in the canvas. This ties with the scaling X and Y
