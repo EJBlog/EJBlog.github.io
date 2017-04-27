@@ -90,44 +90,26 @@
 					height: canvas.height - 10
 				});
 
-
-				// for (var i = 0; i < objects.length; i++) {
-				// 	if (stateObjects._objects[i].id == idNameStored) {
-				// 		overlayState = stateObjects._objects[i];
-				//
-				// 		overlayState.set({
-				// 			opacity: .4,
-				// 			left: 0,
-				// 			top: 0,
-				// 			stroke: 'black',
-				// 			fill: 'transparent',
-				// 			// height: canvas.height,
-				// 			// width: canvas.width
-				// 			height: 250,
-				// 			width: 300, // Changed the size of the state so that it fits better in the canvas. This ties with the scaling X and Y
-				// 			selectable: false,
-				// 			scaleX: 1.5,
-				// 			scaleY: 1.5 // Increasing the size of the state image so it is easier for the user to fit their image into the shape of the state.\
-				// 		})
-
 				for (var i = 0; i < objects.length; i++) {
 					if (stateObjects._objects[i].id == idNameStored) {
-
-						statePath = String(stateObjects._objects[i].path); // hoping this will work for clip-path... but it doesnt.
-						overlayState = new fabric.Path(statePath);
+						overlayState = stateObjects._objects[i];
 
 						overlayState.set({
 							opacity: .4,
 							left: 0,
 							top: 0,
 							stroke: 'black',
+							strokeWidth: 2,
 							fill: 'transparent',
+							// height: canvas.height,
+							// width: canvas.width
 							height: 250,
 							width: 300, // Changed the size of the state so that it fits better in the canvas. This ties with the scaling X and Y
 							selectable: false,
 							scaleX: 1.5,
 							scaleY: 1.5 // Increasing the size of the state image so it is easier for the user to fit their image into the shape of the state.\
 						})
+
 
 						canvas.add(overlayState);
 						canvas.setOverlayImage(overlayState);
