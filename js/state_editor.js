@@ -35,7 +35,6 @@
           overlayState = stateObjects._objects[i];
 
           overlayState.set({
-            opacity: .4,
             left: 0,
             top: 0,
             stroke: 'black',
