@@ -122,7 +122,7 @@
 							left: 0,
 							top: 0,
 							// borderColor: "red",
-							stroke-width: 2,
+							//stroke-width: 2,
 							stroke: black,
 							fill: 'transparent',
 							// height: canvas.height,
@@ -138,6 +138,16 @@
 						canvas.setOverlayImage(overlayState);
 						canvas.controlsAboveOverlay = true;
 
+						// statePath = String(stateObjects._objects[i].path); // hoping this will work for clip-path... but it doesnt.
+						// statePathObj = new fabric.Path(statePath);
+						// statePathObj.set({
+						// 	fill: 'red',
+						// 	left: 10,
+						// 	top: 10,
+						// 	width: canvas.width - 10,
+						// 	height: canvas.height - 10
+						// });
+						//canvas.add(statePathObj); // This works but is unnecessary since we cant use variables in the clip path
 
 
 					}
