@@ -38,11 +38,8 @@
             opacity: .4,
             left: 0,
             top: 0,
-            // fill: 'white',
-            // opacity:0.1,
-            // z-index:1,
-            // height: canvas.height,
-            // width: canvas.width
+            stroke: 'black',
+            fill: 'transparent',
             height: 250,
             width: 300, // Changed the size of the state so that it fits better in the canvas. This ties with the scaling X and Y
             selectable: false,
