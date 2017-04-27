@@ -18,6 +18,7 @@ Save states and/or country projects
 
 Short term goals:
 Get editor/canvas to change size and shape to specific states
+-- might be able to do something like document.createElement
   -- We are having issues with Clippath not working so here are other possible (untried) solutions
         - save the state image into PNG and reload it some how?
         - Create images for each state in photoshop where the inside/background of the state is empty
