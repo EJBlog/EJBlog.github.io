@@ -35,6 +35,7 @@ xBe able to load an image from our local drive - DONE
 xBe able to save a finished Kentucky state image - DONEish
 
 Medium term goals (After MVP is finished):
+Drag and Drop image uploading
 Maybe change the site so the editor isnt a separate page but is just a pop up
 Build log-in page
 build in storage for people to work on a map, save, and come back later to work on it.
