@@ -35,8 +35,9 @@
 
 #imageEditor {
   /*width:482px;*/
-  width:600px;
-  margin:auto;
+  width:574px;
+  /*margin:auto;*/
+  margin-left: 350px;
   padding:20px;
   border:1px solid # 4b4b4b;
   -moz-border-radius:8px;
@@ -50,7 +51,7 @@
   /*width:480px;*/
   /*height:480px;*/
   width:600px;
-  height:600px;
+  height:574px;
 }
 
 #editor {
