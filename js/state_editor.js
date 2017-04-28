@@ -162,7 +162,7 @@
 
       // The below function is used for testing
       clear: function() {
-        canvas.clear();
+        canvas.clear(userImage);
       }
     };
 
