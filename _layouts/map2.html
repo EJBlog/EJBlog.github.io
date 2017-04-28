@@ -9,38 +9,36 @@
 	<meta name="viewport" content="width=device-width">
 
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/editor.css">
-
-		{% include google_analytics.html %}
+	<link rel="stylesheet" href="css/editor.css"> {% include google_analytics.html %}
 </head>
 
-<body  class="body">
+<body class="body">
 	<div class="title">
 		<h1>Image Editor</h1>
 		<p>Load And Edit Your Image To Fit Inside The Selected State</p>
 	</div>
 
-<div class="load-image">
-	<h3>Upload Your Image</h3>
-	<input type="file" id="UploadImage" href="#" title="Upload Your Image"></input>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-	<a href="map_feedback.html" class="feedback"> Please Provide Feedback Here! </a>
-</div>
+	<div class="load-image">
+		<h3>Upload Your Image</h3>
+		<input type="file" id="UploadImage" href="#" title="Upload Your Image"></input>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<a href="map_feedback.html" class="feedback"> Please Provide Feedback Here! </a>
+	</div>
 
-<div class="instructions">
-	<p>
-		<h3>Instructions:</h3>
-		<ol>
-			<li>Upload an image from your computer</li>
-			<li>Resize your image to fit into the shape of the selected state</li>
-			<li>Once you have finished resizing your image, press the "Save" button</li>
-			<li>When the new tab opens, right click on the image and press "Save Image As"</li>
-			<li>Save the image to your own computer</li>
-			<li>Print and cut the image for your Travel Map</li>
-			<li>Provide Feedback!</li>
-		</ol>
-</p>
-</div>
+	<div class="instructions">
+		<p>
+			<h3>Instructions:</h3>
+			<ol>
+				<li>Upload an image from your computer</li>
+				<li>Resize your image to fit into the shape of the selected state</li>
+				<li>Once you have finished resizing your image, press the "Save" button</li>
+				<li>When the new tab opens, right click on the image and press "Save Image As"</li>
+				<li>Save the image to your own computer</li>
+				<li>Print and cut the image for your Travel Map</li>
+				<li>Provide Feedback!</li>
+			</ol>
+		</p>
+	</div>
 
 	<!-- <p id="clickedText"></p> -->
 
@@ -54,9 +52,18 @@
 			<a id="save" href="#" title="Save">Save</a>
 			<!-- <a id="greyscale" href="#" title="Convert to grayscale">B&W</a>
 					<a id="sepia" href="#" title="Convert to sepia tone">Sepia</a> -->
-			|<a id="ReCenter" href="#" title="Re-Center Your Image">Re-Center</a>
-			|<a id="clear" href="#" title="Clear Your Image">Remove Your Image</a>
+			|<a id="ReCenter" href="#" title="Re-Center Your Image">Re-Center</a> |
+			<a id="clear" href="#" title="Clear Your Image">Remove Your Image</a>
 		</section>
 	</div>
+
+	<script src="jquery/jquery-1.12.4.min.js"></script>
+	<script src="jquery/jquery-ui-1.10.3.js"></script>
+	<script src="js/Fabric_JS/fabric.min.js"></script>
+	<!-- <script src="js/raphael.js"></script> -->
+	<script src="js/usa_map.js"></script>
+	<script src="js/state_editor.js"></script>
+
+</body>
 
 </html>
