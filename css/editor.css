@@ -59,13 +59,13 @@
 #toolbar {
   display:block;
   margin:20px 0 0;
-  text-align: center;
+  /*text-align: center;*/
 }
 
 #toolbar a {
-  /*margin-right:10px;*/
+  margin-right:10px;
   outline:none;
-  color:#4b4b4b;
+  color:black;
 }
 
 #tip {
