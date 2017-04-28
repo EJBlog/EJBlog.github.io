@@ -38,13 +38,12 @@
             left: 0,
             top: 0,
             stroke: 'black',
-            // strokeWidth: 2,
             fill: 'transparent',
             height: 250,
             width: 300, // Changed the size of the state so that it fits better in the canvas. This ties with the scaling X and Y
             selectable: false,
-            scaleX: 1.5,
-            scaleY: 1.5 // Increasing the size of the state image so it is easier for the user to fit their image into the shape of the state.\
+            scaleX: 2,
+            scaleY: 2 // Increasing the size of the state image so it is easier for the user to fit their image into the shape of the state.\
           })
 
           canvas.add(overlayState);
