@@ -25,11 +25,12 @@
 
 .instructions{
 	height:auto;
-	width:30%;
+	width:350px;
+  margin-right: 30px
 	position: absolute;
 	right: 0;
 	font-family: sans-serif;
-	font-size: 20px;
+	font-size: 17px;
 	float:right;
 }
 
