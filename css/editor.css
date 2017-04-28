@@ -34,7 +34,8 @@
 }
 
 #imageEditor {
-  width:482px;
+  /*width:482px;*/
+  width:600px;
   margin:auto;
   padding:20px;
   border:1px solid # 4b4b4b;
@@ -46,8 +47,10 @@
 
 #editorContainer {
   display:block;
-  width:480px;
-  height:480px;
+  /*width:480px;*/
+  /*height:480px;*/
+  width:600px;
+  height:600px;
 }
 
 #editor {
