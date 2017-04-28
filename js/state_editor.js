@@ -161,9 +161,8 @@
 
 
       // The below function is used for testing
-      clicked: function() {
-        //populating variables from what was clicked on the USA map
-        document.getElementById("clickedText").innerHTML = "On the map, you clicked " + stateNameStored + " and " + idNameStored;
+      clear: function() {
+        canvas.clear();
       }
     };
 
