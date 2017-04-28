@@ -151,7 +151,7 @@
         else {
         //  window.open(canvas.toDataURL('png'));
 
-          window.open(canvas.toDataURL;
+          window.open(canvas.toDataURL
           ({
               format: 'png',
               multiplier: 2
