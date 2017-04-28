@@ -149,7 +149,15 @@
           alert('This browser doesn\'t provide means to serialize canvas to an image');
         }
         else {
-          window.open(canvas.toDataURL('png'));
+        //  window.open(canvas.toDataURL('png'));
+
+          window.open(canvas.toDataURL;
+          ({
+              format: 'png',
+              multiplier: 2
+          })
+
+
         }
       },
 
