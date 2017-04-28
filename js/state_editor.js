@@ -162,10 +162,13 @@
 
       // The below function is used for testing
       clear: function() {
-        canvas.clear();
-        canvas.add(overlayState);
-        canvas.setOverlayImage(overlayState);
-        canvas.controlsAboveOverlay = true;
+        // canvas.clear();
+        // canvas.add(overlayState);
+        // canvas.setOverlayImage(overlayState);
+        // canvas.controlsAboveOverlay = true;
+
+        userImage = null;
+        
       }
     };
 
