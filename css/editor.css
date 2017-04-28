@@ -64,6 +64,7 @@
 
 #toolbar a {
   margin-right:10px;
+  margin-left: 10px;
   outline:none;
   color:black;
 }
