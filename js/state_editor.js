@@ -167,8 +167,8 @@
         // canvas.setOverlayImage(overlayState);
         // canvas.controlsAboveOverlay = true;
 
-        userImage = null;
-        
+        canvas.remove(userImage);
+
       }
     };
 
