@@ -64,10 +64,10 @@
 
     // uploading user image
     var userImage = new fabric.Image();
-
+    var imageRemoved = false;
     document.getElementById('UploadImage').onchange = function handleImage(e) {
 
-      if (userImage.height > 0) {
+      if (userImage.height > 0 && imageRemoved == false) {
 
         if (confirm("An image has already been loaded. Did you mean to load a second image?") === true) {
           var reader = new FileReader();
@@ -154,21 +154,14 @@
       },
 
       ReCenter: function() {
-
         canvas.centerObject(userImage);
-
       },
 
 
       // The below function is used for testing
       clear: function() {
-        // canvas.clear();
-        // canvas.add(overlayState);
-        // canvas.setOverlayImage(overlayState);
-        // canvas.controlsAboveOverlay = true;
-
         canvas.remove(userImage);
-
+        imageRemoved = true;
       }
     };
 
