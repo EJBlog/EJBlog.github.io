@@ -152,7 +152,10 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
       //     format: 'png'
       //   }))
 
+
+
       var editedImage = JSON.stringify(canvas);
+      canvas.clear();
       canvas.loadFromJSON(editedImage, canvas.renderAll.bind(canvas), function(o, object) {
 
         //var savedImage = new fabric.Image(editedImage);
@@ -174,14 +177,13 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
         //   }
         // });
 
-        canvas.clear(); // clearing the canvas to see if the reload from JSON works
-
         object.set({
           // left: 10,
           // top: 10,
           // width: canvas.width - 10,
           // height: canvas.height - 10,
           // opacity: 1,
+          fill:'blue',
           clipTo: function(ctx) {
             overlayState.set({
 
@@ -189,18 +191,20 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
               length: ctx.length,
               selectable: false,
               scaleX: 2,
-              scaleY: 2
+              scaleY: 2,
+              fill:'red'
             });
+            canvas.setOverlayImage(object);
+            canvas.controlsAboveOverlay = true;
             overlayState.render(ctx);
           }
         });
 
         // fabric.log(o, object);
+        // canvas.remove(object);
       });
 
-          // canvas.remove(overlayState);
-          // canvas.remove(editedImage);
-          canvas.clear();
+      //canvas.clear();
 
 
       // window.open(canvas.toDataURL({
