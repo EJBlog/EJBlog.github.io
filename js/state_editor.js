@@ -194,7 +194,7 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
               width: ctx.width,
               length: ctx.length
             });
-            overlayState.render(ctx);
+            // overlayState.render(ctx);
           }
         });
 
