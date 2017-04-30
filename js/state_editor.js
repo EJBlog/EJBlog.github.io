@@ -183,17 +183,17 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
           // width: canvas.width - 10,
           // height: canvas.height - 10,
           // opacity: 1,
-          // fill:'blue',
-          // selectable: false,
+          fill:'transparent',
+          selectable: false,
           clipTo: function(ctx) {
             overlayState.set({
 
-              // width: ctx.width,
-              // length: ctx.length,
-              // selectable: false,
-              // scaleX: 2,
-              // scaleY: 2,
-              // fill:'red'
+              width: ctx.width,
+              length: ctx.length,
+              selectable: false,
+              scaleX: 2,
+              scaleY: 2,
+              fill:'transparent'
             });
             canvas.setOverlayImage(object);
             canvas.controlsAboveOverlay = true;
