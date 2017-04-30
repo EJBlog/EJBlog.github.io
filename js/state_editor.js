@@ -153,7 +153,7 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
         //   format: 'png'
         // }))
 
-        window.open(userImage.toDataURL({
+        window.open(canvaas.userImage.toDataURL({
           format: 'png'
         }))
 
