@@ -23,12 +23,12 @@ Get editor/canvas to change size and shape to specific states
         - save the state image into PNG and reload it some how?
         - Create images for each state in photoshop where the inside/background of the state is empty
         - Embedding/nesting canvases?
-Add CSS and make the pages look good
 for mobile: the map wont fit so use a drop down list for the map page
-Add a feedback page/ link for MVP testing
-Change or remove the confirm dialog box when the user clicks a state on the first map page.
 
-
+xAdd radio buttons to change the color of the state outline
+xAdd CSS and make the pages look good - DONE
+xAdd a feedback page/ link for MVP testing - DONE
+xChange or remove the confirm dialog box when the user clicks a state on the first map page. - DONE
 xBe able to click on a state and move to the editor page for that particular state - DONE
 xBe able to resize and move an image to fit inside the state size and shape - DONE
 xBe able to load an image from our local drive - DONE
