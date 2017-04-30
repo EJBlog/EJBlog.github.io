@@ -183,8 +183,8 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
           // width: canvas.width - 10,
           // height: canvas.height - 10,
           // opacity: 1,
+          stroke:'transparent',
           fill:'transparent',
-          selectable: false,
           clipTo: function(ctx) {
             overlayState.set({
 
