@@ -180,21 +180,7 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
 
 function changeBorderColor() {
 
-  if (document.getElementById("borderColor").value == "rachael") {
-
-    overlayState.set({
-      stroke: 'red'
-    });
-    canvas.add(overlayState);
-    canvas.setOverlayImage(overlayState);
-    canvas.controlsAboveOverlay = true;
-
-  }
-  else {
-
-  }
-
-  if(document.getElementById("borderColor").value == "poop"){
+  if(document.getElementById("borderColor").value == "white"){
 
     overlayState.set({
       stroke: 'white'
@@ -203,9 +189,18 @@ function changeBorderColor() {
     canvas.setOverlayImage(overlayState);
     canvas.controlsAboveOverlay = true;
 
-  }
-  else {
+  };
+  
+  if (document.getElementById("borderColor").value == "black") {
 
-  }
+    overlayState.set({
+      stroke: 'red'
+    });
+    canvas.add(overlayState);
+    canvas.setOverlayImage(overlayState);
+    canvas.controlsAboveOverlay = true;
+
+  };
+
 
 }
