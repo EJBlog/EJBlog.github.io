@@ -180,16 +180,19 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
 
 function changeBorderColor() {
 
-  if (document.getElementById("borderColor").value == "black") {
-
-    overlayState.set({
-      stroke: 'red'
-    });
-    canvas.add(overlayState);
-    canvas.setOverlayImage(overlayState);
-    canvas.controlsAboveOverlay = true;
-
-  }
+  // if (document.getElementById("borderColor").value == "black") {
+  //
+  //   overlayState.set({
+  //     stroke: 'red'
+  //   });
+  //   canvas.add(overlayState);
+  //   canvas.setOverlayImage(overlayState);
+  //   canvas.controlsAboveOverlay = true;
+  //
+  // }
+  // else {
+  //
+  // }
 
   if(document.getElementById("borderColor").value == "white"){
 
@@ -199,6 +202,9 @@ function changeBorderColor() {
     canvas.add(overlayState);
     canvas.setOverlayImage(overlayState);
     canvas.controlsAboveOverlay = true;
+
+  }
+  else {
 
   }
 
