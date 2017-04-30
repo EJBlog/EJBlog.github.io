@@ -153,11 +153,6 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
       //   }))
 
       var editedImage = JSON.stringify(canvas);
-      // editedImage.src = canvas.toDataURL({
-      //   format: 'png'
-      // });
-
-
       canvas.loadFromJSON(editedImage, canvas.renderAll.bind(canvas), function(o, object) {
 
         //var savedImage = new fabric.Image(editedImage);
@@ -189,20 +184,26 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
           // opacity: 1,
           clipTo: function(ctx) {
             overlayState.set({
-              // left: 50,
-              // right: 50,
-              width: ctx.width,
-              length: ctx.length
+
+              // width: ctx.width,
+              // length: ctx.length
+              height: 250,
+              width: 300, // Changed the size of the state so that it fits better in the canvas. This ties with the scaling X and Y
+              selectable: false,
+              scaleX: 2,
+              scaleY: 2 // Increasing the size of the state image so it is easier for the user to fit their image into the shape of the state.\
+
+
             });
             overlayState.render(ctx);
-            canvas.controlsAboveOverlay = true;
           }
         });
 
         // fabric.log(o, object);
-        canvas.remove(overlayState);
       });
 
+          canvas.remove(overlayState);
+          canvas.remove(editedImage);
 
 
       // window.open(canvas.toDataURL({
