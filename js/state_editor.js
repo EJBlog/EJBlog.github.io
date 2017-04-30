@@ -138,84 +138,82 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
 };
 
 (function($) {
-  // 	toolbar functions
-  var tools = {
+    // 	toolbar functions
+    var tools = {
 
-    //output to <img>
-    save: function() {
+      //output to <img>
+      save: function() {
 
-      // if (!fabric.Canvas.supports('toDataURL')) {
-      //   alert('This browser doesn\'t provide means to serialize canvas to an image');
-      // } else {
-      //
-      //   window.open(canvas.toDataURL({
-      //     format: 'png'
-      //   }))
+        // if (!fabric.Canvas.supports('toDataURL')) {
+        //   alert('This browser doesn\'t provide means to serialize canvas to an image');
+        // } else {
+        //
+        //   window.open(canvas.toDataURL({
+        //     format: 'png'
+        //   }))
 
         var editedImage = canvas.toDataURL({
           format: 'png'
-        })
+        });
 
         savedImage = new fabric.Image(editedImage);
         savedImage.set({
-          // left: 10,
-          // top: 10,
-          // width: canvas.width - 10,
-          // height: canvas.height - 10,
-          // opacity: 1,
-          clipTo: function(ctx)
-          {
-          	overlayState.set({
-          		left: 50,
-          		right: 50,
-          		width: ctx.width,
-          		length: ctx.length,
-          	   fill: 'red'
-          });
+              // left: 10,
+              // top: 10,
+              // width: canvas.width - 10,
+              // height: canvas.height - 10,
+              // opacity: 1,
+              clipTo: function(ctx) {
+                overlayState.set({
+                  left: 50,
+                  right: 50,
+                  width: ctx.width,
+                  length: ctx.length,
+                  fill: 'red'
+                });
+                overlayState.render(ctx);
+              }
+            }
 
-          overlayState.render(ctx);
+            window.open(savedImage.toDataURL({
+              format: 'png'
+            }));
+
+            // ,clipTo: function(ctx) {
+            // 	overlayState.set({
+            // 		left: -100,
+            // 		top: -100,
+            // 		width: ctx.width,
+            // 		height: ctx.height
+            // 	});
+            // 	// canvas.centerObject(overlayState);
+            // 	overlayState.render(ctx);
+            // }
+            // });
+
+          },
+
+          ReCenter: function() {
+            canvas.centerObject(userImage);
+          },
+
+
+          // The below function is used for testing
+          clear: function() {
+            canvas.remove(userImage);
+            imageRemoved = true;
           }
+      };
 
-          // window.open(savedImage.toDataURL({
-          //      format: 'png'
-          //  }))
+      $("#toolbar").children().click(function(e) {
+        e.preventDefault();
+        //call the relevant function
+        tools[this.id].call(this);
+      });
 
-          // ,clipTo: function(ctx) {
-          // 	overlayState.set({
-          // 		left: -100,
-          // 		top: -100,
-          // 		width: ctx.width,
-          // 		height: ctx.height
-          // 	});
-          // 	// canvas.centerObject(overlayState);
-          // 	overlayState.render(ctx);
-          // }
-        });
+    })(jQuery);
 
-      }
-    },
-
-    ReCenter: function() {
-      canvas.centerObject(userImage);
-    },
-
-
-    // The below function is used for testing
-    clear: function() {
-      canvas.remove(userImage);
-      imageRemoved = true;
-    }
-  };
-
-  $("#toolbar").children().click(function(e) {
-    e.preventDefault();
-    //call the relevant function
-    tools[this.id].call(this);
-  });
-
-})(jQuery);
-
-function changeBorderBlack() {
+  function changeBorderBlack() {
 
     overlayState.set({
       stroke: 'black'
@@ -226,9 +224,9 @@ function changeBorderBlack() {
 
 
 
-};
+  };
 
-function changeBorderWhite() {
+  function changeBorderWhite() {
 
     overlayState.set({
       stroke: 'white'
@@ -239,4 +237,4 @@ function changeBorderWhite() {
 
 
 
-}
+  }
