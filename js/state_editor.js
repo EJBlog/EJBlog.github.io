@@ -183,7 +183,7 @@ function changeBorderColor() {
   if (document.getElementById("borderColor").value == "black") {
 
     overlayState.set({
-      stroke: 'black'
+      stroke: 'red'
     });
     canvas.add(overlayState);
     canvas.setOverlayImage(overlayState);
