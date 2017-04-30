@@ -152,6 +152,7 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
         //     format: 'png'
         //   }))
 
+        var editedImage = new Image();
         var editedImage = canvas.toDataURL({
           format: 'png'
         });
