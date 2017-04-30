@@ -232,12 +232,14 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
 
 function changeBorderBlack() {
 
+  canvas.remove(overlayState);
+
   overlayState.set({
     stroke: 'black'
   });
   canvas.add(overlayState);
-  // canvas.setOverlayImage(overlayState);
-  // canvas.controlsAboveOverlay = true;
+  canvas.setOverlayImage(overlayState);
+  canvas.controlsAboveOverlay = true;
 
 
 
@@ -245,12 +247,14 @@ function changeBorderBlack() {
 
 function changeBorderWhite() {
 
+  canvas.remove(overlayState);
+
   overlayState.set({
     stroke: 'white'
   });
   canvas.add(overlayState);
-  // canvas.setOverlayImage(overlayState);
-  // canvas.controlsAboveOverlay = true;
+  canvas.setOverlayImage(overlayState);
+  canvas.controlsAboveOverlay = true;
 
 
 
