@@ -180,7 +180,7 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
 
 function changeBorderColor() {
 
-  if(document.getElementById("borderColor").value == "white"){
+  if(document.getElementById("borderwhite").value == "white"){
 
     overlayState.set({
       stroke: 'white'
@@ -190,8 +190,8 @@ function changeBorderColor() {
     canvas.controlsAboveOverlay = true;
 
   };
-  
-  if (document.getElementById("borderColor").value == "black") {
+
+  if (document.getElementById("borderBlack").value == "black") {
 
     overlayState.set({
       stroke: 'red'
