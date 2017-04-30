@@ -173,7 +173,7 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
                 });
                 overlayState.render(ctx);
               }
-            }
+            });
 
             window.open(savedImage.toDataURL({
               format: 'png'
