@@ -178,6 +178,7 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
         //     overlayState.render(ctx);
         //   }
         // });
+
         canvas.clear(); // clearing the canvas to see if the reload from JSON works
 
         object.set({
