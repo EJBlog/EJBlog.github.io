@@ -191,15 +191,12 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
             overlayState.set({
               // left: 50,
               // right: 50,
-              width: ctx.width,
-              length: ctx.length
-              ,fill: 'red'
+              // width: ctx.width,
+              // length: ctx.length
             });
             overlayState.render(ctx);
           }
         });
-
-
 
         fabric.log(o, object);
       });
