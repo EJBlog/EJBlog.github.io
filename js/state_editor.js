@@ -142,19 +142,55 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
   var tools = {
 
     //output to <img>
-    // I think we can possibly use clipTo in the save button
     save: function() {
-      if (!fabric.Canvas.supports('toDataURL')) {
-        alert('This browser doesn\'t provide means to serialize canvas to an image');
-      } else {
 
-        window.open(canvas.toDataURL({
+      // if (!fabric.Canvas.supports('toDataURL')) {
+      //   alert('This browser doesn\'t provide means to serialize canvas to an image');
+      // } else {
+      //
+      //   window.open(canvas.toDataURL({
+      //     format: 'png'
+      //   }))
+
+        var editedImage = canvas.toDataURL({
           format: 'png'
-        }))
+        })
 
-        // window.open(canvas.userImage.toDataURL({
-        //   format: 'png'
-        // }))
+        savedImage = new fabric.Image(editedImage);
+        savedImage.set({
+          // left: 10,
+          // top: 10,
+          // width: canvas.width - 10,
+          // height: canvas.height - 10,
+          // opacity: 1,
+          clipTo: function(ctx)
+          {
+          	overlayState.set({
+          		left: 50,
+          		right: 50,
+          		width: ctx.width,
+          		length: ctx.length,
+          	   fill: 'red'
+          });
+
+          overlayState.render(ctx);
+          }
+
+          window.open(savedImage.toDataURL({
+               format: 'png'
+           }))
+
+          // ,clipTo: function(ctx) {
+          // 	overlayState.set({
+          // 		left: -100,
+          // 		top: -100,
+          // 		width: ctx.width,
+          // 		height: ctx.height
+          // 	});
+          // 	// canvas.centerObject(overlayState);
+          // 	overlayState.render(ctx);
+          // }
+        });
 
       }
     },
