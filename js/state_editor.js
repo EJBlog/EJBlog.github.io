@@ -158,40 +158,33 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
         //   format: 'png'
         // });
 
-        savedImage = new fabric.Image(editedImage);
-        savedImage.set({
-              // left: 10,
-              // top: 10,
-              // width: canvas.width - 10,
-              // height: canvas.height - 10,
-              // opacity: 1,
-              clipTo: function(ctx) {
-                overlayState.set({
-                  // left: 50,
-                  // right: 50,
-                  width: ctx.width,
-                  length: ctx.length,
-                  // fill: 'red'
-                });
-                overlayState.render(ctx);
-              }
-            });
+        window.open(editedImage.toDataURL({
+          format: 'png'
+        }));
 
-            window.open(savedImage.toDataURL({
-              format: 'png'
-            }));
+        // savedImage = new fabric.Image(editedImage);
+        // savedImage.set({
+        //       // left: 10,
+        //       // top: 10,
+        //       // width: canvas.width - 10,
+        //       // height: canvas.height - 10,
+        //       // opacity: 1,
+        //       clipTo: function(ctx) {
+        //         overlayState.set({
+        //           // left: 50,
+        //           // right: 50,
+        //           width: ctx.width,
+        //           length: ctx.length,
+        //           // fill: 'red'
+        //         });
+        //         overlayState.render(ctx);
+        //       }
+        //     });
+        //
+        //     window.open(savedImage.toDataURL({
+        //       format: 'png'
+        //     }));
 
-            // ,clipTo: function(ctx) {
-            // 	overlayState.set({
-            // 		left: -100,
-            // 		top: -100,
-            // 		width: ctx.width,
-            // 		height: ctx.height
-            // 	});
-            // 	// canvas.centerObject(overlayState);
-            // 	overlayState.render(ctx);
-            // }
-            // });
 
           },
 
