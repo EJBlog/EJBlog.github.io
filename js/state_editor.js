@@ -232,25 +232,21 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
 
 function changeBorderBlack() {
 
-  canvas.remove(overlayState);
-
-  canvas.add(overlayState);
   overlayState.set({
     stroke: 'black'
   });
-  canvas.setOverlayImage(overlayState);
-  canvas.controlsAboveOverlay = true;
+  // canvas.add(overlayState);
+  // canvas.setOverlayImage(overlayState);
+  // canvas.controlsAboveOverlay = true;
 
 };
 
 function changeBorderWhite() {
 
-  canvas.remove(overlayState);
-
-  canvas.add(overlayState);
   overlayState.set({
     stroke: 'white'
   });
+  canvas.add(overlayState);
   canvas.setOverlayImage(overlayState);
   canvas.controlsAboveOverlay = true;
 
