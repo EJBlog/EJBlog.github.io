@@ -212,6 +212,7 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
 
     ReCenter: function() {
       canvas.centerObject(userImage);
+      canvas.renderAll();
     },
 
 
