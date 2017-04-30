@@ -185,6 +185,7 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
           // opacity: 1,
           stroke:'transparent',
           fill:'transparent',
+          selectable: false,
           clipTo: function(ctx) {
             overlayState.set({
 
@@ -193,7 +194,8 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
               selectable: false,
               scaleX: 2,
               scaleY: 2,
-              fill:'transparent'
+              fill:'transparent',
+              stroke:'transparent'
             });
             canvas.setOverlayImage(object);
             canvas.controlsAboveOverlay = true;
