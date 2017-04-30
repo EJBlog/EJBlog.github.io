@@ -48,7 +48,7 @@ fabric.loadSVGFromURL("svg/usa_map.svg", function(objects, options) {
         canvas.add(overlayState);
         canvas.setOverlayImage(overlayState);
         canvas.controlsAboveOverlay = true;
-        statePath = String(stateObjects._objects[i].path); // hoping this will work for clip-path
+        canvas.calcOffset();
 
       }
     }
@@ -235,6 +235,7 @@ function changeBorderBlack() {
   overlayState.set({
     stroke: 'black'
   });
+  canvas.calcOffset();
   // canvas.add(overlayState);
   // canvas.setOverlayImage(overlayState);
   // canvas.controlsAboveOverlay = true;
@@ -246,8 +247,9 @@ function changeBorderWhite() {
   overlayState.set({
     stroke: 'white'
   });
-  canvas.add(overlayState);
-  canvas.setOverlayImage(overlayState);
-  canvas.controlsAboveOverlay = true;
+  canvas.calcOffset();
+  // canvas.add(overlayState);
+  // canvas.setOverlayImage(overlayState);
+  // canvas.controlsAboveOverlay = true;
 
 };
