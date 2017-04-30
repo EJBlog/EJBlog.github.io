@@ -198,7 +198,7 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
           }
         });
 
-        fabric.log(o, object);
+        // fabric.log(o, object);
       });
 
 
