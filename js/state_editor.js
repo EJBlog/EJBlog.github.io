@@ -191,8 +191,8 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
             overlayState.set({
               // left: 50,
               // right: 50,
-              // width: ctx.width,
-              // length: ctx.length
+              width: ctx.width,
+              length: ctx.length
             });
             overlayState.render(ctx);
           }
