@@ -39,6 +39,13 @@
   font-size: 15px;
 }
 
+.border-color{
+  height: auto;
+  position: absolute;
+  margin-top: 20px;
+  
+}
+
 #imageEditor {
   /*width:482px;*/
   width:574px;
