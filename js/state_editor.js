@@ -152,38 +152,49 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
         //     format: 'png'
         //   }))
 
-        var editedImage = new Image();
-        var editedImage = canvas.renderAll();
+        var editedImage = new Image(canvas);
+        // editedImage = canvas.renderAll();
         // var editedImage = canvas.toDataURL({
         //   format: 'png'
         // });
 
-        window.open(editedImage.toDataURL({
-          format: 'png'
-        }));
+        savedImage = new fabric.Image(editedImage);
+        savedImage.set({
+              // left: 10,
+              // top: 10,
+              // width: canvas.width - 10,
+              // height: canvas.height - 10,
+              // opacity: 1,
+              clipTo: function(ctx) {
+                overlayState.set({
+                  // left: 50,
+                  // right: 50,
+                  width: ctx.width,
+                  length: ctx.length,
+                  // fill: 'red'
+                });
+                overlayState.render(ctx);
+              }
+            });
 
-        // savedImage = new fabric.Image(editedImage);
-        // savedImage.set({
-        //       // left: 10,
-        //       // top: 10,
-        //       // width: canvas.width - 10,
-        //       // height: canvas.height - 10,
-        //       // opacity: 1,
-        //       clipTo: function(ctx) {
-        //         overlayState.set({
-        //           // left: 50,
-        //           // right: 50,
-        //           width: ctx.width,
-        //           length: ctx.length,
-        //           // fill: 'red'
-        //         });
-        //         overlayState.render(ctx);
-        //       }
-        //     });
+            window.open(savedImage.toDataURL({
+              format: 'png'
+            }));
+
+
+
+
+
+// Below is a way to download the image straight to the users computer without having to right click and save as
+        // function downloadCanvas(link, canvasId, filename) {
+        //     link.href = document.getElementById(canvasId).toDataURL();
+        //     link.download = filename;
+        // }
         //
-        //     window.open(savedImage.toDataURL({
-        //       format: 'png'
-        //     }));
+        // document.getElementById('download').addEventListener('click', function() {
+        //     downloadCanvas(this, 'canvas', 'test.png');
+        // }, false);
+
 
 
           },
