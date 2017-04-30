@@ -235,7 +235,7 @@ function changeBorderBlack() {
   overlayState.set({
     stroke: 'black'
   });
-  canvas.calcOffset();
+  canvas.renderAll();
   // canvas.add(overlayState);
   // canvas.setOverlayImage(overlayState);
   // canvas.controlsAboveOverlay = true;
@@ -247,7 +247,7 @@ function changeBorderWhite() {
   overlayState.set({
     stroke: 'white'
   });
-  canvas.calcOffset();
+  canvas.renderAll();
   // canvas.add(overlayState);
   // canvas.setOverlayImage(overlayState);
   // canvas.controlsAboveOverlay = true;
