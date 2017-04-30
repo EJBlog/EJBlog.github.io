@@ -153,9 +153,10 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
         //   }))
 
         var editedImage = new Image();
-        var editedImage = canvas.toDataURL({
-          format: 'png'
-        });
+        var editedImage = canvas.renderAll();
+        // var editedImage = canvas.toDataURL({
+        //   format: 'png'
+        // });
 
         savedImage = new fabric.Image(editedImage);
         savedImage.set({
