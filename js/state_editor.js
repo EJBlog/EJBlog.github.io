@@ -171,10 +171,11 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
           clipTo: function(ctx) {
             overlayState.set({
 
-              // width: ctx.width,
-              // length: ctx.length,
-              width: canvas.width,
-              height: canvas.height,
+              width: ctx.width,
+              length: ctx.length,
+              height:ctx.height,
+              // width: canvas.width,
+              // height: canvas.height,
               selectable: false,
               scaleX: 3,
               scaleY: 3,
