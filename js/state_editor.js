@@ -151,7 +151,7 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
 
         window.open(canvas.toDataURL({
           format: 'png'
-          // ,multiplier: 2
+          ,multiplier: 2
         }))
 
 
