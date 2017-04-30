@@ -185,6 +185,9 @@ function changeBorderColor() {
     overlayState.set({
       stroke: 'black'
     });
+    canvas.add(overlayState);
+    canvas.setOverlayImage(overlayState);
+    canvas.controlsAboveOverlay = true;
 
   }
 
@@ -193,6 +196,9 @@ function changeBorderColor() {
     overlayState.set({
       stroke: 'white'
     });
+    canvas.add(overlayState);
+    canvas.setOverlayImage(overlayState);
+    canvas.controlsAboveOverlay = true;
 
   }
 
