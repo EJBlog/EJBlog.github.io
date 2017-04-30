@@ -185,15 +185,11 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
           clipTo: function(ctx) {
             overlayState.set({
 
-              // width: ctx.width,
-              // length: ctx.length
-              height: 250,
-              width: 300, // Changed the size of the state so that it fits better in the canvas. This ties with the scaling X and Y
+              width: ctx.width,
+              length: ctx.length,
               selectable: false,
               scaleX: 2,
-              scaleY: 2 // Increasing the size of the state image so it is easier for the user to fit their image into the shape of the state.\
-
-
+              scaleY: 2
             });
             overlayState.render(ctx);
           }
@@ -202,8 +198,9 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
         // fabric.log(o, object);
       });
 
-          canvas.remove(overlayState);
-          canvas.remove(editedImage);
+          // canvas.remove(overlayState);
+          // canvas.remove(editedImage);
+          canvas.clear();
 
 
       // window.open(canvas.toDataURL({
