@@ -176,9 +176,9 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
           overlayState.render(ctx);
           }
 
-          window.open(savedImage.toDataURL({
-               format: 'png'
-           }))
+          // window.open(savedImage.toDataURL({
+          //      format: 'png'
+          //  }))
 
           // ,clipTo: function(ctx) {
           // 	overlayState.set({
