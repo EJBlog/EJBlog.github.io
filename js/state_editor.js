@@ -82,15 +82,6 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
             width: canvas.width - 10,
             height: canvas.height - 10,
             opacity: 1
-            // 	,clipTo: function (ctx) {
-            // 		overlayState.set ({
-            // 			// left: -100,
-            // 			// top: -100,
-            // 			// width: ctx.width,
-            // 			// height: ctx.height
-            // 		});
-            // 	 overlayState.render(ctx);
-            //  }
           });
           canvas.add(userImage);
           userImage.globalCompositeOperation = 'source-atop';
@@ -117,15 +108,6 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
           width: canvas.width - 10,
           height: canvas.height - 10,
           opacity: 1,
-          // 	clipTo: function (ctx) {
-          // 		overlayState.set ({
-          // 			// left: 10,
-          // 			// top: 10,
-          // 			// width: canvas.width - 10,
-          // 			// height: canvas.height - 10
-          // 		});
-          // 	 overlayState.render(ctx);
-          //  }
         });
         canvas.add(userImage);
         userImage.globalCompositeOperation = 'source-atop';
@@ -189,11 +171,13 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
           clipTo: function(ctx) {
             overlayState.set({
 
-              width: ctx.width,
-              length: ctx.length,
+              // width: ctx.width,
+              // length: ctx.length,
+              width: canvas.width,
+              height: canvas.height,
               selectable: false,
-              scaleX: 2,
-              scaleY: 2,
+              scaleX: 3,
+              scaleY: 3,
               fill:'transparent',
               stroke:'transparent'
             });
