@@ -194,11 +194,13 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
               width: ctx.width,
               length: ctx.length
             });
-            // overlayState.render(ctx);
+            overlayState.render(ctx);
+            canvas.controlsAboveOverlay = true;
           }
         });
 
-        fabric.log(o, object);
+        // fabric.log(o, object);
+        canvas.remove(overlayState);
       });
 
 
