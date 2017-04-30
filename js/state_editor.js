@@ -162,24 +162,24 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
 
       canvas.loadFromJSON(editedImage, canvas.renderAll.bind(canvas), function(o, object) {
 
-        // var savedImage = new fabric.Image(editedImage);
-        // savedImage.set({
-        //   // left: 10,
-        //   // top: 10,
-        //   // width: canvas.width - 10,
-        //   // height: canvas.height - 10,
-        //   // opacity: 1,
-        //   clipTo: function(ctx) {
-        //     overlayState.set({
-        //       // left: 50,
-        //       // right: 50,
-        //       width: ctx.width,
-        //       length: ctx.length
-        //       ,fill: 'red'
-        //     });
-        //     overlayState.render(ctx);
-        //   }
-        // });
+        var savedImage = new fabric.Image(editedImage);
+        savedImage.set({
+          // left: 10,
+          // top: 10,
+          // width: canvas.width - 10,
+          // height: canvas.height - 10,
+          // opacity: 1,
+          clipTo: function(ctx) {
+            overlayState.set({
+              // left: 50,
+              // right: 50,
+              width: ctx.width,
+              length: ctx.length
+              ,fill: 'red'
+            });
+            overlayState.render(ctx);
+          }
+        });
 
 
 
