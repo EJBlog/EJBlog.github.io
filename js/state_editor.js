@@ -181,9 +181,9 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
 function changeBorderBlack() {
 
     overlayState.set({
-      stroke: 'red'
+      stroke: 'black'
     });
-    // canvas.add(overlayState);
+    canvas.add(overlayState);
     // canvas.setOverlayImage(overlayState);
     // canvas.controlsAboveOverlay = true;
 
