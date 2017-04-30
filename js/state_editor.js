@@ -167,11 +167,11 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
               // opacity: 1,
               clipTo: function(ctx) {
                 overlayState.set({
-                  left: 50,
-                  right: 50,
+                  // left: 50,
+                  // right: 50,
                   width: ctx.width,
                   length: ctx.length,
-                  fill: 'red'
+                  // fill: 'red'
                 });
                 overlayState.render(ctx);
               }
