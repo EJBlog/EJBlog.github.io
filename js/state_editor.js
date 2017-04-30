@@ -201,7 +201,7 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
         });
 
         // fabric.log(o, object);
-        // canvas.remove(object);
+        canvas.remove(object);
       });
 
       //canvas.clear();
