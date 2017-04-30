@@ -138,108 +138,120 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
 };
 
 (function($) {
-    // 	toolbar functions
-    var tools = {
+  // 	toolbar functions
+  var tools = {
 
-      //output to <img>
-      save: function() {
+    //output to <img>
+    save: function() {
 
-        // if (!fabric.Canvas.supports('toDataURL')) {
-        //   alert('This browser doesn\'t provide means to serialize canvas to an image');
-        // } else {
-        //
-        //   window.open(canvas.toDataURL({
-        //     format: 'png'
-        //   }))
+      // if (!fabric.Canvas.supports('toDataURL')) {
+      //   alert('This browser doesn\'t provide means to serialize canvas to an image');
+      // } else {
+      //
+      //   window.open(canvas.toDataURL({
+      //     format: 'png'
+      //   }))
 
-        var editedImage = new Image();
-        editedImage.src = canvas.toDataURL({
-          format: 'png'
-        });
+      var editedImage = JSON.stringify(canvas);
+      // editedImage.src = canvas.toDataURL({
+      //   format: 'png'
+      // });
 
-        savedImage = new fabric.Image(editedImage);
-        savedImage.set({
-              // left: 10,
-              // top: 10,
-              // width: canvas.width - 10,
-              // height: canvas.height - 10,
-              // opacity: 1,
-              clipTo: function(ctx) {
-                overlayState.set({
-                  // left: 50,
-                  // right: 50,
-                  width: ctx.width,
-                  length: ctx.length,
-                  // fill: 'red'
-                });
-                overlayState.render(ctx);
-              }
-            });
-
-            window.open(savedImage.toDataURL({
-              format: 'png'
-            }));
+      canvas.clear(); // clearing the canvas to see if the reload from JSON works
 
 
+      canvas.loadFromJSON(editedImage, canvas.renderAll.bind(canvas), function(o, object) {
 
-
-
-// Below is a way to download the image straight to the users computer without having to right click and save as
-        // function downloadCanvas(link, canvasId, filename) {
-        //     link.href = document.getElementById(canvasId).toDataURL();
-        //     link.download = filename;
-        // }
-        //
-        // document.getElementById('download').addEventListener('click', function() {
-        //     downloadCanvas(this, 'canvas', 'test.png');
-        // }, false);
+        // var savedImage = new fabric.Image(editedImage);
+        // savedImage.set({
+        //   // left: 10,
+        //   // top: 10,
+        //   // width: canvas.width - 10,
+        //   // height: canvas.height - 10,
+        //   // opacity: 1,
+        //   clipTo: function(ctx) {
+        //     overlayState.set({
+        //       // left: 50,
+        //       // right: 50,
+        //       width: ctx.width,
+        //       length: ctx.length
+        //       ,fill: 'red'
+        //     });
+        //     overlayState.render(ctx);
+        //   }
+        // });
 
 
 
-          },
-
-          ReCenter: function() {
-            canvas.centerObject(userImage);
-          },
-
-
-          // The below function is used for testing
-          clear: function() {
-            canvas.remove(userImage);
-            imageRemoved = true;
-          }
-      };
-
-      $("#toolbar").children().click(function(e) {
-        e.preventDefault();
-        //call the relevant function
-        tools[this.id].call(this);
+        fabric.log(o, object);
       });
 
-    })(jQuery);
 
-  function changeBorderBlack() {
 
-    overlayState.set({
-      stroke: 'black'
-    });
-    canvas.add(overlayState);
-    // canvas.setOverlayImage(overlayState);
-    // canvas.controlsAboveOverlay = true;
+      // window.open(canvas.toDataURL({
+      //   format: 'png'
+      // }));
 
 
 
+
+
+      // Below is a way to download the image straight to the users computer without having to right click and save as
+      // function downloadCanvas(link, canvasId, filename) {
+      //     link.href = document.getElementById(canvasId).toDataURL();
+      //     link.download = filename;
+      // }
+      //
+      // document.getElementById('download').addEventListener('click', function() {
+      //     downloadCanvas(this, 'canvas', 'test.png');
+      // }, false);
+
+
+
+    },
+
+    ReCenter: function() {
+      canvas.centerObject(userImage);
+    },
+
+
+    // The below function is used for testing
+    clear: function() {
+      canvas.remove(userImage);
+      imageRemoved = true;
+    }
   };
 
-  function changeBorderWhite() {
+  $("#toolbar").children().click(function(e) {
+    e.preventDefault();
+    //call the relevant function
+    tools[this.id].call(this);
+  });
 
-    overlayState.set({
-      stroke: 'white'
-    });
-    canvas.add(overlayState);
-    // canvas.setOverlayImage(overlayState);
-    // canvas.controlsAboveOverlay = true;
+})(jQuery);
+
+function changeBorderBlack() {
+
+  overlayState.set({
+    stroke: 'black'
+  });
+  canvas.add(overlayState);
+  // canvas.setOverlayImage(overlayState);
+  // canvas.controlsAboveOverlay = true;
 
 
 
-  }
+};
+
+function changeBorderWhite() {
+
+  overlayState.set({
+    stroke: 'white'
+  });
+  canvas.add(overlayState);
+  // canvas.setOverlayImage(overlayState);
+  // canvas.controlsAboveOverlay = true;
+
+
+
+}
