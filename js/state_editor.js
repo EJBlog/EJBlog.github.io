@@ -134,8 +134,6 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
       //     format: 'png'
       //   }))
 
-
-
       var editedImage = JSON.stringify(canvas);
       canvas.clear();
       canvas.loadFromJSON(editedImage, canvas.renderAll.bind(canvas), function(o, object) {
@@ -175,8 +173,7 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
         format: 'png'
       }));
 
-
-      // Below is a way to download the image straight to the users computer without having to right click and save as
+// Below is a way to download the image straight to the users computer without having to right click and save as
       // function downloadCanvas(link, canvasId, filename) {
       //     link.href = document.getElementById(canvasId).toDataURL();
       //     link.download = filename;
