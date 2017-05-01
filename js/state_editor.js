@@ -126,14 +126,39 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
     //output to <img>
     save: function() {
 
-      // if (!fabric.Canvas.supports('toDataURL')) {
-      //   alert('This browser doesn\'t provide means to serialize canvas to an image');
-      // } else {
-      //
-      //   window.open(canvas.toDataURL({
-      //     format: 'png'
-      //   }))
+      if (!fabric.Canvas.supports('toDataURL')) {
+        alert('This browser doesn\'t provide means to serialize canvas to an image');
+      } else {
 
+        window.open(canvas.toDataURL({
+          format: 'png'
+        }))
+
+// Below is a way to download the image straight to the users computer without having to right click and save as
+      // function downloadCanvas(link, canvasId, filename) {
+      //     link.href = document.getElementById(canvasId).toDataURL();
+      //     link.download = filename;
+      // }
+      //
+      // document.getElementById('download').addEventListener('click', function() {
+      //     downloadCanvas(this, 'canvas', 'test.png');
+      // }, false);
+
+    },
+
+    ReCenter: function() {
+      canvas.centerObject(userImage);
+      canvas.renderAll();
+    },
+
+
+    // The below function is used for testing
+    clear: function() {
+      canvas.remove(userImage);
+      imageRemoved = true;
+    },
+
+    trim: function(){
       var editedImage = JSON.stringify(canvas);
       canvas.clear();
       canvas.loadFromJSON(editedImage, canvas.renderAll.bind(canvas), function(o, object) {
@@ -169,32 +194,10 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
         canvas.remove(object);
       });
 
-      window.open(canvas.toDataURL({
-        format: 'png'
-      }));
+      // window.open(canvas.toDataURL({
+      //   format: 'png'
+      // }));
 
-// Below is a way to download the image straight to the users computer without having to right click and save as
-      // function downloadCanvas(link, canvasId, filename) {
-      //     link.href = document.getElementById(canvasId).toDataURL();
-      //     link.download = filename;
-      // }
-      //
-      // document.getElementById('download').addEventListener('click', function() {
-      //     downloadCanvas(this, 'canvas', 'test.png');
-      // }, false);
-
-    },
-
-    ReCenter: function() {
-      canvas.centerObject(userImage);
-      canvas.renderAll();
-    },
-
-
-    // The below function is used for testing
-    clear: function() {
-      canvas.remove(userImage);
-      imageRemoved = true;
     }
   };
 
