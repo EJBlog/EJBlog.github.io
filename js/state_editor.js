@@ -174,11 +174,9 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
               width: ctx.width,
               length: ctx.length,
               height:ctx.height,
-              // width: canvas.width,
-              // height: canvas.height,
               selectable: false,
-              scaleX: 3,
-              scaleY: 3,
+              scaleX: 2,
+              scaleY: 2,
               fill:'transparent',
               stroke:'transparent'
             });
