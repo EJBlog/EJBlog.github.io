@@ -24,6 +24,7 @@ Get editor/canvas to change size and shape to specific states
         - Create images for each state in photoshop where the inside/background of the state is empty
         - Embedding/nesting canvases?
 for mobile: the map wont fit so use a drop down list for the map page
+Integrate the map and editor into the OTA website.
 
 xAdd radio buttons to change the color of the state outline
 xAdd CSS and make the pages look good - DONE
@@ -35,6 +36,7 @@ xBe able to load an image from our local drive - DONE
 xBe able to save a finished Kentucky state image - DONEish
 
 Medium term goals (After MVP is finished):
+Create this functionality for multiple continents/countries
 Drag and Drop image uploading
 Maybe change the site so the editor isnt a separate page but is just a pop up
 Build log-in page
