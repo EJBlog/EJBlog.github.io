@@ -154,20 +154,20 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
 
 
     // The below function is used for testing
-    clear: function() {
+    removeImage: function() {
       canvas.remove(userImage);
       imageRemoved = true;
     },
 
-    Reset: function() {
-      canvas.clear();
-      canvas.set({ backgroundColor: 'whitesmoke'});
-      canvas.add(overlayState);
-      canvas.setOverlayImage(overlayState);
-      canvas.controlsAboveOverlay = true;
-      canvas.renderAll();
-      imageRemoved = true;
-    },
+    // Reset: function() {
+    //   canvas.clear();
+    //   canvas.set({ backgroundColor: 'whitesmoke'});
+    //   canvas.add(overlayState);
+    //   canvas.setOverlayImage(overlayState);
+    //   canvas.controlsAboveOverlay = true;
+    //   canvas.renderAll();
+    //   imageRemoved = true;
+    // },
 
 
     trim: function(){
@@ -203,7 +203,7 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
         });
 
         // fabric.log(o, object);
-        canvas.remove(object);
+        // canvas.remove(object);
       });
 
       // window.open(canvas.toDataURL({
