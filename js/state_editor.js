@@ -132,7 +132,7 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
 
         window.open(canvas.toDataURL({
           format: 'png'
-        })
+        }))
       }
 
 // Below is a way to download the image straight to the users computer without having to right click and save as
