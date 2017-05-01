@@ -161,8 +161,11 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
 
     Reset: function() {
       canvas.clear();
+      canvas.set({ backgroundColor: 'whitesmoke'});
       canvas.add(overlayState);
-      canvas.set({  backgroundColor: 'whitesmoke'});
+      canvas.setOverlayImage(overlayState);
+      canvas.controlsAboveOverlay = true;
+      canvas.renderAll();
     },
 
 
