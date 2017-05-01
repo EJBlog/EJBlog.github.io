@@ -13,7 +13,7 @@ var idNameStored = localStorage.getItem('storedIdName');
 var canvas = new fabric.Canvas('editor', {
   // backgroundColor: 'white'
   backgroundColor: 'whitesmoke'
-});
+}); 
 
 // loading the background/overlay image from SVG of the state that was cicked
 var statePath;
