@@ -175,12 +175,13 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
       canvas.clear();
       canvas.loadFromJSON(editedImage, canvas.renderAll.bind(canvas), function(o, object) {
 
-        // object.set({
-        //   stroke:'black',
-        //   fill:'red',
-        //   // stroke:'transparent',
-        //   // fill:'transparent',
-          // selectable: false,
+//jake
+        object.set({
+          stroke:'black',
+          fill:'red',
+          // stroke:'transparent',
+          // fill:'transparent',
+          selectable: false,
           clipTo: function(ctx) {
             overlayState.set({
 
@@ -194,13 +195,13 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
               // stroke:'transparent'
               stroke:'black',
               fill:'blue'
-              
+
             });
             canvas.setOverlayImage(object);
             canvas.controlsAboveOverlay = true;
             overlayState.render(ctx);
           }
-        // });
+        });
 
         // fabric.log(o, object);
         // canvas.remove(object);
