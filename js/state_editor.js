@@ -159,6 +159,11 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
       imageRemoved = true;
     },
 
+    reset: function() {
+      canvas.clear();
+    },
+
+
     trim: function(){
       var editedImage = JSON.stringify(canvas);
       canvas.clear();
