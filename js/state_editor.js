@@ -140,25 +140,6 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
       canvas.clear();
       canvas.loadFromJSON(editedImage, canvas.renderAll.bind(canvas), function(o, object) {
 
-        //var savedImage = new fabric.Image(editedImage);
-        // savedImage.set({
-        //   // left: 10,
-        //   // top: 10,
-        //   // width: canvas.width - 10,
-        //   // height: canvas.height - 10,
-        //   // opacity: 1,
-        //   clipTo: function(ctx) {
-        //     overlayState.set({
-        //       // left: 50,
-        //       // right: 50,
-        //       width: ctx.width,
-        //       length: ctx.length
-        //       ,fill: 'red'
-        //     });
-        //     overlayState.render(ctx);
-        //   }
-        // });
-
         object.set({
           // left: 10,
           // top: 10,
@@ -190,15 +171,9 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
         canvas.remove(object);
       });
 
-      //canvas.clear();
-
-
-      // window.open(canvas.toDataURL({
-      //   format: 'png'
-      // }));
-
-
-
+      window.open(canvas.toDataURL({
+        format: 'png'
+      }));
 
 
       // Below is a way to download the image straight to the users computer without having to right click and save as
@@ -210,8 +185,6 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
       // document.getElementById('download').addEventListener('click', function() {
       //     downloadCanvas(this, 'canvas', 'test.png');
       // }, false);
-
-
 
     },
 
