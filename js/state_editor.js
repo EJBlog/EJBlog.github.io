@@ -159,7 +159,7 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
       imageRemoved = true;
     },
 
-    reset: function() {
+    Reset: function() {
       canvas.clear();
     },
 
