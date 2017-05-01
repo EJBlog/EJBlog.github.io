@@ -175,8 +175,8 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
               length: ctx.length,
               height:ctx.height,
               selectable: false,
-              scaleX: 2,
-              scaleY: 2,
+              scaleX: 2.5,
+              scaleY: 2.5,
               fill:'transparent',
               stroke:'transparent'
             });
