@@ -166,6 +166,7 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
       canvas.setOverlayImage(overlayState);
       canvas.controlsAboveOverlay = true;
       canvas.renderAll();
+      imageRemoved = true;
     },
 
 
