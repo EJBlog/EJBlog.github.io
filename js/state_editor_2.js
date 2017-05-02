@@ -35,7 +35,7 @@ $("#trim").click(function() {
 });
 
 
-  var site_url =  'http://fabricjs.com/assets/1.svg';
+  var site_url =  "svg/usa_map.svg";
 
 fabric.loadSVGFromURL(site_url, function(objects) { 
           var group = new fabric.PathGroup(objects, { 
