@@ -124,7 +124,7 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
             opacity: 1
           });
           canvas.add(userImage);
-          //userImage.globalCompositeOperation = 'source-atop';
+          userImage.globalCompositeOperation = 'source-atop';
           canvas.renderAll();
         }
       }
@@ -149,7 +149,7 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
           opacity: 1,
         });
         canvas.add(userImage);
-        //userImage.globalCompositeOperation = 'source-atop';
+        userImage.globalCompositeOperation = 'source-atop';
         canvas.renderAll();
       }
     }
