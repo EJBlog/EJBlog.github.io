@@ -58,8 +58,8 @@ $("#trim").click(function() {
 var statePath;
 var groupStates = [];
 var overlayState;
-fabric.loadSVGFromURL("svg/usa_map.svg", function(objects, options) {
-    var stateObjects = new fabric.Group(groupStates);
+fabric.loadSVGFromURL("svg/usa_map.svg", function(objects) {
+    var stateObjects = new fabric.PathGroup(groupStates);
     stateObjects.set({
       left: 10,
       top: 10,
