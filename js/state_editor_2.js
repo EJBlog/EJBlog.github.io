@@ -79,9 +79,9 @@ fabric.loadSVGFromURL("svg/usa_map.svg", function(objects, options) {
           //fill: 'transparent',
           height: 250,
           width: 300, // Changed the size of the state so that it fits better in the canvas. This ties with the scaling X and Y
-          //selectable: false,
-          scaleX: 2,
-          scaleY: 2 // Increasing the size of the state image so it is easier for the user to fit their image into the shape of the state.\
+//           selectable: false,
+//           scaleX: 2,
+//           scaleY: 2 // Increasing the size of the state image so it is easier for the user to fit their image into the shape of the state.\
         })
 
         canvas.add(overlayState);
