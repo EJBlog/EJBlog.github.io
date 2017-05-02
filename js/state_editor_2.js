@@ -41,8 +41,8 @@ fabric.loadSVGFromURL("svg/usa_map.svg", function(objects, options) {
     stateObjects.set({
       left: 10,
       top: 10,
-      width: canvas.height / stateObjects.height,
-      height: canvas.width / stateObjects.width,
+      width: 500,
+      height: 500,
     });
 
 
@@ -55,8 +55,6 @@ fabric.loadSVGFromURL("svg/usa_map.svg", function(objects, options) {
           top: 0,
           stroke: 'black',
           fill: 'transparent',
-          height: 250,
-          width: 300, // Changed the size of the state so that it fits better in the canvas. This ties with the scaling X and Y
           selectable: false,
           scaleX: canvas.height / overlayState.height,
           scaleY: canvas.width / overlayState.width, // Increasing the size of the state image so it is easier for the user to fit their image into the shape of the state.\
