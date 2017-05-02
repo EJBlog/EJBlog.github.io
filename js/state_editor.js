@@ -13,7 +13,7 @@ var idNameStored = localStorage.getItem('storedIdName');
 var canvas = new fabric.Canvas('editor', {
   width: $("#editor").width(),
   height: $("#editor").height()
-  ,backgroundColor: 'whitesmoke'
+  // ,backgroundColor: 'whitesmoke'
 });
 
 // loading the background/overlay image from SVG of the state that was cicked
@@ -39,6 +39,7 @@ fabric.loadSVGFromURL("svg/usa_map.svg", function(objects) {
           top: 0,
           stroke: 'black',
           // fill: 'transparent',
+          fill: 'white',
           height: 250,
           width: 300, // Changed the size of the state so that it fits better in the canvas. This ties with the scaling X and Y
           selectable: false,
