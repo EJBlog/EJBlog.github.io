@@ -20,7 +20,7 @@ var canvas = new fabric.Canvas('editor', {
 var statePath;
 var groupStates = [];
 var overlayState;
-fabric.loadSVGFromURL("svg/usa_map.svg", function(objects, options) {
+fabric.loadSVGFromURL("svg/usa_map.svg", function(objects) {
     var stateObjects = new fabric.Group(groupStates);
     stateObjects.set({
       left: 10,
@@ -39,7 +39,6 @@ fabric.loadSVGFromURL("svg/usa_map.svg", function(objects, options) {
           top: 0,
           stroke: 'black',
           // fill: 'transparent',
-          fill: 'white',
           height: 250,
           width: 300, // Changed the size of the state so that it fits better in the canvas. This ties with the scaling X and Y
           selectable: false,
