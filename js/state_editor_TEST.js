@@ -100,6 +100,7 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
       imgObj.src = event.target.result;
       imgObj.onload = function() {
 
+        // var userImage = new fabric.Image(imgObj);
         userImage = new fabric.Image(imgObj);
         userImage.set({
           left: 10,
