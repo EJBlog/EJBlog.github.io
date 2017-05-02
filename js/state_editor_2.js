@@ -5,9 +5,9 @@
 //   cornerColor: '#111111'
 // });
 
-// //get information about the state that the user clicked on the main map page
-// var stateNameStored = localStorage.getItem('storedStateName');
-// var idNameStored = localStorage.getItem('storedIdName');
+//get information about the state that the user clicked on the main map page
+var stateNameStored = localStorage.getItem('storedStateName');
+var idNameStored = localStorage.getItem('storedIdName');
 
 // changing the editor background color
 var canvas = new fabric.Canvas('editor', {
@@ -35,24 +35,67 @@ $("#trim").click(function() {
 });
 
 
-  var site_url =  "svg/usa_map.svg";
+//   var site_url =  "svg/usa_map.svg";
 
-fabric.loadSVGFromURL(site_url, function(objects) { 
-          var group = new fabric.PathGroup(objects, { 
-          left: 165, 
-          top: 100, 
-          width: 295, 
-          height: 211 
-        }); 
-        canvas.add(group); 
-        canvas.renderAll(); 
-          }); 
+// fabric.loadSVGFromURL(site_url, function(objects) { 
+//           var group = new fabric.PathGroup(objects, { 
+//           left: 165, 
+//           top: 100, 
+//           width: 295, 
+//           height: 211 
+//         }); 
+//         canvas.add(group); 
+//         canvas.renderAll(); 
+//           }); 
 //     }
 //   },
 //   function(item, object) {
 //     object.set('id', item.getAttribute('id'));
 //     groupStates.push(object);
 //   });
+
+
+var statePath;
+var groupStates = [];
+var overlayState;
+fabric.loadSVGFromURL("svg/usa_map.svg", function(objects, options) {
+    var stateObjects = new fabric.Group(groupStates);
+    stateObjects.set({
+      left: 10,
+      top: 10,
+      width: canvas.width - 10,
+      height: canvas.height - 10
+    });
+
+
+    for (var i = 0; i < objects.length; i++) {
+      if (stateObjects._objects[i].id == idNameStored) {
+        overlayState = stateObjects._objects[i];
+
+        overlayState.set({
+          left: 0,
+          top: 0,
+          stroke: 'black',
+          fill: 'transparent',
+          height: 250,
+          width: 300, // Changed the size of the state so that it fits better in the canvas. This ties with the scaling X and Y
+          selectable: false,
+          scaleX: 2,
+          scaleY: 2 // Increasing the size of the state image so it is easier for the user to fit their image into the shape of the state.\
+        })
+
+        canvas.add(overlayState);
+        //canvas.setOverlayImage(overlayState);
+        canvas.controlsAboveOverlay = true;
+        // canvas.calcOffset();
+
+      }
+    }
+  },
+  function(item, object) {
+    object.set('id', item.getAttribute('id'));
+    groupStates.push(object);
+  });
 
 
 
