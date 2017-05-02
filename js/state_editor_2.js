@@ -35,7 +35,7 @@ $("#trim").click(function() {
 });
 
 
-var path = "svg/usa_map.svg";
+var path = 'http://fabricjs.com/assets/1.svg';
 var overlayState;
 fabric.loadSVGFromURL(path, function(objects) {
     var stateObjects = new fabric.PathGroup(objects,
