@@ -179,7 +179,7 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
           fill:'red',
           // stroke:'transparent',
           // fill:'transparent',
-          selectable: false,
+          // selectable: false,
           clipTo: function(ctx) {
             overlayState.set({
 
@@ -204,7 +204,7 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
         // fabric.log(o, object);
         // canvas.remove(object);
       });
-      fabric.log(o, object);
+      object.src = userImage;
       // window.open(canvas.toDataURL({
       //   format: 'png'
       // }));
