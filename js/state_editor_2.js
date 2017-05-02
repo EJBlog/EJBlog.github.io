@@ -224,7 +224,7 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
       //   format: 'png'
       // }));
 
-    }
+
   };
 
   $("#toolbar").children().click(function(e) {
