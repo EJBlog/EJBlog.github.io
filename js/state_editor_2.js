@@ -48,21 +48,21 @@ fabric.loadSVGFromURL(path, function(objects) {
     });
 
 
-    for (var i = 0; i < objects.length; i++) {
-      if (stateObjects._objects[i].id == idNameStored) {
-        overlayState = stateObjects._objects[i];
+//     for (var i = 0; i < objects.length; i++) {
+//       if (stateObjects._objects[i].id == idNameStored) {
+//         overlayState = stateObjects._objects[i];
 
-        overlayState.set({
-          left: 0,
-          top: 0,
-          stroke: 'black',
-          fill: 'transparent',
-          selectable: false,
-          scaleX: canvas.height / overlayState.height,
-          scaleY: canvas.width / overlayState.width, // Increasing the size of the state image so it is easier for the user to fit their image into the shape of the state.\
-        })
+//         overlayState.set({
+//           left: 0,
+//           top: 0,
+//           stroke: 'black',
+//           fill: 'transparent',
+//           selectable: false,
+//           scaleX: canvas.height / overlayState.height,
+//           scaleY: canvas.width / overlayState.width, // Increasing the size of the state image so it is easier for the user to fit their image into the shape of the state.\
+//         })
 
-        canvas.add(overlayState);
+        canvas.add(stateObjects);
         //canvas.setOverlayImage(overlayState);
         //canvas.controlsAboveOverlay = true;
         //canvas.calcOffset();
