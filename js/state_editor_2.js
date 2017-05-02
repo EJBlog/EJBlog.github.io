@@ -41,8 +41,8 @@ fabric.loadSVGFromURL("svg/usa_map.svg", function(objects, options) {
     stateObjects.set({
       left: 10,
       top: 10,
-      width: 500,
-      height: 500,
+      //width: 500,
+      //height: 500,
     });
 
 
