@@ -59,7 +59,7 @@ var statePath;
 var groupStates = [];
 var overlayState;
 fabric.loadSVGFromURL("svg/usa_map.svg", function(objects) {
-    var stateObjects = new fabric.PathGroup(groupStates);
+    var stateObjects = new fabric.Group(groupStates);
     stateObjects.set({
       left: 10,
       top: 10,
