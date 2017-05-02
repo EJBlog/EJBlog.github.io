@@ -204,7 +204,7 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
         // fabric.log(o, object);
         // canvas.remove(object);
       });
-
+      fabric.log(o, object);
       // window.open(canvas.toDataURL({
       //   format: 'png'
       // }));
