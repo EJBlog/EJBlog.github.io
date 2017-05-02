@@ -23,7 +23,7 @@ var canvas = new fabric.Canvas('editor', {
 
 $("#trim").click(function() {
 
-  var text = new fabric.Image.("Test", {
+  var text = new fabric.Text("Test", {
     fontSize: 50,
     fill: "red",
     top: 50,
