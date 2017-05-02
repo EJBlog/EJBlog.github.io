@@ -35,10 +35,12 @@ $("#trim").click(function() {
 });
 
 
+var path = 'svg/usa_map.svg';
 var overlayState;
-fabric.loadSVGFromURL("svg/usa_map.svg", function(objects, options) {
-    var stateObjects = new fabric.Group(groupStates);
-    stateObjects.set({
+fabric.loadSVGFromURL(path, function(objects) {
+    var stateObjects = new fabric.PathGroup(objects,
+    //stateObjects.set(
+      {
       left: 10,
       top: 10,
       //width: 500,
@@ -64,7 +66,7 @@ fabric.loadSVGFromURL("svg/usa_map.svg", function(objects, options) {
         //canvas.setOverlayImage(overlayState);
         //canvas.controlsAboveOverlay = true;
         //canvas.calcOffset();
-        canvas.RenderAll();
+        canvas.renderAll();
 
       }
     }
