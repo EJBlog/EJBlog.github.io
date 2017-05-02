@@ -169,7 +169,7 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
     // },
 
 
-    trim: function(){
+    trim2: function(){
       var editedImage = JSON.stringify(canvas);
       canvas.clear();
       canvas.loadFromJSON(editedImage, canvas.renderAll.bind(canvas), function(o, object) {
