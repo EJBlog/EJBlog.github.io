@@ -19,14 +19,14 @@ var canvas = new fabric.Canvas('editor', {
 var statePath;
 var groupStates = [];
 var overlayState;
-// fabric.loadSVGFromURL("svg/usa_map.svg", function(objects, options) {
-//     var stateObjects = new fabric.Group(groupStates);
-//     stateObjects.set({
-//       left: 10,
-//       top: 10,
-//       width: canvas.width - 10,
-//       height: canvas.height - 10
-//     });
+fabric.loadSVGFromURL("svg/usa_map.svg", function(objects, options) {
+    var stateObjects = new fabric.Group(groupStates);
+    stateObjects.set({
+      left: 10,
+      top: 10,
+      width: canvas.height / stateObjects.width,
+      height: canvas.width / stateObjects.width,
+    });
 
 
     for (var i = 0; i < objects.length; i++) {
@@ -45,10 +45,10 @@ var overlayState;
           scaleY: 2 // Increasing the size of the state image so it is easier for the user to fit their image into the shape of the state.\
         })
 
-        canvas.add(overlayState);
-        canvas.setOverlayImage(overlayState);
-        canvas.controlsAboveOverlay = true;
-        canvas.calcOffset();
+        // canvas.add(overlayState);
+        // canvas.setOverlayImage(overlayState);
+        // canvas.controlsAboveOverlay = true;
+        // canvas.calcOffset();
 
       }
     }
@@ -241,17 +241,17 @@ $("#trim").click(function () {
     text.globalCompositeOperation = 'source-atop';
     canvas.renderAll();
 });
-var background;
-fabric.loadSVGFromURL("svg/usa_map.svg", function(objects, options) {
-    var background = new fabric.Group(groupStates);
-    background.set({
-      left: 0,
-      top: 0,
-      width: canvas.height / background.width,
-      height: canvas.width / background.width,
-      selectable: false
-    });
-    canvas.add(background);
+// var background;
+// fabric.loadSVGFromURL("svg/usa_map.svg", function(objects, options) {
+//     var background = new fabric.Group(groupStates);
+//     background.set({
+//       left: 0,
+//       top: 0,
+//       width: canvas.height / background.width,
+//       height: canvas.width / background.width,
+//       selectable: false
+//     });
+    canvas.add(overlayState);
     canvas.renderAll();
 });
 
