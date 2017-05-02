@@ -35,40 +35,18 @@ $("#trim").click(function() {
 });
 
 
-var path = 'http://fabricjs.com/assets/1.svg';
-var overlayState;
-fabric.loadSVGFromURL(path, function(objects) {
-    var stateObjects = new fabric.PathGroup(objects,
-    //stateObjects.set(
-      {
-      left: 10,
-      top: 10,
-      //width: 500,
-      //height: 500,
-    });
+  var site_url =  'http://fabricjs.com/assets/1.svg';
 
-
-//     for (var i = 0; i < objects.length; i++) {
-//       if (stateObjects._objects[i].id == idNameStored) {
-//         overlayState = stateObjects._objects[i];
-
-//         overlayState.set({
-//           left: 0,
-//           top: 0,
-//           stroke: 'black',
-//           fill: 'transparent',
-//           selectable: false,
-//           scaleX: canvas.height / overlayState.height,
-//           scaleY: canvas.width / overlayState.width, // Increasing the size of the state image so it is easier for the user to fit their image into the shape of the state.\
-//         })
-
-        canvas.add(stateObjects);
-        //canvas.setOverlayImage(overlayState);
-        //canvas.controlsAboveOverlay = true;
-        //canvas.calcOffset();
-        canvas.renderAll();
-
-      });
+fabric.loadSVGFromURL(site_url, function(objects) { 
+          var group = new fabric.PathGroup(objects, { 
+          left: 165, 
+          top: 100, 
+          width: 295, 
+          height: 211 
+        }); 
+        canvas.add(group); 
+        canvas.renderAll(); 
+          }); 
 //     }
 //   },
 //   function(item, object) {
