@@ -12,8 +12,8 @@ var idNameStored = localStorage.getItem('storedIdName');
 // changing the editor background color
 var canvas = new fabric.Canvas('editor', {
   width: $("#editor").width(),
-  height: $("#editor").height(),
-  //backgroundColor: 'whitesmoke'
+  height: $("#editor").height()
+  //,backgroundColor: 'whitesmoke'
 });
 
 // loading the background/overlay image from SVG of the state that was cicked
