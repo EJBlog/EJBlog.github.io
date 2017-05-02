@@ -238,12 +238,12 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
 
 
 
-
-// var canvas = new fabric.Canvas('editor', {
-//   width: $("#editor").width(),
-//   height: $("#editor").height()
-// });
-//
+////// THIS IS WHAT WAS CAUSING THE ISSUES - Jake
+    // var canvas = new fabric.Canvas('editor', {
+    //   width: $("#editor").width(),
+    //   height: $("#editor").height()
+    // });
+    //
 
 
 // var background;
