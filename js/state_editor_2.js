@@ -239,11 +239,11 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
 
 
 
-var canvas = new fabric.Canvas('editor', {
-  width: $("#editor").width(),
-  height: $("#editor").height()
-});
-
+// var canvas = new fabric.Canvas('editor', {
+//   width: $("#editor").width(),
+//   height: $("#editor").height()
+// });
+//
 
 
 // var background;
