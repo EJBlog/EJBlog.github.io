@@ -19,17 +19,17 @@ var canvas = new fabric.Canvas('editor', {
 var statePath;
 var groupStates = [];
 
-$("#trim").click(function () {
+$("#trim").click(function() {
 
   var text = new fabric.Text("Test", {
-        fontSize: 50,
-        fill: "red",
-        top: 50,
-        left:50
-    });
-    canvas.add(text);
-    text.globalCompositeOperation = 'source-atop';
-    canvas.renderAll();
+    fontSize: 50,
+    fill: "red",
+    top: 50,
+    left: 50
+  });
+  canvas.add(text);
+  text.globalCompositeOperation = 'source-atop';
+  canvas.renderAll();
 });
 
 
@@ -149,7 +149,7 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
         }))
       }
 
-// Below is a way to download the image straight to the users computer without having to right click and save as
+      // Below is a way to download the image straight to the users computer without having to right click and save as
       // function downloadCanvas(link, canvasId, filename) {
       //     link.href = document.getElementById(canvasId).toDataURL();
       //     link.download = filename;
@@ -184,7 +184,7 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
     // },
 
 
-    trim2: function(){
+    trim2: function() {
       var editedImage = JSON.stringify(canvas);
       canvas.clear();
       canvas.loadFromJSON(editedImage, canvas.renderAll.bind(canvas), function(o, object) {
@@ -192,20 +192,20 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
         object.set({
           //stroke:'black',
           //fill:'red',
-           stroke:'transparent',
-           fill:'transparent',
+          stroke: 'transparent',
+          fill: 'transparent',
           selectable: false,
           clipTo: function(ctx) {
             overlayState.set({
 
               width: ctx.width,
               length: ctx.length,
-              height:ctx.height,
+              height: ctx.height,
               selectable: false,
               scaleX: 2.5,
               scaleY: 2.5,
-               fill:'transparent',
-               stroke:'transparent'
+              fill: 'transparent',
+              stroke: 'transparent'
               //stroke:'black',
               //fill:'blue'
 
@@ -224,6 +224,7 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
       //   format: 'png'
       // }));
 
+    }
 
   };
 
@@ -239,8 +240,8 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
 
 
 var canvas = new fabric.Canvas('editor', {
-    width: $("#editor").width(),
-    height: $("#editor").height()
+  width: $("#editor").width(),
+  height: $("#editor").height()
 });
 
 
@@ -255,8 +256,8 @@ var canvas = new fabric.Canvas('editor', {
 //       height: canvas.width / background.width,
 //       selectable: false
 //     });
-    //canvas.add(overlayState);
-    //canvas.renderAll();
+//canvas.add(overlayState);
+//canvas.renderAll();
 //});
 
 
