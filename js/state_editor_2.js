@@ -68,13 +68,13 @@ fabric.loadSVGFromURL(path, function(objects) {
         //canvas.calcOffset();
         canvas.renderAll();
 
-      }
-    }
-  },
-  function(item, object) {
-    object.set('id', item.getAttribute('id'));
-    groupStates.push(object);
-  });
+      });
+//     }
+//   },
+//   function(item, object) {
+//     object.set('id', item.getAttribute('id'));
+//     groupStates.push(object);
+//   });
 
 
 
