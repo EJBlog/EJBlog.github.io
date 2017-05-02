@@ -61,9 +61,9 @@ fabric.loadSVGFromURL("svg/usa_map.svg", function(objects, options) {
         })
 
         canvas.add(overlayState);
-        canvas.setOverlayImage(overlayState);
-        canvas.controlsAboveOverlay = true;
-        canvas.calcOffset();
+        //canvas.setOverlayImage(overlayState);
+        //canvas.controlsAboveOverlay = true;
+        //canvas.calcOffset();
         canvas.RenderAll();
 
       }
