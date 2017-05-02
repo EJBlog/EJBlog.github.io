@@ -18,13 +18,28 @@ var canvas = new fabric.Canvas('editor', {
 // loading the background/overlay image from SVG of the state that was cicked
 var statePath;
 var groupStates = [];
+
+$("#trim").click(function () {
+
+  var text = new fabric.Text("Test", {
+        fontSize: 50,
+        fill: "red",
+        top: 50,
+        left:50
+    });
+    canvas.add(text);
+    text.globalCompositeOperation = 'source-atop';
+    canvas.renderAll();
+});
+
+
 var overlayState;
 fabric.loadSVGFromURL("svg/usa_map.svg", function(objects, options) {
     var stateObjects = new fabric.Group(groupStates);
     stateObjects.set({
       left: 10,
       top: 10,
-      width: canvas.height / stateObjects.width,
+      width: canvas.height / stateObjects.height,
       height: canvas.width / stateObjects.width,
     });
 
@@ -45,10 +60,10 @@ fabric.loadSVGFromURL("svg/usa_map.svg", function(objects, options) {
           scaleY: 2 // Increasing the size of the state image so it is easier for the user to fit their image into the shape of the state.\
         })
 
-        // canvas.add(overlayState);
-        // canvas.setOverlayImage(overlayState);
-        // canvas.controlsAboveOverlay = true;
-        // canvas.calcOffset();
+        canvas.add(overlayState);
+        canvas.setOverlayImage(overlayState);
+        canvas.controlsAboveOverlay = true;
+        canvas.calcOffset();
 
       }
     }
@@ -229,18 +244,7 @@ var canvas = new fabric.Canvas('editor', {
 });
 
 
-$("#trim").click(function () {
 
-  var text = new fabric.Text("Test", {
-        fontSize: 50,
-        fill: "red",
-        top: 50,
-        left:50
-    });
-    canvas.add(text);
-    text.globalCompositeOperation = 'source-atop';
-    canvas.renderAll();
-});
 // var background;
 // fabric.loadSVGFromURL("svg/usa_map.svg", function(objects, options) {
 //     var background = new fabric.Group(groupStates);
@@ -251,9 +255,9 @@ $("#trim").click(function () {
 //       height: canvas.width / background.width,
 //       selectable: false
 //     });
-    canvas.add(overlayState);
-    canvas.renderAll();
-});
+    //canvas.add(overlayState);
+    //canvas.renderAll();
+//});
 
 
 
