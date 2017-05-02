@@ -175,10 +175,10 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
       canvas.loadFromJSON(editedImage, canvas.renderAll.bind(canvas), function(o, object) {
 
         object.set({
-          stroke:'black',
-          fill:'red',
-          // stroke:'transparent',
-          // fill:'transparent',
+          // stroke:'black',
+          // fill:'red',
+          stroke:'transparent',
+          fill:'transparent',
           selectable: false,
           clipTo: function(ctx) {
             overlayState.set({
@@ -189,10 +189,10 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
               selectable: false,
               scaleX: 2.5,
               scaleY: 2.5,
-              // fill:'transparent',
-              // stroke:'transparent'
-              stroke:'black',
-              fill:'blue'
+              fill:'transparent',
+              stroke:'transparent'
+              // stroke:'black',
+              // fill:'blue'
 
             });
             canvas.setOverlayImage(object);
