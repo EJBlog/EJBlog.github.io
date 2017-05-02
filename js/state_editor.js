@@ -11,6 +11,8 @@ var idNameStored = localStorage.getItem('storedIdName');
 
 // changing the editor background color
 var canvas = new fabric.Canvas('editor', {
+  width: $("#editor").width(),
+  height: $("#editor").height(),
   backgroundColor: 'whitesmoke'
 });
 
