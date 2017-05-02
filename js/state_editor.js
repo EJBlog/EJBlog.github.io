@@ -183,9 +183,9 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
           clipTo: function(ctx) {
             overlayState.set({
 
-              // width: ctx.width,
-              // length: ctx.length,
-              // height:ctx.height,
+              width: ctx.width,
+              length: ctx.length,
+              height:ctx.height,
               selectable: false,
               scaleX: 2.5,
               scaleY: 2.5,
