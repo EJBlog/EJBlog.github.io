@@ -19,14 +19,14 @@ var canvas = new fabric.Canvas('editor', {
 var statePath;
 var groupStates = [];
 var overlayState;
-fabric.loadSVGFromURL("svg/usa_map.svg", function(objects, options) {
-    var stateObjects = new fabric.Group(groupStates);
-    stateObjects.set({
-      left: 10,
-      top: 10,
-      width: canvas.width - 10,
-      height: canvas.height - 10
-    });
+// fabric.loadSVGFromURL("svg/usa_map.svg", function(objects, options) {
+//     var stateObjects = new fabric.Group(groupStates);
+//     stateObjects.set({
+//       left: 10,
+//       top: 10,
+//       width: canvas.width - 10,
+//       height: canvas.height - 10
+//     });
 
 
     for (var i = 0; i < objects.length; i++) {
