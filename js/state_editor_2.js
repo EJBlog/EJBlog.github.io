@@ -11,6 +11,8 @@ var idNameStored = localStorage.getItem('storedIdName');
 
 // changing the editor background color
 var canvas = new fabric.Canvas('editor', {
+  width: $("#editor").width(),
+  height: $("#editor").height(),
   // backgroundColor: 'white'
   backgroundColor: 'whitesmoke'
 });
@@ -61,9 +63,10 @@ fabric.loadSVGFromURL("svg/usa_map.svg", function(objects, options) {
         })
 
         canvas.add(overlayState);
-        canvas.setOverlayImage(overlayState);
+        //canvas.setOverlayImage(overlayState);
         canvas.controlsAboveOverlay = true;
         canvas.calcOffset();
+        canvas.RenderAll();
 
       }
     }
