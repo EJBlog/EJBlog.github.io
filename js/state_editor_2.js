@@ -23,7 +23,7 @@ var canvas = new fabric.Canvas('editor', {
 
 $("#trim").click(function() {
 
-  var text = new fabric.Text("Test", {
+  var text = new fabric.Image.("Test", {
     fontSize: 50,
     fill: "red",
     top: 50,
@@ -35,7 +35,7 @@ $("#trim").click(function() {
 });
 
 
-  var site_url =  "svg/ky.svg";
+  var site_url =  "svg/usa_map.svg";
 
 fabric.loadSVGFromURL(site_url, function(objects) { 
           var group = new fabric.PathGroup(objects, { 
