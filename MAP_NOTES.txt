@@ -17,15 +17,11 @@ Export Individual state images or entire country projects
 Save states and/or country projects
 
 Short term goals:
-Get editor/canvas to change size and shape to specific states
--- might be able to do something like document.createElement
-  -- We are having issues with Clippath not working so here are other possible (untried) solutions
-        - save the state image into PNG and reload it some how?
-        - Create images for each state in photoshop where the inside/background of the state is empty
-        - Embedding/nesting canvases?
 for mobile: the map wont fit so use a drop down list for the map page
 Integrate the map and editor into the OTA website.
+Explore having a button that will bring the user's image to the front (so you can see the entire image) instead of just seeing what is inside the state.
 
+xGet editor/canvas to change size and shape to specific states --> Evan was able to set the overlay state as the canvas. Changing the editor and canvas div on the html page made this work.- DONE
 xAdd radio buttons to change the color of the state outline
 xAdd CSS and make the pages look good - DONE
 xAdd a feedback page/ link for MVP testing - DONE
