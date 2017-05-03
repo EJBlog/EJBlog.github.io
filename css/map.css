@@ -29,8 +29,8 @@
 		height: auto;
 		position: absolute;
 		margin-top:0px;
-		margin-left: 5px;
-		top: 5px;
+		margin-left: 10px;
+		top: 50px;
 		color:white;
 	}
 }
@@ -52,6 +52,18 @@ color: white;
 text-align: center;
 height:105px;
 padding-top: .1px
+}
+@media (max-width: 850px) {
+	.title{
+	font-size: 25px;
+	font-family: initial;
+	background-color: black;
+	color: white;
+	text-align: center;
+	height:105px;
+	padding-top: .1px;
+	width:958px;
+	}
 }
 
 .container{
