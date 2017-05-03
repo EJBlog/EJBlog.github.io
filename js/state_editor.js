@@ -153,12 +153,37 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
       canvas.renderAll();
     },
 
+    showImage: function() {
 
-    // The below function is used for testing
-    removeImage: function() {
-      canvas.remove(userImage);
+      if (userImage.height > 0) {
+      overlayState.set({ fill: 'transparent'});
+      userImage.globalCompositeOperation = 'destination-over';
+      //userImage.globalCompositeOperation = 'lighter';
+      canvas.renderAll();
+      }
+
+    },
+
+    trim: function() {
+      overlayState.set({ fill: 'white'});
+      userImage.globalCompositeOperation = 'source-atop';
+      //userImage.globalCompositeOperation = 'lighter';
+      canvas.renderAll();
+
+    },
+
+    reset: function() {
+      canvas.clear();
+      canvas.add(overlayState);
       imageRemoved = true;
+      document.getElementById("UploadImage").value = "";
+      canvas.renderAll();
     }
+    // The below function is used for testing
+    // removeImage: function() {
+    //   canvas.remove(userImage);
+    //   imageRemoved = true;
+    // }
     //,
 
     // Reset: function() {

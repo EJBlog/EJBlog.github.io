@@ -21,18 +21,18 @@ var canvas = new fabric.Canvas('editor', {
 //var statePath;
 //var groupStates = [];
 
-$("#trim").click(function() {
-
-  var text = new fabric.Text("Test", {
-    fontSize: 50,
-    fill: "red",
-    top: 50,
-    left: 50
-  });
-  canvas.add(text);
-  text.globalCompositeOperation = 'source-atop';
-  canvas.renderAll();
-});
+// $("#trim").click(function() {
+//
+//   var text = new fabric.Text("Test", {
+//     fontSize: 50,
+//     fill: "red",
+//     top: 50,
+//     left: 50
+//   });
+//   canvas.add(text);
+//   text.globalCompositeOperation = 'source-atop';
+//   canvas.renderAll();
+// });
 
 
 //   var site_url =  "svg/usa_map.svg";
