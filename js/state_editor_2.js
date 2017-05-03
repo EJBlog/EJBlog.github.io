@@ -37,16 +37,16 @@ $("#trim").click(function() {
 
 //   var site_url =  "svg/usa_map.svg";
 
-// fabric.loadSVGFromURL(site_url, function(objects) { 
-//           var group = new fabric.PathGroup(objects, { 
-//           left: 165, 
-//           top: 100, 
-//           width: 295, 
-//           height: 211 
-//         }); 
-//         canvas.add(group); 
-//         canvas.renderAll(); 
-//           }); 
+// fabric.loadSVGFromURL(site_url, function(objects) {
+//           var group = new fabric.PathGroup(objects, {
+//           left: 165,
+//           top: 100,
+//           width: 295,
+//           height: 211
+//         });
+//         canvas.add(group);
+//         canvas.renderAll();
+//           });
 //     }
 //   },
 //   function(item, object) {
@@ -85,7 +85,7 @@ fabric.loadSVGFromURL("svg/usa_map.svg", function(objects) {
         })
 
         canvas.add(overlayState);
-        canvas.renderAll(); 
+        canvas.renderAll();
         //canvas.setOverlayImage(overlayState);
         //canvas.controlsAboveOverlay = true;
         // canvas.calcOffset();
@@ -196,6 +196,13 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
     removeImage: function() {
       canvas.remove(userImage);
       imageRemoved = true;
+    },
+
+    showImage: function() {
+      canvas.remove(overlayState);
+      canvas.bringToFront(userImage);
+      canvas.add(overlayState);
+      canvas.renderAll();
     }
     //,
 
