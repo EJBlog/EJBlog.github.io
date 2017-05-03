@@ -195,6 +195,7 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
     // The below function is used for testing
     removeImage: function() {
       canvas.remove(userImage);
+      userImage = null;
       imageRemoved = true;
     },
 
@@ -205,7 +206,7 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
       userImage.globalCompositeOperation = 'destination-over';
       //userImage.globalCompositeOperation = 'lighter';
       canvas.renderAll();
-    } 
+      }
 
     },
 
