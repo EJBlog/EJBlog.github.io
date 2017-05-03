@@ -86,9 +86,6 @@ fabric.loadSVGFromURL("svg/usa_map.svg", function(objects) {
 
         canvas.add(overlayState);
         canvas.renderAll();
-        //canvas.setOverlayImage(overlayState);
-        //canvas.controlsAboveOverlay = true;
-        // canvas.calcOffset();
 
       }
     }
@@ -194,11 +191,10 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
 
 
     // The below function is used for testing
-    removeImage: function() {
-      canvas.remove(userImage);
-      userImage = null;
-      imageRemoved = true;
-    },
+    // removeImage: function() {
+    //   canvas.remove(userImage);
+    //   imageRemoved = true;
+    // },
 
     showImage: function() {
 
@@ -217,19 +213,14 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
       //userImage.globalCompositeOperation = 'lighter';
       canvas.renderAll();
 
+    },
+
+    reset: function() {
+      canvas.clear();
+      canvas.add(overlayState);
+      canvas.renderAll();
+      imageRemoved = true;
     }
-
-    //,
-
-    // Reset: function() {
-    //   canvas.clear();
-    //   canvas.set({ backgroundColor: 'whitesmoke'});
-    //   canvas.add(overlayState);
-    //   canvas.setOverlayImage(overlayState);
-    //   canvas.controlsAboveOverlay = true;
-    //   canvas.renderAll();
-    //   imageRemoved = true;
-    // },
 
 
     // trim2: function() {
