@@ -150,6 +150,9 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
         canvas.renderAll();
       }
     }
+    overlayState.set({ fill: 'white'});
+    userImage.globalCompositeOperation = 'source-atop';
+    canvas.renderAll();
     reader.readAsDataURL(e.target.files[0]);
     imageRemoved = false;
   }
