@@ -199,9 +199,9 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
     },
 
     showImage: function() {
-      //userImage.globalCompositeOperation = 'destination-over';
       userImage.set({ fill: 'transparent'});
-      userImage.globalCompositeOperation = 'lighter';
+      userImage.globalCompositeOperation = 'destination-over';
+      //userImage.globalCompositeOperation = 'lighter';
       canvas.renderAll();
 
     }
