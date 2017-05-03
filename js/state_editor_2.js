@@ -158,6 +158,13 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
   }
 };
 
+var clearImg = $("#clear");
+
+// Setup the clear functionality
+clearImg.on("click", function(){
+    UploadImage.replaceWith( UploadImage.val('').clone( true ) );
+});
+
 (function($) {
   // 	toolbar functions
   var tools = {
