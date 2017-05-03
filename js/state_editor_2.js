@@ -201,6 +201,7 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
     showImage: function() {
       userImage.globalCompositeOperation = 'destination-over';
       canvas.renderAll();
+      
     }
     //,
 
