@@ -82,10 +82,10 @@
   border-radius:8px;
   /*background-color:#ababab;*/
 }
-@media (max-width: 1118px) {
+@media (max-width: 1295px) {
   #imageEditor {
     width:574px;
-    margin-left: 237px;
+    margin-left: 270px;
     padding:20px;
     border:1px solid # 4b4b4b;
     -moz-border-radius:8px;
@@ -93,10 +93,10 @@
     border-radius:8px;
   }
 }
-@media (max-width: 1295px) {
+@media (max-width: 1118px) {
   #imageEditor {
     width:574px;
-    margin-left: 270px;
+    margin-left: 237px;
     padding:20px;
     border:1px solid # 4b4b4b;
     -moz-border-radius:8px;
