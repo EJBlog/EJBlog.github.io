@@ -144,8 +144,7 @@
 
 #toolbar {
   display:block;
-  margin:20px 0 0;
-  /*text-align: center;*/
+  margin:0px 0px 10px;
 }
 
 #toolbar a {
