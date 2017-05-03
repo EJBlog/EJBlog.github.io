@@ -6,15 +6,12 @@
 	width: auto;
 	height: auto;
 	position: absolute;
-	margin-top:0px;
+	margin-top:10px;
 	margin-left: 30px;
-	top: 50px;
-	color:white;
 }
 @media (max-width: 968px) {
 	.hover-display{
 		float: left;
-		/*width:208px;*/
 		width: auto;
 		height: auto;
 		position: absolute;
@@ -31,8 +28,10 @@
 		width: auto;
 		height: auto;
 		position: absolute;
-		margin-top:10px;
+		margin-top:0px;
 		margin-left: 30px;
+		top: 50px;
+		color:white;
 	}
 }
 
