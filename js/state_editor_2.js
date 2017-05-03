@@ -199,9 +199,7 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
     },
 
     showImage: function() {
-      //canvas.remove(overlayState);
-      canvas.bringToFront(userImage);
-      canvas.add(overlayState);
+      userImage.globalCompositeOperation = 'destination-over';
       canvas.renderAll();
     }
     //,
