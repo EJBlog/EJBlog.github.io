@@ -221,9 +221,9 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
     reset: function() {
       canvas.clear();
       canvas.add(overlayState);
+      imageRemoved = true;
       document.getElementById("UploadImage").value = "";
       canvas.renderAll();
-      imageRemoved = true;
     }
 
 
