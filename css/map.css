@@ -9,6 +9,18 @@
 	margin-top:10px;
 	margin-left: 30px;
 }
+@media (max-width: 700px) {
+	.hover-display{
+		float: left;
+		width: auto;
+		height: auto;
+		position: absolute;
+		margin-top:0px;
+		margin-left: 5px;
+		top: 5px;
+		color:white;
+	}
+}
 @media (max-width: 968px) {
 	.hover-display{
 		float: left;
@@ -34,6 +46,7 @@
 		color:white;
 	}
 }
+
 
 .hover-state{
 font-size: 20px;
