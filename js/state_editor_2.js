@@ -162,7 +162,7 @@ var clearImg = $("#clear");
 
 // Setup the clear functionality
 clearImg.on("click", function(){
-    UploadImage.replaceWith( UploadImage.val('').clone( true ) );
+    document.getElementById("UploadImage").value = "";
 });
 
 (function($) {
