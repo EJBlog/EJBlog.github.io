@@ -223,20 +223,20 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
 
 })(jQuery);
 
-function changeBorderBlack() {
-
-  overlayState.set({
-    stroke: 'black'
-  });
-  canvas.renderAll();
-
-};
-
-function changeBorderWhite() {
-
-  overlayState.set({
-    stroke: 'white'
-  });
-  canvas.renderAll();
-
-};
+// function changeBorderBlack() {
+//
+//   overlayState.set({
+//     stroke: 'black'
+//   });
+//   canvas.renderAll();
+//
+// };
+//
+// function changeBorderWhite() {
+//
+//   overlayState.set({
+//     stroke: 'white'
+//   });
+//   canvas.renderAll();
+//
+// };
