@@ -129,6 +129,7 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
         }
       }
       reader.readAsDataURL(e.target.files[0]);
+      document.getElementById('UploadImage')[0].value = '';
     }
     //end of if for "confirm"
 
