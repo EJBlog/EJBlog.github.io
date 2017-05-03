@@ -158,12 +158,12 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
   }
 };
 
-var clearImg = $("#clear");
-
-// Setup the clear functionality
-clearImg.on("click", function(){
-    document.getElementById("UploadImage").value = "";
-});
+// var clearImg = $("#clear");
+//
+// // Setup the clear functionality
+// clearImg.on("click", function(){
+//     document.getElementById("UploadImage").value = "";
+// });
 
 (function($) {
   // 	toolbar functions
@@ -227,6 +227,7 @@ clearImg.on("click", function(){
     reset: function() {
       canvas.clear();
       canvas.add(overlayState);
+      document.getElementById("UploadImage").value = "";
       canvas.renderAll();
       imageRemoved = true;
     }
