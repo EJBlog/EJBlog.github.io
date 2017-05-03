@@ -158,12 +158,6 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
   }
 };
 
-// var clearImg = $("#clear");
-//
-// // Setup the clear functionality
-// clearImg.on("click", function(){
-//     document.getElementById("UploadImage").value = "";
-// });
 
 (function($) {
   // 	toolbar functions
