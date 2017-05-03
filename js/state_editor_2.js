@@ -105,7 +105,8 @@ var userImage = new fabric.Image();
 var imageRemoved = false;
 document.getElementById('UploadImage').onchange = function handleImage(e) {
 
-  if (userImage.height > 0 && imageRemoved == false) {
+  // if (userImage.height > 0 && imageRemoved == false) {
+  if (userImage != null && imageRemoved == false) {
 
     if (confirm("An image has already been loaded. Did you mean to load a second image?") === true) {
       var reader = new FileReader();
@@ -201,7 +202,8 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
 
     showImage: function() {
 
-      if (userImage.height > 0) {
+      // if (userImage.height > 0) {
+      if (userImage != null) {
       overlayState.set({ fill: 'transparent'});
       userImage.globalCompositeOperation = 'destination-over';
       //userImage.globalCompositeOperation = 'lighter';
