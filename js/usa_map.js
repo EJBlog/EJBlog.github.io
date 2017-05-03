@@ -757,6 +757,6 @@ mapImg.onclick = function() {
   //     window.open("map2.html","_self");
   // }
 
-  window.open("map2.html", "_self");
+  window.open("state_editor.html", "_self");
 
 };
