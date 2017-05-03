@@ -86,9 +86,6 @@ fabric.loadSVGFromURL("svg/usa_map.svg", function(objects) {
 
         canvas.add(overlayState);
         canvas.renderAll();
-        //canvas.setOverlayImage(overlayState);
-        //canvas.controlsAboveOverlay = true;
-        // canvas.calcOffset();
 
       }
     }
@@ -105,8 +102,7 @@ var userImage = new fabric.Image();
 var imageRemoved = false;
 document.getElementById('UploadImage').onchange = function handleImage(e) {
 
-  // if (userImage.height > 0 && imageRemoved == false) {
-  if (userImage != null && imageRemoved == false) {
+  if (userImage.height > 0 && imageRemoved == false) {
 
     if (confirm("An image has already been loaded. Did you mean to load a second image?") === true) {
       var reader = new FileReader();
@@ -194,16 +190,14 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
 
 
     // The below function is used for testing
-    removeImage: function() {
-      canvas.remove(userImage);
-      userImage = null;
-      imageRemoved = true;
-    },
+    // removeImage: function() {
+    //   canvas.remove(userImage);
+    //   imageRemoved = true;
+    // },
 
     showImage: function() {
 
-      // if (userImage.height > 0) {
-      if (userImage != null) {
+      if (userImage.height > 0) {
       overlayState.set({ fill: 'transparent'});
       userImage.globalCompositeOperation = 'destination-over';
       //userImage.globalCompositeOperation = 'lighter';
@@ -218,19 +212,14 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
       //userImage.globalCompositeOperation = 'lighter';
       canvas.renderAll();
 
+    },
+
+    reset: function() {
+      canvas.clear();
+      canvas.add(overlayState);
+      canvas.renderAll();
+      imageRemoved = true;
     }
-
-    //,
-
-    // Reset: function() {
-    //   canvas.clear();
-    //   canvas.set({ backgroundColor: 'whitesmoke'});
-    //   canvas.add(overlayState);
-    //   canvas.setOverlayImage(overlayState);
-    //   canvas.controlsAboveOverlay = true;
-    //   canvas.renderAll();
-    //   imageRemoved = true;
-    // },
 
 
     // trim2: function() {
