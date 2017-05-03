@@ -17,17 +17,16 @@ Export Individual state images or entire country projects
 Save states and/or country projects
 
 Short term goals:
-for mobile: the map wont fit so use a drop down list for the map page
-Integrate the map and editor into the OTA website.
-
+Fix the problem where the user cannot upload an image, then clear everything, then upload the same image
 Update CSS - Jake
 Feedback page - link to survey monkey instead of just email.
-Fix the problem where the user cannot upload an image, then clear everything, then upload the same image
-
-Possibly add in a button to allow user to adjust size of state outline
+for mobile: the map wont fit so use a drop down list for the map page
+Integrate the map and editor into the OTA website.
+Possibly add in a button to allow user to adjust size of state outline?
 Update pop up for when loading multiple images?
-Update reset button/link - be able to remove selected items or just reset everything
 
+
+xUpdate reset button/link - be able to remove selected items or just reset everything - DONE
 xExplore having a button that will bring the user's image to the front (so you can see the entire image) instead of just seeing what is inside the state. -DONE
 xGet editor/canvas to change size and shape to specific states --> Evan was able to set the overlay state as the canvas. Changing the editor and canvas div on the html page made this work.- DONE
 xAdd radio buttons to change the color of the state outline
