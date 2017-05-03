@@ -199,10 +199,13 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
     },
 
     showImage: function() {
+
+      if (userImage.height > 0) {
       overlayState.set({ fill: 'transparent'});
       userImage.globalCompositeOperation = 'destination-over';
       //userImage.globalCompositeOperation = 'lighter';
       canvas.renderAll();
+    } 
 
     },
 
