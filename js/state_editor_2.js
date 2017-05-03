@@ -199,7 +199,7 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
     },
 
     showImage: function() {
-      userImage.set({ fill: 'transparent'});
+      overlayState.set({ fill: 'transparent'});
       userImage.globalCompositeOperation = 'destination-over';
       //userImage.globalCompositeOperation = 'lighter';
       canvas.renderAll();
