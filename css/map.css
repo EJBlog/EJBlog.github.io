@@ -2,11 +2,38 @@
 .hover-display
 {
 		float: left;
-		width:208px;
+		/*width:208px;*/
+		width: auto;
 		height: auto;
 		position: absolute;
 		margin-top:10px;
 		margin-left: 30px;
+}
+@media (min-width: 968px) {
+	.hover-display{
+		float: left;
+		/*width:208px;*/
+		width: auto;
+		height: auto;
+		position: absolute;
+		margin-top:0px;
+		margin-left: 30px;
+		top: 50px;
+		color:white;
+}
+}
+@media (min-width: 1295px) {
+	.hover-display{
+		float: left;
+		/*width:208px;*/
+		width: auto;
+		height: auto;
+		position: absolute;
+		margin-top:0px;
+		margin-left: 30px;
+		top: 50px;
+		color:white;
+	}
 }
 
 .hover-state{
@@ -14,6 +41,7 @@ font-size: 20px;
 font-family: sans-serif;
 /*float: left;*/
 }
+
 
 .title{
 font-size: 25px;
