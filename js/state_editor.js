@@ -158,7 +158,8 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
     removeImage: function() {
       canvas.remove(userImage);
       imageRemoved = true;
-    },
+    }
+    //,
 
     // Reset: function() {
     //   canvas.clear();
@@ -171,47 +172,47 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
     // },
 
 
-    trim: function(){
-      var editedImage = JSON.stringify(canvas);
-      canvas.clear();
-      canvas.loadFromJSON(editedImage, canvas.renderAll.bind(canvas), function(o, object) {
-
-        object.set({
-          // stroke:'black',
-          // fill:'red',
-          stroke:'transparent',
-          fill:'transparent',
-          selectable: false,
-          clipTo: function(ctx) {
-            overlayState.set({
-
-              width: ctx.width,
-              length: ctx.length,
-              height:ctx.height,
-              selectable: false,
-              scaleX: 2.5,
-              scaleY: 2.5,
-              fill:'transparent',
-              stroke:'transparent'
-              // stroke:'black',
-              // fill:'blue'
-
-            });
-            canvas.setOverlayImage(object);
-            canvas.controlsAboveOverlay = true;
-            overlayState.render(ctx);
-          }
-        });
-
-        // fabric.log(o, object);
-        // canvas.remove(object);
-      });
-
-      // window.open(canvas.toDataURL({
-      //   format: 'png'
-      // }));
-
-    }
+  //   trim: function(){
+  //     var editedImage = JSON.stringify(canvas);
+  //     canvas.clear();
+  //     canvas.loadFromJSON(editedImage, canvas.renderAll.bind(canvas), function(o, object) {
+  //
+  //       object.set({
+  //         // stroke:'black',
+  //         // fill:'red',
+  //         stroke:'transparent',
+  //         fill:'transparent',
+  //         selectable: false,
+  //         clipTo: function(ctx) {
+  //           overlayState.set({
+  //
+  //             width: ctx.width,
+  //             length: ctx.length,
+  //             height:ctx.height,
+  //             selectable: false,
+  //             scaleX: 2.5,
+  //             scaleY: 2.5,
+  //             fill:'transparent',
+  //             stroke:'transparent'
+  //             // stroke:'black',
+  //             // fill:'blue'
+  //
+  //           });
+  //           canvas.setOverlayImage(object);
+  //           canvas.controlsAboveOverlay = true;
+  //           overlayState.render(ctx);
+  //         }
+  //       });
+  //
+  //       // fabric.log(o, object);
+  //       // canvas.remove(object);
+  //     });
+  //
+  //     // window.open(canvas.toDataURL({
+  //     //   format: 'png'
+  //     // }));
+  //
+    // }
   };
 
   $("#toolbar").children().click(function(e) {
