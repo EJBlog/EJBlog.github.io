@@ -199,9 +199,10 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
     },
 
     showImage: function() {
-      userImage.globalCompositeOperation = 'destination-over';
+      //userImage.globalCompositeOperation = 'destination-over';
+      userImage.globalCompositeOperation = 'lighter';
       canvas.renderAll();
-      
+
     }
     //,
 
