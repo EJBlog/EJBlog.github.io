@@ -199,7 +199,7 @@ document.getElementById('UploadImage').onchange = function handleImage(e) {
     },
 
     showImage: function() {
-      canvas.remove(overlayState);
+      //canvas.remove(overlayState);
       canvas.bringToFront(userImage);
       canvas.add(overlayState);
       canvas.renderAll();
