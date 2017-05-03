@@ -11,7 +11,7 @@
 	top: 50px;
 	color:white;
 }
-@media (min-width: 968px) {
+@media (max-width: 968px) {
 	.hover-display{
 		float: left;
 		/*width:208px;*/
@@ -22,9 +22,9 @@
 		margin-left: 30px;
 		top: 50px;
 		color:white;
+	}
 }
-}
-@media (min-width: 1295px) {
+@media (max-width: 1295px) {
 	.hover-display{
 		float: left;
 		/*width:208px;*/
