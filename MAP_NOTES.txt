@@ -17,7 +17,8 @@ Export Individual state images or entire country projects
 Save states and/or country projects
 
 Short term goals:
-Fix the problem where the user cannot upload an image, then clear everything, then upload the same image
+-New issue: Good quality/large JPEG's cut image into segments on canvas. -Evan
+Fix the problem where the user cannot upload an image, then clear everything, then upload the same image -- DONE
 Update CSS - Jake
 Feedback page - link to survey monkey instead of just email.
 for mobile: the map wont fit so use a drop down list for the map page
