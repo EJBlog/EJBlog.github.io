@@ -17,7 +17,9 @@ Export Individual state images or entire country projects
 Save states and/or country projects
 
 Short term goals:
--New issue: Good quality/large JPEG's cut image into segments on canvas. -Evan
+Issue: Good quality/large JPEG's cut image into segments on canvas (Jenna's computer). -Evan
+  - Got pictures from Jenna; they work fine on Chrome/Safari on my MacBook. -Evan
+Issue: If you upload image, select Show Entire Image, then click Reset, then upload new image, it will only be shown in the outline of the state. Should be an easy fix, need to change state properties when Reset is clicked
 Update CSS - Jake
 Integrate the map and editor with the same styling/template as the OTA blog.
 for mobile: the map wont fit so use a drop down list for the map page
