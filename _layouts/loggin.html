@@ -24,15 +24,16 @@
 
 <body>
 
-  First name: <input type="text" name="fname" value="John"><br> Last name: <input type="text" name="lname" value="Doe"><br>
+  First name: <input type="text" name="fname" value="John"><br>
+  Last name: <input type="text" name="lname" value="Doe"><br>
   <input type="submit" id="submit" value="Submit form">
 
 
   <script>
 
     document.getElementById('submit').onclick = function() {
-      var firstname = document.getElementsByName('fname').innerhtml;
-      var lastname = document.getElementsByName('lname').innerhtml;
+      var firstname = document.getElementsByName('fname').value;
+      var lastname = document.getElementsByName('lname').value;
 
 
       // Connecting and sending data to the mongodb database
