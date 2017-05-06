@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Contact Us</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width">
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/custom.css">
+
+	<!--[if lte IE 9]>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.3.0/respond.js"></script>
+		<![endif]-->
+
+		<script src="js/vendor/modernizr.custom.32229-2.8-respondjs-1-4-2.js"></script>
+	
+		{% include google_analytics.html %}
+	
+	</head>
+	<body >
+
+		<main class="container left-container">
+			<div class="row">
+
+				<div id="menu-target">
+					<ul>
+						<li><i class="fa fa-home"></i><a href="index.html">Home</a></li>
+						<li><i class="fa fa-th"></i><a href="category.html">Categories</a></li>
+						<li><i class="fa fa-user"></i><a href="author_evan.html">Evan Neises</a></li>
+						<li><i class="fa fa-user"></i><a href="author_jake.html">Jake Ellis</a></li>
+						<li><i class="fa fa-users"></i><a href="guest_authors.html">Guest Authors</a></li>
+						<li><i class="fa fa-beer"></i><a href="about.html">About</a></li>
+						<li><i class="fa fa-paper-plane"></i><a href="contact.html">Contact</a></li>
+					</ul>
+					<hr>
+				</div>
+                
+				<!-- Need to change our sidebar image for contact page -Evan -->
+				<section class="sidebar col-md-5 col-sm-12" style="background-image: url(img/contact_sidebar5.jpg)">
+
+					<span class="menu-trigger animated fadeInDown">
+						<span class="bar"></span>
+						<span class="bar"></span>
+						<span class="bar"></span>
+					</span>
+
+					<!-- if the user has javascript disabled they can still use the menu -->
+					<noscript>
+						<div class="no-js-menu">
+							<ul>
+								<li><i class="fa fa-home"></i><a href="index.html">Home</a></li>
+								<li><i class="fa fa-th"></i><a href="category.html">Categories</a></li>
+								<li><i class="fa fa-user"></i><a href="author_evan.html">Evan Neises</a></li>
+								<li><i class="fa fa-user"></i><a href="author_jake.html">Jake Ellis</a></li>
+								<li><i class="fa fa-users"></i><a href="guest_authors.html">Guest Authors</a></li>
+								<li><i class="fa fa-beer"></i><a href="about.html">About</a></li>
+								<li><i class="fa fa-paper-plane"></i><a href="contact.html">Contact</a></li>
+							</ul>
+						</div>
+					</noscript>
+					<!-- end no script -->
+
+					<div class="site-info">
+						<div class="primary-info">
+							<h1>Contact</h1>
+							<p>Tell us what you think. We're open to all feedback, comments, questions, or whatever else you'd like to say.</p>
+
+						</div>
+                        
+					</div>
+
+				</section>
+
+				<div class="col-md-7 col-sm-12 col-md-offset-5 main-content">
+
+					<h3>Contact Us</h3>
+
+					<!--<form name="htmlform" method="post" action="email_code.php" id="form">-->
+						<form action="http://formspree.io/officetoadventure@gmail.com" id="contactform" method="post">
+							<div class="form-group">
+								<label for="name">Name</label>
+								<input type="text" placeholder="John Smith" class="form-control" name="name" value="" required="required">
+							</div>
+							<div class="form-group">
+								<label for="email">Email</label>
+								<input type="email" placeholder="youremail@email.com" class="form-control" name="_replyto" value="" required="required">
+							</div>
+
+							<div class="form-group">
+								<label for="message">Message</label>
+								<textarea class="form-control" name="message" placeholder="I love your blog posts, stay awesome." value="" required="required" ></textarea>
+							</div>
+
+							<div class="form-group">
+								<input class="btn btn-default"  type="submit" value="Send" name="submit" target="_blank">
+							</div>
+						</form> 
+						
+						
+						<footer class="split-footer">
+							<a href="about.html">About</a>
+							<i class="link-spacer"></i>
+							<a href="author_evan.html">Neises</a>
+							<i class="link-spacer"></i>
+							<a href="author_jake.html">Ellis</a>
+						</footer>
+					</div><!-- main content -->
+				</div> <!--/row -->
+
+			</main> <!-- /container -->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+			<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+			<script src="js/vendor/jquery.jpanelmenu.min.js"></script>
+			<script src="js/vendor/bootstrap.min.js"></script>
+			<script src="js/vendor/fastclick.min.js"></script>
+        
+			<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.12.0/jquery.validate.js"></script>
+			<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.12.0/additional-methods.js"></script>
+			<script>$("#contactform").validate();</script> 
+
+			<!--<script src="js/validate.js" type="text/javascript"></script>-->
+			<script src="js/main.js"></script>
+        
+		</body>
+		</html>
