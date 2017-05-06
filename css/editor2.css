@@ -15,6 +15,7 @@
 
 .load-image
 {
+  font-size: 14px;
 		float: left;
 		width:208px;
 		height: auto;
@@ -25,7 +26,8 @@
 @media (max-width: 1000px) {
   .load-image
   {
-  		float: left;
+  		font-size: 14px;
+      float: left;
   		width:208px;
   		height: auto;
   		position: absolute;
@@ -143,6 +145,7 @@
 }
 
 #toolbar {
+  font-size: 14px;
   display:block;
   margin:0px 0px 10px;
 }
