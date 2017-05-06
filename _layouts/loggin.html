@@ -22,17 +22,19 @@
 
 </head>
 
-<body class="body">
+<body>
 
   First name: <input type="text" name="fname" value="John"><br> Last name: <input type="text" name="lname" value="Doe"><br>
   <input type="submit" id="submit" value="Submit form">
 
 
   <script>
-    var firstname = document.getElementsByName('fname').innerhtml;
-    var lastname = document.getElementsByName('lname').innerhtml;
 
     document.getElementById('submit').onclick = function() {
+      var firstname = document.getElementsByName('fname').innerhtml;
+      var lastname = document.getElementsByName('lname').innerhtml;
+
+
       // Connecting and sending data to the mongodb database
       var MongoClient = require('mongodb').MongoClient,
         assert = require('assert');
