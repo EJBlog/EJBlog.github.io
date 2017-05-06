@@ -73,6 +73,23 @@ padding-top: .1px
 	padding-left: 0px;
 	margin-top:10px;
 }
+@media (max-width: 1320px) {
+	.map_container{
+		margin-left: 220px;
+		background-color: slategray;
+		width:959px;
+		padding-left: 0px;
+		margin-top:10px;
+	}
+@media (max-width: 850px) {
+	.map_container{
+		margin-left: 10px;
+		background-color: slategray;
+		width:959px;
+		padding-left: 0px;
+		margin-top:10px;
+	}
+}
 
 .map{
 	border-style: solid;
