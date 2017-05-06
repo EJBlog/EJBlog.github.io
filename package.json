@@ -1,0 +1,26 @@
+{
+  "name": "travel_map",
+  "version": "1.0.0",
+  "description": "Travel Map Image Editor",
+  "main": "index.js",
+  "scripts": {
+    "test": "Jake Test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EJBlog/EJBlog.github.io.git"
+  },
+  "keywords": [
+    "Blog",
+    "Map"
+  ],
+  "author": "Jacob Ellis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EJBlog/EJBlog.github.io/issues"
+  },
+  "homepage": "https://github.com/EJBlog/EJBlog.github.io#readme",
+  "dependencies": {
+    "mongodb": "^2.2.26"
+  }
+}
