@@ -1,0 +1,92 @@
+
+.hover-display
+{
+	float: left;
+	/*width:208px;*/
+	width: auto;
+	height: auto;
+	position: absolute;
+	margin-top:10px;
+	margin-left: 30px;
+}
+@media (max-width: 1320px) {
+	.hover-display{
+		float: left;
+		/*width:208px;*/
+		width: auto;
+		height: auto;
+		position: absolute;
+		margin-top:0px;
+		margin-left: 30px;
+		top: 50px;
+		color:white;
+	}
+}
+@media (max-width: 850px) {
+	.hover-display{
+		float: left;
+		width: auto;
+		height: auto;
+		position: absolute;
+		margin-top:0px;
+		margin-left: 10px;
+		top: 50px;
+		color:white;
+	}
+}
+
+
+
+.hover-state{
+font-size: 20px;
+font-family: sans-serif;
+/*float: left;*/
+}
+
+
+.title{
+font-size: 25px;
+font-family: initial;
+background-color: black;
+color: white;
+text-align: center;
+height:105px;
+padding-top: .1px
+}
+@media (max-width: 850px) {
+	.title{
+	font-size: 25px;
+	font-family: initial;
+	background-color: black;
+	color: white;
+	text-align: center;
+	height:105px;
+	padding-top: .1px;
+	width:958px;
+	}
+}
+
+.map_container{
+	margin-left: 250px;
+	background-color: slategray;
+	width:959px;
+	padding-left: 0px;
+	margin-top:10px;
+}
+
+.map{
+	border-style: solid;
+	padding-left: 20px;
+	width:959px;
+}
+
+.instructions{
+	height:10%;
+	width:20%;
+	border-style: double;
+	position: absolute;
+	right: 0;
+	font-family: sans-serif;
+	font-size: 20px;
+	float:right;
+}
