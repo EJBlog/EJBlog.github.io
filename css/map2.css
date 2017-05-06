@@ -81,6 +81,7 @@ padding-top: .1px
 		padding-left: 0px;
 		margin-top:10px;
 	}
+}
 @media (max-width: 850px) {
 	.map_container{
 		margin-left: 10px;
@@ -96,6 +97,7 @@ padding-top: .1px
 	padding-left: 20px;
 	width:959px;
 }
+
 
 .instructions{
 	height:10%;
