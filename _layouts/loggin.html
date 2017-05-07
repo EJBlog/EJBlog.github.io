@@ -24,10 +24,14 @@
 
 <body>
 
-  First name: <input type="text" id="fname" ><br>
-  Last name: <input type="text"  id="lname" ><br>
-  <input type="submit" id="submit" value="Submit form">
+  <form action="/userInfo" method="POST">
+    <input type="text" placeholder="user name" name="user_id">
+    <input type="text" placeholder="password" name="password">
+    <button type="submit">Submit</button>
+  </form>
 
+  <span><%= userInfo[i].user_id</span>
+  <span>userInfo[i].password</span>
 
   <script>
 
