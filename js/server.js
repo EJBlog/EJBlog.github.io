@@ -12,6 +12,7 @@ app.use(bodyParser.urlencoded({
 // displaying our page
 app.get('/', (req, res) => {
   res.sendFile('C:/Users/Jacob/Documents/GitHub/EJBlog.github.io/_layouts/loggin.html')
+  // res.sendFile(__dirname + '/loggin.html')
   // Note: __dirname is directory that contains the JavaScript source code. Try logging it and see what you get!
   // Mine was '/Users/zellwk/Projects/demo-repos/crud-express-mongo' for this app.
 });
@@ -78,6 +79,6 @@ MongoClient.connect('mongodb://localhost:27017/test', (err, database) => {
 //   });
 // });
 
-app.get('/userInfo', (req, res) => {
-  var cursor = db.collection('userInfo').find()
-})
+// app.get('/userInfo', (req, res) => {
+//   var cursor = db.collection('userInfo').find()
+// })
