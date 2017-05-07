@@ -60,15 +60,15 @@ MongoClient.connect('mongodb://localhost:27017/test', (err, database) => {
   });
 })
 
-// This saves what was entered into the user name and password boxes
-// app.post('/userInfo', (req, res) => {
-//   db.collection('userInfo').save(req.body, (err, result) => {
-//     if (err) return console.log(err)
-//
-//     console.log('saved to database')
-//     res.redirect('/')
-//   });
-// });
+//This saves what was entered into the user name and password boxes
+app.post('/userInfo', (req, res) => {
+  db.collection('userInfo').save(req.body, (err, result) => {
+    if (err) return console.log(err)
+
+    console.log('saved to database')
+    res.redirect('/')
+  });
+});
 
 // Getting user info
 // app.get('/userInfo', (req, res) => {
