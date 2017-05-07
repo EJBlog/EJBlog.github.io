@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/EJBlog/EJBlog.github.io#readme",
   "dependencies": {
+    "express": "^4.15.2",
     "mongodb": "^2.2.26"
   }
 }
