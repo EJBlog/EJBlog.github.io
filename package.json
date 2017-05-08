@@ -2,9 +2,9 @@
   "name": "travel_map",
   "version": "1.0.0",
   "description": "Travel Map Image Editor",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "Jake Test"
+    "start": "node lib/server.js"
   },
   "repository": {
     "type": "git",
