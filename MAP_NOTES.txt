@@ -65,3 +65,11 @@ http://stackoverflow.com/questions/3796025/fill-svg-path-element-with-a-backgrou
 
 
 https://sarasoueidan.com/blog/css-svg-clipping/
+
+
+
+
+GitHub DNS Settings:
+@ ---- A ---- 1h ---- 192.30.252.154
+@ ---- A ---- 1h ---- 192.30.252.153
+www ---- CNAME ---- 1h ---- ejblog.github.io.
